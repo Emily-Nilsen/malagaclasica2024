@@ -1,0 +1,11 @@
+body {
+  font-family: 'roboto', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  min-height: 100%;
+}
