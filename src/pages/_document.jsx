@@ -2,7 +2,7 @@ import { Head, Html, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html className="h-full bg-gray-50 antialiased" lang="no">
+    <Html className="h-full bg-white antialiased" lang="no">
       <Head>
         <link rel="stylesheet" href="https://use.typekit.net/igq2srw.css" />
         <link

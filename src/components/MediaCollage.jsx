@@ -18,7 +18,7 @@ const ShiftingPaper = () => {
 
 const featuredTestimonial = {
   image:
-    'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-35_to37kp.webp',
+    'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-56_aio4kx.webp',
 }
 const testimonials = [
   [
@@ -27,58 +27,44 @@ const testimonials = [
         image:
           'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-32_qccdpi.webp',
         height: 'h-80',
-        rotation: 'rotate-2',
-        alt: 'Stunning natural scenery for unforgettable footage',
-        scale: 'sm:scale-110',
+        alt: '',
       },
       {
         image:
           'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-29_mczkwo.webp',
         height: 'h-80',
-        rotation: '-rotate-2',
-        alt: 'Shooting in Norway’s picturesque fjords',
-        scale: 'sm:scale-105',
+        alt: '',
       },
       {
         image:
           'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-50_ix6pma.webp',
         height: 'h-80',
-        rotation: 'sm:-rotate-3',
-        alt: 'LoopFilm’s crew and equipment work together seamlessly to bring your Norway shoot to life',
-        scale: 'sm:scale-110',
+        alt: '',
       },
 
       {
         image:
-          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Loop%20Film/LoopFilm_img-22_fl2jiv.webp',
-        height: 'h-56',
-        rotation: '-rotate-3',
-        alt: 'LoopFilm’s team of experts makes filming in Norway easy and effortless for you',
-        scale: 'sm:scale-105',
+          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-35_to37kp.webp',
+        height: 'h-52',
+        alt: '',
       },
       {
         image:
-          'https://res.cloudinary.com/dt3k2apqd/image/upload/v1678559687/Loop%20Film/LoopFilm_img-11_yz81f0.webp',
-        height: 'h-56',
-        rotation: 'rotate-2',
-        alt: 'Cinematic shots of Norway’s fjords and other beautiful landscapes',
-        scale: 'sm:scale-110',
+          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-53_frlcsh.webp',
+        height: 'h-[36rem]',
+        alt: '',
       },
       {
         image:
-          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Loop%20Film/LoopFilm_img-08_aefnzo.webp',
-        height: 'h-64',
-        rotation: '-rotate-2',
-        alt: 'Creative filming solutions with LoopFilm',
-        scale: 'sm:scale-105',
+          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-46_li9emb.webp',
+        height: 'h-60',
+        alt: '',
       },
       {
         image:
-          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Loop%20Film/LoopFilm_img-09_kaxmg6.webp',
-        height: 'h-56',
-        rotation: 'rotate-1',
-        alt: 'Bringing your vision to life with LoopFilm’s expertise in filming in Norway’s extreme environments',
-        scale: 'sm:scale-110',
+          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-48_xp5ek1.webp',
+        height: 'h-[32rem]',
+        alt: '',
       },
       {
         image:
@@ -118,49 +104,37 @@ const testimonials = [
         image:
           'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-26_gihjpc.webp',
         height: 'h-72',
-        rotation: '-rotate-3',
-        alt: 'Professional film production team in Norway',
-        scale: 'sm:scale-125',
+        alt: '',
       },
       {
         image:
           'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-34_bx3quq.webp',
         height: 'h-60',
-        rotation: 'rotate-3',
-        alt: 'Capturing Norway’s unique culture on film',
-        scale: 'sm:scale-110',
+        alt: '',
       },
       {
         image:
-          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Loop%20Film/LoopFilm_img-21_onmk4l.webp',
-        height: 'h-60',
-        rotation: 'rotate-1',
-        alt: 'Professionals who know how to film in Norway',
-        scale: 'sm:scale-100',
+          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-42_lxukmd.webp',
+        height: 'h-96',
+        alt: '',
       },
       {
         image:
-          'https://res.cloudinary.com/dt3k2apqd/image/upload/v1678559687/Loop%20Film/LoopFilm_img-17_hcctfo.webp',
-        height: 'h-52',
-        rotation: '-rotate-2',
-        alt: 'Behind the scenes with LoopFilm: Capturing stunning shots in the snowy wonderland of Norway',
-        scale: 'sm:scale-125',
+          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-41_gfwisl.webp',
+        height: 'h-96',
+        alt: '',
       },
       {
         image:
-          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Loop%20Film/workGallery-09_n3kmy1.webp',
-        height: 'h-80',
-        rotation: 'rotate-1',
-        alt: 'Filming Norway’s natural beauty of endless forests and mountains',
-        scale: 'sm:scale-110',
+          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-40_bc0dil.webp',
+        height: 'h-96',
+        alt: '',
       },
       {
         image:
-          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Loop%20Film/LoopFilm_img-15_n2ftv6.webp',
-        height: 'h-60',
-        rotation: '-rotate-3',
-        alt: 'Shooting on boats with LoopFilm',
-        scale: 'sm:scale-125',
+          'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-36_oxxjn2.webp',
+        height: 'h-[32rem]',
+        alt: '',
       },
       {
         image:
@@ -372,54 +346,31 @@ export function MediaCollage() {
   return (
     <section className="w-full overflow-x-hidden">
       {/* Shifting paper */}
-      <div>
-        <ShiftingPaper />
+      <div>{/* <ShiftingPaper /> */}</div>
+      {/* Header */}
+      <div className="bg-white px-6 pt-24 sm:pt-32 lg:px-8">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="font-display text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            Media Something
+          </h2>
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
+            fugiat aliqua.
+          </p>
+        </div>
       </div>
+      {/* Media Collage */}
       <div className="relative isolate bg-white pb-6 pt-28 sm:pb-16 sm:pt-32">
-        <div className="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl">
-          <svg
-            viewBox="0 0 1313 771"
-            aria-hidden="true"
-            className="ml-[max(50%,38rem)] w-[82.0625rem]"
-          >
-            <path
-              id="bc169a03-3518-42d4-ab1e-d3eadac65edc"
-              fill="url(#85a0eca5-25f1-4ab9-af84-4e2d8d9cdbf3)"
-              d="M360.508 589.796 231.671 770.522 0 498.159l360.508 91.637 232.034-325.485c1.485 150.396 51.235 393.965 238.354 165.069C1064.79 143.261 1002.42-107.094 1171.72 46.97c135.44 123.252 148.51 335.641 138.11 426.428L971.677 339.803l24.062 411.461-635.231-161.468Z"
-            />
-            <defs>
-              <linearGradient
-                id="85a0eca5-25f1-4ab9-af84-4e2d8d9cdbf3"
-                x1="1313.17"
-                x2="-88.881"
-                y1=".201"
-                y2="539.417"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#f5d0fe" />
-                <stop offset={1} stopColor="#f0abfc" />
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-        <div className="absolute inset-x-0 top-0 -z-10 flex transform-gpu overflow-hidden pt-32 opacity-25 blur-3xl sm:pt-40 xl:justify-end">
-          <svg
-            viewBox="0 0 1313 771"
-            aria-hidden="true"
-            className="ml-[-22rem] w-[82.0625rem] flex-none origin-top-right rotate-[30deg] xl:ml-0 xl:mr-[calc(50%-12rem)]"
-          >
-            <use href="#bc169a03-3518-42d4-ab1e-d3eadac65edc" />
-          </svg>
-        </div>
         <div className="mx-auto -mt-24 max-w-7xl px-6 sm:-mt-16 lg:px-8">
-          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-2 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
+          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-3 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
             <figure className="relative col-span-1 hidden h-96 scale-100 transition-all duration-300 ease-in-out hover:z-50 hover:rotate-0 sm:col-span-2 sm:block sm:rounded-none sm:bg-white sm:shadow-lg sm:ring-1 sm:ring-gray-900/5 md:hover:scale-125 xl:col-start-2 xl:row-end-1">
               <div className="absolute inset-0">
                 <Image
                   className="overflow-hidden rounded-none object-cover"
                   fill
                   src={featuredTestimonial.image}
-                  alt="No challenge too big for LoopFilm’s skilled team in capturing stunning shots in Norway’s challenging terrain"
+                  alt=""
                 />
               </div>
             </figure>
@@ -437,7 +388,7 @@ export function MediaCollage() {
                           columnIdx === columnGroup.length - 1)
                         ? 'xl:row-span-2'
                         : 'xl:row-start-1',
-                      'space-y-0 sm:space-y-2'
+                      'space-y-0 sm:space-y-3'
                     )}
                   >
                     {column.map((testimonial) => (

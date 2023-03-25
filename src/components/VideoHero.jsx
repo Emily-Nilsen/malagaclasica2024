@@ -5,10 +5,12 @@ import { Button } from './Button'
 
 export function VideoHero() {
   return (
-    <div className="">
+    <div>
       <BackgroundVideo
         videoPoster="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/video_url_poster_lqadgo.webp"
         videoUrl="https://res.cloudinary.com/dt3k2apqd/video/upload/v1679743924/Forsvarsadvokat/CF_parallax_3s_uep4ri.mp4"
+        loopBoolean={false}
+        muteBoolean={true}
       />
 
       <div className="absolute inset-0">
