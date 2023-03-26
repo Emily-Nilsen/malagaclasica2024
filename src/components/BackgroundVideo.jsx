@@ -1,9 +1,4 @@
-export function BackgroundVideo({
-  videoUrl,
-  videoPoster,
-  loopBoolean,
-  muteBoolean,
-}) {
+export function BackgroundVideo({ videoUrl, loopBoolean, muteBoolean }) {
   return (
     <div className="">
       <video
@@ -12,7 +7,6 @@ export function BackgroundVideo({
         loop={loopBoolean}
         muted={muteBoolean}
         playsInline
-        poster={videoPoster}
       >
         <source src={videoUrl} type="video/mp4" />
       </video>

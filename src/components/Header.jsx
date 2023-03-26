@@ -60,8 +60,8 @@ export function Header(props) {
               href="/"
               aria-label="Home"
             >
-              <Logo className="h-5 w-5 fill-gray-900" />
-              <h3 className="font-serif font-bold uppercase">
+              <Logo className="h-4 w-4 fill-gray-900 sm:h-5 sm:w-5" />
+              <h3 className="font-serif text-sm font-bold uppercase sm:text-base">
                 Forsvarsadvokat
               </h3>
             </Link>
@@ -74,7 +74,7 @@ export function Header(props) {
               {({ open }) => (
                 <>
                   <Popover.Button
-                    className="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-gray-900 p-2 hover:bg-gray-200/50 hover:stroke-gray-600 active:stroke-gray-900 [&:not(:focus-visible)]:focus:outline-none"
+                    className="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-gray-400 p-2 hover:bg-gray-200/50 hover:stroke-gray-600 active:stroke-gray-900 [&:not(:focus-visible)]:focus:outline-none"
                     aria-label="Toggle site navigation"
                   >
                     {({ open }) =>

@@ -54,16 +54,16 @@ export function Footer() {
         <div className="flex flex-col items-start justify-between gap-y-12 pt-16 pb-6 lg:flex-row lg:items-center lg:py-16">
           <div>
             <div className="flex items-center text-gray-900">
-              <Logo className="h-10 w-10 flex-none fill-gray-900" />
-              <div className="ml-4">
+              <Logo className="h-5 w-5 flex-none fill-gray-900" />
+              <div className="ml-2">
                 <p className="font-serif text-lg font-bold uppercase">
                   Forsvarsadvokat
                 </p>
-                <p className="mt-1 text-sm">
-                  Ditt liv og dine verdier – våre løsninger.
-                </p>
               </div>
             </div>
+            <p className="mt-1 text-sm">
+              Ditt liv og dine verdier – våre løsninger.
+            </p>
             <nav className="mt-11 flex gap-8">
               <NavLinks />
             </nav>
