@@ -363,11 +363,11 @@ export function MediaCollage() {
       {/* Media Collage */}
       <div className="relative isolate bg-white pb-6 pt-28 sm:pb-16 sm:pt-32">
         <div className="mx-auto -mt-24 max-w-7xl px-6 sm:-mt-16 lg:px-8">
-          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-3 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
-            <figure className="relative col-span-1 hidden h-96 scale-100 transition-all duration-300 ease-in-out hover:z-50 hover:rotate-0 sm:col-span-2 sm:block sm:rounded-none sm:bg-white sm:shadow-lg sm:ring-1 sm:ring-gray-900/5 md:hover:scale-125 xl:col-start-2 xl:row-end-1">
+          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
+            <figure className="relative col-span-1 hidden h-96 scale-100 transition-all duration-300 ease-in-out hover:z-50 hover:rotate-0 sm:col-span-2 sm:block sm:rounded-2xl sm:bg-white sm:shadow-lg sm:ring-1 sm:ring-gray-900/5 md:hover:scale-125 xl:col-start-2 xl:row-end-1">
               <div className="absolute inset-0">
                 <Image
-                  className="overflow-hidden rounded-none object-cover grayscale-[0.7] transition-all duration-300 ease-in-out hover:grayscale-[0.5]"
+                  className="overflow-hidden rounded-2xl object-cover grayscale-[0.7] transition-all duration-300 ease-in-out hover:grayscale-[0.5]"
                   fill
                   src={featuredTestimonial.image}
                   alt=""
@@ -377,7 +377,7 @@ export function MediaCollage() {
             {testimonials.map((columnGroup, columnGroupIdx) => (
               <div
                 key={columnGroupIdx}
-                className="space-y-3 xl:contents xl:space-y-0"
+                className="space-y-8 xl:contents xl:space-y-0"
               >
                 {columnGroup.map((column, columnIdx) => (
                   <div
@@ -388,20 +388,20 @@ export function MediaCollage() {
                           columnIdx === columnGroup.length - 1)
                         ? 'xl:row-span-2'
                         : 'xl:row-start-1',
-                      'space-y-3 sm:space-y-3'
+                      'space-y-8'
                     )}
                   >
                     {column.map((testimonial) => (
                       <figure
                         key={testimonial.image}
                         className={classNames(
-                          'relative scale-100 rounded-none bg-white p-6 shadow-lg ring-1 ring-gray-900/5 transition-all duration-300 ease-in-out hover:z-50 hover:rotate-0 sm:-mt-0 md:hover:scale-150',
+                          'relative scale-100 rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5 transition-all duration-300 ease-in-out hover:z-50 hover:rotate-0 sm:-mt-0 md:hover:scale-150',
                           testimonial.height
                         )}
                       >
                         <div className="absolute inset-0">
                           <Image
-                            className="overflow-hidden rounded-none object-cover grayscale-[0.7] transition-all duration-300 ease-in-out hover:grayscale-[0.5]"
+                            className="overflow-hidden rounded-2xl object-cover grayscale-[0.7] transition-all duration-300 ease-in-out hover:grayscale-[0.5]"
                             fill
                             src={testimonial.image}
                             alt={testimonial.alt}

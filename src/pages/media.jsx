@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { MediaHero } from '@/components/MediaHero'
+import { MediaTilesHero } from '@/components/MediaTilesHero'
 import { MediaCollage } from '@/components/MediaCollage'
 import { Footer } from '@/components/Footer'
 
@@ -15,7 +16,7 @@ export default function Media() {
       </Head>
       <Header />
       <main>
-        <MediaHero />
+        <MediaTilesHero />
         <MediaCollage />
       </main>
       <Footer />

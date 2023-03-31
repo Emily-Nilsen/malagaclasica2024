@@ -5,12 +5,19 @@ import { Button } from './Button'
 
 function MobileHero() {
   return (
-    <div className="sm:hidden">
+    <div className="relative sm:hidden">
       <BackgroundVideo
         videoUrl="https://res.cloudinary.com/dt3k2apqd/video/upload/v1679744767/Forsvarsadvokat/CF_parallax_mobile_cvcjlz.mp4"
         loopBoolean={false}
         muteBoolean={true}
+        controlsBoolean={false}
       />
+      <div className="absolute inset-0 flex h-full w-full max-w-xs items-center pl-6 pr-24">
+        <h1 className="text-gray-950 font-display text-4xl font-bold leading-tight tracking-tight">
+          Advokat Christian Flemmen Johansen
+          <span className="inline-block"></span>
+        </h1>
+      </div>
     </div>
   )
 }
@@ -23,6 +30,7 @@ export function VideoHero() {
           videoUrl="https://res.cloudinary.com/dt3k2apqd/video/upload/v1679835118/Forsvarsadvokat/CF_parallax_large_less_subtle_ebm3dt.mp4"
           loopBoolean={false}
           muteBoolean={true}
+          controlsBoolean={false}
         />
 
         <div className="absolute inset-0">
@@ -40,10 +48,7 @@ export function VideoHero() {
                     Ditt liv og dine verdier – våre løsninger.
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
-                    <Button
-                      href="#kontakt"
-                      className=" bg-gray-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
-                    >
+                    <Button href="#kontakt" className="">
                       Kontakt
                     </Button>
                   </div>

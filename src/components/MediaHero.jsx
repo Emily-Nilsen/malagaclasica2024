@@ -10,6 +10,7 @@ function MediaMobile() {
         videoUrl="https://res.cloudinary.com/dt3k2apqd/video/upload/v1679852552/Forsvarsadvokat/mobile_xpdaez.mp4"
         loopBoolean={true}
         muteBoolean={true}
+        controlsBoolean={false}
       />
       <div className="absolute inset-0">
         <div className="relative flex h-full items-end justify-center px-4 pb-6">
@@ -28,6 +29,7 @@ export function MediaHero() {
           videoUrl="https://res.cloudinary.com/dt3k2apqd/video/upload/v1679836925/Forsvarsadvokat/CF_Media_hero_no_text_m7nflw.mp4"
           loopBoolean={true}
           muteBoolean={true}
+          controlsBoolean={false}
         />
         <div className="absolute inset-0">
           <div className="relative flex h-full items-center">
