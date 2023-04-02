@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export function ReadMoreBox() {
   return (
-    <div className="bg-gray-50 pt-16 pb-24 sm:pt-24 sm:pb-32">
+    <div className="bg-slate-50 pt-6 pb-24 sm:pt-16 sm:pb-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           {/* <p className="text-base leading-7 text-gray-600 uppercase">noe her</p> */}

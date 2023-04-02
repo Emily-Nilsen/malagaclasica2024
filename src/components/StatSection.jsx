@@ -2,15 +2,31 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const stats = [
-  { id: 1, name: 'Creators on the platform', value: '8,000+' },
-  { id: 2, name: 'Flat platform fee', value: '3%' },
-  { id: 3, name: 'Uptime guarantee', value: '99.9%' },
-  { id: 4, name: 'Paid out to creators', value: '$70M' },
+  {
+    id: 1,
+    name: 'Advokatguiden',
+    value: 'Rating 5.0',
+    statUrl:
+      'https://www.advokatguiden.no/advokat/13511-christian-flemmen-johansen',
+  },
+  {
+    id: 2,
+    name: 'Advokatundesøkelsen 2022: Økonomiske straffesaker - Lovende talenter',
+    value: '2. plass ',
+    statUrl:
+      'https://www.kapital.no/karriere/2023/02/23/7988328/advokatundersokelsen-25-ar-dette-er-norges-beste-advokater',
+  },
+  {
+    id: 3,
+    name: 'Advokatundesøkelsen 2023: Økonomiske straffesaker',
+    value: '7. plass',
+    statUrl: '',
+  },
 ]
 
 export function StatSection() {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900/95 py-24 sm:py-32">
+    <div className="bg-slate-950/90 relative isolate overflow-hidden py-24 sm:py-32">
       <Image
         src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-45_pcqnr6.webp"
         alt=""
@@ -32,29 +48,33 @@ export function StatSection() {
           />
         </div>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-          <h2 className="text-base font-semibold leading-8 text-slate-400">
+          {/* <h2 className="text-base font-semibold leading-8 text-slate-400">
             Our track record
-          </h2>
+          </h2> */}
           <p className="mt-2 font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Trusted by thousands of creators&nbsp;worldwide
+            Annerkjenelse
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis
-            ratione.
+            Advokat Christian Flemmen Johansen er positivt annerkjent både av
+            klienter og i advokatbransjen.
           </p>
         </div>
-        <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-white sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+        <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-white sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {stats.map((stat) => (
-            <div
+            <Link
+              href={stat.statUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               key={stat.id}
-              className="flex flex-col gap-y-3 border-l border-white/10 pl-6"
+              className="rounded-md p-3 transition delay-75 duration-300 ease-in-out hover:bg-white/5"
             >
-              <dt className="text-sm leading-6">{stat.name}</dt>
-              <dd className="order-first text-3xl font-semibold tracking-tight">
-                {stat.value}
-              </dd>
-            </div>
+              <div className="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+                <dt className="text-sm leading-6">{stat.name}</dt>
+                <dd className="order-first text-3xl font-semibold tracking-tight">
+                  {stat.value}
+                </dd>
+              </div>
+            </Link>
           ))}
         </dl>
       </div>

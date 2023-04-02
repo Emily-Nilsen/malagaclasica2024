@@ -20,7 +20,7 @@ export function NavLinks() {
       <AnimatePresence>
         {hoveredIndex === index && (
           <motion.span
-            className="absolute inset-0 rounded-md bg-gray-100"
+            className="absolute inset-0 rounded-md bg-gray-50"
             layoutId="hoverBackground"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 0.15 } }}

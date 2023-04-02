@@ -16,14 +16,14 @@ const DynamicVideoPlayer = dynamic(() => import('../components/VideoPlayer'), {
 
 export function FeatureVideo() {
   return (
-    <div className="bg-slate-200 pt-24 pb-10 sm:pt-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto w-full max-w-none bg-white p-6 sm:max-w-3xl sm:p-12">
+    <div className="py-0 pt-6 sm:pb-10 sm:pt-16">
+      {/* <div className="px-6 mx-auto max-w-7xl lg:px-8">
+        <div className="w-full p-6 mx-auto bg-white max-w-none sm:max-w-3xl sm:p-12">
           <div className="sm:text-center">
-            <h2 className="text-base uppercase leading-7 text-gray-600">
+            <h2 className="text-base leading-7 text-gray-600 uppercase">
               Se videoen om
             </h2>
-            <h1 className="mt-2 font-display text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 font-display sm:text-6xl">
               Christian Flemmen Johansen
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -33,7 +33,7 @@ export function FeatureVideo() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="relative overflow-hidden">
         <div className="mx-auto my-16 max-w-sm overflow-hidden sm:my-24 sm:max-w-7xl sm:rounded-xl md:px-6 lg:px-8">
           {/* video below */}
@@ -55,10 +55,10 @@ export function FeatureVideo() {
               className="mt-0.5 h-5 w-5 flex-none text-gray-300"
               aria-hidden="true"
             />
-            Opprinnelig video fra Jantè Productions, LLC. &copy;janteproductions
+            Opprinnelig video fra Jantè Productions, LLC.
+            &copy;janteproductions. Redigert av Norsk Nett.
           </figcaption>
-          {/* From background video component */}
-          {/* <MainVideo /> */}
+
           <div className="relative" aria-hidden="true"></div>
         </div>
       </div>

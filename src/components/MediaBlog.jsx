@@ -4,40 +4,40 @@ import Link from 'next/link'
 const posts = [
   {
     id: 1,
-    title: 'Tittel 1',
-    href: '#',
+    title: 'Anna Rasmussen hyrer inn toppadvokat for å få redusert «bloggbot»',
+    href: 'https://www.nettavisen.no/na24/anna-rasmussen-hyrer-inn-toppadvokat-for-a-fa-redusert-bloggbot/s/12-95-3423559805',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+      'Toppbloggeren har hyret inn advokat Christian Flemmen for å klage inn saken til Markedsrådet. Flemmen er for øvrig i disse dager en av forsvarerne til Janne Jemtland sin drapstiltalte ektemann.',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-32_qccdpi.webp',
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/blog-1_cvy1vt.webp',
+    date: '16. nov, 2018',
+    datetime: '2018-11-16',
+    category: {
+      title: 'Nettavisen',
+    },
     author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
+      name: 'Mario Andrés Neira Torres',
+      role: 'Journalist',
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/mariotorres_dzpupg.webp',
     },
   },
   {
-    id: 1,
-    title: 'Tittel 2',
-    href: '#',
+    id: 2,
+    title: 'Pelsdyraktivister må betale en halv million',
+    href: 'https://www.nrk.no/rogaland/pelsdyraktivister-ma-betale-en-halv-million-i-erstatning-1.13741093',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+      'De fire pelsdyraktivistene fra Nettverk for dyrs frihet brøt seg inn på en minkfarm i Figgjo i Sandnes i 2013. Grunnen var at de skulle dokumentere dårlig dyrehold.',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-29_mczkwo.webp',
-    date: 'Mar 16, 2020',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/blog-2_fuaklc.webp',
+    date: '19. okt, 2017',
     datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
+    category: { title: 'NRK' },
     author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
+      name: 'Rolv Christian Topdahl',
+      role: 'Journalist',
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/blog-2-author_pfxpys.webp',
     },
   },
   // More posts...
@@ -61,31 +61,29 @@ export function MediaBlog() {
                 className="relative isolate flex flex-col gap-8 lg:flex-row"
               >
                 <div className="lg:aspect-square relative aspect-[16/9] sm:aspect-[2/1] lg:w-64 lg:shrink-0">
-                  <img
+                  <Image
                     src={post.imageUrl}
-                    alt=""
+                    alt={post.title}
+                    fill
                     className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover"
                   />
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
-                <div>
+                <Link href={post.href}>
                   <div className="flex items-center gap-x-4 text-xs">
                     <time dateTime={post.datetime} className="text-gray-500">
                       {post.date}
                     </time>
-                    <a
-                      href={post.category.href}
-                      className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-                    >
+                    <div className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
                       {post.category.title}
-                    </a>
+                    </div>
                   </div>
                   <div className="group relative max-w-xl">
                     <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                      <a href={post.href}>
+                      <div>
                         <span className="absolute inset-0" />
                         {post.title}
-                      </a>
+                      </div>
                     </h3>
                     <p className="mt-5 text-sm leading-6 text-gray-600">
                       {post.description}
@@ -100,16 +98,16 @@ export function MediaBlog() {
                       />
                       <div className="text-sm leading-6">
                         <p className="font-semibold text-gray-900">
-                          <a href={post.author.href}>
+                          <div>
                             <span className="absolute inset-0" />
                             {post.author.name}
-                          </a>
+                          </div>
                         </p>
                         <p className="text-gray-600">{post.author.role}</p>
                       </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </article>
             ))}
           </div>
