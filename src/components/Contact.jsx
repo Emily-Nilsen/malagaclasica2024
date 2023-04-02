@@ -6,7 +6,10 @@ import {
 
 export function Contact() {
   return (
-    <div className="mb-4 w-full border-t sm:mb-6 sm:w-fit sm:border-none">
+    <div
+      id="kontakt"
+      className="mb-4 w-full border-t sm:mb-6 sm:w-fit sm:border-none"
+    >
       <h2 className="mt-6 font-display text-3xl font-bold tracking-tight text-gray-900 sm:mt-0">
         Kontakt
       </h2>

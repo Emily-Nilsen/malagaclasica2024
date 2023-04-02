@@ -5,6 +5,7 @@ import { Header } from '@/components/Header'
 // import { Hero } from '@/components/Hero'
 import { VideoHero } from '@/components/VideoHero'
 import { Fields } from '@/components/Fields'
+import { ReadMoreBox } from '@/components/ReadMoreBox'
 import { FeatureVideo } from '@/components/FeatureVideo'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <main>
         <VideoHero />
         <Fields />
+        {/* <ReadMoreBox /> */}
         <FeatureVideo />
       </main>
       <Footer />

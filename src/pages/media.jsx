@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { MediaHero } from '@/components/MediaHero'
 import { MediaTilesHero } from '@/components/MediaTilesHero'
+import { StatSection } from '@/components/StatSection'
+import { MediaBlog } from '@/components/MediaBlog'
 import { MediaCollage } from '@/components/MediaCollage'
 import { Footer } from '@/components/Footer'
 
@@ -17,7 +19,9 @@ export default function Media() {
       <Header />
       <main>
         <MediaTilesHero />
-        <MediaCollage />
+        <StatSection />
+        <MediaBlog />
+        {/* <MediaCollage /> */}
       </main>
       <Footer />
     </>

@@ -1,7 +1,12 @@
 import { useRef } from 'react'
 import { Video, CloudinaryContext } from 'cloudinary-react'
 
-export default function VideoPlayer({ publicId, poster }) {
+export default function VideoPlayer({
+  publicId,
+  poster,
+  autoplayBoolean,
+  controlsBoolean,
+}) {
   const videoRef = useRef()
 
   return (
@@ -9,10 +14,10 @@ export default function VideoPlayer({ publicId, poster }) {
       <div>
         <Video
           playsInline
-          autoPlay
+          autoPlay={autoplayBoolean}
           publicId={publicId}
           width="100%"
-          controls
+          controls={controlsBoolean}
           innerRef={videoRef}
           fluid="true"
           seekthumbnails="true"
