@@ -2,8 +2,65 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const posts = [
+  // More posts...
   {
-    id: 1,
+    id: 6,
+    title:
+      'Ble dømt til forvaring for to drapsforsøk. Nå er han frikjent for det ene',
+    href: 'https://www.ao.no/ble-domt-til-forvaring-for-to-drapsforsok-na-er-han-frikjent-for-det-ene/s/5-128-386280',
+    description:
+      '35-åringen handlet i nødverge da han knivstakk en mann på Ammerud, mener lagmannsretten. Han vil likevel anke dommen til Høyesterett.',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/blog-6_motzpn.webp',
+    date: '29. sep, 2022',
+    datetime: '2022-09-29',
+    category: { title: 'Avisa Oslo' },
+    author: {
+      name: 'Jørn Normann Pedersen',
+      role: 'Journalist',
+      imageUrl:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/blog-author-6_gvjkc4.webp',
+    },
+  },
+  {
+    id: 5,
+    title: 'Advokat om uavklart hjertestopp-sak: – Urovekkende',
+    href: 'https://www.dagsavisen.no/fremtiden/nyheter/2020/05/05/advokat-om-uavklart-hjertestopp-sak-urovekkende/',
+    description:
+      'Erstatningstvisten mellom langrennsløperen Sondre Turvoll Fossli (26), Norges Skiforbundet og If fortsetter. Det er snart ni måneder siden han fikk hjertestans.',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/blog-5_ensxot.webp',
+    date: '05. mai, 2020',
+    datetime: '2020-05-05',
+    category: { title: 'NTB' },
+    author: {
+      name: 'NTB',
+      role: 'NTB nyheter',
+      imageUrl:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/ntb_vbxpk4.webp',
+    },
+  },
+  {
+    id: 4,
+    title:
+      'Leiligheten ble brukt til vill sex- og kokainfest: Petter og Tina hyrer toppadvokat mot Airbnb',
+    href: 'https://www.nettavisen.no/okonomi/leiligheten-ble-brukt-til-vill-sex-og-kokainfest-petter-og-tina-hyrer-toppadvokat-mot-airbnb/s/12-95-3423870808blog-3',
+    description:
+      'Etter at leiligheten til Petter Nøtnes (36) og Tina Melhus (34) ble rasert av leietagernes sex- og kokainfest, har paret kjempet en kamp om erstatning mot Airbnb. Nå har paret hyret inn toppadvokaten Christian Flemmen Johansen i Elden advokatfirma for å knuse Airbnb.',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/blog-3_yzarkk.webp',
+    date: '31. okt, 2019',
+    datetime: '2019-10-31',
+    category: { title: 'Nettavisen' },
+    author: {
+      name: 'Espen Teigen',
+      role: 'Journalist',
+      imageUrl:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/Espen_Teigen_byline_ngbnru.webp',
+    },
+  },
+  {
+    id: 3,
     title: 'Anna Rasmussen hyrer inn toppadvokat for å få redusert «bloggbot»',
     href: 'https://www.nettavisen.no/na24/anna-rasmussen-hyrer-inn-toppadvokat-for-a-fa-redusert-bloggbot/s/12-95-3423559805',
     description:
@@ -31,7 +88,7 @@ const posts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/blog-2_fuaklc.webp',
     date: '19. okt, 2017',
-    datetime: '2020-03-16',
+    datetime: '2017-11-19',
     category: { title: 'NRK' },
     author: {
       name: 'Rolv Christian Topdahl',
@@ -40,7 +97,24 @@ const posts = [
         'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/blog-2-author_pfxpys.webp',
     },
   },
-  // More posts...
+  {
+    id: 1,
+    title: 'Lur eller lettlurt?',
+    href: 'https://www.ta.no/nyheter/lur-eller-lettlurt/s/1-111-7369224',
+    description:
+      'Påtalemyndigheten la ned påstand om fengsel i ett og et halvt år – der seks måneder ble gjort betinget – for entreprenøren som er tiltalt for en rekke bedragerier. – Full frifinnelse, forlangte forsvareren.',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1680527952/Forsvarsadvokat/blog-4_wvitar.webp',
+    date: '14. mai, 2014',
+    datetime: '2014-05-14',
+    category: { title: 'Telemarksavisa' },
+    author: {
+      name: 'Jarle Pedersen',
+      role: 'Journalist',
+      imageUrl:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/JarlePedersen_gerza9.webp',
+    },
+  },
 ]
 
 export function MediaBlog() {
@@ -49,10 +123,10 @@ export function MediaBlog() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-4xl">
           <h2 className="font-display text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            From the blog
+            Fra arkivet
           </h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
-            Learn how to grow your business with our expert advice.
+            Linker til tidligere mediaomtale.
           </p>
           <div className="mt-16 space-y-20 lg:mt-20 lg:space-y-20">
             {posts.map((post) => (
@@ -69,7 +143,11 @@ export function MediaBlog() {
                   />
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
-                <Link href={post.href}>
+                <Link
+                  href={post.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div className="flex items-center gap-x-4 text-xs">
                     <time dateTime={post.datetime} className="text-gray-500">
                       {post.date}

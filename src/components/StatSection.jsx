@@ -14,19 +14,20 @@ const stats = [
     name: 'Advokatundesøkelsen 2022: Økonomiske straffesaker - Lovende talenter',
     value: '2. plass ',
     statUrl:
-      'https://www.kapital.no/karriere/2023/02/23/7988328/advokatundersokelsen-25-ar-dette-er-norges-beste-advokater',
+      'https://www.finansavisen.no/nyheter/jus/2022/02/17/7815296/stor-oversikt-over-norges-beste-advokater',
   },
   {
     id: 3,
     name: 'Advokatundesøkelsen 2023: Økonomiske straffesaker',
     value: '7. plass',
-    statUrl: '',
+    statUrl:
+      'https://www.kapital.no/karriere/2023/02/23/7988328/advokatundersokelsen-25-ar-dette-er-norges-beste-advokater?zephr_sso_ott=WZBhBL',
   },
 ]
 
 export function StatSection() {
   return (
-    <div className="bg-slate-950/90 relative isolate overflow-hidden py-24 sm:py-32">
+    <div className="relative isolate overflow-hidden bg-slate-950/90 py-24 sm:py-32">
       <Image
         src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-45_pcqnr6.webp"
         alt=""

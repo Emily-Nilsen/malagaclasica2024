@@ -14,6 +14,7 @@ export default function VideoPlayer({
       <div>
         <Video
           playsInline
+          muted
           autoPlay={autoplayBoolean}
           publicId={publicId}
           width="100%"

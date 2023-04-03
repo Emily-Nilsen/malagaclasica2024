@@ -37,7 +37,7 @@ export function MediaTilesHero() {
             />
           </svg>
           <div
-            className="absolute top-0 right-0 left-1/2 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
+            className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
             aria-hidden="true"
           >
             <div
@@ -62,12 +62,12 @@ export function MediaTilesHero() {
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <Button href="#kontakt">Kontakt</Button>
-                    <Link
+                    {/* <Link
                       href="/"
                       className="text-sm font-semibold leading-6 text-gray-900"
                     >
                       Start siden <span aria-hidden="true">→</span>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">

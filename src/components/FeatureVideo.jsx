@@ -1,5 +1,5 @@
 import { Container } from '@/components/Container'
-import { VideoPlayer } from './VideoPlayer'
+import { VideoPlayer } from '@/components/VideoPlayer'
 import { MainVideo } from '@/components/MainVideo'
 import dynamic from 'next/dynamic'
 import { Suspense } from 'react'
@@ -16,7 +16,7 @@ const DynamicVideoPlayer = dynamic(() => import('../components/VideoPlayer'), {
 
 export function FeatureVideo() {
   return (
-    <div className="py-0 pt-6 sm:pb-10 sm:pt-16">
+    <div className="bg-slate-50/50 py-0 pt-6 sm:pb-10 sm:pt-16">
       {/* <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="w-full p-6 mx-auto bg-white max-w-none sm:max-w-3xl sm:p-12">
           <div className="sm:text-center">
@@ -38,7 +38,7 @@ export function FeatureVideo() {
         <div className="mx-auto my-16 max-w-sm overflow-hidden sm:my-24 sm:max-w-7xl sm:rounded-xl md:px-6 lg:px-8">
           {/* video below */}
           <div className="relative flex w-full rounded-2xl shadow-xl">
-            <div className="bg-gray-950 relative h-[13rem] w-[24rem] overflow-hidden rounded-2xl md:h-[42rem] md:w-[80rem]">
+            <div className="relative h-[13rem] w-[24rem] overflow-hidden rounded-2xl bg-gray-950 md:h-[42rem] md:w-[80rem]">
               <div className="absolute flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-2xl">
                 <DynamicVideoPlayer
                   poster="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/videoPosterCF_e71kl9.webp"
