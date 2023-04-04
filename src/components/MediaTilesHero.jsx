@@ -1,14 +1,27 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '@/components/Button'
+import { motion, useScroll, useTransform } from 'framer-motion'
+import { useRef } from 'react'
 
 export function MediaTilesHero() {
+  const targetRef = useRef(null)
+  const { scrollYProgress } = useScroll({
+    target: targetRef,
+    offset: ['start start', 'end start'],
+  })
+
+  const y = useTransform(scrollYProgress, [0, 1], ['0%', '50%'])
+  const opacity = useTransform(scrollYProgress, [0, 1], [1, 0])
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.8])
+
   return (
-    <div className="bg-white">
+    <div ref={targetRef} className="bg-white">
       <main>
         <div className="relative isolate">
-          <svg
-            className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
+          <motion.svg
+            style={{ y, opacity, scale }}
+            className="fixed inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
             aria-hidden="true"
           >
             <defs>
@@ -35,7 +48,7 @@ export function MediaTilesHero() {
               strokeWidth={0}
               fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
             />
-          </svg>
+          </motion.svg>
           <div
             className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
             aria-hidden="true"
@@ -62,17 +75,26 @@ export function MediaTilesHero() {
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <Button href="#kontakt">Kontakt</Button>
-                    {/* <Link
-                      href="/"
-                      className="text-sm font-semibold leading-6 text-gray-900"
-                    >
-                      Start siden <span aria-hidden="true">→</span>
-                    </Link> */}
                   </div>
                 </div>
-                <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
+                <motion.div
+                  style={{ y, scale }}
+                  className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0"
+                >
                   <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                    <div className="relative aspect-[2/3] w-full">
+                    <motion.div
+                      animate={{ scaleY: 1 }}
+                      initial={{ scaleY: 0 }}
+                      transition={{
+                        duration: 0.5,
+                        delay: 0,
+                        type: 'spring',
+                        stiffness: 100,
+                        damping: 20,
+                        restDelta: 0.001,
+                      }}
+                      className="relative aspect-[2/3] w-full"
+                    >
                       <Image
                         src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-32_qccdpi.webp"
                         alt=""
@@ -80,10 +102,19 @@ export function MediaTilesHero() {
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
+                    </motion.div>
                   </div>
                   <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-                    <div className="relative aspect-[2/3] w-full">
+                    <motion.div
+                      animate={{ scaleY: 1 }}
+                      initial={{ scaleY: 0 }}
+                      transition={{
+                        duration: 0.5,
+                        type: 'spring',
+                        delay: 0.05,
+                      }}
+                      className="relative aspect-[2/3] w-full"
+                    >
                       <Image
                         src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-29_mczkwo.webp"
                         alt=""
@@ -91,8 +122,13 @@ export function MediaTilesHero() {
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                    <div className="relative aspect-[2/3] w-full">
+                    </motion.div>
+                    <motion.div
+                      animate={{ scaleY: 1 }}
+                      initial={{ scaleY: 0 }}
+                      transition={{ duration: 0.5, stiffness: 100, delay: 0.1 }}
+                      className="relative aspect-[2/3] w-full"
+                    >
                       <Image
                         src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-50_ix6pma.webp"
                         alt=""
@@ -100,10 +136,15 @@ export function MediaTilesHero() {
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
+                    </motion.div>
                   </div>
                   <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
-                    <div className="relative aspect-[2/3] w-full">
+                    <motion.div
+                      animate={{ scaleY: 1 }}
+                      initial={{ scaleY: 0 }}
+                      transition={{ duration: 0.5, damping: 20, delay: 0.15 }}
+                      className="relative aspect-[2/3] w-full"
+                    >
                       <Image
                         src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-26_gihjpc.webp"
                         alt=""
@@ -111,8 +152,17 @@ export function MediaTilesHero() {
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                    <div className="relative aspect-[2/3] w-full">
+                    </motion.div>
+                    <motion.div
+                      animate={{ scaleY: 1 }}
+                      initial={{ scaleY: 0 }}
+                      transition={{
+                        duration: 0.5,
+                        restDelta: 0.001,
+                        delay: 0.2,
+                      }}
+                      className="relative aspect-[2/3] w-full"
+                    >
                       <Image
                         src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-44_gfnniy.webp"
                         alt=""
@@ -120,9 +170,9 @@ export function MediaTilesHero() {
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
+                    </motion.div>
                   </div>
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>

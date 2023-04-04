@@ -13,8 +13,11 @@ export default function Media() {
   return (
     <>
       <Head>
-        <title>Forsvarsadvokat</title>
-        <meta name="description" content="Need a page description here" />
+        <title>Mediadekning – Forsvarsadvokat</title>
+        <meta
+          name="description"
+          content="Advokat Christian Flemmen Johansen er positivt annerkjent både av klienter og i advokatbransjen."
+        />
       </Head>
       <Header />
       <main>

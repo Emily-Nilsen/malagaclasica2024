@@ -28,12 +28,22 @@ const stats = [
 export function StatSection() {
   return (
     <div className="relative isolate overflow-hidden bg-slate-950/90 py-24 sm:py-32">
-      <Image
-        src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-45_pcqnr6.webp"
-        alt=""
-        fill
-        className="absolute inset-0 -z-10 h-full w-full object-cover mix-blend-multiply"
-      />
+      <div className="hidden sm:block">
+        <Image
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-45_pcqnr6.webp"
+          alt="Advokat Christian Flemmen Johansen"
+          fill
+          className="absolute inset-0 -z-10 h-full w-full object-cover mix-blend-multiply"
+        />
+      </div>
+      <div className="sm:hidden">
+        <Image
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-45_pcqnr6-Square_sce5my.webp"
+          alt="Advokat Christian Flemmen Johansen"
+          fill
+          className="absolute inset-0 -z-10 h-full w-full object-cover mix-blend-multiply"
+        />
+      </div>
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
         <div
@@ -49,9 +59,6 @@ export function StatSection() {
           />
         </div>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-          {/* <h2 className="text-base font-semibold leading-8 text-slate-400">
-            Our track record
-          </h2> */}
           <p className="mt-2 font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Annerkjenelse
           </p>

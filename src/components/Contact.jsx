@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import {
   BuildingOffice2Icon,
   EnvelopeIcon,
@@ -17,7 +19,7 @@ export function Contact() {
         <dl className="flex flex-col items-start space-y-6 text-base leading-7 text-gray-600 sm:flex-row sm:space-x-8 sm:space-y-0">
           <div className="flex gap-x-4">
             <dt className="flex-none">
-              <span className="sr-only">Telephone</span>
+              <span className="sr-only">Kontor</span>
               <BuildingOffice2Icon
                 className="h-7 w-6 text-gray-400"
                 aria-hidden="true"
@@ -31,27 +33,32 @@ export function Contact() {
           </div>
           <div className="flex gap-x-4">
             <dt className="flex-none">
-              <span className="sr-only">Telephone</span>
+              <span className="sr-only">Telefon</span>
               <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
             </dt>
             <dd>
-              <a className="hover:text-gray-900" href="tel:+4791548177">
+              <Link className="hover:text-gray-900" href="tel:+4791548177">
                 + 47 91 54 81 77
-              </a>
+              </Link>
             </dd>
           </div>
           <div className="flex gap-x-4">
             <dt className="flex-none">
-              <span className="sr-only">Telephone</span>
+              <span className="sr-only">E-post</span>
               <EnvelopeIcon
                 className="h-7 w-6 text-gray-400"
                 aria-hidden="true"
               />
             </dt>
             <dd>
-              <a className="hover:text-gray-900" href="mailto:cfj@elden.no">
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-900"
+                href="mailto:cfj@elden.no"
+              >
                 cfj@elden.no
-              </a>
+              </Link>
             </dd>
           </div>
         </dl>

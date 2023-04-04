@@ -13,13 +13,17 @@ export default function Home() {
     <>
       <Head>
         <title>Forsvarsadvokat</title>
-        <meta name="description" content="Need a page description here" />
+        <meta
+          name="description"
+          content="Advokat Christian
+Flemmen Johansen | Ditt liv og dine verdier – våre løsninger."
+        />
       </Head>
       <Header />
       <main>
         <VideoHero />
         <Fields />
-        {/* <ReadMoreBox /> */}
+
         <FeatureVideo />
       </main>
       <Footer />
