@@ -20,36 +20,36 @@ function MobileHero() {
         </h1>
       </div>
       {/* White div */}
-      <div className="relative -mt-10">
-        <div className="relative mx-4 max-w-sm bg-white p-6 shadow-xl shadow-gray-500/5">
-          <h3 className="text-xs uppercase text-gray-600 lg:text-sm">
+      {/* <div className="relative -mt-10">
+        <div className="relative max-w-sm p-6 mx-4 bg-white shadow-xl shadow-gray-500/5">
+          <h3 className="text-xs text-gray-600 uppercase lg:text-sm">
             Forsvareroppdrag / Tvisteløsning / Rådgivning
           </h3>
 
           <p className="mt-6 text-lg font-semibold leading-8 text-gray-900">
             Ditt liv og dine verdier – våre løsninger.
           </p>
-          <div className="mt-6 flex w-full items-center gap-x-6">
+          <div className="flex items-center w-full mt-6 gap-x-6">
             <Brenner />
           </div>
         </div>
-      </div>
-      {/* dark div */}
-      {/* <div className="relative py-24 bg-gray-900 sm:py-32">
-        <div className="px-6 mx-auto max-w-7xl lg:px-8">
-          <div className="max-w-2xl mx-auto lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-white font-display sm:text-4xl">
+      </div> */}
+      {/* light div */}
+      <div className="relative bg-gradient-to-t from-slate-50 py-16 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="font-display text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Forsvareroppdrag / Tvisteløsning / Rådgivning
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
+            <p className="mt-6 text-lg leading-8 text-gray-600">
               Ditt liv og dine verdier – våre løsninger.
             </p>
-            <div className="flex items-center w-full mt-6 gap-x-6">
+            <div className="mt-6 flex w-full items-center gap-x-6">
               <Brenner />
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }
