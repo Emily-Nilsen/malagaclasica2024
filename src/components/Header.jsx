@@ -61,7 +61,7 @@ export function Header(props) {
               aria-label="Home"
             >
               <Logo className="h-4 w-4 fill-gray-900 sm:h-5 sm:w-5" />
-              <h3 className="font-serif text-sm font-bold uppercase sm:text-base">
+              <h3 className="font-serif text-xs font-bold uppercase sm:text-base">
                 Forsvarsadvokat
               </h3>
             </Link>
@@ -106,7 +106,7 @@ export function Header(props) {
                             y: -32,
                             transition: { duration: 0.2 },
                           }}
-                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pt-32 pb-6 shadow-2xl shadow-gray-900/20"
+                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
                             <MobileNavLink href="#fagfelt">

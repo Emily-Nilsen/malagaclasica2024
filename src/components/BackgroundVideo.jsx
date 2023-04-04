@@ -5,7 +5,7 @@ export function BackgroundVideo({
   controlsBoolean,
 }) {
   return (
-    <div>
+    <div className="relative w-full">
       <video
         width="100%"
         autoPlay
