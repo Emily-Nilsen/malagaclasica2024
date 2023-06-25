@@ -18,12 +18,17 @@ const fields = [
   {
     name: 1,
     description:
-      'Han har blitt kåret til en av Norges fremste advokater innen strafferett flere år på rad i Finansavisens årlige advokatundersøkelse. Flemmen Johansen og hans team bistår deg når du trenger det, og yter nødvendig bistand i krevende saker og prosesser.',
+      'Advokat Flemmen Johansen er juridisk fagforfatter og generalist med omfattende prosedyreerfaring fra et bredt spekter av saker, med særlig kompetanse innen privatrett, tvisteløsning, forhandlinger og strafferett.',
   },
   {
     name: 2,
     description:
-      'Flemmen Johansen har spesialisert seg innen sivilrett og bistår flere større næringsaktører innenfor eiendom, uteliv, butikkdrift, salg og produksjon. Han arbeider også med arbeidsrett, skifte, arv og selskapsrett. Se videoen om Advokat Christian Flemmen Johansen for mer informasjon om hans kompetanse og erfaring.',
+      'Flemmen Johansen bistår jevnlig flere større næringsaktører innen eiendom, arbeidsrett, selskapsrett og kontraktsrett. Han har også håndtert et stort antall saker innenfor feltene arv og skifte.',
+  },
+  {
+    name: 3,
+    description:
+      'Videre har han betydelig erfaring og ekspertise innen strafferett, hvor han jevnlig er involvert i større- og mindre straffesaker. Flemmen Johansen har i flere år har han blitt kåret til en av Norge beste yngre advokater i Finansavisens årlige advokatundersøkelse innen fagfeltet økonomisk kriminalitet – og ble i 2017 trukket frem som et av årets advokattalenter, i 2020 ble han utropt til «…det mest lovende talentet blant hvitsnippadvokatene» og i 2023 var han oppført på en av kåringens hovedlister, blant Norges beste advokater innenfor fagfeltet Økonomiske straffesaker.',
   },
 ]
 
@@ -42,15 +47,19 @@ export function Fields() {
                   <div className="lg:ml-auto lg:pl-4 lg:pt-4">
                     <div className="lg:max-w-lg">
                       <h2 className="text-base uppercase leading-7 text-gray-600">
-                        Advokat Christian Flemmen Johansen
+                        Advokat
                       </h2>
                       <h1 className="mt-2 font-display text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                        En av Norges fremste advokater
+                        Christian Flemmen Johansen
                       </h1>
                       <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Christian Flemmen Johansen, partner i Elden
-                        Advokatfirma, er en anerkjent advokat med omfattende
-                        erfaring innen et bredt spekter av rettsområder.
+                        Advokat Christian Flemmen Johansen har vært ansatt og
+                        senere partner i Elden Advokatfirma AS i over 16 år. Han
+                        har i flere år blitt kåret til en av Norges fremste
+                        advokater i Finansavisens årlige advokatundersøkelse -
+                        og ble i 2020 utropt til «(…) det mest lovende talentet
+                        blant hvitsnippadvokatene», i 2023 var han oppført på en
+                        av kåringens hovedlister, blant Norges beste advokater.
                       </p>
                       <dl className="mt-4 max-w-xl space-y-4 text-base leading-7 text-gray-600 lg:max-w-none">
                         {fields.map((field) => (
@@ -65,38 +74,38 @@ export function Fields() {
                   <div className="flex items-start justify-end lg:order-first">
                     <div className="relative sm:hidden">
                       <Image
-                        src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF_on_phone_fcjvpf.webp"
+                        src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/Oslo_Tinghus_feudkq.webp"
                         alt="Advokat Christian Flemmen Johansen"
-                        className="w-[24rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10"
-                        width={1130}
-                        height={1267}
+                        className="w-[24rem] max-w-none rounded-none ring-1 ring-gray-400/10"
+                        width={1280}
+                        height={1280}
                       />
                       <div className="flex justify-end">
-                        <figcaption className="mt-4 flex gap-x-2 text-right text-sm leading-6 text-gray-500">
+                        {/* <figcaption className="flex mt-4 text-sm leading-6 text-right text-gray-500 gap-x-2">
                           <InformationCircleIcon
                             className="mt-0.5 h-5 w-5 flex-none text-gray-300"
                             aria-hidden="true"
                           />
                           Advokat Christian Flemmen Johansen
-                        </figcaption>
+                        </figcaption> */}
                       </div>
                     </div>
                     <div className="relative hidden sm:block ">
                       <Image
-                        src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF-image-16_ssli8k.webp"
+                        src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/Oslo_Tinghus_feudkq.webp"
                         alt="Advokat Christian Flemmen Johansen"
-                        className="w-[57rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10"
-                        width={2432}
-                        height={1442}
+                        className="w-[57rem] max-w-none rounded-none ring-1 ring-gray-400/10"
+                        width={1280}
+                        height={1280}
                       />
                       <div className="flex justify-end">
-                        <figcaption className="mt-4 flex gap-x-2 text-right text-sm leading-6 text-gray-500">
+                        {/* <figcaption className="flex mt-4 text-sm leading-6 text-right text-gray-500 gap-x-2">
                           <InformationCircleIcon
                             className="mt-0.5 h-5 w-5 flex-none text-gray-300"
                             aria-hidden="true"
                           />
                           Advokat Christian Flemmen Johansen
-                        </figcaption>
+                        </figcaption> */}
                       </div>
                     </div>
                   </div>

@@ -6,6 +6,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
+import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 
 function MenuIcon(props) {
   return (
@@ -51,9 +52,9 @@ function classNames(...classes) {
 
 export function Header(props) {
   return (
-    <header className="absolute w-full">
+    <header className="absolute w-full lg:relative lg:px-20">
       <nav>
-        <Container className="relative z-50 flex justify-between py-8">
+        <div className="relative z-50 flex justify-between py-8">
           <div className="relative z-10 flex items-center gap-16">
             <Link
               className="flex items-center gap-1"
@@ -109,13 +110,10 @@ export function Header(props) {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="#fagfelt">
-                              Fagfelt
-                            </MobileNavLink>
-                            <MobileNavLink href="/media">Media</MobileNavLink>
                             <MobileNavLink href="#kontakt">
                               Kontakt
                             </MobileNavLink>
+                            <LanguageSwitcher />
                           </div>
                         </Popover.Panel>
                       </>
@@ -124,8 +122,11 @@ export function Header(props) {
                 </>
               )}
             </Popover>
+            <div className="hidden lg:block">
+              <LanguageSwitcher />
+            </div>
           </div>
-        </Container>
+        </div>
       </nav>
     </header>
   )

@@ -1,6 +1,7 @@
 import { Container } from '@/components/Container'
 import { VideoPlayer } from '@/components/VideoPlayer'
 import { MainVideo } from '@/components/MainVideo'
+import { VideoHeading } from '@/components/VideoHeading'
 import dynamic from 'next/dynamic'
 import { Suspense } from 'react'
 import React, { useEffect, useRef } from 'react'
@@ -16,11 +17,13 @@ const DynamicVideoPlayer = dynamic(() => import('../components/VideoPlayer'), {
 
 export function FeatureVideo() {
   return (
-    <div className="bg-slate-50/50 py-0 sm:py-16">
+    <div className="relative bg-slate-50/50 py-0 sm:py-16">
+      <VideoHeading />
+
       <div className="relative overflow-hidden">
         <div className="mx-auto mb-16 rounded-none sm:my-16 sm:max-w-sm sm:rounded-2xl md:my-24 md:max-w-2xl lg:max-w-7xl lg:px-8">
           {/* video below */}
-          <div className="relative flex w-full rounded-none shadow-xl sm:rounded-2xl">
+          <div className="relative flex rounded-none shadow-xl sm:rounded-2xl">
             <div className="relative h-[56vw] w-screen overflow-hidden rounded-none bg-gray-950 sm:rounded-2xl md:h-[22rem] md:w-[80rem] lg:h-[42rem]">
               <div className="absolute flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-none sm:rounded-2xl">
                 <DynamicVideoPlayer

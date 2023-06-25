@@ -64,26 +64,26 @@ export function Footer() {
             <p className="mt-1 text-sm">
               Ditt liv og dine verdier – våre løsninger.
             </p>
-            <nav className="mt-11 flex gap-8">
+            {/* <nav className="flex gap-8 mt-11">
               <NavLinks />
-            </nav>
+            </nav> */}
           </div>
 
           <Contact />
         </div>
         <div className="flex flex-col items-center border-t border-gray-200 pb-12 pt-8 md:flex-row-reverse md:justify-between md:pt-6">
-          <div className="flex space-x-6">
+          {/* <div className="flex space-x-6">
             {navigation.social.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-400 transition delay-75 duration-300 ease-in-out hover:text-gray-500"
+                className="text-gray-400 transition duration-300 ease-in-out delay-75 hover:text-gray-500"
               >
                 <span className="sr-only">{item.name}</span>
-                <item.icon className="h-6 w-6" aria-hidden="true" />
+                <item.icon className="w-6 h-6" aria-hidden="true" />
               </a>
             ))}
-          </div>
+          </div> */}
           <p className="mt-6 text-sm text-gray-500 md:mt-0">
             &copy; {new Date().getFullYear()} Flemmen Johansen Media
           </p>
