@@ -15,7 +15,7 @@ function MobileHero() {
     <div className="relative md:hidden">
       <BackgroundVideo
         videoUrl="https://res.cloudinary.com/dt3k2apqd/video/upload/Forsvarsadvokat/CF_parallax_mobile_cvcjlz.mp4"
-        // loopBoolean={false}
+        loopBoolean={false}
         muteBoolean={true}
         controlsBoolean={false}
       />
@@ -55,7 +55,7 @@ export function VideoHero() {
       <div className="hidden md:block">
         <BackgroundVideo
           videoUrl="https://res.cloudinary.com/dt3k2apqd/video/upload/Forsvarsadvokat/CF_parallax_large_less_subtle_ebm3dt.mp4"
-          // loopBoolean={false}
+          loopBoolean={false}
           muteBoolean={true}
           controlsBoolean={false}
         />

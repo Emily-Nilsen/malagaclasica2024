@@ -6,7 +6,7 @@ export default function VideoPlayer({
   poster,
   autoplayBoolean,
   controlsBoolean,
-  // loopBoolean,
+  loopBoolean,
 }) {
   const videoRef = useRef()
 
@@ -16,7 +16,7 @@ export default function VideoPlayer({
         <Video
           playsInline
           muted
-          // loop={loopBoolean}
+          loop={loopBoolean}
           autoPlay={autoplayBoolean}
           publicId={publicId}
           width="100%"
