@@ -37,6 +37,7 @@ export function FeatureVideo() {
                   fetchpriority="auto"
                   autoplayBoolean={true}
                   controlsBoolean={true}
+                  loopBoolean={true}
                 />
               </div>
               {/* Desktop */}
