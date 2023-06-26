@@ -30,7 +30,7 @@ export function FeatureVideo() {
           <div className="relative flex rounded-none shadow-xl sm:rounded-2xl">
             <div className="relative h-[56vw] w-screen overflow-hidden rounded-none bg-gray-950 sm:rounded-2xl md:h-[22rem] md:w-[80rem] lg:h-[42rem]">
               {/* Mobile */}
-              {/* <div className="absolute flex flex-col items-center justify-center w-full h-full overflow-hidden rounded-none sm:hidden sm:rounded-2xl">
+              <div className="absolute flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-none sm:hidden sm:rounded-2xl">
                 <DynamicVideoPlayer
                   poster="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/video-poster_gtw71z.webp"
                   publicId="https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Forsvarsadvokat/Forsvarsadvokat_mobile_fcvkya.mp4"
@@ -38,7 +38,7 @@ export function FeatureVideo() {
                   autoplayBoolean={true}
                   controlsBoolean={true}
                 />
-              </div> */}
+              </div>
               {/* Desktop */}
               <div className="absolute hidden h-full w-full flex-col items-center justify-center overflow-hidden rounded-none sm:flex sm:rounded-2xl">
                 <DynamicVideoPlayer
