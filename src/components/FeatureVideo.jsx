@@ -36,7 +36,7 @@ export function FeatureVideo() {
                   fetchpriority="auto"
                   autoplayBoolean={true}
                   controlsBoolean={true}
-                  loopBoolean={true}
+                  // loopBoolean={true}
                 />
               </div>
             </div>
