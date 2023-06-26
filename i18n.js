@@ -3,6 +3,5 @@ module.exports = {
   defaultLocale: 'no',
   pages: {
     '*': ['common'],
-    '/': ['home'],
   },
 }

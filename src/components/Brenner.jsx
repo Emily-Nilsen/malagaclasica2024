@@ -5,17 +5,23 @@ import {
   ChevronDownIcon,
   ExclamationTriangleIcon,
 } from '@heroicons/react/20/solid'
+import useTranslation from 'next-translate/useTranslation'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
 export function Brenner() {
+  const { t, lang } = useTranslation('common')
+  const kontakt = t('kontakt')
+  const hasterDet = t('haster-det')
+  const hvisIkke = t('hvis-ikke')
+
   return (
     <Menu as="div" className="inline-block text-left">
       <div>
         <Menu.Button className="inline-flex w-fit justify-center gap-x-1.5 rounded-md bg-gray-800 px-3 py-2 text-sm font-semibold text-white shadow-none ring-1 ring-inset  ring-slate-800 transition-all duration-300 ease-in-out hover:bg-gray-950">
-          Kontakt <span aria-hidden="true">→</span>
+          {kontakt} <span aria-hidden="true">→</span>
         </Menu.Button>
       </div>
 
@@ -38,7 +44,7 @@ export function Brenner() {
             </div>
             <div className="ml-3">
               <h3 className="text-sm font-medium text-yellow-800">
-                Haster det?{' '}
+                {hasterDet}{' '}
                 <span>
                   Ring{' '}
                   <Link
@@ -51,7 +57,7 @@ export function Brenner() {
               </h3>
               <div className="group mt-2 text-sm text-yellow-700 ">
                 <p>
-                  Hvis ikke, send e-post til{' '}
+                  {hvisIkke}{' '}
                   <Link
                     target="_blank"
                     rel="noopener noreferrer"

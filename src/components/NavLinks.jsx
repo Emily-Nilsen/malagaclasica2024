@@ -1,15 +1,14 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { AnimatePresence, motion } from 'framer-motion'
+import useTranslation from 'next-translate/useTranslation'
 
 export function NavLinks() {
   let [hoveredIndex, setHoveredIndex] = useState(null)
+  const { t, lang } = useTranslation('common')
+  const kontakt = t('kontakt')
 
-  return [
-    // ['Fagfelt', '/#fagfelt'],
-    // ['Media', '/media'],
-    ['Kontakt', '#kontakt'],
-  ].map(([label, href], index) => (
+  return [[`${kontakt}`, '#kontakt']].map(([label, href], index) => (
     <Link
       key={label}
       href={href}

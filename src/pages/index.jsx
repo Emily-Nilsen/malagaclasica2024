@@ -10,21 +10,17 @@ import useTranslation from 'next-translate/useTranslation'
 
 export default function Home() {
   const { t, lang } = useTranslation('common')
-  const example = t('variable-example', { count: 42 })
+  const metaDescription = t('meta-description')
 
   return (
     <>
       <Head>
         <title>Forsvarsadvokat</title>
-        <meta
-          name="description"
-          content="Advokat Christian
-Flemmen Johansen | Ditt liv og dine verdier – våre løsninger."
-        />
+        <meta name="description" content={metaDescription} />
       </Head>
       <Header />
 
-      <main className="sm:p-12 md:px-20 md:pb-20 md:pt-0">
+      <main className="sm:p-12 md:px-20 md:pb-20 md:pt-20 lg:pt-0">
         <VideoHero />
         <Fields />
 

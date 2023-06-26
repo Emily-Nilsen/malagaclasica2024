@@ -7,6 +7,7 @@ import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
+import useTranslation from 'next-translate/useTranslation'
 
 function MenuIcon(props) {
   return (
@@ -51,10 +52,13 @@ function classNames(...classes) {
 }
 
 export function Header(props) {
+  const { t, lang } = useTranslation('common')
+  const kontakt = t('kontakt')
+
   return (
     <header className="absolute w-full lg:relative lg:px-20">
       <nav>
-        <div className="relative z-50 flex justify-between py-8">
+        <div className="relative z-50 flex justify-between px-6 py-8 lg:px-0">
           <div className="relative z-10 flex items-center gap-16">
             <Link
               className="flex items-center gap-1"
@@ -111,7 +115,7 @@ export function Header(props) {
                         >
                           <div className="space-y-4">
                             <MobileNavLink href="#kontakt">
-                              Kontakt
+                              {kontakt}
                             </MobileNavLink>
                             <LanguageSwitcher />
                           </div>
