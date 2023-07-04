@@ -33,7 +33,7 @@ export function FeatureVideo() {
               <div className="absolute flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-none sm:hidden sm:rounded-2xl">
                 <DynamicVideoPlayer
                   poster="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/video-poster_gtw71z.webp"
-                  publicId="https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Forsvarsadvokat/Forsvarsadvokat_mobile_fcvkya.mp4"
+                  publicId="https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Forsvarsadvokat/Forsvarsadvokat_-_MOBILE_-_v2_bsyd0u.mp4"
                   fetchpriority="auto"
                   autoplayBoolean={true}
                   controlsBoolean={true}
@@ -44,7 +44,7 @@ export function FeatureVideo() {
               <div className="absolute hidden h-full w-full flex-col items-center justify-center overflow-hidden rounded-none sm:flex sm:rounded-2xl">
                 <DynamicVideoPlayer
                   poster="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/video-poster_gtw71z.webp"
-                  publicId="https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Forsvarsadvokat/Forsvarsadvokat_rlzdka.mp4"
+                  publicId="https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Forsvarsadvokat/Forsvarsadvokat_-_v2_lfotld.mp4"
                   fetchpriority="auto"
                   autoplayBoolean={true}
                   controlsBoolean={true}
