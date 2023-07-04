@@ -17,6 +17,11 @@ export default function Home() {
       <Head>
         <title>Forsvarsadvokat</title>
         <meta name="description" content={metaDescription} />
+        <link
+          rel="canonical"
+          href="https://forsvarsadvokat.no/"
+          key="canonical"
+        />
       </Head>
       <Header />
 
