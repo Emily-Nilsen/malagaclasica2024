@@ -14,7 +14,7 @@ function MobileHero() {
   return (
     <div className="relative md:hidden">
       <BackgroundVideo
-        videoUrl="https://res.cloudinary.com/dt3k2apqd/video/upload/Forsvarsadvokat/CF_parallax_mobile_cvcjlz.mp4"
+        videoUrl="https://res.cloudinary.com/dt3k2apqd/video/upload/v1689668406/Forsvarsadvokat/CF_parallax_mobile_v3_jsikrm.mp4"
         loopBoolean={false}
         muteBoolean={true}
         controlsBoolean={false}
