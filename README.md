@@ -1,8 +1,8 @@
-# Forsvarsadvokat
+# Flemmen & Co. Advokatfirma
 
-Forsvarsadvokat is a landing page for lawyer Christian Flemmen Johansen and is built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org). The bilingual site is available in English and Norwegian and includes examples of published articles and a contact information.
+Flemmen & Co. Advokatfirma is a landing page for lawyer Christian Flemmen Johansen and is built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org). The bilingual site is available in English and Norwegian and includes examples of published articles and a contact information.
 
-Here is a link to the [Forsvarsadvokat](https://forsvarsadvokat.no/) website.
+Here is a link to the [Flemmen & Co. Advokatfirma](https://www.flemmenco.no/) website.
 
 ## Technologies Used
 
@@ -30,4 +30,4 @@ npm run dev
 
 ## Contact
 
-Created by [Emily Nilsen](https://emilynilsen.com) - feel free to contact me!
+Created by [Norsk Nett](https://norsknett.no) - feel free to contact us!

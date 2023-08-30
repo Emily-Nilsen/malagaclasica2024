@@ -20,7 +20,7 @@ export function Brenner() {
   return (
     <Menu as="div" className="inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-fit justify-center gap-x-1.5 rounded-md bg-gray-800 px-3 py-2 text-sm font-semibold text-white shadow-none ring-1 ring-inset  ring-slate-800 transition-all duration-300 ease-in-out hover:bg-gray-950">
+        <Menu.Button className="inline-flex w-fit justify-center gap-x-1.5 rounded-none bg-gray-800 px-3 py-2 text-sm font-semibold text-white shadow-none ring-1 ring-inset  ring-slate-800 transition-all duration-300 ease-in-out hover:bg-gray-950">
           {kontakt} <span aria-hidden="true">→</span>
         </Menu.Button>
       </div>
@@ -34,7 +34,7 @@ export function Brenner() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <div className="absolute z-20 mt-2 w-fit rounded-md bg-yellow-50 p-4">
+        <div className="w-fitnone absolute z-20 mt-2 bg-yellow-50 p-4">
           <div className="flex w-full">
             <div className="flex-shrink-0">
               <ExclamationTriangleIcon

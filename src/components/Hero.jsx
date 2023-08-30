@@ -1,43 +1,89 @@
 import Image from 'next/image'
+import { BackgroundVideo } from './BackgroundVideo'
+import { motion, useInView, useMotionValue, useAnimation } from 'framer-motion'
 import Link from 'next/link'
 import { Button } from './Button'
+import { Brenner } from '@/components/Brenner'
+import useTranslation from 'next-translate/useTranslation'
 
-export function Hero() {
+function MobileHero() {
+  const { t, lang } = useTranslation('common')
+  const heroEyebrow = t('hero-eyebrow')
+  const title = t('title')
+  const slogan = t('slogan')
+
   return (
-    <div className="relative bg-slate-200">
-      <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
-        <div className="px-6 pt-10 pb-24 sm:pb-32 lg:col-span-7 lg:px-0 lg:pt-48 lg:pb-56 xl:col-span-6">
-          <div className="relative mx-auto max-w-2xl bg-white p-8 shadow-xl shadow-gray-500/5 sm:p-12 lg:mx-0">
-            <h3 className="text-sm uppercase text-gray-600">
-              Forsvareroppdrag / Tvisteløsning / Rådgivning
-            </h3>
-            <h1 className="mt-24 font-display text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
-              Advokat Christian Flemmen Johansen
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Ditt liv og dine verdier – våre løsninger.
-            </p>
-            <div className="mt-10 flex items-center gap-x-6">
-              <Button
-                href="#kontakt"
-                className=" bg-gray-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
-              >
-                Kontakt
-              </Button>
+    <div className="relative md:hidden">
+      <Image
+        src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1693392616/Flemmen%20Co/homepage_hero_v1_desktop_duybsv.webp"
+        alt="Christian Flemmen Johansen"
+        width={3000}
+        height={1688}
+      />
+      <div className="absolute inset-0 mt-[8.5rem] flex max-w-xs pl-6 pr-24">
+        <h1 className="font-display text-4xl font-bold leading-tight tracking-tight text-gray-950">
+          {title}
+          <span className="inline-block"></span>
+        </h1>
+      </div>
+
+      {/* light div */}
+      <div className="relative bg-gradient-to-t from-slate-50 py-16 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="font-display text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              {heroEyebrow}
+            </h2>
+            <p className="mt-6 text-lg leading-8 text-gray-600">{slogan}</p>
+            <div className="mt-6 flex w-full items-center gap-x-6">
+              <Brenner />
             </div>
           </div>
         </div>
-        <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
-          <Image
-            contain
-            width={2048}
-            height={1363}
-            className="lg:aspect-auto aspect-[3/2] w-full overflow-visible bg-slate-200 object-cover lg:absolute lg:inset-0 lg:h-full"
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Forsvarsadvokat/CF_profile_xbetxx.webp"
-            alt=""
-          />
-        </div>
       </div>
     </div>
+  )
+}
+
+export function Hero() {
+  const { t, lang } = useTranslation('common')
+  const heroEyebrow = t('hero-eyebrow')
+  const title = t('title')
+  const slogan = t('slogan')
+
+  return (
+    <section>
+      <div className="hidden md:block">
+        <Image
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1693392616/Flemmen%20Co/homepage_hero_v1_desktop_duybsv.webp"
+          alt="Christian Flemmen Johansen"
+          width={3000}
+          height={1688}
+        />
+
+        <div className="absolute inset-0">
+          <div className="relative">
+            <div className="max-w-md lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+              <div className="px-6 pb-24 pt-20 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
+                <div className="xl-mt-0 bg-t relative mx-auto max-w-lg p-8 text-white shadow-xl shadow-gray-500/5 lg:mx-0 lg:-mt-12 lg:p-12 xl:max-w-2xl">
+                  <h3 className="text-xs uppercase lg:text-sm">
+                    {/* {heroEyebrow} */}
+                  </h3>
+                  <h1 className="mt-8 font-display text-4xl font-bold uppercase tracking-tight md:text-5xl lg:mt-16 xl:text-6xl">
+                    Flemmen <br /> & Co <br /> Advokatfirma
+                  </h1>
+                  <p className="mt-6 leading-8 sm:mb-6 lg:mb-16 lg:text-lg">
+                    {/* {slogan} */}
+                  </p>
+
+                  <Brenner />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <MobileHero />
+    </section>
   )
 }

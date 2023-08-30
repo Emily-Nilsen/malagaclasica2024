@@ -30,9 +30,9 @@ export function Contact() {
               />
             </dt>
             <dd>
-              Sankt Olavs Gate 25
+              Sørkedalsveien 6
               <br />
-              0166 Oslo
+              0369 Oslo
             </dd>
           </div>
           <div className="flex gap-x-4">
@@ -59,9 +59,9 @@ export function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-900"
-                href="mailto:cfj@elden.no"
+                href="mailto:cfj@flemmenco.no"
               >
-                cfj@elden.no
+                cfj@flemmenco.no
               </Link>
             </dd>
           </div>

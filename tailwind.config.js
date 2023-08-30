@@ -37,9 +37,8 @@ module.exports = {
         gray: colors.neutral,
       }),
       fontFamily: {
-        sans: ['roboto', ...defaultTheme.fontFamily.sans],
-        display: ['roboto-condensed', ...defaultTheme.fontFamily.sans],
-        serif: ['athelas', ...defaultTheme.fontFamily.serif],
+        sans: ['montserrat', ...defaultTheme.fontFamily.sans],
+        display: ['montserrat', ...defaultTheme.fontFamily.sans],
       },
       keyframes: {
         'fade-in': {
