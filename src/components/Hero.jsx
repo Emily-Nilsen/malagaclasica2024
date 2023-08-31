@@ -88,21 +88,47 @@ export function Hero() {
             <div className="max-w-md lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-12 lg:gap-x-8 lg:px-8">
               <div className="px-6 pb-24 pt-20 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
                 <div className="bg-t relative mx-auto max-w-lg px-20 pt-6 text-white md:pl-28 lg:mx-0 lg:-mt-24 lg:p-16 lg:pl-24 xl:-mt-10 xl:max-w-2xl xl:p-12 xl:pl-20">
-                  <div>
+                  <motion.div
+                    whileInView={{ opacity: 1 }}
+                    initial={{ opacity: 0 }}
+                    transition={{
+                      delay: 0.5,
+                      duration: 1,
+                      type: 'fade',
+                    }}
+                  >
                     <h1 className="mt-8 font-display font-extrabold uppercase tracking-tight sm:text-3xl md:text-4xl lg:mt-16 lg:text-5xl xl:text-6xl">
                       Flemmen
                     </h1>
-                  </div>
-                  <div className="my-1 lg:my-3">
+                  </motion.div>
+                  <motion.div
+                    whileInView={{ opacity: 1 }}
+                    initial={{ opacity: 0 }}
+                    transition={{
+                      delay: 0.7,
+                      duration: 1,
+                      type: 'fade',
+                    }}
+                    className="my-1 lg:my-3"
+                  >
                     <h1 className="font-display font-extrabold uppercase tracking-tight sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
                       & Co
                     </h1>
-                  </div>
-                  <div className="mt-3 w-fit bg-white px-3.5 py-1.5 lg:mt-5">
+                  </motion.div>
+                  <motion.div
+                    whileInView={{ opacity: 1 }}
+                    initial={{ opacity: 0 }}
+                    transition={{
+                      delay: 0.9,
+                      duration: 1,
+                      type: 'fade',
+                    }}
+                    className="mt-3 w-fit bg-white px-3.5 py-1.5 lg:mt-5"
+                  >
                     <h1 className="font-bold uppercase tracking-normal text-gray-950 sm:text-base md:text-lg lg:text-2xl xl:text-3xl">
                       Advokatfirma
                     </h1>
-                  </div>
+                  </motion.div>
                 </div>
               </div>
             </div>
