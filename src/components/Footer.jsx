@@ -13,7 +13,7 @@ export function Footer() {
   const slogan = t('slogan')
 
   return (
-    <footer className="bg-slate-100">
+    <footer className="bg-white">
       <Container>
         <div className="flex flex-col items-start justify-between gap-y-12 pb-6 pt-16 lg:flex-row lg:items-center lg:py-16">
           <div>

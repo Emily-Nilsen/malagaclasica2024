@@ -1,10 +1,8 @@
 import Link from 'next/link'
 
-import {
-  BuildingOffice2Icon,
-  EnvelopeIcon,
-  PhoneIcon,
-} from '@heroicons/react/24/outline'
+import { BuildingsIcon } from '@/components/BuildingsIcon'
+import { PhoneIcon } from '@/components/PhoneIcon'
+import { EnvelopeIcon } from '@/components/EnvelopeIcon'
 import useTranslation from 'next-translate/useTranslation'
 
 export function Contact() {
@@ -16,7 +14,7 @@ export function Contact() {
       id="kontakt"
       className="mb-4 w-full border-t sm:mb-6 sm:w-fit sm:border-none"
     >
-      <h2 className="mt-6 font-display text-3xl font-bold tracking-tight text-gray-900 sm:mt-0">
+      <h2 className="mt-6 font-display text-3xl font-bold uppercase text-gray-900 sm:mt-0">
         {kontakt}
       </h2>
       <div className="mt-6 sm:mt-10 ">
@@ -24,8 +22,8 @@ export function Contact() {
           <div className="flex gap-x-4">
             <dt className="flex-none">
               <span className="sr-only">Kontor</span>
-              <BuildingOffice2Icon
-                className="h-7 w-6 text-gray-400"
+              <BuildingsIcon
+                className="h-7 w-6 fill-gray-700"
                 aria-hidden="true"
               />
             </dt>
@@ -38,7 +36,7 @@ export function Contact() {
           <div className="flex gap-x-4">
             <dt className="flex-none">
               <span className="sr-only">Telefon</span>
-              <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+              <PhoneIcon className="h-7 w-6 fill-gray-700" aria-hidden="true" />
             </dt>
             <dd>
               <Link className="hover:text-gray-900" href="tel:+4791548177">
@@ -50,7 +48,7 @@ export function Contact() {
             <dt className="flex-none">
               <span className="sr-only">E-post</span>
               <EnvelopeIcon
-                className="h-7 w-6 text-gray-400"
+                className="h-7 w-6 fill-gray-700"
                 aria-hidden="true"
               />
             </dt>

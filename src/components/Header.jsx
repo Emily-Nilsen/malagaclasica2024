@@ -40,7 +40,7 @@ function MobileNavLink({ children, ...props }) {
   return (
     <Popover.Button
       as={Link}
-      className="block text-base leading-7 tracking-tight text-gray-700"
+      className="block text-base uppercase leading-7 tracking-tight text-gray-700"
       {...props}
     >
       {children}
@@ -64,14 +64,14 @@ export function Header(props) {
   return (
     <header className="absolute w-full lg:relative lg:px-20">
       <nav>
-        <div className="relative z-50 flex justify-between px-6 py-8 lg:px-0">
+        <div className="relative z-50 flex justify-between px-6 py-8 lg:px-0 ">
           <div className="relative z-10 flex items-center gap-16">
             <Link
               className="flex items-center gap-1"
               href="/"
               aria-label="Home"
             >
-              <Logo className="h-4 w-24 fill-white sm:h-5 sm:w-60 sm:fill-gray-900" />
+              <Logo className="h-4 w-36 fill-white sm:h-5 sm:w-72 sm:fill-gray-900" />
             </Link>
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
