@@ -36,10 +36,7 @@ module.exports = {
       colors: ({ colors }) => ({
         gray: colors.neutral,
       }),
-      fontFamily: {
-        sans: ['montserrat', ...defaultTheme.fontFamily.sans],
-        display: ['montserrat', ...defaultTheme.fontFamily.sans],
-      },
+
       keyframes: {
         'fade-in': {
           from: {

@@ -8,7 +8,10 @@ export function NavLinks() {
   const { t, lang } = useTranslation('common')
   const kontakt = t('kontakt')
 
-  return [[`${kontakt}`, '#kontakt']].map(([label, href], index) => (
+  return [
+    [`Media`, '#media'],
+    [`${kontakt}`, '#kontakt'],
+  ].map(([label, href], index) => (
     <Link
       key={label}
       href={href}

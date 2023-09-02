@@ -16,7 +16,7 @@ function MobileHero() {
     <div className="relative h-[50vh] sm:hidden">
       <Image
         src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Flemmen%20Co/Flemmen_Co_hero_mobile_aubyjs.webp"
-        alt="Christian Flemmen Johansen"
+        alt="Christian Flemmen Johansen & Stine Kalkvik Stenberg"
         fill
         className="h-full w-full object-cover object-left"
         priority
@@ -31,7 +31,7 @@ function MobileHero() {
             type: 'fade',
           }}
         >
-          <h1 className="font-display text-3xl font-bold uppercase leading-tight tracking-tight text-white">
+          <h1 className="font-display text-3xl font-extrabold uppercase leading-tight tracking-tight text-white">
             Flemmen
           </h1>
         </motion.div>
@@ -44,7 +44,7 @@ function MobileHero() {
             type: 'fade',
           }}
         >
-          <h1 className="font-display text-3xl font-bold uppercase leading-tight tracking-tight text-white">
+          <h1 className="font-display text-3xl font-extrabold uppercase leading-tight tracking-tight text-white">
             & Co
           </h1>
         </motion.div>
@@ -57,7 +57,7 @@ function MobileHero() {
             duration: 1,
             type: 'fade',
           }}
-          className="my-2 w-fit bg-white px-3.5 py-1.5 text-base font-bold tracking-normal text-black"
+          className="my-3 w-fit bg-white px-2.5 py-0.5 text-base font-extrabold tracking-normal text-black"
         >
           <h1 className="uppercase">Advokatfirma</h1>
         </motion.div>
@@ -77,7 +77,7 @@ export function Hero() {
       <div className="hidden sm:block">
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Flemmen%20Co/Flemmen_Co_hero_desktop_v1_cropped_i51zcb.webp"
-          alt="Christian Flemmen Johansen"
+          alt="Christian Flemmen Johansen & Stine Kalkvik Stenberg"
           width={4500}
           height={2739}
           priority
@@ -97,7 +97,7 @@ export function Hero() {
                       type: 'fade',
                     }}
                   >
-                    <h1 className="mt-8 font-display font-extrabold uppercase tracking-tight sm:text-3xl md:text-4xl lg:mt-16 lg:text-5xl xl:text-6xl">
+                    <h1 className="font-display mt-8 font-extrabold uppercase tracking-tight sm:text-3xl md:text-4xl lg:mt-16 lg:text-5xl xl:text-6xl">
                       Flemmen
                     </h1>
                   </motion.div>
@@ -125,7 +125,7 @@ export function Hero() {
                     }}
                     className="mt-3 w-fit bg-white px-3.5 py-1.5 lg:mt-5"
                   >
-                    <h1 className="font-bold uppercase tracking-normal text-gray-950 sm:text-base md:text-lg lg:text-2xl xl:text-3xl">
+                    <h1 className="font-extrabold uppercase tracking-normal text-gray-950 sm:text-base md:text-lg lg:text-2xl xl:text-3xl">
                       Advokatfirma
                     </h1>
                   </motion.div>
