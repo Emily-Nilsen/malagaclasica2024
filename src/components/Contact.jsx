@@ -6,6 +6,7 @@ export function Contact() {
   const { t, lang } = useTranslation('common')
   const kontakt = t('kontakt')
   const advokat = t('advokat')
+  const teamleder = t('teamleder')
 
   return (
     <div
@@ -116,7 +117,7 @@ export function Contact() {
                   </div>
                 </dl>
               </motion.div>
-              {/* <motion.div
+              <motion.div
                 whileInView={{ opacity: 1 }}
                 initial={{ opacity: 0 }}
                 transition={{
@@ -124,9 +125,9 @@ export function Contact() {
                   duration: 1,
                   type: 'fade',
                 }}
-                className="p-10 rounded-none bg-gray-50"
+                className="rounded-none bg-gray-50 p-10"
               >
-                <h3 className="text-base font-semibold leading-7 text-gray-900 capitalize">
+                <h3 className="text-base font-semibold capitalize leading-7 text-gray-900">
                   {advokat} Christian Flemmen Johansen
                 </h3>
                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
@@ -153,8 +154,8 @@ export function Contact() {
                     </Link>
                   </div>
                 </dl>
-              </motion.div> */}
-              {/* <motion.div
+              </motion.div>
+              <motion.div
                 whileInView={{ opacity: 1 }}
                 initial={{ opacity: 0 }}
                 transition={{
@@ -162,10 +163,10 @@ export function Contact() {
                   duration: 1,
                   type: 'fade',
                 }}
-                className="p-10 rounded-none bg-gray-50"
+                className="rounded-none bg-gray-50 p-10"
               >
-                <h3 className="text-base font-semibold leading-7 text-gray-900 capitalize">
-                  {advokat} Stine Kalkvik Stenberg
+                <h3 className="text-base font-semibold capitalize leading-7 text-gray-900">
+                  {advokat} / {teamleder} Stine Kalkvik Stenberg
                 </h3>
                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                   <div>
@@ -191,7 +192,7 @@ export function Contact() {
                     </Link>
                   </div>
                 </dl>
-              </motion.div> */}
+              </motion.div>
             </motion.div>
           </div>
         </div>

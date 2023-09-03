@@ -39,21 +39,24 @@ const articles = [
     date: '30. aug, 2023',
     dateTime: '2023-08-30',
   },
-  {
-    id: 4,
-    title: 'forsvarsadvokat.no',
-    articleUrl: 'https://forsvarsadvokat.no/',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Flemmen%20Co/Blog/article_0_d3xgmw.webp',
-    content: 'Medieomtale av advokat Christian Flemmen Johansen.',
-    date: '',
-    dateTime: '2007-09-01',
-  },
+  // {
+  //   id: 4,
+  //   title: 'forsvarsadvokat.no',
+  //   articleUrl: 'https://forsvarsadvokat.no/',
+  //   imageUrl:
+  //     'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Flemmen%20Co/Blog/article_0_d3xgmw.webp',
+  //   content: 'Medieomtale av advokat Christian Flemmen Johansen.',
+  //   date: '',
+  //   dateTime: '2007-09-01',
+  // },
 ]
 
 export function MediaBlogV2() {
   return (
-    <div className="mx-auto max-w-7xl bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
+    <div
+      id="media"
+      className="mx-auto max-w-7xl bg-gray-900 px-6 py-24 sm:py-32 lg:px-8"
+    >
       <div className="mx-auto max-w-3xl">
         <ul role="list" className="divide-y divide-gray-100/10">
           {articles.map((article, i) => (

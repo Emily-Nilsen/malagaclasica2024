@@ -117,12 +117,6 @@ export function Header(props) {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="/landingsside_versjon_2">
-                              Landingsside V2
-                            </MobileNavLink>
-                            <MobileNavLink href="/landingsside_versjon_3">
-                              Landingsside V3
-                            </MobileNavLink>
                             <MobileNavLink href="#media">Media</MobileNavLink>
                             <MobileNavLink href="#kontakt">
                               {kontakt}
