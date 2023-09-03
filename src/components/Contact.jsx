@@ -127,8 +127,11 @@ export function Contact() {
                 }}
                 className="rounded-none bg-gray-50 p-10"
               >
+                <h3 className="text-sm font-semibold capitalize leading-7 text-gray-600">
+                  {advokat}
+                </h3>
                 <h3 className="text-base font-semibold capitalize leading-7 text-gray-900">
-                  {advokat} Christian Flemmen Johansen
+                  Christian Flemmen Johansen
                 </h3>
                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                   <div>
@@ -165,8 +168,11 @@ export function Contact() {
                 }}
                 className="rounded-none bg-gray-50 p-10"
               >
+                <h3 className="text-sm font-semibold capitalize leading-7 text-gray-600">
+                  {advokat} / {teamleder}
+                </h3>
                 <h3 className="text-base font-semibold capitalize leading-7 text-gray-900">
-                  {advokat} / {teamleder} Stine Kalkvik Stenberg
+                  Stine Kalkvik Stenberg
                 </h3>
                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                   <div>
