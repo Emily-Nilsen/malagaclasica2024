@@ -13,12 +13,13 @@ import useTranslation from 'next-translate/useTranslation'
 
 export default function Home() {
   const { t, lang } = useTranslation('common')
+  const title = t('title')
   const metaDescription = t('meta-description')
 
   return (
     <>
       <Head>
-        <title>Flemmen & Co Advokatfirma</title>
+        <title>{title}</title>
         <meta name="description" content={metaDescription} />
         <link
           rel="canonical"

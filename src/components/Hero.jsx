@@ -8,9 +8,7 @@ import useTranslation from 'next-translate/useTranslation'
 
 function MobileHero() {
   const { t, lang } = useTranslation('common')
-  const heroEyebrow = t('hero-eyebrow')
-  const title = t('title')
-  const slogan = t('slogan')
+  const advokatfirma = t('advokatfirma')
 
   return (
     <div className="relative h-[50vh] sm:hidden">
@@ -59,7 +57,7 @@ function MobileHero() {
           }}
           className="my-3 w-fit bg-white px-2.5 py-0.5 text-base font-extrabold tracking-normal text-black"
         >
-          <h1 className="uppercase">Advokatfirma</h1>
+          <h1 className="uppercase">{advokatfirma}</h1>
         </motion.div>
       </div>
     </div>
@@ -68,9 +66,7 @@ function MobileHero() {
 
 export function Hero() {
   const { t, lang } = useTranslation('common')
-  const heroEyebrow = t('hero-eyebrow')
-  const title = t('title')
-  const slogan = t('slogan')
+  const advokatfirma = t('advokatfirma')
 
   return (
     <section>
@@ -126,7 +122,7 @@ export function Hero() {
                     className="mt-3 w-fit bg-white px-3.5 py-1.5 lg:mt-5"
                   >
                     <h1 className="font-extrabold uppercase tracking-normal text-gray-950 sm:text-base md:text-lg lg:text-2xl xl:text-3xl">
-                      Advokatfirma
+                      {advokatfirma}
                     </h1>
                   </motion.div>
                 </div>
