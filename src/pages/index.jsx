@@ -21,11 +21,7 @@ export default function Home() {
       <Head>
         <title>{title}</title>
         <meta name="description" content={metaDescription} />
-        <link
-          rel="canonical"
-          href="https://www.flemmenco.no/"
-          key="canonical"
-        />
+        <link rel="canonical" href="https://flemmenco.no/" key="canonical" />
       </Head>
       <Header />
 
