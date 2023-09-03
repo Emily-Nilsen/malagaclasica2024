@@ -9,7 +9,7 @@ export function Kompetanser() {
   const arbeidsrett = t('arbeidsrett')
   const kontraktsrett = t('kontraktsrett')
   const familie = t('familie')
-  const fastEiendom = t('fast-eiendom')
+  const fastEiendom = t('fastEiendom')
   const okonomiske = t('okonomiske')
   const sikring = t('sikring')
 
