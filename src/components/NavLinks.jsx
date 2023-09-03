@@ -9,6 +9,8 @@ export function NavLinks() {
   const kontakt = t('kontakt')
 
   return [
+    [`Landingsside V2`, '/landingsside_versjon_2'],
+    [`Landingsside V3`, '/landingsside_versjon_3'],
     [`Media`, '#media'],
     [`${kontakt}`, '#kontakt'],
   ].map(([label, href], index) => (

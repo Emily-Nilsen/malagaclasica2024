@@ -4,14 +4,14 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { TextBox1 } from '@/components/TextBox1'
-import { MediaBlogV2 } from '@/components/MediaBlogV2'
+import { MediaPreview } from '@/components/MediaPreview'
 import { Kompetanser } from '@/components/Kompetanser'
 
 import { Contact } from '@/components/Contact'
 
 import useTranslation from 'next-translate/useTranslation'
 
-export default function Home() {
+export default function LandingssideVersjon3() {
   const { t, lang } = useTranslation('common')
   const metaDescription = t('meta-description')
 
@@ -32,7 +32,7 @@ export default function Home() {
         <Hero />
 
         <TextBox1 />
-        <MediaBlogV2 />
+        <MediaPreview />
         <Kompetanser />
         <Contact />
         <Footer />
