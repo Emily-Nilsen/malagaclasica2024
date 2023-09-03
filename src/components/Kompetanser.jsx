@@ -1,55 +1,67 @@
 import { motion } from 'framer-motion'
-
-const features = [
-  {
-    name: 'Tvist og prosedyre',
-    description:
-      'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
-  },
-  {
-    name: 'Strafferett',
-    description:
-      'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
-  },
-  {
-    name: 'Arbeidsrett',
-    description:
-      'Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.',
-  },
-  {
-    name: 'Kontraktsrett',
-    description:
-      'Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.',
-  },
-  {
-    name: 'Familie og arverett',
-    description:
-      'Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.',
-  },
-  {
-    name: 'Fast eiendom',
-    description:
-      'Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.',
-  },
-  {
-    name: 'Økonomiske straffesaker',
-    description:
-      'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
-  },
-  {
-    name: 'Sikring av verdier ved arrest mv.',
-    description:
-      'Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.',
-  },
-]
+import useTranslation from 'next-translate/useTranslation'
 
 export function Kompetanser() {
+  const { t, lang } = useTranslation('common')
+  const kompetanse = t('kompetanse')
+  const tvist = t('tvist')
+  const strafferett = t('strafferett')
+  const arbeidsrett = t('arbeidsrett')
+  const kontraktsrett = t('kontraktsrett')
+  const familie = t('familie')
+  const fastEiendom = t('fast-eiendom')
+  const okonomiske = t('okonomiske')
+  const sikring = t('sikring')
+
+  const features = [
+    {
+      name: tvist,
+      description:
+        'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
+    },
+    {
+      name: strafferett,
+      description:
+        'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
+    },
+    {
+      name: arbeidsrett,
+      description:
+        'Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.',
+    },
+    {
+      name: kontraktsrett,
+      description:
+        'Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.',
+    },
+    {
+      name: familie,
+      description:
+        'Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.',
+    },
+    {
+      name: fastEiendom,
+      description:
+        'Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.',
+    },
+    {
+      name: okonomiske,
+      description:
+        'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
+    },
+    {
+      name: sikring,
+      description:
+        'Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.',
+    },
+  ]
+
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-extrabold uppercase text-gray-900 sm:text-4xl">
-            Vår kompetanse
+            {kompetanse}
           </h2>
           {/* <p className="mt-6 text-lg leading-8 text-gray-600">
             Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam

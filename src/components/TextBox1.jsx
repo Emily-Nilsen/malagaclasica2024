@@ -1,13 +1,20 @@
 import { motion } from 'framer-motion'
+import useTranslation from 'next-translate/useTranslation'
 
 export function TextBox1() {
+  const { t, lang } = useTranslation('common')
+  const oppdatering = t('oppdatering')
+  const intro1 = t('intro_1')
+  const intro2 = t('intro_2')
+  const intro3 = t('intro_3')
+
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           {/* change back to text-gray-600 */}
           <p className="text-base font-semibold leading-7 text-gray-900">
-            Siden er under oppdatering.
+            {oppdatering}.
           </p>
           {/* <h1 className="mt-2 text-3xl font-extrabold text-gray-900 uppercase sm:text-4xl">
             Erfarne Advokater
@@ -23,9 +30,7 @@ export function TextBox1() {
                   type: 'fade',
                 }}
               >
-                Advokatfirmaet Flemmen & Co ble etablert av advokat Christian
-                Flemmen Johansen og hans team gjennom flere år, alle fra Elden
-                Advokatfirma.
+                {intro1}
               </motion.p>
               <motion.p
                 whileInView={{ opacity: 1 }}
@@ -37,10 +42,7 @@ export function TextBox1() {
                 }}
                 className="mt-8"
               >
-                Christian Flemmen Johansen har vært advokat og senere partner i
-                Elden Advokatfirma AS i 16 år. Flemmen & Co er derfor en
-                videreføring av eksisterende advokatpraksis, i samarbeid med
-                dyktige advokater, revisorer og andre samarbeidspartnere.
+                {intro2}
               </motion.p>
             </div>
             <div>
@@ -53,9 +55,7 @@ export function TextBox1() {
                   type: 'fade',
                 }}
               >
-                Flemmen & Co bistår jevnlig mindre og større aktører med
-                rådgivning, tvisteløsning, forhandlinger og prosessoppdrag for
-                ulike domstoler, se mer om våre kompetanseområder under.
+                {intro3}
               </motion.p>
             </div>
           </div>
