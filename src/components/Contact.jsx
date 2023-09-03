@@ -7,6 +7,10 @@ export function Contact() {
   const kontakt = t('kontakt')
   const advokat = t('advokat')
   const teamleder = t('teamleder')
+  const adresse = t('adresse')
+  const postadresse = t('postadresse')
+  const sentralbord = t('sentralbord')
+  const kontorsjef = t('kontorsjef')
 
   return (
     <div
@@ -37,7 +41,7 @@ export function Contact() {
             >
               <div className="rounded-none bg-gray-50 p-10">
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
-                  Besøksadresse
+                  {adresse}
                 </h3>
                 <address className="mt-3 space-y-1 text-sm not-italic leading-6 text-gray-600">
                   <p>Sørkedalsveien 6 (KPMG-bygget 18. etasje)</p>
@@ -55,7 +59,7 @@ export function Contact() {
                 className="rounded-none bg-gray-50 p-10"
               >
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
-                  Postadresse
+                  {postadresse}
                 </h3>
                 <address className="mt-3 space-y-1 text-sm not-italic leading-6 text-gray-600">
                   <p>Postboks 7016 Majorstuen</p>
@@ -73,7 +77,7 @@ export function Contact() {
                 className="rounded-none bg-gray-50 p-10"
               >
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
-                  Sentralbord
+                  {sentralbord}
                 </h3>
                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                   <div className="mt-1">
@@ -99,7 +103,7 @@ export function Contact() {
                 className="rounded-none bg-gray-50 p-10"
               >
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
-                  Kontorsjef
+                  {kontorsjef}
                 </h3>
                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                   <div>

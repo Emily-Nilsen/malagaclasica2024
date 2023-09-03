@@ -21,5 +21,9 @@
   "familie": "Familie- og arverett",
   "fastEiendom": "Fast eiendom",
   "okonomiske": "Økonomiske straffesaker",
-  "sikring": "Sikring av verdier ved arrest mv."
+  "sikring": "Sikring av verdier ved arrest mv.",
+  "adresse": "Besøksadresse",
+  "postadresse": "Postadresse",
+  "sentralbord": "Sentralbord",
+  "kontorsjef": "Kontorsjef"
 }
