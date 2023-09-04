@@ -53,7 +53,10 @@ const articles = [
 
 export function MediaBlog() {
   return (
-    <div className="mx-auto max-w-7xl bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
+    <div
+      id="media"
+      className="mx-auto max-w-7xl bg-gray-900 px-6 py-24 sm:py-32 lg:px-8"
+    >
       <div className="mx-auto max-w-3xl">
         <ul role="list" className="divide-y divide-gray-100/10">
           {articles.map((article, i) => (
