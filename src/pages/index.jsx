@@ -4,7 +4,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { TextBox1 } from '@/components/TextBox1'
-import { MediaBlogV2 } from '@/components/MediaBlogV2'
+import { MediaBlog } from '@/components/MediaBlog'
 import { Kompetanser } from '@/components/Kompetanser'
 
 import { Contact } from '@/components/Contact'
@@ -29,7 +29,7 @@ export default function Home() {
         <Hero />
 
         <TextBox1 />
-        <MediaBlogV2 />
+        <MediaBlog />
         <Kompetanser />
         <Contact />
         <Footer />

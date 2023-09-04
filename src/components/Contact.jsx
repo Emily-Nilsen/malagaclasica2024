@@ -20,15 +20,12 @@ export function Contact() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
-            <div>
-              <h2 className="text-3xl font-extrabold uppercase tracking-normal text-gray-900">
+            {/* <div>
+              <h2 className="text-3xl font-extrabold tracking-normal text-gray-900 uppercase">
                 {kontakt}
               </h2>
-              {/* <p className="mt-4 leading-7 text-gray-600">
-                Quam nunc nunc eu sed. Sed rhoncus quis ultricies ac
-                pellentesque.
-              </p> */}
-            </div>
+              
+            </div> */}
             <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
@@ -37,7 +34,7 @@ export function Contact() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8"
+              className="grid grid-cols-1 gap-6 sm:grid-cols-3 lg:col-span-3 lg:gap-8"
             >
               <div className="rounded-none bg-gray-50 p-10">
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
