@@ -72,7 +72,16 @@ export function TextBox1() {
                       </motion.p>
                     </div>
                   </div>
-                  <div className="z-1 relative mt-8">
+                  <motion.div
+                    whileInView={{ opacity: 1 }}
+                    initial={{ opacity: 0 }}
+                    transition={{
+                      delay: 0.5,
+                      duration: 1,
+                      type: 'fade',
+                    }}
+                    className="z-1 relative mt-8"
+                  >
                     <p className="text-gray-700">
                       {merOm}
                       <span>
@@ -80,7 +89,7 @@ export function TextBox1() {
                       </span>
                       :
                     </p>
-                  </div>
+                  </motion.div>
                 </div>
               </div>
             </div>

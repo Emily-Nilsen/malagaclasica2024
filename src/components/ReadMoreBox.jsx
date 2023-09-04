@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 import useTranslation from 'next-translate/useTranslation'
 
 export function ReadMoreBox() {
@@ -19,16 +20,102 @@ export function ReadMoreBox() {
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
             <div>
-              <p>{flemmen1}</p>
-              <p className="mt-8">{flemmen2}</p>
-              <p className="mt-8">{flemmen3}</p>
-              <p className="mt-8">{flemmen4}</p>
-              <p className="mt-8">{flemmen5}</p>
+              <motion.p
+                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+              >
+                {flemmen1}
+              </motion.p>
+              <motion.p
+                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+                className="mt-8"
+              >
+                {flemmen2}
+              </motion.p>
+              <motion.p
+                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+                className="mt-8"
+              >
+                {flemmen3}
+              </motion.p>
+              <motion.p
+                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+                className="mt-8"
+              >
+                {flemmen4}
+              </motion.p>
+              <motion.p
+                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+                className="mt-8"
+              >
+                {flemmen5}
+              </motion.p>
             </div>
             <div>
-              <p>{flemmen6}</p>
-              <p className="mt-8">{flemmen7}</p>
-              <p className="mt-8">{flemmen8}</p>
+              <motion.p
+                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+              >
+                {flemmen6}
+              </motion.p>
+              <motion.p
+                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+                className="mt-8"
+              >
+                {flemmen7}
+              </motion.p>
+              <motion.p
+                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+                className="mt-8"
+              >
+                {flemmen8}
+              </motion.p>
             </div>
           </div>
         </div>
