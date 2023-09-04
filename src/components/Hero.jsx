@@ -15,7 +15,8 @@ function MobileHero() {
       <Image
         src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Flemmen%20Co/Flemmen_Co_hero_mobile_aubyjs.webp"
         alt="Christian Flemmen Johansen & Stine Kalkvik Stenberg"
-        fill
+        width={2000}
+        height={1500}
         className="h-full w-full object-cover object-left"
         priority
       />
