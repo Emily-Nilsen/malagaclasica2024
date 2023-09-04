@@ -82,13 +82,13 @@ export function TextBox1() {
                     }}
                     className="z-1 relative mt-8"
                   >
-                    <p className="text-gray-700">
+                    <div className="text-gray-700">
                       {merOm}
                       <span>
                         <Expandable.Button>{her}</Expandable.Button>
                       </span>
                       :
-                    </p>
+                    </div>
                   </motion.div>
                 </div>
               </div>
