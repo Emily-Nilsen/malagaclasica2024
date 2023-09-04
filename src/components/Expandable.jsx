@@ -42,14 +42,13 @@ Expandable.Button = function Button({ children }) {
 
   return (
     !isExpanded && (
-      <div className="justify-left mt-10 flex">
+      <div className="inline-flex">
         <button
           type="button"
-          className="flex items-center text-base font-medium tracking-tight text-slate-900 hover:text-slate-700"
+          className="flex items-center text-base font-semibold tracking-tight text-slate-900 hover:text-slate-700"
           onClick={expand}
         >
-          {children}
-          <ArrowDownIcon className="ml-2 h-6 w-6" />
+          &nbsp;{children}
         </button>
       </div>
     )

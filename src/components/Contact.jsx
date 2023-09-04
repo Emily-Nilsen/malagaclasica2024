@@ -99,8 +99,11 @@ export function Contact() {
                 }}
                 className="rounded-none bg-gray-50 p-10"
               >
-                <h3 className="text-base font-semibold leading-7 text-gray-900">
+                <h3 className="text-sm font-semibold capitalize leading-7 text-gray-600">
                   {kontorsjef}
+                </h3>
+                <h3 className="text-base font-semibold leading-7 text-gray-900">
+                  Ane Natvig
                 </h3>
                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                   <div>
@@ -115,6 +118,15 @@ export function Contact() {
                         ane@flemmenco.no
                       </Link>
                     </dd>
+                  </div>
+                  <div className="mt-1">
+                    <dt className="sr-only">Phone number</dt>
+                    <Link
+                      className="transition-colors duration-200 ease-in-out hover:text-gray-900"
+                      href="tel:+4798059953"
+                    >
+                      <dd>(+47) 980 59 953</dd>
+                    </Link>
                   </div>
                 </dl>
               </motion.div>
