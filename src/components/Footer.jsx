@@ -9,8 +9,8 @@ export function Footer() {
   const advokatfirma = t('advokatfirma')
   const rettigheter = t('rettigheter')
   return (
-    <footer className="border-t border-gray-100 bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
+    <footer className="mx-auto max-w-7xl border-t border-gray-100 bg-white">
+      <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-0">
         <div className="flex justify-center space-x-6 md:order-2">
           <Link href="/">
             <Logo className="h-5 w-60 flex-none fill-gray-900" />

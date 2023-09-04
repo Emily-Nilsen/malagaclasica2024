@@ -70,7 +70,7 @@ export function Hero() {
 
   return (
     <section>
-      <div className="hidden sm:block">
+      <div className="mx-auto hidden max-w-7xl sm:block">
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Flemmen%20Co/Flemmen_Co_hero_desktop_v1_cropped_i51zcb.webp"
           alt="Christian Flemmen Johansen & Stine Kalkvik Stenberg"
