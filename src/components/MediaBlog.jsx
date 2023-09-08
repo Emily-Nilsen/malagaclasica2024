@@ -17,6 +17,18 @@ const articles = [
   },
   {
     id: 2,
+    title:
+      'Elden-partner starter egen virksomhet: – Skal ikke være noe klassejus-firma',
+    articleUrl: 'https://advokatwatch.no/nyheter/karriere/article16395400.ece',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Flemmen%20Co/Blog/article_4_ftmx0m.webp',
+    content:
+      'Christian Flemmen Johansen har etablert et eget advokatfirma, og tar med seg to kolleger fra Elden.',
+    date: '31. aug, 2023',
+    dateTime: '2023-08-31',
+  },
+  {
+    id: 3,
     title: 'Forlater Elden med alle egne klienter',
     articleUrl:
       'https://www.finansavisen.no/jus/2023/08/31/8032852/flemmen-forlater-elden-med-alle-egne-klienter?zephr_sso_ott=hTqGBr',
@@ -28,7 +40,7 @@ const articles = [
     dateTime: '2023-08-31',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Toppadvokat forlater Elden',
     articleUrl:
       'https://www.dn.no/jus/christian-flemmen-johansen/advokatfirmaet-elden/elden/toppadvokat-forlater-elden/2-1-1508933',
@@ -40,7 +52,7 @@ const articles = [
     dateTime: '2023-08-30',
   },
   {
-    id: 4,
+    id: 5,
     title: 'forsvarsadvokat.no',
     articleUrl: 'https://forsvarsadvokat.no/',
     imageUrl:
