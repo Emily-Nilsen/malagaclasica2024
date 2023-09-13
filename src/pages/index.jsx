@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { HeroDelete } from '@/components/HeroDelete'
+
 import { Hero } from '@/components/Hero'
 import { TextBox1 } from '@/components/TextBox1'
 import { MediaBlog } from '@/components/MediaBlog'
@@ -27,7 +27,6 @@ export default function Home() {
       <Header />
 
       <main className="sm:p-12 sm:pt-20 md:px-20 md:pb-20 lg:pt-0">
-        {/* <HeroDelete /> */}
         <Hero />
 
         <TextBox1 />
