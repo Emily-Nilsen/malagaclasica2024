@@ -34,7 +34,17 @@ export function TextBox1() {
           </h1> */}
                   <div className="z-1 relative mt-0 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
                     <div>
-                      <p>{intro1}</p>
+                      <motion.p
+                        whileInView={{ opacity: 1 }}
+                        initial={{ opacity: 0 }}
+                        transition={{
+                          delay: 0.4,
+                          duration: 1,
+                          type: 'fade',
+                        }}
+                      >
+                        {intro1}
+                      </motion.p>
                       <motion.p
                         whileInView={{ opacity: 1 }}
                         initial={{ opacity: 0 }}
