@@ -33,7 +33,7 @@ export default function Home() {
         />
         <meta property="og:url" content="https://flemmenco.no/" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Flemmen & Co Advokatfirma" />
+        <meta property="og:site_name" content={title} />
         {/* Add the StructuredData component within Head */}
         <StructuredData />
       </Head>
