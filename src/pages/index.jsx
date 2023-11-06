@@ -9,6 +9,7 @@ import { MediaBlog } from '@/components/MediaBlog'
 import { Kompetanser } from '@/components/Kompetanser'
 
 import { Contact } from '@/components/Contact'
+import { StructuredData } from '@/components/StructuredData'
 
 import useTranslation from 'next-translate/useTranslation'
 
@@ -23,6 +24,8 @@ export default function Home() {
         <title>{title}</title>
         <meta name="description" content={metaDescription} />
         <link rel="canonical" href="https://flemmenco.no/" key="canonical" />
+        {/* Add the StructuredData component within Head */}
+        <StructuredData />
       </Head>
       <Header />
 
