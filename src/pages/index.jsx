@@ -31,12 +31,9 @@ export default function Home() {
           property="og:image"
           content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Flemmen%20Co/Flemmen_Co_hero_desktop_v1_cropped_i51zcb.webp"
         />
-        <meta
-          property="og:url"
-          content={`https://flemmenco.no/${lang === 'en' ? 'en' : ''}`}
-        />
+        <meta property="og:url" content="https://flemmenco.no/" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Flemmen & Co Law Firm" />
+        <meta property="og:site_name" content="Flemmen & Co Advokatfirma" />
         {/* Add the StructuredData component within Head */}
         <StructuredData />
       </Head>
