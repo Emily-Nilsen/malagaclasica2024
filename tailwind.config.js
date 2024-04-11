@@ -33,9 +33,17 @@ module.exports = {
         '4xl': '2rem',
         '5xl': '2.5rem',
       },
-      colors: ({ colors }) => ({
-        gray: colors.neutral,
-      }),
+      colors: {
+        blue2024: '#c1d8d2',
+        pink2024: '#f8b7b8',
+        pink2_2024: '#f4c0c4',
+        pink3_2024: '#fbebec',
+        blueGreyDark2024: '#383d36',
+        blueGrey2024: '#4f5750',
+        blueGreyMedium2024: '#828b88',
+        pinkText2024: '#b88a8c',
+        blueText2024: '#899a97',
+      },
 
       keyframes: {
         'fade-in': {

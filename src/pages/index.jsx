@@ -23,7 +23,11 @@ export default function Home() {
       <Head>
         <title>{title}</title>
         <meta name="description" content={metaDescription} />
-        <link rel="canonical" href="https://flemmenco.no/" key="canonical" />
+        <link
+          rel="canonical"
+          href="https://malagaclasica.com/"
+          key="canonical"
+        />
         {/* Open Graph data */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
@@ -31,21 +35,17 @@ export default function Home() {
           property="og:image"
           content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Flemmen%20Co/Flemmen_Co_hero_desktop_v1_cropped_i51zcb.webp"
         />
-        <meta property="og:url" content="https://flemmenco.no/" />
+        <meta property="og:url" content="https://malagaclasica.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
         {/* Add the StructuredData component within Head */}
         <StructuredData />
       </Head>
-      <Header />
+      {/* <Header /> */}
 
-      <main className="sm:p-12 sm:pt-20 md:px-20 md:pb-20 lg:pt-0">
+      <main className="">
         <Hero />
 
-        <TextBox1 />
-        <MediaBlog />
-        <Kompetanser />
-        <Contact />
         <Footer />
       </main>
     </>

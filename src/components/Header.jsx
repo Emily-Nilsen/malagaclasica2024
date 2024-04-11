@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { Logo } from '@/components/Logo'
+import { MalagaclasicaLogo } from './Logos'
 import { NavLinks } from '@/components/NavLinks'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import useTranslation from 'next-translate/useTranslation'
@@ -71,11 +71,9 @@ export function Header(props) {
               href="/"
               aria-label="Home"
             >
-              <Logo className="h-4 w-36 fill-white sm:h-5 sm:w-72 sm:fill-gray-900" />
+              {/* <Logo className="h-4 w-36 fill-white sm:h-5 sm:w-72 sm:fill-gray-900" /> */}
             </Link>
-            <div className="hidden lg:flex lg:gap-10">
-              <NavLinks />
-            </div>
+            <div className="hidden lg:flex lg:gap-10">{/* <NavLinks /> */}</div>
           </div>
           <div className="flex items-center gap-6">
             <Popover className="lg:hidden">

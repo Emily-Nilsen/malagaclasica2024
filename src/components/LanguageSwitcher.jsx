@@ -36,9 +36,9 @@ export function LanguageSwitcher({ closeMobileMenu, isMobileMenuOpen }) {
         className="bg-t text-goldfocus:z-10 text-gold hover:text-gold lg:text-wheat relative inline-flex items-center border-y-0 px-0 transition duration-300 ease-in-out focus:outline-none focus:ring-0"
         onClick={handleLanguageClick} // Close menu when language is clicked
       >
-        <Link locale="no" passHref href={asPath}>
-          <p className="hidden font-normal uppercase sm:text-sm lg:block">no</p>
-          <p className="sm:text-sm lg:hidden">norsk</p>
+        <Link locale="es" passHref href={asPath}>
+          <p className="hidden font-normal uppercase sm:text-sm lg:block">es</p>
+          <p className="sm:text-sm lg:hidden">espanol</p>
         </Link>
       </button>
     </span>

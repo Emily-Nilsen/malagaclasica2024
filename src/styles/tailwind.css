@@ -9,3 +9,37 @@ body {
 #__next {
   min-height: 100%;
 }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: futura-pt, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* h1 {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+  font-family: 'Helvetica Neue', sans-serif;
+} */
+
+h3 {
+  font-family: futura-pt, sans-serif;
+}
+
+h4 {
+  font-family: 'lora', serif;
+}

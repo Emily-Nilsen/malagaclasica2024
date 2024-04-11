@@ -1,8 +1,8 @@
-# Flemmen & Co. Advokatfirma
+# Festival Málaga Clásica
 
-Flemmen & Co. Advokatfirma is a landing page for lawyer Christian Flemmen Johansen and is built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org). The bilingual site is available in English and Norwegian and includes examples of published articles and a contact information.
+Málaga Clásica is a landing page for the international Festival Málaga Clásica and is built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org). The bilingual site is available in English and Spanish.
 
-Here is a link to the [Flemmen & Co. Advokatfirma](https://www.flemmenco.no/) website.
+Here is a link to the [Málaga Clásica](https://www.malagaclasica.com/) website.
 
 ## Technologies Used
 
