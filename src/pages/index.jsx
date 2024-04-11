@@ -33,7 +33,7 @@ export default function Home() {
         <meta property="og:description" content={metaDescription} />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Flemmen%20Co/Flemmen_Co_hero_desktop_v1_cropped_i51zcb.webp"
+          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/OG_2024_hfuxay.webp"
         />
         <meta property="og:url" content="https://malagaclasica.com/" />
         <meta property="og:type" content="website" />

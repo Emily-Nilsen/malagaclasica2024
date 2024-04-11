@@ -11,11 +11,11 @@ export function Footer() {
     links: [
       {
         name: 'teatrocervantes.es',
-        href: 'https://teatrocervantes.com/es/genero/musica/xi-malaga-clasica-revoluciones/',
+        href: 'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/',
       },
       {
         name: 'teatroechegaray.es',
-        href: 'https://www.teatroechegaray.com/es/genero/musica/',
+        href: 'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/',
       },
     ],
     social: [
