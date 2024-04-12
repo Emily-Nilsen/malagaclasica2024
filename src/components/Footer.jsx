@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-// import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
 import useTranslation from 'next-translate/useTranslation'
 

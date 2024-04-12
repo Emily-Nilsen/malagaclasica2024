@@ -12,6 +12,7 @@ export default function Document() {
       </Head>
       <body className="flex h-full flex-col">
         <Main />
+
         <NextScript />
       </body>
     </Html>

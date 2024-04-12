@@ -4,11 +4,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 
 import { Hero } from '@/components/Hero'
-import { TextBox1 } from '@/components/TextBox1'
-import { MediaBlog } from '@/components/MediaBlog'
-import { Kompetanser } from '@/components/Kompetanser'
-
-import { Contact } from '@/components/Contact'
+import { Testimonials } from '@/components/Testimonials'
 import { StructuredData } from '@/components/StructuredData'
 
 import useTranslation from 'next-translate/useTranslation'
@@ -45,9 +41,10 @@ export default function Home() {
 
       <main className="">
         <Hero />
-
-        <Footer />
+        <Testimonials />
       </main>
+
+      <Footer />
     </>
   )
 }
