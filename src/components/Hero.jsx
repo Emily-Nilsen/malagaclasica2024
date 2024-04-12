@@ -42,36 +42,44 @@ const itemBottom = {
 
 const logos = [
   {
+    name: 'AyuntamientoLogo',
     logoMark: (
       <AyuntamientoLogo className="h-auto w-24 fill-gray-600 sm:w-32" />
     ),
   },
   {
+    name: 'MalagaProculturaLogo',
     logoMark: (
       <MalagaProculturaLogo className="h-3 w-auto fill-gray-600 sm:h-4" />
     ),
   },
   {
+    name: 'TeatroCervantesLogo',
     logoMark: (
       <TeatroCervantesLogo className="h-7 w-auto fill-gray-600 stroke-gray-600 sm:h-9" />
     ),
   },
   {
+    name: 'TeatroEchegarayLogo',
     logoMark: (
       <TeatroEchegarayLogo className="h-6 w-auto fill-gray-600 sm:h-8" />
     ),
   },
   {
+    name: 'GalamianLogo',
     logoMark: <MalagaIcon className="h-8 w-auto fill-gray-600 sm:h-10" />,
   },
 
   {
+    name: 'ReinaNilsenLogo',
     logoMark: <ReinaNilsenLogo className="h-9 w-auto fill-gray-600 sm:h-12" />,
   },
   {
+    name: 'LaCaixaLogo',
     logoMark: <LaCaixaLogo className="h-12 w-auto fill-gray-600 sm:h-16" />,
   },
   {
+    name: 'HoteldelPintorLogo',
     logoMark: (
       <HoteldelPintorLogo className="h-12 w-auto fill-gray-600 sm:h-16" />
     ),
