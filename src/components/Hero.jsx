@@ -264,7 +264,7 @@ export function Hero() {
                     {title}
                   </p>
                 </div>
-                <h3 className="mx-auto mt-5 max-w-xl text-xl font-bold uppercase tracking-wide text-gray-900 sm:text-2xl lg:text-3xl">
+                <h3 className="mx-auto mt-5 max-w-xl text-xl font-bold uppercase tracking-wide text-blueGreyDark2024 sm:text-2xl lg:text-3xl">
                   {subtitle}
                 </h3>
               </div>
@@ -297,7 +297,7 @@ export function Hero() {
                             variants={container}
                             initial="hidden"
                             animate="show"
-                            className="block pt-40 text-center text-5xl font-bold italic text-gray-900 sm:pt-20 sm:text-6xl lg:text-7xl"
+                            className="block pt-40 text-center text-5xl font-bold italic text-blueGreyDark2024 sm:pt-20 sm:text-6xl lg:text-7xl"
                           >
                             {locale === 'en'
                               ? stayTuned.map((letter, i) => (
@@ -319,7 +319,9 @@ export function Hero() {
                             className="mx-auto mt-3 max-w-lg text-center text-xl font-normal text-gray-600 sm:max-w-3xl sm:text-3xl lg:text-4xl"
                           >
                             27/05__01/06{' '}
-                            <span className="text-gray-900">&nbsp;2024</span>
+                            <span className="font-medium text-blueGreyDark2024">
+                              &nbsp;2024
+                            </span>
                           </motion.h3>
                         </div>
                       </div>
