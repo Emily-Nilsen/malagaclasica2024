@@ -5,7 +5,7 @@ import { Header } from '@/components/Header'
 
 import { Hero } from '@/components/Hero'
 import { Testimonials } from '@/components/Testimonials'
-import { StructuredData } from '@/components/StructuredData'
+// import { StructuredData } from '@/components/StructuredData'
 
 import useTranslation from 'next-translate/useTranslation'
 
@@ -35,7 +35,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
         {/* Add the StructuredData component within Head */}
-        <StructuredData />
+        {/* <StructuredData /> */}
       </Head>
       {/* <Header /> */}
 
