@@ -3,10 +3,10 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import useTranslation from 'next-translate/useTranslation'
 
-import { QuotesIcon } from './logos'
-import { AforoLibreLogo } from './logos'
-import { LaOpinionLogo } from './logos'
-import { EuropressLogo } from './logos'
+import { QuotesIcon } from './Logos'
+import { AforoLibreLogo } from './Logos'
+import { LaOpinionLogo } from './Logos'
+import { EuropressLogo } from './Logos'
 
 export function Testimonials() {
   const { t, lang } = useTranslation('home')
