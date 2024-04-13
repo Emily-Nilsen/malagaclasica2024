@@ -78,7 +78,9 @@ const events = [
     // ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686310/M%C3%A1laga%20Cl%C3%A1sica/day-1_cdxl2h.webp',
-    image_position: `top center`,
+    image_position: `object-top`,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
   },
 
   // Concert 28 May
@@ -122,7 +124,9 @@ const events = [
     ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686310/M%C3%A1laga%20Cl%C3%A1sica/day-2_jlqsfq.webp',
-    image_position: `top center`,
+    image_position: `object-top`,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/debe-ser-1607',
   },
 
   // Concert 29 May
@@ -163,7 +167,9 @@ const events = [
     ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-3_ot1nh3.webp',
-    image_position: `top right`,
+    image_position: `object-top`,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/travesia-espiritual-1608',
   },
 
   // Concert 30 May
@@ -199,7 +205,9 @@ const events = [
     ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-4_uqgq9g.webp',
-    image_position: `top right`,
+    image_position: `object-top`,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/conversacion-con-el-cielo-1609',
   },
 
   // Concert 31 May
@@ -251,7 +259,9 @@ const events = [
     ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-5_uqvxm1.webp',
-    image_position: `center`,
+    image_position: ``,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/danse-macabre-1610',
   },
   // 1 June
   {
@@ -310,7 +320,9 @@ const events = [
     ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Foto_02_revoluciones_b8del4.webp',
-    image_position: `center`,
+    image_position: ``,
+    ticket_url:
+      'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
   },
 
   // Concierto 27 de Mayo
@@ -392,7 +404,9 @@ const events = [
     // ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686310/M%C3%A1laga%20Cl%C3%A1sica/day-1_cdxl2h.webp',
-    image_position: `top center`,
+    image_position: `object-top`,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
   },
 
   // Concierto 28 de mayo
@@ -436,7 +450,9 @@ const events = [
     ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686310/M%C3%A1laga%20Cl%C3%A1sica/day-2_jlqsfq.webp',
-    image_position: `top center`,
+    image_position: `object-top`,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/debe-ser-1607',
   },
 
   // Concierto 29 de mayo
@@ -477,7 +493,9 @@ const events = [
     ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-3_ot1nh3.webp',
-    image_position: `top right`,
+    image_position: `object-top`,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/travesia-espiritual-1608',
   },
 
   // Concierto 30 de mayo
@@ -513,7 +531,9 @@ const events = [
     ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-4_uqgq9g.webp',
-    image_position: `top right`,
+    image_position: `object-top`,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/conversacion-con-el-cielo-1609',
   },
 
   // Conciert0 31 de mayo
@@ -565,7 +585,9 @@ const events = [
     ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-5_uqvxm1.webp',
-    image_position: `center`,
+    image_position: ``,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/danse-macabre-1610',
   },
   // 1 de junio
   {
@@ -624,8 +646,10 @@ const events = [
     ],
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Foto_02_revoluciones_b8del4.webp',
-    image_position: `center`,
+    image_position: ``,
+    ticket_url:
+      'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
   },
-];
+]
 
-export default events;
+export default events

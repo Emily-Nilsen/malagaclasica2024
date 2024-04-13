@@ -137,10 +137,10 @@ export default function About() {
                 <Image
                   src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                   alt="Málaga Clásica"
-                  unoptimized
-                  className="h-full w-full object-cover object-center"
-                  width={500}
-                  height={750}
+                  unoptimized={true}
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center"
                 />
               </div>
             </motion.div>
@@ -212,8 +212,11 @@ export default function About() {
                           alt="Málaga Clásica"
                           width={2228}
                           height={1300}
-                          className="h-full w-full bg-blue2024 object-cover object-center"
-                          unoptimized
+                          layout="responsive"
+                          objectFit="cover"
+                          objectPosition="center"
+                          unoptimized={true}
+                          className="bg-beigeRevolution"
                         />
                       </motion.div>
                     </div>
