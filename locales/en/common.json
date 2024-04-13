@@ -46,5 +46,11 @@
   "talentos_description": "Read about the talent concerts and masterclasses offered through the Málaga Clásica International Chamber Music Festival.",
   "talentos_keywords": "Galamian International Academy, Unicaja María Cristina Concert Hall, free entry",
   "download_pdf": "Download PDF",
-  "copyright": "Málaga Clásica Festival. All rights reserved."
+  "copyright": "Málaga Clásica Festival. All rights reserved.",
+  "link_home": "Home",
+  "link_info": "About",
+  "link_programa": "Program",
+  "link_artistas": "Artists",
+  "link_talentos": "Talents",
+  "link_contactar": "Contact"
 }
