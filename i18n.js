@@ -7,5 +7,7 @@ module.exports = {
     '/about': ['about'],
     '/artists': ['artists'],
     '/program': ['program'],
+    '/contact': ['contact'],
+    '/talents': ['talents'],
   },
 }
