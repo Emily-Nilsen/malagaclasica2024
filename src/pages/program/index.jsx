@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import Layout from '../../components/layout'
+import Layout from '@/components/Layout'
 import events from '../../../assets/events'
 import slugify from 'slugify'
 import { useRouter } from 'next/router'
