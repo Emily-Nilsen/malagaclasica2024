@@ -4,6 +4,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 
 import { Hero } from '@/components/Hero'
+import { Features } from '@/components/Features'
 import { Testimonials } from '@/components/Testimonials'
 // import { StructuredData } from '@/components/StructuredData'
 
@@ -37,10 +38,11 @@ export default function Home() {
         {/* Add the StructuredData component within Head */}
         {/* <StructuredData /> */}
       </Head>
-      {/* <Header /> */}
+      <Header />
 
       <main className="">
         <Hero />
+        <Features />
         <Testimonials />
       </main>
 

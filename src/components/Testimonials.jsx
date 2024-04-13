@@ -47,11 +47,11 @@ export function Testimonials() {
           <p className="mt-4 pr-16 text-base leading-normal text-gray-600 md:w-2/3 lg:w-3/4 lg:pr-0">
             {testimonials_text}
           </p>
-          {/* <Link href="/info" passHref>
-            <button className="items-start justify-center hidden w-full px-8 py-4 mt-12 text-base font-medium leading-none text-center text-white transition duration-200 ease-in-out rounded bg-pink2024 hover:bg-pink2_2024 focus:outline-none focus:ring-2 focus:ring-pink2024 focus:ring-offset-2 sm:w-auto sm:justify-start md:flex">
+          <Link href="/info" passHref>
+            <button className="mt-12 hidden w-full items-start justify-center rounded bg-pink2024 px-8 py-4 text-center text-base font-medium leading-none text-white transition duration-200 ease-in-out hover:bg-pink2_2024 focus:outline-none focus:ring-2 focus:ring-pink2024 focus:ring-offset-2 sm:w-auto sm:justify-start md:flex">
               {read_about}
             </button>
-          </Link> */}
+          </Link>
         </div>
         <div
           role="list"
@@ -90,11 +90,11 @@ export function Testimonials() {
               </div>
             </motion.div>
           ))}
-          {/* <Link href="/info" passHref>
-            <button className="flex items-start justify-center w-full px-8 py-4 mt-4 text-base font-medium leading-none text-center text-white transition duration-200 ease-in-out rounded bg-pink2024 hover:bg-pink2_2024 focus:outline-none focus:ring-2 focus:ring-pink2024 focus:ring-offset-2 sm:w-auto sm:justify-start md:hidden">
+          <Link href="/info" passHref>
+            <button className="mt-4 flex w-full items-start justify-center rounded bg-pink2024 px-8 py-4 text-center text-base font-medium leading-none text-white transition duration-200 ease-in-out hover:bg-pink2_2024 focus:outline-none focus:ring-2 focus:ring-pink2024 focus:ring-offset-2 sm:w-auto sm:justify-start md:hidden">
               {read_about}
             </button>
-          </Link> */}
+          </Link>
           {/* pdf */}
           <div className="mt-6">
             <a download href="/Resonancias_del_espiritu_2024.pdf">

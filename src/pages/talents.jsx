@@ -88,7 +88,7 @@ export default function Talents() {
         {/* Add the StructuredData component within Head */}
         {/* <StructuredData /> */}
       </Head>
-      {/* <Header /> */}
+      <Header />
 
       <main className="">
         <div className="overflow-y-hidden">

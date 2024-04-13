@@ -111,7 +111,7 @@ export default function Artists(props) {
         {/* Add the StructuredData component within Head */}
         {/* <StructuredData /> */}
       </Head>
-      {/* <Header /> */}
+      <Header />
 
       <main className="">
         <div className="relative overflow-hidden bg-blue2024 px-10 py-0 pb-0 sm:px-12 sm:py-0">

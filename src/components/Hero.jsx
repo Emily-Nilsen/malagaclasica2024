@@ -300,12 +300,12 @@ export function Hero() {
                             className="block pt-40 text-center text-5xl font-bold italic text-blueGreyDark2024 sm:pt-20 sm:text-6xl lg:text-7xl"
                           >
                             {locale === 'en'
-                              ? stayTuned.map((letter, i) => (
+                              ? spiritual.map((letter, i) => (
                                   <motion.span key={i} variants={item}>
                                     {letter}
                                   </motion.span>
                                 ))
-                              : estateAtento.map((letter, i) => (
+                              : resonancias.map((letter, i) => (
                                   <motion.span key={i} variants={item}>
                                     {letter}
                                   </motion.span>

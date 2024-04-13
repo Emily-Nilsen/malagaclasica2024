@@ -74,7 +74,7 @@ export default function Contact() {
         {/* Add the StructuredData component within Head */}
         {/* <StructuredData /> */}
       </Head>
-      {/* <Header /> */}
+      <Header />
 
       <main className="">
         <div className="relative bg-blue2024/10">

@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Footer } from '@/components/Footer'
+import { Header } from '@/components/Header'
 import Layout from '@/components/Layout'
 import events from '../../../assets/events'
 import slugify from 'slugify'
@@ -114,6 +116,7 @@ export default function Program(props) {
         {/* Add the StructuredData component within Head */}
         {/* <StructuredData /> */}
       </Head>
+      <Header />
       <main>
         <div className="relative overflow-hidden bg-blue2024 px-10 py-0 pb-0 sm:px-12 sm:py-0">
           <div className="absolute inset-0 overflow-hidden">
@@ -218,6 +221,7 @@ export default function Program(props) {
 
         <Theatres />
       </main>
+      <Footer />
     </>
   )
 }

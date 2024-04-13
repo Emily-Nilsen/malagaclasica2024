@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { Popover } from '@headlessui/react'
 import { AnimatePresence, motion } from 'framer-motion'
 
@@ -54,7 +55,19 @@ function classNames(...classes) {
 
 export function Header(props) {
   const { t, lang } = useTranslation('common')
-  const kontakt = t('kontakt')
+  const router = useRouter()
+  const currentPath = router.pathname
+
+  // Define patterns that match dynamic slug pages
+  const isDynamicPage =
+    /\/artists\/[^\/]+$/.test(currentPath) ||
+    /\/program\/[^\/]+$/.test(currentPath)
+  const link_home = t('link_home')
+  const link_info = t('link_info')
+  const link_programa = t('link_programa')
+  const link_artistas = t('link_artistas')
+  const link_talentos = t('link_talentos')
+  const link_contactar = t('link_contactar')
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false) // State for mobile menu
 
   const closeMobileMenu = () => {
@@ -62,7 +75,7 @@ export function Header(props) {
   }
 
   return (
-    <header className="absolute w-full lg:relative lg:px-20">
+    <header className="relative -mb-3 w-full bg-pink3_2024 lg:relative lg:px-20">
       <nav>
         <div className="relative z-50 mx-auto flex max-w-7xl justify-between px-6 py-8 lg:px-0">
           <div className="relative z-10 flex items-center gap-16">
@@ -71,16 +84,18 @@ export function Header(props) {
               href="/"
               aria-label="Home"
             >
-              {/* <Logo className="h-4 w-36 fill-white sm:h-5 sm:w-72 sm:fill-gray-900" /> */}
+              <MalagaclasicaLogo className="h-6 w-auto fill-pinkText2024 transition-all sm:h-6 sm:w-auto sm:fill-gray-900 sm:hover:fill-blueGreyDark2024" />
             </Link>
-            <div className="hidden lg:flex lg:gap-10">{/* <NavLinks /> */}</div>
+            <div className="hidden lg:flex lg:gap-10">
+              <NavLinks />
+            </div>
           </div>
           <div className="flex items-center gap-6">
             <Popover className="lg:hidden">
               {({ open }) => (
                 <>
                   <Popover.Button
-                    className="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-gray-400 p-2 hover:bg-gray-200/50 hover:stroke-gray-600 active:stroke-gray-900 [&:not(:focus-visible)]:focus:outline-none"
+                    className="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-blueGrey2024 p-2 hover:bg-blueText2024 hover:stroke-white/80 active:stroke-gray-900 [&:not(:focus-visible)]:focus:outline-none"
                     aria-label="Toggle site navigation"
                   >
                     {({ open }) =>
@@ -112,18 +127,48 @@ export function Header(props) {
                             y: -32,
                             transition: { duration: 0.2 },
                           }}
-                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
+                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-pink3_2024 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="#media">Media</MobileNavLink>
-                            <MobileNavLink href="#kontakt">
-                              {kontakt}
+                            <MobileNavLink href="/">
+                              <h4 className="text-lg font-bold capitalize italic">
+                                {link_home}
+                              </h4>
                             </MobileNavLink>
-                            {/* Pass the closeMobileMenu function as a prop */}
-                            <LanguageSwitcher
-                              closeMobileMenu={closeMobileMenu}
-                              isMobileMenuOpen={isMobileMenuOpen}
-                            />
+                            <MobileNavLink href="/about">
+                              <h4 className="text-lg font-bold capitalize italic">
+                                {link_info}
+                              </h4>
+                            </MobileNavLink>
+                            <MobileNavLink href="/program">
+                              <h4 className="text-lg font-bold capitalize italic">
+                                {link_programa}
+                              </h4>
+                            </MobileNavLink>
+                            <MobileNavLink href="/artists">
+                              <h4 className="text-lg font-bold capitalize italic">
+                                {link_artistas}
+                              </h4>
+                            </MobileNavLink>
+                            <MobileNavLink href="/talents">
+                              <h4 className="text-lg font-bold capitalize italic">
+                                {link_talentos}
+                              </h4>
+                            </MobileNavLink>
+                            <MobileNavLink href="/contact">
+                              <h4 className="text-lg font-bold capitalize italic">
+                                {link_contactar}
+                              </h4>
+                            </MobileNavLink>
+                            {/* Conditionally render LanguageSwitcher in mobile menu */}
+                            {!isDynamicPage && (
+                              <div className="pt-6">
+                                <LanguageSwitcher
+                                  closeMobileMenu={closeMobileMenu}
+                                  isMobileMenuOpen={isMobileMenuOpen}
+                                />
+                              </div>
+                            )}
                           </div>
                         </Popover.Panel>
                       </>
@@ -134,7 +179,11 @@ export function Header(props) {
             </Popover>
             <div className="hidden lg:block">
               {/* Pass the closeMobileMenu function as a prop */}
-              <LanguageSwitcher closeMobileMenu={closeMobileMenu} />
+              {!isDynamicPage && (
+                <div className="hidden lg:block">
+                  <LanguageSwitcher closeMobileMenu={closeMobileMenu} />
+                </div>
+              )}
             </div>
           </div>
         </div>
