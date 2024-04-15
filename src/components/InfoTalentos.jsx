@@ -72,10 +72,10 @@ export function InfoTalentos() {
                 <Image
                   src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/echegaray_fcc1ko.jpg"
                   alt="Teatro Echegaray"
-                  layout="fill"
-                  objectFit="cover"
-                  objectPosition="center"
-                  unoptimized={true}
+                  width={2000}
+                  height={2000}
+                  className="h-full w-full object-cover object-center"
+                  unoptimized
                 />
               </motion.div>
               {/* <div className="absolute inset-0 bg-blueCrescendo mix-blend-multiply" /> */}

@@ -93,10 +93,10 @@ export default function Contact() {
                 <Image
                   src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                   alt="Resonancias del espíritu 2024"
-                  unoptimized={true}
-                  layout="fill"
-                  objectFit="cover"
-                  objectPosition="center"
+                  width={2000}
+                  height={2000}
+                  className="h-full w-full object-cover object-center"
+                  unoptimized
                 />
               </div>
             </div>

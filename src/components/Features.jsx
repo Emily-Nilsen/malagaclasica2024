@@ -93,10 +93,10 @@ export function Features() {
                         <Image
                           src={feature.imageSrc}
                           alt={feature.imageAlt}
-                          unoptimized={true}
-                          layout="fill"
-                          objectFit="cover"
-                          objectPosition="center"
+                          width={2000}
+                          height={2000}
+                          className="h-full w-full object-cover object-center"
+                          unoptimized
                         />
                       </div>
                     </div>

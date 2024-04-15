@@ -107,27 +107,29 @@ export default function Talents() {
                 height={1564}
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/talentos_nhflyf.webp"
                 alt="Talentos"
-                layout="responsive"
-                objectFit="cover"
-                objectPosition="center"
+                className="h-full w-full object-cover object-center"
+                unoptimized
                 priority
-                unoptimized={true}
               />
               <div className="absolute inset-0 bg-blue2024 mix-blend-overlay" />
               <div className="absolute inset-0 bg-blue2024/70" />
               <div className="absolute inset-0 opacity-50 sm:hidden">
                 <Image
                   alt="Málaga Clásica - Resonancias Del Espíritu 2024"
-                  objectFit="cover"
-                  layout="fill"
+                  width={2000}
+                  height={2000}
+                  className="h-full w-full object-cover object-center"
+                  unoptimized
                   src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                 />
               </div>
               <div className="absolute inset-0 hidden opacity-50 sm:block">
                 <Image
                   alt="Málaga Clásica - Resonancias Del Espíritu 2024"
-                  objectFit="cover"
-                  layout="fill"
+                  width={2000}
+                  height={2000}
+                  className="h-full w-full object-cover object-center"
+                  unoptimized
                   src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                 />
               </div>

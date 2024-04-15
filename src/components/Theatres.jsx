@@ -76,10 +76,10 @@ export function Theatres() {
                   <Image
                     src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Foto_04_revoluciones_jvrwqs.webp"
                     alt="Teatro Echegaray"
-                    unoptimized={true}
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
+                    width={2000}
+                    height={2000}
+                    className="h-full w-full object-cover object-center"
+                    unoptimized
                   />
                 </div>
               </motion.div>
@@ -113,10 +113,10 @@ export function Theatres() {
                     <Image
                       src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686229/M%C3%A1laga%20Cl%C3%A1sica/echegaray_fcc1ko.jpg"
                       alt="Teatro Echegaray"
-                      unoptimized={true}
-                      layout="fill"
-                      objectFit="cover"
-                      objectPosition="center"
+                      width={2000}
+                      height={2000}
+                      className="h-full w-full object-cover object-center"
+                      unoptimized
                     />
                   </div>
                 </motion.div>
@@ -229,10 +229,10 @@ export function Theatres() {
                   <Image
                     src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/NG-revoluciones_ecfcmj.webp"
                     alt="Teatro Cervantes"
-                    unoptimized={true}
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
+                    width={2000}
+                    height={2000}
+                    className="h-full w-full object-cover object-center"
+                    unoptimized
                   />
                 </div>
               </motion.div>
@@ -252,10 +252,10 @@ export function Theatres() {
                     <Image
                       src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686228/M%C3%A1laga%20Cl%C3%A1sica/cervantes_ikqf3i.webp"
                       alt="Teatro Cervantes"
-                      unoptimized={true}
-                      layout="fill"
-                      objectFit="cover"
-                      objectPosition="center"
+                      width={2000}
+                      height={2000}
+                      className="h-full w-full object-cover object-center"
+                      unoptimized
                     />
                   </div>
                 </motion.div>
