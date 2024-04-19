@@ -171,7 +171,7 @@ const Concert = ({ event }) => {
                   <PricingRegular />
                 )}
 
-                <Discount />
+                {/* <Discount /> */}
                 <div className="mt-10 flex">
                   <a href={event.ticket_url} target="_blank" rel="noreferrer">
                     <button
