@@ -34,7 +34,7 @@ export function Footer() {
 
       {
         name: 'Instagram',
-        href: 'https://www.instagram.com/festivalmalagaclasica/',
+        href: 'https://www.instagram.com/malaga.clasica.festival/?igsh=MXdsZnNvbzVvcno1aA%3D%3D&utm_source=qr',
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
