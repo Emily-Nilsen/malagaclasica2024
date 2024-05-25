@@ -105,14 +105,14 @@ export default function Talents() {
               <Image
                 width={2356}
                 height={1564}
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/talentos_nhflyf.webp"
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/talentos_v2_owxzye.webp"
                 alt="Talentos"
                 className="h-full w-full object-cover object-center"
                 unoptimized
                 priority
               />
               <div className="absolute inset-0 bg-blue2024 mix-blend-overlay" />
-              <div className="absolute inset-0 bg-blue2024/70" />
+              <div className="absolute inset-0 bg-blue2024/80" />
               <div className="absolute inset-0 opacity-50 sm:hidden">
                 <Image
                   alt="Málaga Clásica - Resonancias Del Espíritu 2024"
