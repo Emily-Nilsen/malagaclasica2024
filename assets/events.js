@@ -30,8 +30,8 @@ const events = [
         artists: [
           `Jesús Reina violin`,
           `Nicolas Dautricourt violin`,
-          `Razvan Popovici viola`,
-          `Per Nyström cello`,
+          `Laura Romero Alba viola`,
+          `Øyvind Gimse cello`,
         ],
       },
       {
@@ -45,7 +45,7 @@ const events = [
         artists: [
           `Clemence de Forceville violin`,
           `Anna Margrethe Nilsen violin`,
-          `Razvan Popovici viola`,
+          `Laura Romero Alba viola`,
           `Øyvind Gimse cello`,
         ],
       },
@@ -104,7 +104,7 @@ const events = [
         artists: [
           `Jesús Reina violin`,
           `Anna Margrethe Nilsen violin`,
-          `Razvan Popovici viola`,
+          `Tomoko Akasaka viola`,
           `Gabriel Ureña cello`,
         ],
       },
@@ -159,7 +159,7 @@ const events = [
         artists: [
           `Nicolas Dautricourt violin`,
           `Clemence de Forceville violin`,
-          `Razvan Popovici viola`,
+          `Tomoko Akasaka viola`,
           `Per Nyström cello`,
           `Øyvind Gimse cello`,
         ],
@@ -245,14 +245,14 @@ const events = [
       {
         composer: [`Ernest Bloch (1880-1959)`],
         info: `‘Prayer’, No. 1 from From Jewish Life, B. 54, for cello and piano`,
-        artists: [`Per Nyström cello`, `Josu de Solaun piano`],
+        artists: [`Christophe Morin cello`, `Josu de Solaun piano`],
       },
       {
         composer: [`Dmitri Shostakóvich (1906-1975)`],
         info: `Piano trio no. 2 in E minor, Op. 67`,
         artists: [
           `Anna Margrethe Nilsen violin`,
-          `Per Nyström cello`,
+          `Christophe Morin cello`,
           `Natalia Kuchaeva piano`,
         ],
       },
@@ -297,7 +297,7 @@ const events = [
         artists: [
           `Nicolas Dautricourt violin`,
           `Tomoko Akasaka viola`,
-          `Per Nyström cello`,
+          `Christophe Morin cello`,
           `Natalia Kuchaeva piano`,
         ],
       },
@@ -313,8 +313,8 @@ const events = [
           `Laura Romero viola`,
           `Tomoko Akasaka viola`,
           `Nicolas Dautricourt violin`,
-          `Øyvind Gimse cello`,
           `Gabriel Ureña cello`,
+          `Øyvind Gimse cello`,
         ],
       },
     ],
@@ -356,8 +356,8 @@ const events = [
         artists: [
           `Jesús Reina violín`,
           `Nicolas Dautricourt violín`,
-          `Razvan Popovici viola`,
-          `Per Nyström violonchelo`,
+          `Laura Romero Alba viola`,
+          `Øyvind Gimse violonchelo`,
         ],
       },
       {
@@ -371,7 +371,7 @@ const events = [
         artists: [
           `Clemence de Forceville violín`,
           `Anna Margrethe Nilsen violín`,
-          `Razvan Popovici viola`,
+          `Laura Romero Alba viola`,
           `Øyvind Gimse violonchelo`,
         ],
       },
@@ -430,7 +430,7 @@ const events = [
         artists: [
           `Jesús Reina violín`,
           `Anna Margrethe Nilsen violín`,
-          `Razvan Popovici viola`,
+          `Tomoko Akasaka  viola`,
           `Gabriel Ureña violonchelo`,
         ],
       },
@@ -485,8 +485,8 @@ const events = [
         artists: [
           `Nicolas Dautricourt violín`,
           `Clemence de Forceville violín`,
-          `Razvan Popovici viola`,
-          `Per Nyström violonchelo`,
+          `Tomoko Akasaka viola`,
+          `Christophe Morin  violonchelo`,
           `Øyvind Gimse violonchelo`,
         ],
       },
@@ -571,14 +571,14 @@ const events = [
       {
         composer: [`Ernest Bloch (1880-1959)`],
         info: `‘Prayer’, No. 1 de From Jewish Life, B. 54, para violonchelo y piano`,
-        artists: [`Per Nyström violonchelo`, `Josu de Solaun piano`],
+        artists: [`Christophe Morin violonchelo`, `Josu de Solaun piano`],
       },
       {
         composer: [`Dmitri Shostakóvich (1906-1975)`],
         info: `Trío con piano no. 2 en Mi menor, Op. 67`,
         artists: [
           `Anna Margrethe Nilsen violín`,
-          `Per Nyström violonchelo`,
+          `Christophe Morin violonchelo`,
           `Natalia Kuchaeva piano`,
         ],
       },
@@ -623,7 +623,7 @@ const events = [
         artists: [
           `Nicolas Dautricourt violín`,
           `Tomoko Akasaka viola`,
-          `Per Nyström violonchelo`,
+          `Christophe Morin violonchelo`,
           `Natalia Kuchaeva piano`,
         ],
       },
@@ -639,8 +639,8 @@ const events = [
           `Laura Romero violín`,
           `Tomoko Akasaka viola`,
           `Nicolas Dautricourt violín`,
-          `Øyvind Gimse violonchelo`,
           `Gabriel Ureña violonchelo`,
+          `Øyvind Gimse violonchelo`,
         ],
       },
     ],
