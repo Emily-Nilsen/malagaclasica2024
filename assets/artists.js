@@ -278,6 +278,42 @@ const artists = [
     image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/tomoko_ndhzaw.webp`,
   },
 
+  //Christoophe Morin
+  {
+    locale: `es`,
+    name: `Christophe Morin`,
+    slug_name: `Christophe Morin ES`,
+    instrument: `violonchelo`,
+    para_1: `"Violonchelista poseedor de una técnica brillante y con un sonido destacable. Su expresión musical es intensa y su carácter rico, impetuoso y apasionado capta inmediatamente nuestra atención". Esta apreciación de un maestro como Roland Pidoux, define mejor el talento y el compromiso de Christophe Morin.`,
+    sentences: [
+      `Mientras comienza a tocar el violonchelo con su madre a la edad de 5 años, obtiene a los 17 años el 1er Premio de violonchelo por unanimidad en el CNSMD de París en la clase de Roland Pidoux, y su 1er Premio de música de cámara en la clase de Christian Ivaldi. Luego es admitido en clase de perfeccionamiento y, durante estos dos años, obtiene el premio de la Fundación Natexis y el de la Fundación Charles Oulmont, y, paralelamente, sigue las clases de maestría de Jànos Starker, Mstislav Rostropovitch y Yo Yo. Ma, quien le dio la oportunidad de seguir clases privadas con él.`,
+      `Hoy Christophe Morin actúa con solistas internacionales conocidos como Renaud Capuçon, Jérôme Ducros con quien grabó un disco en vivo del trío op. 100 de Schubert, pero también Nicholas Angelich, Augustin Dumay, Jean-Marc Luisada, David Grimal, el cuarteto Modigliani, y él, que ha librado una dura batalla de más de diez años, tras una operación que le obliga a jugar con un guante. por lo que intenta perfeccionarse de años en años al lado de investigadores, testigo de su pasión sin fronteras por la música y su instrumento!`,
+      `El trío que forma con la violinista Sarah Nemtanu y el pianista Jean-Frédéric Neuburger, "Compass Trio", se presenta en grandes salas francesas; su concierto en el Museo del Louvre, retransmitido en directo por Medici. TV, conoció en particular un éxito sorprendente.`,
+      `Es invitado de prestigiosos festivales donde compartió escenario con el pianista Éric Lesage, y los solistas de la Orquesta Filarmónica de Berlín (Guy Braunstein, Daishin Kashimoto, Amihai Grosz, Emmanuel Pahud, Paul Meyer); y es miembro de la Mahler Chamber Orchestra con la que viaja por el mundo supervisado por los grandes jefes (Claudio Abbado, Daniel Harding).`,
+      `Muy comprometido en el panorama de la música de cámara, Christophe Morin lidera también su carrera como solista. Es invitado como violonchelo solista de Camerata europea, orquesta de cuerdas constituida principalmente por los elementos más brillantes de la Orquesta Sinfónica de Londres y la Orquesta Nacional de Francia; pero también de todo David Grimal y de la Mahler Chamber Orchestra.`,
+      `La pasión de Christophe Morin por la música de cámara le llevó a crear en 2010 el festival "3 días de mayo" en la isla de Ré, que dirige desde 2012 con Sarah Nemtanu.`,
+    ],
+    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Christophe_Morin_v3_fuauuf.webp`,
+  },
+
+  // English - Christophe Morin
+  {
+    locale: `en`,
+    name: `Christophe Morin`,
+    slug_name: `Christophe Morin EN`,
+    instrument: `cello`,
+    para_1: `"Christophe Morin is a cellist with brilliant technique and an outstanding sound. His musical expression is intense, and his rich, impetuous, and passionate character immediately captures our attention." This assessment by a master like Roland Pidoux best defines the talent and dedication of Christophe Morin.`,
+    sentences: [
+      `Christophe Morin's musical journey is a testament to his exceptional talent and dedication. He embarked on his cello journey at the tender age of 5, guided by his mother. At 17, he achieved a remarkable feat, winning the First Prize in cello unanimously at the CNSMD in Paris under the tutelage of Roland Pidoux, and the First Prize in chamber music under Christian Ivaldi. His journey continued to flourish as he was admitted to the advanced class, winning awards from the Natexis Foundation and the Charles Oulmont Foundation. His thirst for knowledge led him to attend master classes with János Starker, Mstislav Rostropovich, and Yo-Yo Ma, who offered him the opportunity for private lessons.`,
+      `Today, Christophe Morin performs with internationally renowned soloists such as Renaud Capuçon and Jérôme Ducros, with whom he recorded a live album of Schubert's Trio Op. 100. He also collaborates with Nicholas Angelich, Augustin Dumay, Jean-Marc Luisada, David Grimal, and the Modigliani Quartet. After a challenging battle lasting over ten years following surgery that required him to play with a glove, he continues to perfect his art alongside researchers, demonstrating his boundless passion for music and his instrument.`,
+      `The trio he forms with violinist Sarah Nemtanu and pianist Jean-Frédéric Neuburger, "Compass Trio," performs in major French venues—their Louvre Museum concert broadcast live on Medici.TV was particularly well-received.`,
+      `He is a guest at prestigious festivals, sharing the stage with pianist Éric Lesage and soloists from the Berlin Philharmonic Orchestra (Guy Braunstein, Daishin Kashimoto, Amihai Grosz, Emmanuel Pahud, Paul Meyer). He is also a member of the Mahler Chamber Orchestra, with which he tours the world under the direction of great conductors like Claudio Abbado and Daniel Harding.`,
+      `Deeply committed to the chamber music scene, Christophe Morin also pursues a career as a soloist. He is invited as a solo cellist with the European Camerata, a string orchestra comprised mainly of the most brilliant members of the London Symphony Orchestra and the National Orchestra of France, as well as with David Grimal and the Mahler Chamber Orchestra.`,
+      `Christophe Morin's passion for chamber music extends beyond his performances. In 2010, he took a significant step in his career by creating the '3 Days in May' festival on Ré Island. This festival, which he has directed since 2012 with Sarah Nemtanu, has become a platform for showcasing the best of chamber music, leaving a lasting impact on the music scene.`,
+    ],
+    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Christophe_Morin_v3_fuauuf.webp`,
+  },
+
   // Rumen Cvetkov
   // {
   //   locale: `es`,
@@ -307,32 +343,32 @@ const artists = [
   // },
 
   // Razvan Popovici
-  {
-    locale: `es`,
-    name: `Razvan Popovici`,
-    slug_name: `Razvan Popovici ES`,
-    instrument: `viola`,
-    para_1: `El violista rumano Razvan Popovici ha actuado en escenarios prestigiosos, como Théatre-dés-Champs-Elysées (París), Filarmónica de Colonia, Carnegie Hall (Nueva York), Concertgebouw (Ámsterdam), Wigmore Hall (Londres), Suntory Hall (Tokio), Gasteig (Munich), Kennedy Center (Washington) y el Vienna Konzerthaus y Musikverein, Atheneum (Bucarest), Prinzregententheater (Munich), De Singel (Antwerpen), BOZAR (Bruselas), y con orquestas como la Orquesta de Cámara de Colonia, Kamerata Kronstadt, Kobe Chamber Orchestra, Lohja City Orchestra, Transylvania Symphony Orchestra Cluj, Sibiu State Philharmonic, Romanian National Radio Orchestra y George Enescu Philharmonic Bucharest. `,
-    sentences: [
-      `Como músico de cámara ha colaborado con Natalia Gutman, Shlomo Mintz, Enrico Pace, Giovanni Sollima, Konstantin Lifschitz, Lawrence Power, así como con los cuartetos Szymanowski, Vertavo, Casal, Danel, Kelémen, Glinka o Schumann, miembros del quarteto Amadeus y Ensemble Wien-Berlin, y ha lanzado ocho CDs con el Ensemble Raro, que realiza giras frecuentes por Europa, Japón y América del Norte.`,
-      `Es el Fundador y Director Ejecutivo del Festival Chiemgauer Musikfrühling en Alemania, del Festival SoNoRo en Bucarest y del Festival SoNoRo Arezzo en Toscana, así como Director Artístico de la Serie de Música de Cámara DA CAPO en Bucarest. Enseña regularmente en Villa Musica, y ha sido nombrado profesor en el Real Conservatorio de Amberes.`,
-    ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/razvan-popovici_xq4gj1.webp`,
-  },
+  // {
+  //   locale: `es`,
+  //   name: `Razvan Popovici`,
+  //   slug_name: `Razvan Popovici ES`,
+  //   instrument: `viola`,
+  //   para_1: `El violista rumano Razvan Popovici ha actuado en escenarios prestigiosos, como Théatre-dés-Champs-Elysées (París), Filarmónica de Colonia, Carnegie Hall (Nueva York), Concertgebouw (Ámsterdam), Wigmore Hall (Londres), Suntory Hall (Tokio), Gasteig (Munich), Kennedy Center (Washington) y el Vienna Konzerthaus y Musikverein, Atheneum (Bucarest), Prinzregententheater (Munich), De Singel (Antwerpen), BOZAR (Bruselas), y con orquestas como la Orquesta de Cámara de Colonia, Kamerata Kronstadt, Kobe Chamber Orchestra, Lohja City Orchestra, Transylvania Symphony Orchestra Cluj, Sibiu State Philharmonic, Romanian National Radio Orchestra y George Enescu Philharmonic Bucharest. `,
+  //   sentences: [
+  //     `Como músico de cámara ha colaborado con Natalia Gutman, Shlomo Mintz, Enrico Pace, Giovanni Sollima, Konstantin Lifschitz, Lawrence Power, así como con los cuartetos Szymanowski, Vertavo, Casal, Danel, Kelémen, Glinka o Schumann, miembros del quarteto Amadeus y Ensemble Wien-Berlin, y ha lanzado ocho CDs con el Ensemble Raro, que realiza giras frecuentes por Europa, Japón y América del Norte.`,
+  //     `Es el Fundador y Director Ejecutivo del Festival Chiemgauer Musikfrühling en Alemania, del Festival SoNoRo en Bucarest y del Festival SoNoRo Arezzo en Toscana, así como Director Artístico de la Serie de Música de Cámara DA CAPO en Bucarest. Enseña regularmente en Villa Musica, y ha sido nombrado profesor en el Real Conservatorio de Amberes.`,
+  //   ],
+  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/razvan-popovici_xq4gj1.webp`,
+  // },
 
   // English - Razvan Popovici
-  {
-    locale: `en`,
-    name: `Razvan Popovici`,
-    slug_name: `Razvan Popovici EN`,
-    instrument: `viola`,
-    para_1: `The Romanian violist Razvan Popovici has performed in prestigious venues, including Théatre-dés-Champs-Elysées (Paris), Cologne Philharmony, Carnegie Hall (New York), Concertgebouw (Amsterdam), Wigmore Hall (London), Suntory Hall (Tokyo), Gasteig (Munich), Kennedy Center (Washington) and the Vienna Konzerthaus and Musikverein, Atheneum (Bucharest), Prinzregententheater (Munich), De Singel (Antwerpen), BOZAR (Brussels), and with orchestras such as the Cologne Chamber Orchestra, Camerata Kronstadt, Kobe Chamber Orchestra, Lohja City Orchestra, Transylvania Symphony Orchestra Cluj, Sibiu State Philharmonic, Romanian National Radio Orchestra and George Enescu Philharmonic Bucharest.`,
-    sentences: [
-      `As a chamber musician, he has collaborated with Natalia Gutman, Shlomo Mintz, Enrico Pace, Giovanni Sollima, Konstantin Lifschitz, Lawrence Power, as well as alongside the Szymanowski, Vertavo, Casal, Danel, Kelémen, Glinka or Schumann Quartets, members of the Amadeus Quartet and Ensemble Wien-Berlin, and has released eight CDs with the Ensemble Raro, which frequently tours Europe, Japan and North America.`,
-      `Popovici is the Founder and Executive Director of the Chiemgauer Musikfrühling Festival in Germany, the SoNoRo Festival in Bucharest and the SoNoRo Arezzo Festival in Tuscany, as well as the Artistic Director of the DA CAPO Chamber Music Series in Bucharest. He teaches regularly at the Villa Musica and has been appointed professor at the Royal Conservatory in Antwerp.`,
-    ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/razvan-popovici_xq4gj1.webp`,
-  },
+  // {
+  //   locale: `en`,
+  //   name: `Razvan Popovici`,
+  //   slug_name: `Razvan Popovici EN`,
+  //   instrument: `viola`,
+  //   para_1: `The Romanian violist Razvan Popovici has performed in prestigious venues, including Théatre-dés-Champs-Elysées (Paris), Cologne Philharmony, Carnegie Hall (New York), Concertgebouw (Amsterdam), Wigmore Hall (London), Suntory Hall (Tokyo), Gasteig (Munich), Kennedy Center (Washington) and the Vienna Konzerthaus and Musikverein, Atheneum (Bucharest), Prinzregententheater (Munich), De Singel (Antwerpen), BOZAR (Brussels), and with orchestras such as the Cologne Chamber Orchestra, Camerata Kronstadt, Kobe Chamber Orchestra, Lohja City Orchestra, Transylvania Symphony Orchestra Cluj, Sibiu State Philharmonic, Romanian National Radio Orchestra and George Enescu Philharmonic Bucharest.`,
+  //   sentences: [
+  //     `As a chamber musician, he has collaborated with Natalia Gutman, Shlomo Mintz, Enrico Pace, Giovanni Sollima, Konstantin Lifschitz, Lawrence Power, as well as alongside the Szymanowski, Vertavo, Casal, Danel, Kelémen, Glinka or Schumann Quartets, members of the Amadeus Quartet and Ensemble Wien-Berlin, and has released eight CDs with the Ensemble Raro, which frequently tours Europe, Japan and North America.`,
+  //     `Popovici is the Founder and Executive Director of the Chiemgauer Musikfrühling Festival in Germany, the SoNoRo Festival in Bucharest and the SoNoRo Arezzo Festival in Tuscany, as well as the Artistic Director of the DA CAPO Chamber Music Series in Bucharest. He teaches regularly at the Villa Musica and has been appointed professor at the Royal Conservatory in Antwerp.`,
+  //   ],
+  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/razvan-popovici_xq4gj1.webp`,
+  // },
 
   // Øyvind Gimse
   {
@@ -365,32 +401,32 @@ const artists = [
   },
 
   // Per Nyström
-  {
-    locale: `es`,
-    name: `Per Nyström`,
-    slug_name: `Per Nyström ES`,
-    instrument: `violonchelo`,
-    para_1: `Per, actualmente el violonchelista principal de Uppsala Chamber Soloists & Orchestra, cofundó y tocó con el galardonado Cuarteto Yggdrasil de 1990 a 2011, disfrutando de una residencia en la Universidad de Aberdeen.`,
-    sentences: [
-      `Posteriormente, fue violonchelista solista en Camerata Nordica de 2001 a 2016, combinando responsabilidades artísticas y de formación. Desde 2005, ocupa el cargo de director artístico de los festivales Kammarmusikens vänner, organizando cerca de 70 festivales internacionales y clases magistrales que atraen a participantes de todo el mundo. Además de sus compromisos orquestales, Per contribuye a conjuntos como el Trio Elégiaque y el Swedish Piano Trio, actuando como invitado en festivales globales.`,
-      `Reconocido por sus contribuciones, es miembro honorario de por vida de la Universidad de Aberdeen y ha recibido la Medalla Real "Literis et artibus". Per toca un violonchelo Antonio & Giuseppe Gagliano de 1796 proveniente de Nápoles y es conocido por su fuerza, levantando 200 kg en un levantamiento de pesas.`,
-    ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Per_Nystro%CC%88m_wplq3e.webp`,
-  },
+  // {
+  //   locale: `es`,
+  //   name: `Per Nyström`,
+  //   slug_name: `Per Nyström ES`,
+  //   instrument: `violonchelo`,
+  //   para_1: `Per, actualmente el violonchelista principal de Uppsala Chamber Soloists & Orchestra, cofundó y tocó con el galardonado Cuarteto Yggdrasil de 1990 a 2011, disfrutando de una residencia en la Universidad de Aberdeen.`,
+  //   sentences: [
+  //     `Posteriormente, fue violonchelista solista en Camerata Nordica de 2001 a 2016, combinando responsabilidades artísticas y de formación. Desde 2005, ocupa el cargo de director artístico de los festivales Kammarmusikens vänner, organizando cerca de 70 festivales internacionales y clases magistrales que atraen a participantes de todo el mundo. Además de sus compromisos orquestales, Per contribuye a conjuntos como el Trio Elégiaque y el Swedish Piano Trio, actuando como invitado en festivales globales.`,
+  //     `Reconocido por sus contribuciones, es miembro honorario de por vida de la Universidad de Aberdeen y ha recibido la Medalla Real "Literis et artibus". Per toca un violonchelo Antonio & Giuseppe Gagliano de 1796 proveniente de Nápoles y es conocido por su fuerza, levantando 200 kg en un levantamiento de pesas.`,
+  //   ],
+  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Per_Nystro%CC%88m_wplq3e.webp`,
+  // },
 
   // English - Per Nyström
-  {
-    locale: `en`,
-    name: `Per Nyström`,
-    slug_name: `Per Nyström EN`,
-    instrument: `cello`,
-    para_1: `Per, currently the principal cellist with Uppsala Chamber Soloists & Orchestra, co-founded and played with the prize-winning Yggdrasil Quartet from 1990 to 2011, enjoying a residency at the University of Aberdeen.`,
-    sentences: [
-      `Following this, he served as the solo cellist in Camerata Nordica from 2001 to 2016, combining artistic and lineup responsibilities. Since 2005, he has held the position of artistic director for Kammarmusikens vänner festivals, organizing nearly 70 international festivals and masterclasses that attract participants worldwide. In addition to his orchestral commitments, Per contributes to ensembles like Trio Elégiaque and the Swedish Piano Trio, performing as a guest at global festivals.`,
-      `Recognized for his contributions, he holds an honorary lifetime membership at the University of Aberdeen and has been awarded the Royal Medal "Literis et artibus." Per plays a 1796 Antonio & Giuseppe Gagliano cello from Naples and is known for his strength, lifting 200 kg in a deadlift.`,
-    ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Per_Nystro%CC%88m_wplq3e.webp`,
-  },
+  // {
+  //   locale: `en`,
+  //   name: `Per Nyström`,
+  //   slug_name: `Per Nyström EN`,
+  //   instrument: `cello`,
+  //   para_1: `Per, currently the principal cellist with Uppsala Chamber Soloists & Orchestra, co-founded and played with the prize-winning Yggdrasil Quartet from 1990 to 2011, enjoying a residency at the University of Aberdeen.`,
+  //   sentences: [
+  //     `Following this, he served as the solo cellist in Camerata Nordica from 2001 to 2016, combining artistic and lineup responsibilities. Since 2005, he has held the position of artistic director for Kammarmusikens vänner festivals, organizing nearly 70 international festivals and masterclasses that attract participants worldwide. In addition to his orchestral commitments, Per contributes to ensembles like Trio Elégiaque and the Swedish Piano Trio, performing as a guest at global festivals.`,
+  //     `Recognized for his contributions, he holds an honorary lifetime membership at the University of Aberdeen and has been awarded the Royal Medal "Literis et artibus." Per plays a 1796 Antonio & Giuseppe Gagliano cello from Naples and is known for his strength, lifting 200 kg in a deadlift.`,
+  //   ],
+  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Per_Nystro%CC%88m_wplq3e.webp`,
+  // },
 
   // Gabriel Ureña
   {
@@ -623,6 +659,6 @@ const artists = [
   //   ],
   //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Nils_Nilsen_sq_bdcfss.webp`,
   // },
-];
+]
 
-export default artists;
+export default artists
