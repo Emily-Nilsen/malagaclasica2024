@@ -77,7 +77,7 @@ const events = [
     //   },
     // ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686310/M%C3%A1laga%20Cl%C3%A1sica/day-1_cdxl2h.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/img_01_l7yprr.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
@@ -403,7 +403,7 @@ const events = [
     //   },
     // ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686310/M%C3%A1laga%20Cl%C3%A1sica/day-1_cdxl2h.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/img_01_l7yprr.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
