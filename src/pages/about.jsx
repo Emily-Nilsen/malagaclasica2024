@@ -208,7 +208,7 @@ export default function About() {
                         className="overflow-hidden rounded-lg object-cover object-center shadow-none"
                       >
                         <Image
-                          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Foto_02_revoluciones_b8del4.webp"
+                          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/img_01_l7yprr.webp"
                           alt="Málaga Clásica"
                           width={2228}
                           height={1300}

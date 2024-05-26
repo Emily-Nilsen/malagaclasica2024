@@ -17,28 +17,28 @@ export function Features() {
       name: `${feature_info}`,
       href: '/about',
       imageSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686312/M%C3%A1laga%20Cl%C3%A1sica/img-1_uxkfv7.webp',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/info_bzd046.webp',
       imageAlt: 'Festival Málaga Clásica',
     },
     {
       name: `${feature_programa}`,
       href: '/program',
       imageSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686312/M%C3%A1laga%20Cl%C3%A1sica/img-2_yoaxjz.webp',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/programa_srijsh.webp',
       imageAlt: 'Festival Málaga Clásica',
     },
     {
       name: `${feature_artistas}`,
       href: '/artists',
       imageSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686312/M%C3%A1laga%20Cl%C3%A1sica/img-3_hm2bf7.webp',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/artistas_d6tq86.webp',
       imageAlt: 'Festival Málaga Clásica',
     },
     {
       name: `${feature_talentos}`,
       href: 'talents',
       imageSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/talentos_nhflyf.webp',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/talentos_mobile_sdlzwr.webp',
       imageAlt: 'Festival Málaga Clásica',
     },
   ]

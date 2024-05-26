@@ -77,7 +77,7 @@ const events = [
     //   },
     // ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/img_01_l7yprr.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/strings_rxaspi.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
@@ -123,7 +123,7 @@ const events = [
       },
     ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686310/M%C3%A1laga%20Cl%C3%A1sica/day-2_jlqsfq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/piano_icg2qd.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/debe-ser-1607',
@@ -166,7 +166,7 @@ const events = [
       },
     ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-3_ot1nh3.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/%C3%B8yvind_cello_z7sixb.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/travesia-espiritual-1608',
@@ -204,8 +204,8 @@ const events = [
       },
     ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-4_uqgq9g.webp',
-    image_position: `object-top`,
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/violin_1_duczzp.webp',
+    image_position: `object-center`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/conversacion-con-el-cielo-1609',
   },
@@ -258,7 +258,7 @@ const events = [
       },
     ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-5_uqvxm1.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/piano_duette_qkdrgf.webp',
     image_position: ``,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/danse-macabre-1610',
@@ -319,7 +319,7 @@ const events = [
       },
     ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Foto_02_revoluciones_b8del4.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/violin_2_uqtbs2.webp',
     image_position: ``,
     ticket_url:
       'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
@@ -403,7 +403,7 @@ const events = [
     //   },
     // ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/img_01_l7yprr.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/strings_rxaspi.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
@@ -449,7 +449,7 @@ const events = [
       },
     ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686310/M%C3%A1laga%20Cl%C3%A1sica/day-2_jlqsfq.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/piano_icg2qd.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/debe-ser-1607',
@@ -492,7 +492,7 @@ const events = [
       },
     ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-3_ot1nh3.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/%C3%B8yvind_cello_z7sixb.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/travesia-espiritual-1608',
@@ -530,7 +530,7 @@ const events = [
       },
     ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-4_uqgq9g.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/violin_1_duczzp.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/conversacion-con-el-cielo-1609',
@@ -584,7 +584,7 @@ const events = [
       },
     ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-5_uqvxm1.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/piano_duette_qkdrgf.webp',
     image_position: ``,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/danse-macabre-1610',
@@ -645,7 +645,7 @@ const events = [
       },
     ],
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Foto_02_revoluciones_b8del4.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/violin_2_uqtbs2.webp',
     image_position: ``,
     ticket_url:
       'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
