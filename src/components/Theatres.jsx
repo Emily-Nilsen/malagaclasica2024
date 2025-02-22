@@ -227,7 +227,7 @@ export function Theatres() {
               >
                 <div className="object-cover object-center w-full h-full">
                   <Image
-                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/NG-revoluciones_ecfcmj.webp"
+                    src="/media/NG-revoluciones_ecfcmj.webp"
                     alt="Teatro Cervantes"
                     width={2000}
                     height={2000}
@@ -250,7 +250,7 @@ export function Theatres() {
                 >
                   <div className="object-cover object-center w-full h-full">
                     <Image
-                      src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686228/M%C3%A1laga%20Cl%C3%A1sica/cervantes_ikqf3i.webp"
+                      src="/media/cervantes_ikqf3i.webp"
                       alt="Teatro Cervantes"
                       width={2000}
                       height={2000}
