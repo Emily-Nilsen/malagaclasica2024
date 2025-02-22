@@ -200,8 +200,7 @@ const events = [
         artists: [`Anna Margrethe Nilsen violin`, `Josu de Solaun piano`],
       },
     ],
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/violin_1_duczzp.webp',
+    image: '/media/events/violin_1_duczzp.webp',
     image_position: `object-center`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/conversacion-con-el-cielo-1609',
@@ -254,8 +253,7 @@ const events = [
         ],
       },
     ],
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/piano_duette_qkdrgf.webp',
+    image: '/media/events/piano_duette_qkdrgf.webp',
     image_position: ``,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/danse-macabre-1610',
@@ -315,8 +313,7 @@ const events = [
         ],
       },
     ],
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/violin_2_uqtbs2.webp',
+    image: '/media/events/violin_2_uqtbs2.webp',
     image_position: ``,
     ticket_url:
       'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
