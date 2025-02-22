@@ -58,37 +58,37 @@ export function Footer() {
   }
   return (
     <footer className="bg-pink3_2024">
-      <div className="mx-auto max-w-7xl overflow-hidden px-4 py-12 sm:px-6 lg:px-8">
+      <div className="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
         <nav
-          className="-mx-5 -my-2 flex flex-wrap justify-center"
+          className="flex flex-wrap justify-center -mx-5 -my-2"
           aria-label="Footer"
         >
           {navigation.links.map((item) => (
             <div key={item.name} className="px-5 py-2">
               <Link href={item.href} target="_blank" rel="noreferrer">
-                <h4 className="cursor-pointer text-2xl text-gray-600 transition duration-200 ease-in-out hover:text-gray-900">
+                <h4 className="text-2xl text-gray-600 transition duration-200 ease-in-out cursor-pointer hover:text-gray-900">
                   {item.name}
                 </h4>
               </Link>
             </div>
           ))}
         </nav>
-        <div className="mt-8 flex justify-center space-x-6">
+        <div className="flex justify-center mt-8 space-x-6">
           {navigation.social.map((item) => (
             <Link
               key={item.name}
               href={item.href}
               target="_blank"
               rel="noreferrer"
-              className="text-pinkText2024 transition duration-200 ease-in-out hover:text-blueGreyDark2024"
+              className="transition duration-200 ease-in-out text-pinkText2024 hover:text-blueGreyDark2024"
             >
               <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true" />
+              <item.icon className="w-6 h-6" aria-hidden="true" />
             </Link>
           ))}
         </div>
-        <p className="mt-8 text-center text-sm text-gray-700 sm:text-base">
-          &copy; {new Date().getFullYear()} {copyright}
+        <p className="mt-8 text-sm text-center text-gray-700 sm:text-base">
+          &copy; {new Date().getFullYear()} {copyright}.
         </p>
       </div>
     </footer>
