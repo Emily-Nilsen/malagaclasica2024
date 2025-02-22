@@ -103,10 +103,7 @@ export default function About() {
         {/* Open Graph data */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/OG_2024_hfuxay.webp"
-        />
+        <meta property="og:image" content="/media/OG_2024_hfuxay.webp" />
         <meta property="og:url" content="https://malagaclasica.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
@@ -130,7 +127,7 @@ export default function About() {
             >
               <div className="absolute right-0 w-full h-full -mt-10 sm:-mt-0">
                 <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
+                  src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                   alt="Málaga Clásica"
                   unoptimized
                   className="object-cover object-center w-full h-full"
@@ -203,7 +200,7 @@ export default function About() {
                         className="object-cover object-center overflow-hidden rounded-lg shadow-none"
                       >
                         <Image
-                          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/img_01_l7yprr.webp"
+                          src="/media/img_01_l7yprr.webp"
                           alt="Málaga Clásica"
                           width={2228}
                           height={1300}

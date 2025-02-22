@@ -2,38 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-// import { useRouter } from 'next/router'
 import useTranslation from 'next-translate/useTranslation'
 import { motion } from 'framer-motion'
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
-// const container = {
-//   hidden: { opacity: 0 },
-//   show: {
-//     opacity: 1,
-//     transition: {
-//       staggerChildren: 0.2,
-//     },
-//   },
-// }
-
-// const item = {
-//   hidden: { opacity: 0 },
-//   show: { opacity: 1 },
-// }
-
-// const itemBottom = {
-//   hidden: { opacity: 0, y: 100 },
-//   show: {
-//     opacity: [0, 0.2, 0.5, 0.8, 1],
-//     y: 0,
-//     transition: { type: 'spring', stiffness: 30, duration: 1.3, delay: 1.5 },
-//   },
-// }
-
 export default function Contact() {
-  // const { locale, locales, defaultLocale, asPath } = useRouter()
-
   const { t } = useTranslation('contact')
   const title = t('common:title')
   const metaDescription = t('common:meta-description')
@@ -61,10 +34,7 @@ export default function Contact() {
         {/* Open Graph data */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/OG_2024_hfuxay.webp"
-        />
+        <meta property="og:image" content="/media/OG_2024_hfuxay.webp" />
         <meta property="og:url" content="https://malagaclasica.com/contact" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
@@ -88,7 +58,7 @@ export default function Contact() {
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
               <div className="relative object-cover w-full h-64 bg-blue2024 lg:absolute lg:h-full">
                 <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
+                  src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                   alt="Resonancias del espíritu 2024"
                   width={2000}
                   height={2000}
@@ -135,9 +105,7 @@ export default function Contact() {
                 {/* Contact form */}
                 <form
                   action="/success"
-                  // subject="Festival Málaga Clásica"
                   name="Málaga Clásica"
-                  // data-netlify="true"
                   netlify
                   method="POST"
                   className="grid grid-cols-1 mt-16 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
