@@ -88,7 +88,7 @@ export function Footer() {
           ))}
         </div>
         <p className="mt-8 text-sm text-center text-gray-700 sm:text-base">
-          &copy; {new Date().getFullYear()} {copyright}.
+          &copy; {new Date().getFullYear()} {copyright}
         </p>
       </div>
     </footer>
