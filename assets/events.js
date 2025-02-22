@@ -76,8 +76,7 @@ const events = [
     //     artists: [`Jesus Reina violín`, `Adolfo Gutiérrez violonchelo`],
     //   },
     // ],
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/strings_rxaspi.webp',
+    image: '/media/events/strings_rxaspi.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
@@ -122,8 +121,7 @@ const events = [
         artists: [`Jesús Reina violin`, `Josu de Solaun piano`],
       },
     ],
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/piano_icg2qd.webp',
+    image: '/media/events/piano_icg2qd.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/debe-ser-1607',
@@ -165,8 +163,7 @@ const events = [
         ],
       },
     ],
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/%C3%B8yvind_cello_z7sixb.webp',
+    image: '/media/events/cello_z7sixb.webp',
     image_position: `object-top`,
     ticket_url:
       'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/travesia-espiritual-1608',
