@@ -2,14 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-
 import { AnnaJesus } from '@/components/AnnaJesus'
-// import { StructuredData } from '@/components/StructuredData'
-
 import { useRouter } from 'next/router'
 import useTranslation from 'next-translate/useTranslation'
 import { motion } from 'framer-motion'
-import { CameraIcon } from '@heroicons/react/solid'
 
 const container = {
   hidden: { opacity: 0 },
@@ -36,7 +32,7 @@ const itemBottom = {
 }
 
 export default function About() {
-  const { locale, locales, defaultLocale, asPath } = useRouter()
+  const { locale } = useRouter()
 
   const resonancias = [
     'R',
@@ -86,10 +82,9 @@ export default function About() {
     'e',
     ,
   ]
-  const { t, lang } = useTranslation('about')
+  const { t } = useTranslation('about')
   const title = t('common:title')
   const metaDescription = t('common:meta-description')
-  const aboutTitle = t('title')
   const para_1 = t('para_1')
   const para_2 = t('para_2')
   const para_3 = t('para_3')
@@ -121,7 +116,7 @@ export default function About() {
       <Header />
 
       <main className="">
-        <div className="relative overflow-hidden bg-blue2024 px-10 py-0 pb-0 sm:px-12 sm:py-0">
+        <div className="relative px-10 py-0 pb-0 overflow-hidden bg-blue2024 sm:px-12 sm:py-0">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -131,27 +126,27 @@ export default function About() {
                 type: 'fade',
                 ease: 'easeIn',
               }}
-              className="h-full w-full overflow-hidden object-cover"
+              className="object-cover w-full h-full overflow-hidden"
             >
-              <div className="absolute right-0 -mt-10 h-full w-full sm:-mt-0">
+              <div className="absolute right-0 w-full h-full -mt-10 sm:-mt-0">
                 <Image
                   src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                   alt="Málaga Clásica"
                   unoptimized
-                  className="h-full w-full object-cover object-center"
+                  className="object-cover object-center w-full h-full"
                   width={500}
                   height={750}
                 />
               </div>
             </motion.div>
           </div>
-          <div className="relative mx-auto max-w-7xl px-0 py-24 sm:px-6 sm:py-32 lg:px-8">
-            <div className="bg-t -m-10 -mb-80 px-3 pb-60 pt-28 text-center sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48 sm:text-left">
+          <div className="relative px-0 py-24 mx-auto max-w-7xl sm:px-6 sm:py-32 lg:px-8">
+            <div className="px-3 -m-10 text-center bg-t -mb-80 pb-60 pt-28 sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48 sm:text-left">
               <motion.h4
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="block text-4xl font-bold italic tracking-normal text-blueGreyDark2024 sm:text-5xl lg:text-6xl"
+                className="block text-4xl italic font-bold tracking-normal text-blueGreyDark2024 sm:text-5xl lg:text-6xl"
               >
                 {locale === 'en'
                   ? spiritual.map((letter, i) => (
@@ -179,11 +174,11 @@ export default function About() {
           </div>
         </div>
         <div className="overflow-hidden bg-pink3_2024/50">
-          <div className="relative mx-auto max-w-7xl px-4 pb-0 pt-16 sm:px-6 lg:px-8">
-            <div className="bg-t absolute bottom-0 left-3/4 top-0 hidden w-screen opacity-25 lg:block" />
-            <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
+          <div className="relative px-4 pt-16 pb-0 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div className="absolute top-0 bottom-0 hidden w-screen opacity-25 bg-t left-3/4 lg:block" />
+            <div className="mx-auto text-base max-w-prose lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
               <div>
-                <h4 className="text-base font-bold italic tracking-normal text-pinkText2024">
+                <h4 className="text-base italic font-bold tracking-normal text-pinkText2024">
                   Málaga Clásica
                 </h4>
                 <h4 className="mt-2 text-4xl font-bold leading-none tracking-normal text-blueText2024 sm:text-5xl md:text-6xl">
@@ -193,7 +188,7 @@ export default function About() {
             </div>
             <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
               <div className="relative lg:col-start-2 lg:row-start-1">
-                <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
+                <div className="relative mx-auto text-base max-w-prose lg:max-w-none">
                   <figure>
                     <div className="aspect-h-7 aspect-w-12 lg:aspect-none">
                       <motion.div
@@ -205,14 +200,14 @@ export default function About() {
                           type: 'fade',
                           ease: 'easeIn',
                         }}
-                        className="overflow-hidden rounded-lg object-cover object-center shadow-none"
+                        className="object-cover object-center overflow-hidden rounded-lg shadow-none"
                       >
                         <Image
                           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/images%20for%202024%20festival/img_01_l7yprr.webp"
                           alt="Málaga Clásica"
                           width={2228}
                           height={1300}
-                          className="h-full w-full bg-blue2024 object-cover object-center"
+                          className="object-cover object-center w-full h-full bg-blue2024"
                           unoptimized
                         />
                       </motion.div>
@@ -221,10 +216,10 @@ export default function About() {
                 </div>
               </div>
               <div className="mt-8 lg:mt-0">
-                <div className="mx-auto max-w-prose text-base lg:max-w-none">
+                <div className="mx-auto text-base max-w-prose lg:max-w-none">
                   <p className="text-lg text-gray-600">{para_1}</p>
                 </div>
-                <div className="prose prose-cyan mx-auto mt-5 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+                <div className="mx-auto mt-5 prose prose-cyan lg:col-start-1 lg:row-start-1 lg:max-w-none">
                   <div className="text-gray-600">
                     <p>{para_2}</p>
                     <p>{para_3}</p>

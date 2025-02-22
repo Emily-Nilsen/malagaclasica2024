@@ -1,17 +1,13 @@
 import Head from 'next/head'
-
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-
 import { Hero } from '@/components/Hero'
 import { Features } from '@/components/Features'
 import { Testimonials } from '@/components/Testimonials'
-// import { StructuredData } from '@/components/StructuredData'
-
 import useTranslation from 'next-translate/useTranslation'
 
 export default function Home() {
-  const { t, lang } = useTranslation('common')
+  const { t } = useTranslation('common')
   const title = t('title')
   const metaDescription = t('meta-description')
 

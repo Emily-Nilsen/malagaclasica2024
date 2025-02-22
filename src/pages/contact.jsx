@@ -2,42 +2,39 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-
-// import { StructuredData } from '@/components/StructuredData'
-
-import { useRouter } from 'next/router'
+// import { useRouter } from 'next/router'
 import useTranslation from 'next-translate/useTranslation'
 import { motion } from 'framer-motion'
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
-const container = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.2,
-    },
-  },
-}
+// const container = {
+//   hidden: { opacity: 0 },
+//   show: {
+//     opacity: 1,
+//     transition: {
+//       staggerChildren: 0.2,
+//     },
+//   },
+// }
 
-const item = {
-  hidden: { opacity: 0 },
-  show: { opacity: 1 },
-}
+// const item = {
+//   hidden: { opacity: 0 },
+//   show: { opacity: 1 },
+// }
 
-const itemBottom = {
-  hidden: { opacity: 0, y: 100 },
-  show: {
-    opacity: [0, 0.2, 0.5, 0.8, 1],
-    y: 0,
-    transition: { type: 'spring', stiffness: 30, duration: 1.3, delay: 1.5 },
-  },
-}
+// const itemBottom = {
+//   hidden: { opacity: 0, y: 100 },
+//   show: {
+//     opacity: [0, 0.2, 0.5, 0.8, 1],
+//     y: 0,
+//     transition: { type: 'spring', stiffness: 30, duration: 1.3, delay: 1.5 },
+//   },
+// }
 
 export default function Contact() {
-  const { locale, locales, defaultLocale, asPath } = useRouter()
+  // const { locale, locales, defaultLocale, asPath } = useRouter()
 
-  const { t, lang } = useTranslation('contact')
+  const { t } = useTranslation('contact')
   const title = t('common:title')
   const metaDescription = t('common:meta-description')
   const contactTitle = t('title')
@@ -89,13 +86,13 @@ export default function Contact() {
             className="lg:absolute lg:inset-0"
           >
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-              <div className="relative h-64 w-full bg-blue2024 object-cover lg:absolute lg:h-full">
+              <div className="relative object-cover w-full h-64 bg-blue2024 lg:absolute lg:h-full">
                 <Image
                   src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                   alt="Resonancias del espíritu 2024"
                   width={2000}
                   height={2000}
-                  className="h-full w-full object-cover object-center"
+                  className="object-cover object-center w-full h-full"
                   unoptimized
                 />
               </div>
@@ -103,18 +100,18 @@ export default function Contact() {
           </motion.div>
           <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:py-32">
             <div className="lg:pr-8">
-              <div className="mx-auto max-w-md sm:max-w-lg lg:mx-0">
-                <h4 className="text-5xl font-extrabold italic tracking-normal text-blueText2024 sm:text-6xl">
+              <div className="max-w-md mx-auto sm:max-w-lg lg:mx-0">
+                <h4 className="text-5xl italic font-extrabold tracking-normal text-blueText2024 sm:text-6xl">
                   {contactTitle}
                 </h4>
                 <p className="mt-4 text-lg text-gray-600 sm:mt-3">{subtitle}</p>
-                <dl className="mt-8 text-base text-blueGreyDark2024 transition duration-200 ease-in-out">
+                <dl className="mt-8 text-base transition duration-200 ease-in-out text-blueGreyDark2024">
                   {/* phone */}
                   <div className="mt-3">
                     <dt className="sr-only">Telefono</dt>
                     <dd className="flex">
                       <PhoneIcon
-                        className="h-6 w-6 flex-shrink-0 text-blueText2024"
+                        className="flex-shrink-0 w-6 h-6 text-blueText2024"
                         aria-hidden="true"
                       />
                       <span className="ml-3 font-medium">699 06 74 52</span>
@@ -125,7 +122,7 @@ export default function Contact() {
                     <dt className="sr-only">Email</dt>
                     <dd className="flex">
                       <EnvelopeIcon
-                        className="h-6 w-6 flex-shrink-0 text-blueText2024"
+                        className="flex-shrink-0 w-6 h-6 text-blueText2024"
                         aria-hidden="true"
                       />
                       <span className="ml-3 font-medium">
@@ -142,7 +139,7 @@ export default function Contact() {
                   name="Málaga Clásica"
                   data-netlify="true"
                   method="POST"
-                  className="mt-16 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+                  className="grid grid-cols-1 mt-16 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
                 >
                   <input
                     type="hidden"
@@ -168,7 +165,7 @@ export default function Contact() {
                         id="first-name"
                         required
                         autoComplete="given-name"
-                        className="block w-full rounded-md border-blue2024/30 shadow-none focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
+                        className="block w-full rounded-md shadow-none border-blue2024/30 focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
                       />
                     </div>
                   </div>
@@ -186,7 +183,7 @@ export default function Contact() {
                         id="last-name"
                         required
                         autoComplete="family-name"
-                        className="block w-full rounded-md border-blue2024/30 shadow-none focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
+                        className="block w-full rounded-md shadow-none border-blue2024/30 focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
                       />
                     </div>
                   </div>
@@ -204,7 +201,7 @@ export default function Contact() {
                         required
                         type="email"
                         autoComplete="email"
-                        className="block w-full rounded-md border-blue2024/30 shadow-none focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
+                        className="block w-full rounded-md shadow-none border-blue2024/30 focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
                       />
                     </div>
                   </div>
@@ -231,7 +228,7 @@ export default function Contact() {
                         id="phone"
                         autoComplete="tel"
                         aria-describedby="phone-description"
-                        className="block w-full rounded-md border-blue2024/30 shadow-none focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
+                        className="block w-full rounded-md shadow-none border-blue2024/30 focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
                       />
                     </div>
                   </div>
@@ -258,7 +255,7 @@ export default function Contact() {
                         maxLength="500"
                         aria-describedby="how-can-we-help-description"
                         rows={4}
-                        className="block w-full rounded-md border border-blue2024/30 shadow-none focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
+                        className="block w-full border rounded-md shadow-none border-blue2024/30 focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
                         defaultValue={''}
                       />
                     </div>
@@ -267,7 +264,7 @@ export default function Contact() {
                   <div className="text-right sm:col-span-2">
                     <button
                       type="submit"
-                      className="inline-flex justify-center rounded-md border border-transparent bg-blueText2024 px-4 py-2 text-sm font-medium text-white shadow-none transition duration-200 ease-in-out hover:bg-blueGreyDark2024 focus:outline-none focus:ring-2 focus:ring-blueText2024 focus:ring-offset-2"
+                      className="inline-flex justify-center px-4 py-2 text-sm font-medium text-white transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-blueText2024 hover:bg-blueGreyDark2024 focus:outline-none focus:ring-2 focus:ring-blueText2024 focus:ring-offset-2"
                     >
                       {submit}
                     </button>
