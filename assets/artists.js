@@ -13,7 +13,7 @@ const artists = [
       `Adicionalmente, grabará la integral de Enescu para violín producido por el sello Aria Classics. Jesús es cofundador de Málaga Clásica, junto a la violinista Anna Nilsen, y de la Academia Galamian, un centro de alta especialización musical. Su labor y compromiso con la ciudad le han valido la Medalla de Honor de Málaga y el Premio Puerta de Andalucía, reconocimiento otorgado a personas, entidades e instituciones que resaltan los valores andaluces por el mundo.`,
       `Jesús se inicio al violín con su abuelo José Reina en el ámbito del folclore. Entre sus maestros posteriores se encuentran Vincenzo Puma, Ara Vartanian, Mauricio Fuks, Natasha Boyarsky, Yehudi Menuhin, José Luis García Asensio y Mauricio Fuks. Obtuvo un máster en la Manhattan School of Music con Patinka Kopec y Pinchas Zukerman. Aparece semanalmente en el exito televisivo de Canal Sur, “Tierra de Talento”, conducido por el humorista Manu Sánchez. Además de ejercer de jurado, ha colaborado con grandes artistas de diversos géneros musicales, como José Mercé, India Martínez, Mariola Cantarero, Pasión Vega, el Kanka y Ale Romero.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Jes%C3%BAs%20Reina/general/image-03-small_ccpydm.jpg`,
+    image: `/media/image-03-small_ccpydm.jpg`,
   },
   // English - Jesús Reina
   {
@@ -29,7 +29,7 @@ const artists = [
       `Additionally, he will record the entirety of Enescu’s repertoire for violin produced by the Aria Classics label. Jesús is co-founder of Málaga Clásica, together with the violinist Anna Nilsen, and of the Galamian Academy, a highly specialized musical center. His work and commitment to the city have earned him the Malaga Medal of Honor and the Puerta de Andalucía Prize, a recognition given to people, entities and institutions that highlight Andalusian values ​​throughout the world.`,
       `Jesús began playing the violin with his grandfather José Reina in the realm of folklore. His teachers include Vincenzo Puma, Ara Vartanian, Mauricio Fuks, Natasha Boyarsky, Yehudi Menuhin, José Luis García Asensio, and Mauricio Fuks. He earned a master's degree from the Manhattan School of Music with Patinka Kopec and Pinchas Zukerman. Jesús appears weekly on Canal Sur's hit television show, “Tierra de Talento”, hosted by comedian Manu Sánchez. In addition to serving as a jury member, he has collaborated with great artists from various musical genres, such as José Mercé, India Martínez, Mariola Cantarero, Pasión Vega, el Kanka and Ale Romero.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Jes%C3%BAs%20Reina/general/image-03-small_ccpydm.jpg`,
+    image: `/media/image-03-small_ccpydm.jpg`,
   },
 
   // Anna Nilsen
@@ -46,7 +46,7 @@ const artists = [
       `Destacados recientes y futuros incluyen actuaciones como solista con la Orquesta de la Universidad Nacional de Santiago (Chile), la Orquesta Sinfónica de Murcia, la Orquesta Juvenil de León, la Orquesta de la Academia Galamian y la Orquesta de Cámara Barratt Due, interpretando conciertos para violín de Tchaikovsky, Brahms, Mendelssohn, Mozart y Vivaldi, recitales y conciertos de música de cámara con Pinchas Zukerman en Nueva York, en el Festival Internacional de Piano de Miami en Florida, el Festival de Música MurciArt en Murcia (España), el festival Podium en Haugesund (Noruega), concertino invitado para la ADDA Sinfonica de Alicante, y grabaciones en CD para el sello Aria Classics, de las sonatas completas de Busoni y Brahms, junto a los pianistas Josu de Solaun y Oscar Martín.`,
       `Es cofundadora y profesora de violín en la Academia Internacional Galamian y cofundadora y directora del festival Málaga Clásica.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/anna-nilsen_kolwch.webp`,
+    image: `/media/anna-nilsen_kolwch.webp`,
   },
   // English - Anna Nilsen
   {
@@ -63,7 +63,7 @@ const artists = [
       `She is the co-founder and professor of violin at the Galamian International Academy (Málaga), and co-founder and director of Málaga Clásica festival.
       `,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/anna-nilsen_kolwch.webp`,
+    image: `/media/anna-nilsen_kolwch.webp`,
   },
 
   // Nicolas Dautricourt
