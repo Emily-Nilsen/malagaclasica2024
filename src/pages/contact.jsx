@@ -137,7 +137,8 @@ export default function Contact() {
                   action="/success"
                   // subject="Festival Málaga Clásica"
                   name="Málaga Clásica"
-                  data-netlify="true"
+                  // data-netlify="true"
+                  netlify
                   method="POST"
                   className="grid grid-cols-1 mt-16 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
                 >
