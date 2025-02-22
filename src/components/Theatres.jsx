@@ -58,8 +58,8 @@ export function Theatres() {
     <section>
       {/* Teatro Echegaray */}
       <div className="bg-white">
-        <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
-          <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
+        <div className="max-w-2xl px-4 py-24 mx-auto sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
+          <div className="grid items-center grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
             <div>
               <motion.div
                 whileInView={{ opacity: 1 }}
@@ -70,20 +70,20 @@ export function Theatres() {
                   type: 'fade',
                   ease: 'easeIn',
                 }}
-                className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-white"
+                className="overflow-hidden bg-white rounded-lg aspect-h-1 aspect-w-1"
               >
-                <div className="h-full w-full object-cover object-center">
+                <div className="object-cover object-center w-full h-full">
                   <Image
-                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Foto_04_revoluciones_jvrwqs.webp"
+                    src="/media/Foto_04_revoluciones_jvrwqs.webp"
                     alt="Teatro Echegaray"
                     width={2000}
                     height={2000}
-                    className="h-full w-full object-cover object-center"
+                    className="object-cover object-center w-full h-full"
                     unoptimized
                   />
                 </div>
               </motion.div>
-              <div className="mt-4 grid grid-cols-2 gap-4 sm:mt-6 sm:gap-6 lg:mt-8 lg:gap-8">
+              <div className="grid grid-cols-2 gap-4 mt-4 sm:mt-6 sm:gap-6 lg:mt-8 lg:gap-8">
                 {/* Google Map */}
                 <motion.div
                   whileInView={{ opacity: 1 }}
@@ -94,7 +94,7 @@ export function Theatres() {
                     type: 'fade',
                     ease: 'easeIn',
                   }}
-                  className="aspect-h-1 aspect-w-1 relative h-0 overflow-hidden rounded-lg shadow-none"
+                  className="relative h-0 overflow-hidden rounded-lg shadow-none aspect-h-1 aspect-w-1"
                 >
                   <EchegarayMap />
                 </motion.div>
@@ -107,15 +107,15 @@ export function Theatres() {
                     type: 'fade',
                     ease: 'easeIn',
                   }}
-                  className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100"
+                  className="overflow-hidden bg-gray-100 rounded-lg aspect-h-1 aspect-w-1"
                 >
-                  <div className="h-full w-full object-cover object-center">
+                  <div className="object-cover object-center w-full h-full">
                     <Image
-                      src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686229/M%C3%A1laga%20Cl%C3%A1sica/echegaray_fcc1ko.jpg"
+                      src="/media/echegaray_fcc1ko.jpg"
                       alt="Teatro Echegaray"
                       width={2000}
                       height={2000}
-                      className="h-full w-full object-cover object-center"
+                      className="object-cover object-center w-full h-full"
                       unoptimized
                     />
                   </div>
@@ -124,8 +124,8 @@ export function Theatres() {
             </div>
 
             <div className="lg:pl-20">
-              <div className="border-b border-pink2024/30 pb-10">
-                <h4 className="font-bold italic text-pinkText2024">
+              <div className="pb-10 border-b border-pink2024/30">
+                <h4 className="italic font-bold text-pinkText2024">
                   {theatre_subtitle}
                 </h4>
                 <h4 className="mt-2 text-3xl font-bold tracking-normal text-blueText2024 sm:text-4xl">
@@ -139,7 +139,7 @@ export function Theatres() {
                     <dt className="text-base font-medium text-gray-700">
                       {detail.name}
                     </dt>
-                    <dd className="mt-3 max-w-sm text-base text-gray-500">
+                    <dd className="max-w-sm mt-3 text-base text-gray-500">
                       {detail.description}
                     </dd>
                   </div>
@@ -153,10 +153,10 @@ export function Theatres() {
                 >
                   <button
                     type="button"
-                    className="inline-flex items-center rounded-md border border-transparent bg-pink2024 px-4 py-2 text-sm font-medium text-white shadow-none transition duration-200 ease-in-out hover:bg-blueText2024 focus:outline-none focus:ring-2 focus:ring-blue2024 focus:ring-offset-2"
+                    className="inline-flex items-center px-4 py-2 text-sm font-medium text-white transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-pink2024 hover:bg-blueText2024 focus:outline-none focus:ring-2 focus:ring-blue2024 focus:ring-offset-2"
                   >
                     <TicketIcon
-                      className="-ml-1 mr-2 h-5 w-5"
+                      className="w-5 h-5 mr-2 -ml-1"
                       aria-hidden="true"
                     />
                     {buy_tickets}
@@ -169,11 +169,11 @@ export function Theatres() {
       </div>
       {/* Teatro Cervantes */}
       <div className="bg-blue2024/40">
-        <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
-          <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
+        <div className="max-w-2xl px-4 py-24 mx-auto sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
+          <div className="grid items-center grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
             <div>
-              <div className="border-b border-blue2024/50 pb-10">
-                <h4 className="font-bold italic text-pinkText2024">
+              <div className="pb-10 border-b border-blue2024/50">
+                <h4 className="italic font-bold text-pinkText2024">
                   {theatre_subtitle}
                 </h4>
                 <h4 className="mt-2 text-3xl font-bold tracking-normal text-blueGreyDark2024 sm:text-4xl">
@@ -187,7 +187,7 @@ export function Theatres() {
                     <dt className="text-base font-medium text-gray-700">
                       {detail.name}
                     </dt>
-                    <dd className="mt-3 max-w-sm text-base text-gray-500">
+                    <dd className="max-w-sm mt-3 text-base text-gray-500">
                       {detail.description}
                     </dd>
                   </div>
@@ -201,10 +201,10 @@ export function Theatres() {
                 >
                   <button
                     type="button"
-                    className="inline-flex items-center rounded-md border border-transparent bg-blueText2024 px-4 py-2 text-sm font-medium text-white shadow-none transition duration-200 ease-in-out hover:bg-pinkText2024 focus:outline-none focus:ring-2 focus:ring-pink2024 focus:ring-offset-2"
+                    className="inline-flex items-center px-4 py-2 text-sm font-medium text-white transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-blueText2024 hover:bg-pinkText2024 focus:outline-none focus:ring-2 focus:ring-pink2024 focus:ring-offset-2"
                   >
                     <TicketIcon
-                      className="-ml-1 mr-2 h-5 w-5"
+                      className="w-5 h-5 mr-2 -ml-1"
                       aria-hidden="true"
                     />
                     {buy_tickets}
@@ -223,20 +223,20 @@ export function Theatres() {
                   type: 'fade',
                   ease: 'easeIn',
                 }}
-                className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100"
+                className="overflow-hidden bg-gray-100 rounded-lg aspect-h-1 aspect-w-1"
               >
-                <div className="h-full w-full object-cover object-center">
+                <div className="object-cover object-center w-full h-full">
                   <Image
                     src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/NG-revoluciones_ecfcmj.webp"
                     alt="Teatro Cervantes"
                     width={2000}
                     height={2000}
-                    className="h-full w-full object-cover object-center"
+                    className="object-cover object-center w-full h-full"
                     unoptimized
                   />
                 </div>
               </motion.div>
-              <div className="mt-4 grid grid-cols-2 gap-4 sm:mt-6 sm:gap-6 lg:mt-8 lg:gap-8">
+              <div className="grid grid-cols-2 gap-4 mt-4 sm:mt-6 sm:gap-6 lg:mt-8 lg:gap-8">
                 <motion.div
                   whileInView={{ opacity: 1 }}
                   initial={{ opacity: 0 }}
@@ -246,15 +246,15 @@ export function Theatres() {
                     type: 'fade',
                     ease: 'easeIn',
                   }}
-                  className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100"
+                  className="overflow-hidden bg-gray-100 rounded-lg aspect-h-1 aspect-w-1"
                 >
-                  <div className="h-full w-full object-cover object-center">
+                  <div className="object-cover object-center w-full h-full">
                     <Image
                       src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686228/M%C3%A1laga%20Cl%C3%A1sica/cervantes_ikqf3i.webp"
                       alt="Teatro Cervantes"
                       width={2000}
                       height={2000}
-                      className="h-full w-full object-cover object-center"
+                      className="object-cover object-center w-full h-full"
                       unoptimized
                     />
                   </div>
@@ -270,7 +270,7 @@ export function Theatres() {
                     type: 'fade',
                     ease: 'easeIn',
                   }}
-                  className="aspect-h-1 aspect-w-1 relative h-0 overflow-hidden rounded-lg shadow-none"
+                  className="relative h-0 overflow-hidden rounded-lg shadow-none aspect-h-1 aspect-w-1"
                 >
                   <CervantesMap />
                 </motion.div>
