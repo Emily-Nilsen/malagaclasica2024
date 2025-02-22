@@ -24,10 +24,7 @@ export default function Home() {
         {/* Open Graph data */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/OG_2024_hfuxay.webp"
-        />
+        <meta property="og:image" content="/media/OG_2024_hfuxay.webp" />
         <meta property="og:url" content="https://malagaclasica.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />

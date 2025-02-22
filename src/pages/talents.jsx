@@ -95,7 +95,7 @@ export default function Talents() {
                   height={2000}
                   className="object-cover object-center w-full h-full"
                   unoptimized
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
+                  src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                 />
               </div>
             </motion.div>
