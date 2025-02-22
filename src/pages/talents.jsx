@@ -50,8 +50,6 @@ export default function Talents() {
         <meta property="og:url" content="https://malagaclasica.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
-        {/* Add the StructuredData component within Head */}
-        {/* <StructuredData /> */}
       </Head>
       <Header />
 

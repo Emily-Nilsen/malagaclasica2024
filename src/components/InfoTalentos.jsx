@@ -47,18 +47,18 @@ export function InfoTalentos() {
   ]
 
   return (
-    <div className="relative bg-pink3_2024/30 py-16 sm:py-24">
+    <div className="relative py-16 bg-pink3_2024/30 sm:py-24">
       <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         <div className="relative sm:py-16 lg:py-0">
           <div
             aria-hidden="true"
             className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
           >
-            <div className="absolute inset-y-0 right-1/2 w-full rounded-r-3xl bg-pink3_2024/50 opacity-100 lg:right-72" />
+            <div className="absolute inset-y-0 w-full opacity-100 right-1/2 rounded-r-3xl bg-pink3_2024/50 lg:right-72" />
           </div>
-          <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+          <div className="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
             {/* Testimonial card*/}
-            <div className="relative overflow-hidden rounded-2xl pb-10 pt-64 shadow-none">
+            <div className="relative pt-64 pb-10 overflow-hidden shadow-none rounded-2xl">
               <motion.div
                 whileInView={{ opacity: 1 }}
                 initial={{ opacity: 0 }}
@@ -67,14 +67,14 @@ export function InfoTalentos() {
                   type: 'fade',
                   ease: 'easeIn',
                 }}
-                className="absolute inset-0 h-full w-full object-cover"
+                className="absolute inset-0 object-cover w-full h-full"
               >
                 <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/echegaray_fcc1ko.jpg"
+                  src="/media/echegaray_fcc1ko.jpg"
                   alt="Teatro Echegaray"
                   width={2000}
                   height={2000}
-                  className="h-full w-full object-cover object-center"
+                  className="object-cover object-center w-full h-full"
                   unoptimized
                 />
               </motion.div>
@@ -93,10 +93,10 @@ export function InfoTalentos() {
           </div>
         </div>
 
-        <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
+        <div className="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
           {/* Content area */}
           <div className="pt-12 sm:pt-16 lg:pt-20">
-            <h4 className="xl:8/12 w-full text-4xl font-bold tracking-normal text-pinkText2024 sm:text-5xl md:w-8/12 lg:w-10/12 xl:text-6xl 2xl:w-8/12">
+            <h4 className="w-full text-4xl font-bold tracking-normal xl:8/12 text-pinkText2024 sm:text-5xl md:w-8/12 lg:w-10/12 xl:text-6xl 2xl:w-8/12">
               {title_3}
             </h4>
             <div className="mt-6 space-y-6 text-gray-500">
@@ -108,7 +108,7 @@ export function InfoTalentos() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span className="hover:text-orangeRevolution font-semibold transition duration-300 ease-in-out">
+                  <span className="font-semibold transition duration-300 ease-in-out hover:text-orangeRevolution">
                     {para_7_link}
                   </span>
                 </a>
@@ -175,18 +175,18 @@ export function InfoTalentos() {
           <div>
             <div className="mt-12 text-gray-500">
               <span className="">
-                <h4 className="text-lg font-bold italic text-blueText2024">
+                <h4 className="text-lg italic font-bold text-blueText2024">
                   {more_info}
                 </h4>
               </span>
             </div>
-            <dl className="mt-3 text-base text-blueGreyDark2024 transition duration-200 ease-in-out">
+            <dl className="mt-3 text-base transition duration-200 ease-in-out text-blueGreyDark2024">
               {/* phone */}
               <div className="mt-3">
                 <dt className="sr-only">Telefono</dt>
                 <dd className="flex">
                   <PhoneIcon
-                    className="h-6 w-6 flex-shrink-0 text-pinkText2024"
+                    className="flex-shrink-0 w-6 h-6 text-pinkText2024"
                     aria-hidden="true"
                   />
                   <span className="ml-3 font-medium">699 06 74 52</span>
@@ -197,7 +197,7 @@ export function InfoTalentos() {
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
                   <EnvelopeIcon
-                    className="h-6 w-6 flex-shrink-0 text-pinkText2024"
+                    className="flex-shrink-0 w-6 h-6 text-pinkText2024"
                     aria-hidden="true"
                   />
                   <span className="ml-3 font-medium">

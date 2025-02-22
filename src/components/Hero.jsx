@@ -44,44 +44,44 @@ const logos = [
   {
     name: 'AyuntamientoLogo',
     logoMark: (
-      <AyuntamientoLogo className="h-auto w-24 fill-gray-600 sm:w-32" />
+      <AyuntamientoLogo className="w-24 h-auto fill-gray-600 sm:w-32" />
     ),
   },
   {
     name: 'MalagaProculturaLogo',
     logoMark: (
-      <MalagaProculturaLogo className="h-3 w-auto fill-gray-600 sm:h-4" />
+      <MalagaProculturaLogo className="w-auto h-3 fill-gray-600 sm:h-4" />
     ),
   },
   {
     name: 'TeatroCervantesLogo',
     logoMark: (
-      <TeatroCervantesLogo className="h-7 w-auto fill-gray-600 stroke-gray-600 sm:h-9" />
+      <TeatroCervantesLogo className="w-auto h-7 fill-gray-600 stroke-gray-600 sm:h-9" />
     ),
   },
   {
     name: 'TeatroEchegarayLogo',
     logoMark: (
-      <TeatroEchegarayLogo className="h-6 w-auto fill-gray-600 sm:h-8" />
+      <TeatroEchegarayLogo className="w-auto h-6 fill-gray-600 sm:h-8" />
     ),
   },
   {
     name: 'GalamianLogo',
-    logoMark: <MalagaIcon className="h-8 w-auto fill-gray-600 sm:h-10" />,
+    logoMark: <MalagaIcon className="w-auto h-8 fill-gray-600 sm:h-10" />,
   },
 
   {
     name: 'ReinaNilsenLogo',
-    logoMark: <ReinaNilsenLogo className="h-9 w-auto fill-gray-600 sm:h-12" />,
+    logoMark: <ReinaNilsenLogo className="w-auto h-9 fill-gray-600 sm:h-12" />,
   },
   {
     name: 'LaCaixaLogo',
-    logoMark: <LaCaixaLogo className="h-12 w-auto fill-gray-600 sm:h-16" />,
+    logoMark: <LaCaixaLogo className="w-auto h-12 fill-gray-600 sm:h-16" />,
   },
   {
     name: 'HoteldelPintorLogo',
     logoMark: (
-      <HoteldelPintorLogo className="h-12 w-auto fill-gray-600 sm:h-16" />
+      <HoteldelPintorLogo className="w-auto h-12 fill-gray-600 sm:h-16" />
     ),
   },
 ]
@@ -218,16 +218,16 @@ export function Hero() {
                 type: 'fade',
                 ease: 'easeIn',
               }}
-              className="h-full w-full bg-blue2024 object-cover"
+              className="object-cover w-full h-full bg-blue2024"
             >
               <div className="sm:hidden">
                 <Image
                   unoptimized
                   width={3000}
                   height={2000}
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
+                  src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                   alt="Resonancias de la espiritu"
-                  className="h-screen bg-blue2024 object-cover object-center"
+                  className="object-cover object-center h-screen bg-blue2024"
                 />
               </div>
 
@@ -236,35 +236,35 @@ export function Hero() {
                   unoptimized
                   width={3000}
                   height={2000}
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
+                  src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                   alt="Resonancias de la espiritu"
-                  className="h-full w-full bg-blue2024 object-cover object-center"
+                  className="object-cover object-center w-full h-full bg-blue2024"
                 />
               </div>
             </motion.div>
           </div>
           <div className="relative z-10 bg-transparent">
-            <div className="mx-auto max-w-7xl px-4 pb-8 pt-4 sm:px-6 sm:py-10 lg:px-8">
+            <div className="px-4 pt-4 pb-8 mx-auto max-w-7xl sm:px-6 sm:py-10 lg:px-8">
               <div className="text-center">
-                <div className="mx-auto grid max-w-xs grid-cols-3 gap-0 pb-2 sm:max-w-sm lg:max-w-lg">
-                  <div className="col-span-1 flex justify-self-end">
-                    <MalagaclasicaLogo className="h-10 w-auto fill-gray-900" />
+                <div className="grid max-w-xs grid-cols-3 gap-0 pb-2 mx-auto sm:max-w-sm lg:max-w-lg">
+                  <div className="flex col-span-1 justify-self-end">
+                    <MalagaclasicaLogo className="w-auto h-10 fill-gray-900" />
                   </div>
-                  <div className="col-span-2 flex items-center justify-center">
+                  <div className="flex items-center justify-center col-span-2">
                     <div>
-                      <p className="text-2xl font-normal uppercase tracking-wider text-gray-900 sm:text-3xl lg:text-4xl">
+                      <p className="text-2xl font-normal tracking-wider text-gray-900 uppercase sm:text-3xl lg:text-4xl">
                         Málaga Clásica
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <div className="mx-auto w-fit border-y border-gray-400">
+                <div className="mx-auto border-gray-400 w-fit border-y">
                   <p className="px-2 py-1 text-xl font-light text-gray-600 sm:text-2xl lg:text-3xl">
                     {title}
                   </p>
                 </div>
-                <h3 className="mx-auto mt-5 max-w-xl text-xl font-bold uppercase tracking-wide text-blueGreyDark2024 sm:text-2xl lg:text-3xl">
+                <h3 className="max-w-xl mx-auto mt-5 text-xl font-bold tracking-wide uppercase text-blueGreyDark2024 sm:text-2xl lg:text-3xl">
                   {subtitle}
                 </h3>
               </div>
@@ -285,19 +285,19 @@ export function Hero() {
                         type: 'fade',
                         ease: 'easeIn',
                       }}
-                      className="h-full w-full bg-transparent object-cover"
+                      className="object-cover w-full h-full bg-transparent"
                     ></motion.div>
                   </div>
                   <div className="absolute inset-0 bg-transparent" />
-                  <div className="mx-auto h-full w-screen bg-transparent sm:px-0 lg:px-0">
+                  <div className="w-screen h-full mx-auto bg-transparent sm:px-0 lg:px-0">
                     <div className="relative shadow-none sm:overflow-visible">
-                      <div className="relative flex h-full items-center justify-center sm:justify-start sm:px-6 lg:px-8">
-                        <div className="bg-t w-full px-6 pt-3 sm:mt-80 sm:w-fit sm:p-10">
+                      <div className="relative flex items-center justify-center h-full sm:justify-start sm:px-6 lg:px-8">
+                        <div className="w-full px-6 pt-3 bg-t sm:mt-80 sm:w-fit sm:p-10">
                           <motion.h4
                             variants={container}
                             initial="hidden"
                             animate="show"
-                            className="block pt-40 text-center text-5xl font-bold italic text-blueGreyDark2024 sm:pt-20 sm:text-6xl lg:text-7xl"
+                            className="block pt-40 text-5xl italic font-bold text-center text-blueGreyDark2024 sm:pt-20 sm:text-6xl lg:text-7xl"
                           >
                             {locale === 'en'
                               ? spiritual.map((letter, i) => (
@@ -316,7 +316,7 @@ export function Hero() {
                             variants={itemBottom}
                             initial="hidden"
                             animate="show"
-                            className="mx-auto mt-3 max-w-lg text-center text-xl font-normal text-gray-600 sm:max-w-3xl sm:text-3xl lg:text-4xl"
+                            className="max-w-lg mx-auto mt-3 text-xl font-normal text-center text-gray-600 sm:max-w-3xl sm:text-3xl lg:text-4xl"
                           >
                             27/05__01/06{' '}
                             <span className="font-medium text-blueGreyDark2024">
@@ -330,13 +330,13 @@ export function Hero() {
                 </div>
 
                 {/* Logo cloud */}
-                <div className="z-1 relative bg-transparent">
-                  <div className="relative z-20 mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-16 lg:px-8">
-                    <p className="text-center text-sm font-semibold uppercase tracking-wide text-gray-900">
+                <div className="relative bg-transparent z-1">
+                  <div className="relative z-20 px-4 py-10 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8">
+                    <p className="text-sm font-semibold tracking-wide text-center text-gray-900 uppercase">
                       {t('home:cloud_title')}
                     </p>
                     {/* Mobile screen cloud */}
-                    <div className="mt-6 grid grid-cols-2 gap-3 sm:hidden">
+                    <div className="grid grid-cols-2 gap-3 mt-6 sm:hidden">
                       {logos.map((logo) => (
                         <div
                           key={logo.name}
@@ -347,7 +347,7 @@ export function Hero() {
                       ))}
                     </div>
                     {/* iPad and larger screen cloud */}
-                    <div className="mt-6 hidden grid-cols-4 gap-3 sm:grid">
+                    <div className="hidden grid-cols-4 gap-3 mt-6 sm:grid">
                       {logos.map((logo) => (
                         <div
                           key={logo.name}
