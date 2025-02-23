@@ -527,7 +527,7 @@ const artists = [
       `Ha sido invitado a actuar en distinguidas salas de conciertos de todo el mundo, incluyendo al Ateneo Rumano de Bucarest, el Teatro La Fenice de Venecia, el Teatro Mariinsky de San Petersburgo, el Kennedy Center de Washington, Carnegie Hall y Metropolitan Opera de Nueva York, Southbank Centre de Londres, Salle Cortot de París, Schumann Haus de Leipzig, Novel Hall en Taipei, la Sala Silvestre Revueltas de la Ciudad de México, el Palacio Nostitz de Praga, la Academia de España en Roma, el Festival Internacional de Música de Menton y todas las principales ciudades de España. `,
       `La temporada 2020-2021 contó con su concierto–debut de improvisación libre al piano, panDEMiCity, en el Auditorio Ciudad de León, así como actuaciones como solista con orquestas en España, República Checa y Rumanía. En 2021, también recibió el prestigioso premio ICMA (International Classical Music Awards) por su grabación de Sonatas para violín y piano francesas con la violinista Franziska Pietsch («Fantasque«), y en 2023, recibión el mismo galardón por su álbum Haydn Piano Sonatas. Su último álbum en solitario de obras de Brahms y Schumann para el sello IBS Classical – «Digressions» – ha cosechado excelentes críticas.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Josu_de_Solaun_mrounb.webp`,
+    image: `/media/artists/Josu_de_Solaun_mrounb.webp`,
   },
 
   // English - Josu De Solaun
@@ -541,7 +541,7 @@ const artists = [
       `He has been invited to perform in distinguished concert halls around the world, including the Romanian Athenaeum in Bucharest, the La Fenice Theater in Venice, the Mariinsky Theater in St. Petersburg, the Kennedy Center in Washington, Carnegie Hall and the Metropolitan Opera in New York, the Southbank Center in London, the Salle Cortot in Paris, the Schumann Haus in Leipzig, the Novel Hall in Taipei, the Sala Silvestre Revueltas in Mexico City, the Nostitz Palace in Prague, the Spanish Academy in Rome, the International Music Festival of Menton and all the main cities of Spain. `,
       `The 2020-2021 season featured his free improvisation concert-debut on piano, panDEMiCity, at the León Auditorium, as well as solo performances with orchestras, in Spain, the Czech Republic and Romania. In 2021, he also received the prestigious ICMA (International Classical Music Awards) award for his recording of French Violin and Piano Sonatas with violinist Franziska Pietsch (“Fantasque”), and in 2023 he obtained the same award for his Haydn Piano Sonatas album. His latest solo album of works by Brahms and Schumann for the IBS Classical label – “Digressions” – has garnered great reviews.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Josu_de_Solaun_mrounb.webp`,
+    image: `/media/artists/Josu_de_Solaun_mrounb.webp`,
   },
 
   // Antonio del Pino
@@ -556,7 +556,7 @@ const artists = [
       `Dirige el coro de la Catedral de Málaga, donde también desempeña el cargo de organista y coordina el ciclo de órgano en primavera. Investigador becado por la Junta de Andalucía, ha destacado en proyectos sobre el compositor malagueño Juan B. Cansino Antolínez. Obtuvo el Magisterio en Canto Gregoriano y Dirección de Coro en Milán, defendiendo una tesis sobre la influencia aquitana en los cantorales de Canto Llano de la Catedral de Málaga.`,
       `Fundador de la Capilla Maestro Iribarren, ha colaborado con reconocidos músicos como Marco Frisina, organizando estrenos mundiales. Su labor editorial abarca artículos y ediciones críticas, y en 2019 recibió el Premio a la mejor labor musical del año de Málaga.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Antonio_del_Pino_lok4vw.webp`,
+    image: `/media/artists/Antonio_del_Pino_lok4vw.webp`,
   },
 
   // English - Antonio del Pino
@@ -571,7 +571,7 @@ const artists = [
       `He directs the choir of the Cathedral of Malaga, where he also serves as the organist and coordinates the spring organ cycle. A researcher funded by the Junta de Andalucía, he has excelled in projects related to the Malaga composer Juan B. Cansino Antolínez. He obtained a Master's degree in Gregorian Chant and Choir Direction in Milan, defending a thesis on the Aquitanian influence in the plainchant choirbooks of the Cathedral of Malaga.`,
       `As the founder of the Capilla Maestro Iribarren, he has collaborated with renowned musicians like Marco Frisina, organising world premieres. His editorial work encompasses articles and critical editions, and in 2019, he was awarded the prize for the Musical Achievement of the Year in Malaga.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Antonio_del_Pino_lok4vw.webp`,
+    image: `/media/artists/Antonio_del_Pino_lok4vw.webp`,
   },
 
   // Julien Quentin
@@ -586,7 +586,7 @@ const artists = [
   //     `Con "Musica Litoralis" en el Piano Salon Christophori en Berlín, ha creado una exitosa serie de conciertos que recuerda a los salones de los locos años veinte. Con artistas visuales, explora nuevas visiones artísticas que unen varias formas de arte.`,
   //     `Persigue su interés por otros géneros musicales colaborando con los pianistas Kelvin Sholar, Kaan Bulak y Francesco Tristano, o los productores Adrien de Maublanc y Cesar Merveille en proyectos que van desde la improvisación hasta la producción de música electrónica, sobre todo dentro de sus nuevos proyectos Midiminuit & Les Coeurs Brisés.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Julien_Quentin_cemtl1.webp`,
+  //   image: `/media/artists/Julien_Quentin_cemtl1.webp`,
   // },
 
   // English - Julien Quentin
@@ -601,7 +601,7 @@ const artists = [
   //     `With ‘Musica Litoralis’ at the Piano Salon Christophori in Berlin, he has created a successful concert series reminiscent of the salons of the Roaring Twenties. With visual artists, he explores new artistic visions bringing various art forms together.`,
   //     `He pursues his interest in other genres of music collaborating with pianists Kelvin Sholar, Kaan Bulak and Francesco Tristano, or producers Adrien de Maublanc and Cesar Merveille in projects ranging from improvisation to producing electronic music, most notably within their new projects Midiminuit & Les Coeurs Brisés.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Julien_Quentin_cemtl1.webp`,
+  //   image: `/media/artists/Julien_Quentin_cemtl1.webp`,
   // },
 
   // Susanne Hvinden Hals
@@ -615,7 +615,7 @@ const artists = [
   //     `Debutó en la Ópera de Montpellier en Francia en 2003 con el Coro Infantil Femenino Noruego, y posteriormente ha interpretado papeles como Susanna en «Le nozze di Figaro»  de Mozart, Adele en «Die Fledermaus»  de J. Strauss, Pamina en «Die Zauberflöte» de Mozart, y Lucia en «La violación de Lucrecia» de Benjamin Britten.`,
   //     `Susanne es una soprano muy solicitada en Noruega, y ha colaborado con varias orquestas en oratorios y actúa en varios festivales y conciertos tanto en Noruega como en el extranjero. Junto con su hermana y violinista Kathrine Hvinden Hals, forma el dúo Søstrene Hals.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Susanne_Hvinden_Hals_sq_nizgnv.webp`,
+  //   image: `/media/artists/Susanne_Hvinden_Hals_sq_nizgnv.webp`,
   // },
 
   // English - Susanne Hvinden Hals
@@ -629,7 +629,7 @@ const artists = [
   //     `She made her debut at the Opera Montpellier in France in 2003 with the Norwegian Girls Choir, and has later on sung roles such as Susanna in Mozart´s «Le nozze di Figaro», Adele in «Die Fledermaus», J. Strauss, Pamina in «Die Zauberflöte», and Lucia in «The rape of Lucretia» by Benjamin Britten.`,
   //     `Susanne is a highly sought-after soprano in Norway, and has collaborated with various orchestras in oratorios, and performs at several festivals and concerts both in Norway and abroad. Together with her sister and violinist Kathrine Hvinden Hals, she forms the duo Søstrene Hals.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Susanne_Hvinden_Hals_sq_nizgnv.webp`,
+  //   image: `/media/artists/Susanne_Hvinden_Hals_sq_nizgnv.webp`,
   // },
 
   // Nils Nilsen
@@ -643,7 +643,7 @@ const artists = [
   //     `Desde entonces, ha cantado como solista con la Orquesta Sinfónica de Chicago, en la Ópera de Israel, la Ópera National de Noruega y Opera Tampa en Florida, y ha actuado en varios festivales y conciertos internacionales en Europa y los Estados Unidos. Nils Georg ha sido el ganador del Premio Solveig en el Concurso Edvard Grieg, el Premio del Público durante el festival LidalNorth en numerosas ocasiones y el Concurso de Música para Jóvenes en Noruega.`,
   //     `Recientemente ha cantado el Mozart Requiem con la Orquesta de Radio Noruega, Rossinis Stabat Mater y Handels Messiah con la Orquesta Sinfónica Drammen y en el Festival Ravinia en los Estados Unidos, y es Profesor de Voz en la Academia Internacional Galamian en Málaga. Desde 2021 forma parte del grupo vocal Nordic Tenors, junto a los tenores Jan-Tore Saltnes and Roald Haarr.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Nils_Nilsen_sq_bdcfss.webp`,
+  //   image: `/media/artists/Nils_Nilsen_sq_bdcfss.webp`,
   // },
 
   // English - Nils Nilsen
@@ -657,7 +657,7 @@ const artists = [
   //     `Since then he has appeared as a soloist with the Chicago Symphony Orchestra, at the Israeli Opera, the Norwegian Opera House and Opera Tampa in Florida, and performed in several international festivals and concerts in Europe and the US. Nils Georg has won the Solveig’s Award in the Edvard Grieg Competition, the Audience Award during the festival LidalNorth on numerous occasions, and the Youth Music Competition in Norway.`,
   //     `In addition to being professor of Voice at the Galamian International Accademy in Malaga, Nils Georg is a sought-after tenor, and recent highlights include Mozart Requiem with the Norwegian Radio Orchestra, Rossinis Stabat Mater and Handels Messiah with Drammen Symphony Orchestra and performances at the Ravinia Festival in the US. Since 2021 he is part of the vocal group Nordic Tenors, together with the tenors Jan-Tore Saltnes and Roald Haarr.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Nils_Nilsen_sq_bdcfss.webp`,
+  //   image: `/media/artists/Nils_Nilsen_sq_bdcfss.webp`,
   // },
 ]
 
