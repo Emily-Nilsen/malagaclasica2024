@@ -137,7 +137,7 @@ const artists = [
   //     `Robert estudió en Alemania y Suiza con Waleri Gradow, y más tarde con Kolja Blacher y Ana Chumachenco. Su desarrollo musical también estuvo profundamente influenciado por Bernard Greenhouse, Ivry Gitlis e Ida Haendel y ha trabajado con notables musicos como Vladimir Ashkenazy, Reinhard Goebel, Martha Argerich y Julian Rachlin.`,
   //     `Su grabación del concierto para violín de Richard Strauss con la Orchestra della Svizzera Italiana y Markus Poschner, lanzada en 2018 por el sello CPO, obtuvo elogios de la crítica en toda Europa y la nominación a los International Classical Music Awards 2019. En 2016 se unió a la mundialmente reconocida Cuarteto Karol Szymanowski. Toca un violín J. B. Vuillaume de 1860, cedido generosamente por la Fondazione per l'Arte e Socialità.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Robert_Kowalski_g93mwg.webp`,
+  //   image: `/media/artists/Robert_Kowalski_g93mwg.webp`,
   // },
 
   // English - Robert Kowalski
@@ -153,7 +153,7 @@ const artists = [
   //     `Robert studied in Germany and Switzerland with Waleri Gradow, and later on with Kolja Blacher and Ana Chumachenco. His musical development was also profoundly influenced by Bernard Greenhouse, Ivry Gitlis and Ida Haendel and he has worked with remarkable musicians such as Vladimir Ashkenazy, Reinhard Goebel, Martha Argerich and Julian Rachlin.`,
   //     `His recording of the violin concerto by Richard Strauss with the Orchestra della Svizzera Italiana and Markus Poschner, released in 2018 by the CPO label, earned critical acclaim throughout Europe and the nomination for International Classical Music Awards 2019. In 2016 he joined the world-renowned Karol Szymanowski Quartet. He plays a J. B. Vuillaume violin from 1860, on generous loan from the Fondazione per l'Arte e Socialità.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Robert_Kowalski_g93mwg.webp`,
+  //   image: `/media/artists/Robert_Kowalski_g93mwg.webp`,
   // },
 
   // Joanna Wronko
@@ -168,7 +168,7 @@ const artists = [
   //     `Ha trabajado con Radio Philharmonisch Orkest, Nederlands Kammerorkest Orkest, Royal Concertgebouw Orchestra, Mahler Chamber Orchestra y Orchestra Mozart, como principal de segundos con Royal Opera House Covent Garden, London Philharmonic Orchestra, Scottish Chamber Orchestra, Philharmonia Orchestra, y colaborado con directores como Claudio Abbado, Bernard Haitink, Andris Nelsons, Daniel Harding y Sir John Eliot Gardiner.`,
   //     `Ha realizado giras con Academy of St.Martin in the Fields dirigida por Joshua Bell en Europa, Asia y EE. UU. De 2019 a 2021 ocupó el cargo de primera concertino en la Noord Nederlands Orkest, y ha sido concertino invitada de Balletorkest, Antwerp Symphony, Trondheim Symphony, Odense Symphony, Stavanger Symphony, Orquesta Sinfónica de Galicia y Orquesta Ciudad de Granada con quien se presentó recientemente en el Festival Musika-Música de Bilbao.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Joanna_Wronko_sq_ipgycw.webp`,
+  //   image: `/media/artists/Joanna_Wronko_sq_ipgycw.webp`,
   // },
 
   // English - Joanna Wronko
@@ -183,7 +183,7 @@ const artists = [
   //     `She has worked with the Radio Philharmonisch Orkest, Nederlands Kammerorkest Orkest, Royal Concertgebouw Orchestra, Mahler Chamber Orchestra and Orchestra Mozart, as principal 2nd with Royal Opera House Covent Garden, London Philharmonic Orchestra, Scottish Chamber Orchestra, Philharmonia Orchestra, and collaborated with conductors like Claudio Abbado, Bernard Haitink, Andris Nelsons, Daniel Harding, Sir John and Eliot Gardiner.`,
   //     `She has toured with Academy of St.Martin in the Fields led by Joshua Bell in Europe, Asia and USA. From 2019 to 2021 she held a position as the first concertmaster at the Noord Nederlands Orkest, and been guest concert master of Balletorkest, Antwerp Symphony, Trondheim Symphony, Odense Symphony, Stavanger Symphony, Orquesta Sinfónica de Galicia and Orquesta Ciudad de Granada with whom she appeared recently at the Festival Musika-Música in Bilbao.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Joanna_Wronko_sq_ipgycw.webp`,
+  //   image: `/media/artists/Joanna_Wronko_sq_ipgycw.webp`,
   // },
   // Laura Romero
   {
@@ -197,7 +197,7 @@ const artists = [
       `Ha recibido masterclases de la mano de célebres pedagogos como Pinchas Zukerman o Patinka Kopec. Ha ofrecido conciertos en distintos puntos de Europa y Estados Unidos. En el ámbito de la música de cámara, participa en diversas agrupaciones como ‘River Quintet’ o ‘Camerata Bitácora’ tocando tanto el violín como la viola. Ha formado parte de orquestas como Columbus Indiana Philarmonic, Richmond Symphony Orchestra o Terre Haute Symphony Orchestra y ha actuado recientemente junto a la Hispanian Symphony Orchestra, la Orquesta Filarmónica de Málaga y la Joven Orquesta Nacional de España.`,
       `Recientemente fue profesora asistente de violín y viola en la Academia Internacional Galamian en Málaga, y actualmente es miembro fundadora del quinteto Astrea.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Laura_Romero_Alba_skmexb.webp`,
+    image: `/media/artists/Laura_Romero_Alba_skmexb.webp`,
   },
 
   // English - Laura Romero
@@ -212,7 +212,7 @@ const artists = [
       `She has also received masterclasses from pedagogues such as Pinchas Zukerman and Patinka Kopec. She has performed as a soloist in various European and United States places. In chamber music, she participates in multiple groups, such as the ‘River Quintet’ and ‘Camerata Bitácora’ playing both the violin and the viola. She has been part of orchestras such as Columbus, Indiana Philarmonic, Richmond Symphony Orchestra and Terre Haute Symphony Orchestra.`,
       `She has recently performed alongside the Hispanian Symphony Orchestra, the Philharmonic Orchestra of Malaga, and the Young National Orchestra of Spain. Until recently, she served as assistant professor of violin and viola at the Galamian International Academy in Malaga. Currently, she is a founding member of the Astrea quintet.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Laura_Romero_Alba_skmexb.webp`,
+    image: `/media/artists/Laura_Romero_Alba_skmexb.webp`,
   },
   // Chieh-Fan Yiu
   // {
@@ -227,7 +227,7 @@ const artists = [
   //     `Como pedagogo y mentor, el Dr. Yiu se ha desempeñado como artista residente en el Instituto de Gobierno Rockefeller de la Universidad Estatal de Nueva York, SUNY Schenectady, el programa CHIME de la Orquesta Juvenil del Empire State, así como en la Escuela de Música Moores en la Universidad de Houston.`,
   //     `El Dr. Yiu es violista del ensemble Delirium Musicum en Los Ángeles, que acaba de lanzar su álbum titulado "Seasons" para Warner Classics.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Chieh-Fan_Yiu_s5nb1f.webp`,
+  //   image: `/media/artists/Chieh-Fan_Yiu_s5nb1f.webp`,
   // },
 
   // English - Chieh-Fan Yiu
@@ -244,7 +244,7 @@ const artists = [
   //     `As a pedagogue and mentor, Dr. Yiu has served as artist-in-residence at the State University of New York Rockefeller Institute of Government, SUNY Schenectady, Empire State Youth Orchestra’s CHIME program and Moores School of Music in University of Houston.`,
   //     `Dr. Yiu is the violist of ensemble Delirium Musicum, who just released their album titled “Seasons” for Warner Classics.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Chieh-Fan_Yiu_s5nb1f.webp`,
+  //   image: `/media/artists/Chieh-Fan_Yiu_s5nb1f.webp`,
   // },
   // Tomoko Akasaka
   {
@@ -259,7 +259,7 @@ const artists = [
       `Tomoko Akasaka también ha actuado en el Concertgebouw Amsterdam, Tonhalle Zurich, Mozarteum Salzburg, Victoria Hall London, Grand Theater Geneva, Konzerthaus y Philharmonie Berlin, Elmau Castle, Suntory Hall Tokyo y Nymphenburg Castle Munich. Empezó a tocar el violín con cinco años y atendió la escuela especial de la Universidad de Música de Toho.`,
       `Tras graduarse, estudió en la Academia Liszt de Budapest. Al poco tiempo cambió a la viola estudió en la Universidad de Toho Tokyo, continuando después en el Conservatorio de Ginebra con Nobuko Imai, siendo además su asistente. También fue profesora invitada en el Conservatorio de Neuchatel. Tomoko se unió al Cuarteto Amaryllis en 2016.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/tomoko_ndhzaw.webp`,
+    image: `/media/artists/tomoko_ndhzaw.webp`,
   },
 
   // English - Tomoko Akasaka
@@ -275,7 +275,7 @@ const artists = [
       `Tomoko Akasaka has played at the Concertgebouw Amsterdam, Tonhalle Zurich, Mozarteum Salzburg, Victoria Hall London, Grand Theater in Geneva, Konzerthaus and Philharmonie Berlin, Elmau Castle, Suntory Hall Tokyo and Nymphenburg Castle Munich. Tomoko first started playing the violin at the age of five and went to the special school of the Toho Music University.`,
       `After graduation, she studied at the Liszt Academy in Budapest, Hungary. Shortly after, she switched to the viola and studied at the Toho Tokyo University, continuing her studies at the Geneva Conservatory with Nobuko Imai, while being her assistant. She was also a guest professor at the Conservatory of Neuchatel. Tomoko joined the Amaryllis Quartet in 2016.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/tomoko_ndhzaw.webp`,
+    image: `/media/artists/tomoko_ndhzaw.webp`,
   },
 
   //Christoophe Morin
@@ -293,7 +293,7 @@ const artists = [
       `Muy comprometido en el panorama de la música de cámara, Christophe Morin lidera también su carrera como solista. Es invitado como violonchelo solista de Camerata europea, orquesta de cuerdas constituida principalmente por los elementos más brillantes de la Orquesta Sinfónica de Londres y la Orquesta Nacional de Francia; pero también de todo David Grimal y de la Mahler Chamber Orchestra.`,
       `La pasión de Christophe Morin por la música de cámara le llevó a crear en 2010 el festival "3 días de mayo" en la isla de Ré, que dirige desde 2012 con Sarah Nemtanu.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Christophe_Morin_v3_fuauuf.webp`,
+    image: `/media/artists/Christophe_Morin_v3_fuauuf.webp`,
   },
 
   // English - Christophe Morin
@@ -311,7 +311,7 @@ const artists = [
       `Deeply committed to the chamber music scene, Christophe Morin also pursues a career as a soloist. He is invited as a solo cellist with the European Camerata, a string orchestra comprised mainly of the most brilliant members of the London Symphony Orchestra and the National Orchestra of France, as well as with David Grimal and the Mahler Chamber Orchestra.`,
       `Christophe Morin's passion for chamber music extends beyond his performances. In 2010, he took a significant step in his career by creating the '3 Days in May' festival on Ré Island. This festival, which he has directed since 2012 with Sarah Nemtanu, has become a platform for showcasing the best of chamber music, leaving a lasting impact on the music scene.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Christophe_Morin_v3_fuauuf.webp`,
+    image: `/media/artists/Christophe_Morin_v3_fuauuf.webp`,
   },
 
   // Rumen Cvetkov
@@ -325,7 +325,7 @@ const artists = [
   //     `En 2012, el maestro Zubin Mehta le invitó a ser el nuevo solista de viola del Palau de Les Arts Reina Sofia de Valencia. En 2019 editó su primer CD con sonatas de Brahms junto con el pianista Ludmil Angelov.`,
   //     `Es profesor de Viola en el Conservatorio de Tilburg (Países Bajos) y en la New Bulgarian University (Sofía, Bulgaria), fundador del ensemble Solistas Mediterráneos, y es cofundador y codirector artístico del MurciArt Music Festival.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/rumen-cvetkov_mopwol.webp`,
+  //   image: `/media/artists/rumen-cvetkov_mopwol.webp`,
   // },
 
   // English - Rumen Cvetkov
@@ -339,7 +339,7 @@ const artists = [
   //     `In 2012 he was invited by Maestro Zubin Mehta to become the solo violist of the Royal Spanish Opera House “Queen Sofia” in Valencia. His debut solo CD, “Brahms Alliance”, with pianist Ludmil Angelov.`,
   //     `Currently, he is a Professor of viola at Tilburg Conservatory (Holland) and New Bulgarian University (Sofia, Bulgaria), the founder and Artistic Leader of the Chamber Orchestra “Mediterranean Soloists”, and the founder and Artistic Director of MurciArt Music Festival.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/rumen-cvetkov_mopwol.webp`,
+  //   image: `/media/artists/rumen-cvetkov_mopwol.webp`,
   // },
 
   // Razvan Popovici
@@ -353,7 +353,7 @@ const artists = [
   //     `Como músico de cámara ha colaborado con Natalia Gutman, Shlomo Mintz, Enrico Pace, Giovanni Sollima, Konstantin Lifschitz, Lawrence Power, así como con los cuartetos Szymanowski, Vertavo, Casal, Danel, Kelémen, Glinka o Schumann, miembros del quarteto Amadeus y Ensemble Wien-Berlin, y ha lanzado ocho CDs con el Ensemble Raro, que realiza giras frecuentes por Europa, Japón y América del Norte.`,
   //     `Es el Fundador y Director Ejecutivo del Festival Chiemgauer Musikfrühling en Alemania, del Festival SoNoRo en Bucarest y del Festival SoNoRo Arezzo en Toscana, así como Director Artístico de la Serie de Música de Cámara DA CAPO en Bucarest. Enseña regularmente en Villa Musica, y ha sido nombrado profesor en el Real Conservatorio de Amberes.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/razvan-popovici_xq4gj1.webp`,
+  //   image: `/media/artists/razvan-popovici_xq4gj1.webp`,
   // },
 
   // English - Razvan Popovici
@@ -367,7 +367,7 @@ const artists = [
   //     `As a chamber musician, he has collaborated with Natalia Gutman, Shlomo Mintz, Enrico Pace, Giovanni Sollima, Konstantin Lifschitz, Lawrence Power, as well as alongside the Szymanowski, Vertavo, Casal, Danel, Kelémen, Glinka or Schumann Quartets, members of the Amadeus Quartet and Ensemble Wien-Berlin, and has released eight CDs with the Ensemble Raro, which frequently tours Europe, Japan and North America.`,
   //     `Popovici is the Founder and Executive Director of the Chiemgauer Musikfrühling Festival in Germany, the SoNoRo Festival in Bucharest and the SoNoRo Arezzo Festival in Tuscany, as well as the Artistic Director of the DA CAPO Chamber Music Series in Bucharest. He teaches regularly at the Villa Musica and has been appointed professor at the Royal Conservatory in Antwerp.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/razvan-popovici_xq4gj1.webp`,
+  //   image: `/media/artists/razvan-popovici_xq4gj1.webp`,
   // },
 
   // Øyvind Gimse
