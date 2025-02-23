@@ -77,7 +77,7 @@ const artists = [
       `Actuando a nivel mundial, desde el Kennedy Center hasta el Tokyo Bunka Kaikan, ha colaborado con orquestas como la Detroit Symphony, la Royal Philharmonic Orchestra y la Orchestre National de France. También bajo la dirección de distinguidos directores como Leonard Slatkin, Paavo Järvi y Fabien Gabel.`,
       `Su participación en festivales como Lockenhaus Kammermusikfest y Jazz à Vienne muestra su versatilidad. Como intérprete de un Stradivarius, la dirección artística de Dautricourt en "Fêtes Musicales de Corbigny" añade a su carrera multifacética.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Nicolas_Dautricourt_bzxdyo.webp`,
+    image: `/media/artists/Nicolas_Dautricourt_bzxdyo.webp`,
   },
 
   // English - Nicolas Dautricourt
@@ -92,7 +92,7 @@ const artists = [
       `,
       `His participation in festivals like Lockenhaus Kammermusikfest and Jazz à Vienne showcases his versatility. A Stradivari player, Dautricourt's artistic directorship of "Fêtes Musicales de Corbigny" adds to his multifaceted career.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Nicolas_Dautricourt_bzxdyo.webp`,
+    image: `/media/artists/Nicolas_Dautricourt_bzxdyo.webp`,
   },
 
   // Clémence de Forceville
@@ -106,7 +106,7 @@ const artists = [
       `Bajo la tutela de eminentes mentores como Olivier Charlier y Antje Weithaas, obtuvo reconocimiento internacional desde temprana edad. Como solista, colaboró con orquestas como la Filarmónica de Baden-Baden y la Orchestre de Chambre de Paris. Su dedicación a la música de cámara es evidente en su papel como primera violinista del Cuarteto de Cuerdas Hieronymus y su colaboración con el Trío Sōra, que resultó en la aclamada grabación de los Tríos de Beethoven, recibiendo el Choc Classica del año 2021.`,
       `Además, el liderazgo de Clémence como concertino en orquestas como la Orchestre National de Lille resalta su versatilidad y destreza en el repertorio sinfónico. Como asistente en la clase de Philippe Graffin en el Conservatoire National Supérieur de Musique et de Danse de Paris desde 2021, ha contribuido notablemente a la próxima generación de músicos. Apoyada por la Fundación Boubo-Music, Clémence toca un violín Lorenzo Storioni de 1777. Recientemente, fue nombrada concertino en la Orchestre de Chambre de Lausanne.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Cle%CC%81mence_de_Forceville_sxgcd6.webp`,
+    image: `/media/artists/Clemence_de_Forceville_sxgcd6.webp`,
   },
 
   // English - Clémence de Forceville
@@ -121,7 +121,7 @@ const artists = [
       `,
       `In addition, Clémence's leadership as concertmaster in orchestras like the Orchestre National de Lille highlights her versatility and prowess in the symphonic repertoire. As an assistant in Philippe Graffin's class at the Conservatoire National Supérieur de Musique et de Danse de Paris since 2021, she has notably contributed to the next generation of musicians. Supported by the Boubo-Music Foundation, Clémence performs on a 1777 Lorenzo Storioni violin. Clémence was recently appointed concertmaster at the Orchestre de Chambre de Lausanne.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Cle%CC%81mence_de_Forceville_sxgcd6.webp`,
+    image: `/media/artists/Clemence_de_Forceville_sxgcd6.webp`,
   },
 
   // Robert Kowalski
