@@ -382,7 +382,7 @@ const artists = [
       `Su dedicación a la música contemporánea le ha permitido él para cooperar con compositores como Sofia Gubaidolina, George Crumb y Bent Sorensen. Gimse es también internacionalmente reconocido como profesor, siendo profesor invitado en la Academia Galamian en Málaga y realizando talleres y masterclasses por toda Europa. El desarrollo del talento musical y el fomento de un ambiente musical duradero en Noruega constituye una parte vital de su trabajo.`,
       `Es miembro del programa de mentores «Konstknekt», una cooperación entre la Orquesta Filarmónica de Berlín y el festival de música de cámara «Vinterfestspill» en Røros, donde ocupa el cargo de director artístico. Gimse toca un Francesco Goffriller (1730) propiedad de Sparebankstiftelsen/Dextra Musica en Oslo, un magnífico instrumento que antes tocaba la legendaria violonchelista Jacqueline du Pré.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/%C3%98yvind_Gimse_sq_iaqsrn.webp`,
+    image: `/media/artists/Oyvind_Gimse_sq_iaqsrn.webp`,
   },
 
   // English - Øyvind Gimse
@@ -397,7 +397,7 @@ const artists = [
       `His dedication to contemporary music has allowed him to co-operate with composers like Sofia Gubaidolina, George Crumb and Bent Sorensen. Gimse is also an internationally recognized professor, holding a guest professorship at «Academia Galamian» in Malaga and taking workshops and masterclasses throughout Europe. The development of musical talent and the fostering of an enduring musical environment in Norway constitutes a vital part of his work.`,
       `He is a member of the mentor program «Konstknekt», a cooperation between the Berlin Philharmonic orchestra and the chamber music festival «Vinterfestspill» in Røros, where he holds the position as the artistic director. Gimse plays a Francesco Goffriller(1730) owned by the Sparebankstiftelsen/Dextra Musica in Oslo, a magnificent instrument formerly played by the legendary cellist Jacqueline du Pré.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/%C3%98yvind_Gimse_sq_iaqsrn.webp`,
+    image: `/media/artists/Oyvind_Gimse_sq_iaqsrn.webp`,
   },
 
   // Per Nyström
@@ -411,7 +411,7 @@ const artists = [
   //     `Posteriormente, fue violonchelista solista en Camerata Nordica de 2001 a 2016, combinando responsabilidades artísticas y de formación. Desde 2005, ocupa el cargo de director artístico de los festivales Kammarmusikens vänner, organizando cerca de 70 festivales internacionales y clases magistrales que atraen a participantes de todo el mundo. Además de sus compromisos orquestales, Per contribuye a conjuntos como el Trio Elégiaque y el Swedish Piano Trio, actuando como invitado en festivales globales.`,
   //     `Reconocido por sus contribuciones, es miembro honorario de por vida de la Universidad de Aberdeen y ha recibido la Medalla Real "Literis et artibus". Per toca un violonchelo Antonio & Giuseppe Gagliano de 1796 proveniente de Nápoles y es conocido por su fuerza, levantando 200 kg en un levantamiento de pesas.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Per_Nystro%CC%88m_wplq3e.webp`,
+  //   image: `/media/artists/Per_Nystro%CC%88m_wplq3e.webp`,
   // },
 
   // English - Per Nyström
@@ -425,7 +425,7 @@ const artists = [
   //     `Following this, he served as the solo cellist in Camerata Nordica from 2001 to 2016, combining artistic and lineup responsibilities. Since 2005, he has held the position of artistic director for Kammarmusikens vänner festivals, organizing nearly 70 international festivals and masterclasses that attract participants worldwide. In addition to his orchestral commitments, Per contributes to ensembles like Trio Elégiaque and the Swedish Piano Trio, performing as a guest at global festivals.`,
   //     `Recognized for his contributions, he holds an honorary lifetime membership at the University of Aberdeen and has been awarded the Royal Medal "Literis et artibus." Per plays a 1796 Antonio & Giuseppe Gagliano cello from Naples and is known for his strength, lifting 200 kg in a deadlift.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Per_Nystro%CC%88m_wplq3e.webp`,
+  //   image: `/media/artists/Per_Nystro%CC%88m_wplq3e.webp`,
   // },
 
   // Gabriel Ureña
@@ -439,7 +439,7 @@ const artists = [
       `Ha compartido escenario con artistas como Leo Nucci, Edita Gruberová, Ainhoa Arteta, Ruggero Raimondi, Anna Netrebko, Ilya Gringolts, Benjamin Schmid, las hermanas Labèque, Natalia Gutman o Midori, y ha ganado el Primer Premio del Concurso de Cello de Arquillos (Jaén) y del Concurso Internacional de Música de Cámara "Ciudad de Manresa”.`,
       `Entre los hitos más recientes de su carrera figuran la publicación de su primer CD, con el sello Aria Classics, con obras de Prokofiev, Shostakovich y Rachmaninov, junto al pianista Patxi Aizpiri, su concierto como solista con la Orquesta Filarmónica de Málaga o su debut con la Orquesta Nacional de Colombia en el Teatro Colón de Bogotá.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Gabriel_Urena_k3zidf.webp`,
+    image: `/media/artists/Gabriel_Urena_k3zidf.webp`,
   },
 
   // English - Gabriel Ureña
@@ -453,7 +453,7 @@ const artists = [
       `He has shared the stage with artists such as Leo Nucci, Edita Gruberová, Ainhoa Arteta, Ruggero Raimondi, Anna Netrebko, Ilya Gringolts, Benjamin Schmid, the Labèque sisters, Natalia Gutman and Midori, and is the First Prize Winner of the Cello Competition of Arquillos (Jaén) and the International Chamber Music Competition "City of Manresa”.`,
       `Among the most recent milestones of his career are the publication of his first CD for the label Aria Classics, with works by Prokofiev, Shostakovich and Rachmaninov, with the pianist Patxi Aizpiri, his solo appearance with the Malaga Philharmonic Orchestra and his debut with the Colombian National Orchestra at the Teatro Colón in Bogotá.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Gabriel_Urena_k3zidf.webp`,
+    image: `/media/artists/Gabriel_Urena_k3zidf.webp`,
   },
 
   // Adolfo Gutiérrez
@@ -468,7 +468,7 @@ const artists = [
   //     `Adolfo ha actuado en escenarios importantes como el Concertgebouw de Ámsterdam, el Auditorio Nacional de Música de Madrid, el Ford Theatre de Los Ángeles, l'Auditori y Palau de la Música de Barcelona, ​​la Sala Bulgaria de Sofía o el Palacio Euskalduna de Bilbao, y ha colaborado con directores como como Edward Gardner, José Ramón Encinar, Roberto Minczuk, Pablo González, Anu Tali y Antoni Ros-Marbà.`,
   //     `Adolfo ha grabado Barber, Rachmaninov, Piazzolla y el ciclo completo de las suites para violonchelo de J.S. Bach con el sello Verso. Su grabación reciente de las sonatas completas de Beethoven con el pianista Christopher Park ha recibido excelentes críticas. Adolfo toca un Francesco Ruggieri, hecho a mano en Cremona en 1673.`,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/adolfo-gutierrez_fkv4oe.webp`,
+  //   image: `/media/artists/adolfo-gutierrez_fkv4oe.webp`,
   // },
 
   // English - Adolfo Gutiérrez
@@ -483,7 +483,7 @@ const artists = [
   //     `Adolfo has performed at major venues such as Amsterdam’s Concertgebouw, Auditorio Nacional de Música in Madrid, Ford Theatre in Los Angeles, l’Auditori and Palau de la Música in Barcelona, Bulgaria Hall in Sofia and Palacio Euskalduna in Bilbao, and collaborated with conductors such as Edward Gardner, José Ramón Encinar, Roberto Minczuk, Pablo González, Anu Tali and Antoni Ros-Marbà.`,
   //     `Adolfo has recorded Barber, Rachmaninov, Piazzolla and the complete cycle of the cello suites by J.S. Bach on the Verso label. His recent recording of the complete Beethoven Sonatas with pianist Christopher Park received great critical acclaim. Adolfo plays a Francesco Ruggieri, handcrafted in Cremona in 1673. `,
   //   ],
-  //   image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/adolfo-gutierrez_fkv4oe.webp`,
+  //   image: `/media/artists/adolfo-gutierrez_fkv4oe.webp`,
   // },
 
   // Natalia Kucháeva
@@ -498,7 +498,7 @@ const artists = [
       `Entre sus actuaciones destaca el concierto en la entrega del Premio Internacional de Poesía Federico García Lorca, en el Auditorio Manuel de Falla de Granada, con la presencia de los Príncipes de Asturias. Es profesora invitada en la Academia Internacional Galamian en Málaga, donde imparte clases del Método Brainin: “Desarrollo de intelecto musical“.`,
       `Desde el año 2022 es profesora de repertorio de la Cátedra de Canto "Alfredo Kraus" de la Escuela Superior de Música Reina Sofía de Madrid.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Natalia_Kuchaeva_sq_xhbtyf.webp`,
+    image: `/media/artists/Natalia_Kuchaeva_sq_xhbtyf.webp`,
   },
 
   // English - Natalia Kucháeva
@@ -513,7 +513,7 @@ const artists = [
       `Recent highlights include performances at the Federico García Lorca International Poetry Prize ceremony, in the Manuel de Falla Auditorium in Granada, with the presence of the Prince and Princess of Asturias. She is a visiting professor at the Galamian International Academy in Malaga, where she teaches the Brainin Method: "Development of musical intellect".`,
       `Since 2022 she has been a repertoire teacher at the "Alfredo Kraus" Singing Chair at the Reina Sofía Superior School of Music in Madrid.`,
     ],
-    image: `https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/M%C3%A1laga%20Cl%C3%A1sica/Natalia_Kuchaeva_sq_xhbtyf.webp`,
+    image: `/media/artists/Natalia_Kuchaeva_sq_xhbtyf.webp`,
   },
 
   // Josu De Solaun
