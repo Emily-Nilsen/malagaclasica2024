@@ -29,15 +29,15 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
       </Head>
-      <Header />
+      {/* <Header /> */}
 
       <main className="">
         <Hero />
-        <Features />
-        <Testimonials />
+        {/* <Features /> */}
+        {/* <Testimonials /> */}
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
