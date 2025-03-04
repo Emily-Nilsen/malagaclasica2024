@@ -180,6 +180,163 @@ const artists = [
     image: `/media/artists/Eleanor_Kendra_James.webp`,
   },
 
+  // Spanish - Benedict Kloeckner
+  {
+    locale: `es`,
+    name: `Benedict Kloeckner`,
+    slug_name: `Benedict Kloeckner ES`,
+    instrument: `violonchelo`,
+    para_1: `Benedict Kloeckner es uno de los artistas más destacados de su generación, nacido en 1989.`,
+    sentences: [
+      `Nacido en 1989, es uno de los artistas más destacados de su generación. Ha ganado numerosos concursos y premios, siendo el más reciente el OPUS Klassik 2021.`,
+      `Actúa en todo el mundo como solista con orquestas de renombre como la Royal Philharmonic Orchestra de Londres, la Deutsche Radiophilharmonie, la NDR Radiophilharmonie, la MDR Symphony Orchestra, la Deutsche Staatsphilharmonie, la Kremerata Baltica, la Camerata Oslo y la Munich Chamber Orchestra, y trabaja con directores de prestigio como Daniel Barenboim, Christoph Eschenbach, Ingo Metzmacher, Michael Sanderling, Clemens Schuldt, Heinrich Schiff y Sir Simon Rattle.`,
+      `Se presenta en salas de conciertos como la Berlin Philharmonie, Carnegie Hall de Nueva York, Kennedy Center de Washington, Symphony Hall de Chicago, Arts Center de Seúl, Suntory Hall de Tokio, Musikverein de Viena, Gewandhaus de Leipzig, Tonhalle de Zúrich, Gasteig de Múnich, Concertgebouw de Ámsterdam, Rudolfinum de Praga, Athenaeum de Bucarest y Barbican, Cadogan y Wigmore Hall de Londres.`,
+    ],
+    image: `/media/artists/Benedict_Kloeckner.webp`,
+  },
+
+  // English - Benedict Kloeckner
+  {
+    locale: `en`,
+    name: `Benedict Kloeckner`,
+    slug_name: `Benedict Kloeckner EN`,
+    instrument: `cello`,
+    para_1: `Benedict Kloeckner, born in 1989, is one of the outstanding artists of his generation.`,
+    sentences: [
+      `He has won numerous competitions and awards, most recently the OPUS Klassik 2021.`,
+      `He performs worldwide as a soloist with renowned orchestras such as the Royal Philharmonic Orchestra London, the Deutsche Radiophilharmonie, the NDR Radiophilharmonie, the MDR Symphony Orchestra, the Deutsche Staatsphilharmonie, the Kremerata Baltica, the Camerata Oslo and the Munich Chamber Orchestra, and works with distinguished conductors including Daniel Barenboim, Christoph Eschenbach, Ingo Metzmacher, Michael Sanderling, Clemens Schuldt, Heinrich Schiff and Sir Simon Rattle.`,
+      `He appears in concert halls such as the Berlin Philharmonie, Carnegie Hall New York, Kennedy Center Washington, Symphony Hall Chicago, Arts Center Seoul, Suntory Hall Tokyo, Musikverein Vienna, Gewandhaus Leipzig, Tonhalle Zurich, Gasteig in Munich, Concertgebouw Amsterdam, Rudolfinum Prague, Athenaeum Bucharest and Barbican, Cadogan and Wigmore Hall London.`,
+    ],
+    image: `/media/artists/Benedict_Kloeckner.webp`,
+  },
+
+  //Christoophe Morin
+  {
+    locale: `es`,
+    name: `Christophe Morin`,
+    slug_name: `Christophe Morin ES`,
+    instrument: `violonchelo`,
+    para_1: `"Violonchelista poseedor de una técnica brillante y con un sonido destacable. Su expresión musical es intensa y su carácter rico, impetuoso y apasionado capta inmediatamente nuestra atención". Esta apreciación de un maestro como Roland Pidoux, define mejor el talento y el compromiso de Christophe Morin.`,
+    sentences: [
+      `Mientras comienza a tocar el violonchelo con su madre a la edad de 5 años, obtiene a los 17 años el 1er Premio de violonchelo por unanimidad en el CNSMD de París en la clase de Roland Pidoux, y su 1er Premio de música de cámara en la clase de Christian Ivaldi. Luego es admitido en clase de perfeccionamiento y, durante estos dos años, obtiene el premio de la Fundación Natexis y el de la Fundación Charles Oulmont, y, paralelamente, sigue las clases de maestría de Jànos Starker, Mstislav Rostropovitch y Yo Yo. Ma, quien le dio la oportunidad de seguir clases privadas con él.`,
+      `Hoy Christophe Morin actúa con solistas internacionales conocidos como Renaud Capuçon, Jérôme Ducros con quien grabó un disco en vivo del trío op. 100 de Schubert, pero también Nicholas Angelich, Augustin Dumay, Jean-Marc Luisada, David Grimal, el cuarteto Modigliani, y él, que ha librado una dura batalla de más de diez años, tras una operación que le obliga a jugar con un guante. por lo que intenta perfeccionarse de años en años al lado de investigadores, testigo de su pasión sin fronteras por la música y su instrumento!`,
+      `El trío que forma con la violinista Sarah Nemtanu y el pianista Jean-Frédéric Neuburger, "Compass Trio", se presenta en grandes salas francesas; su concierto en el Museo del Louvre, retransmitido en directo por Medici. TV, conoció en particular un éxito sorprendente.`,
+      `Es invitado de prestigiosos festivales donde compartió escenario con el pianista Éric Lesage, y los solistas de la Orquesta Filarmónica de Berlín (Guy Braunstein, Daishin Kashimoto, Amihai Grosz, Emmanuel Pahud, Paul Meyer); y es miembro de la Mahler Chamber Orchestra con la que viaja por el mundo supervisado por los grandes jefes (Claudio Abbado, Daniel Harding).`,
+      `Muy comprometido en el panorama de la música de cámara, Christophe Morin lidera también su carrera como solista. Es invitado como violonchelo solista de Camerata europea, orquesta de cuerdas constituida principalmente por los elementos más brillantes de la Orquesta Sinfónica de Londres y la Orquesta Nacional de Francia; pero también de todo David Grimal y de la Mahler Chamber Orchestra.`,
+      `La pasión de Christophe Morin por la música de cámara le llevó a crear en 2010 el festival "3 días de mayo" en la isla de Ré, que dirige desde 2012 con Sarah Nemtanu.`,
+    ],
+    image: `/media/artists/Christophe_Morin_v3_fuauuf.webp`,
+  },
+
+  // English - Christophe Morin
+  {
+    locale: `en`,
+    name: `Christophe Morin`,
+    slug_name: `Christophe Morin EN`,
+    instrument: `cello`,
+    para_1: `"Christophe Morin is a cellist with brilliant technique and an outstanding sound. His musical expression is intense, and his rich, impetuous, and passionate character immediately captures our attention." This assessment by a master like Roland Pidoux best defines the talent and dedication of Christophe Morin.`,
+    sentences: [
+      `Christophe Morin's musical journey is a testament to his exceptional talent and dedication. He embarked on his cello journey at the tender age of 5, guided by his mother. At 17, he achieved a remarkable feat, winning the First Prize in cello unanimously at the CNSMD in Paris under the tutelage of Roland Pidoux, and the First Prize in chamber music under Christian Ivaldi. His journey continued to flourish as he was admitted to the advanced class, winning awards from the Natexis Foundation and the Charles Oulmont Foundation. His thirst for knowledge led him to attend master classes with János Starker, Mstislav Rostropovich, and Yo-Yo Ma, who offered him the opportunity for private lessons.`,
+      `Today, Christophe Morin performs with internationally renowned soloists such as Renaud Capuçon and Jérôme Ducros, with whom he recorded a live album of Schubert's Trio Op. 100. He also collaborates with Nicholas Angelich, Augustin Dumay, Jean-Marc Luisada, David Grimal, and the Modigliani Quartet. After a challenging battle lasting over ten years following surgery that required him to play with a glove, he continues to perfect his art alongside researchers, demonstrating his boundless passion for music and his instrument.`,
+      `The trio he forms with violinist Sarah Nemtanu and pianist Jean-Frédéric Neuburger, "Compass Trio," performs in major French venues—their Louvre Museum concert broadcast live on Medici.TV was particularly well-received.`,
+      `He is a guest at prestigious festivals, sharing the stage with pianist Éric Lesage and soloists from the Berlin Philharmonic Orchestra (Guy Braunstein, Daishin Kashimoto, Amihai Grosz, Emmanuel Pahud, Paul Meyer). He is also a member of the Mahler Chamber Orchestra, with which he tours the world under the direction of great conductors like Claudio Abbado and Daniel Harding.`,
+      `Deeply committed to the chamber music scene, Christophe Morin also pursues a career as a soloist. He is invited as a solo cellist with the European Camerata, a string orchestra comprised mainly of the most brilliant members of the London Symphony Orchestra and the National Orchestra of France, as well as with David Grimal and the Mahler Chamber Orchestra.`,
+      `Christophe Morin's passion for chamber music extends beyond his performances. In 2010, he took a significant step in his career by creating the '3 Days in May' festival on Ré Island. This festival, which he has directed since 2012 with Sarah Nemtanu, has become a platform for showcasing the best of chamber music, leaving a lasting impact on the music scene.`,
+    ],
+    image: `/media/artists/Christophe_Morin_v3_fuauuf.webp`,
+  },
+  // Spanish - José Gallardo
+  {
+    locale: `es`,
+    name: `José Gallardo`,
+    slug_name: `José Gallardo ES`,
+    instrument: `piano`,
+    para_1: `El argentino José Gallardo es uno de los pianistas de música de cámara más solicitados del mundo.`,
+    sentences: [
+      `A los 5 años recibió clases de piano en el Conservatorio de Buenos Aires y posteriormente continuó sus estudios con la profesora Poldi Mildner en el Departamento de Música de la Universidad de Maguncia (Alemania).`,
+      `Ha recibido numerosos premios nacionales e internacionales y ha sido invitado a festivales de música como el Chamber Music Festival Lockenhaus, Verbier Festival, Lucerne Festival, Chopin and his Europe en Varsovia, Schleswig Holstein, Kronberg Academy Festival, Cork Music Festival, City of London Festival, Musiktage Hitzacker, Budapest Academy Festival y el Rheingau Music Festival.`,
+      `En el ámbito de la música de cámara, ha colaborado, entre otros, con Gidon Kremer, Vilde Frang, Michael Guttman, Andreas Ottensamer, Philippe Quint, Veronika Eberle, Diana Tishchenko, Benjamin Appl, Nils Mönkemeyer, Barnabás Kelemen, Linus Roth, Tomoko Akasaka, Janusz Wawrowski, Nicolas Altstaedt, Julius Berger, Danjulo Ishizaka, Miklós Perényi y Maximilian Hornung.`,
+      `Se ha presentado en Europa, Asia, Israel, Oceanía y Sudamérica, en importantes salas de conciertos como la Berlin Philharmonie, Tonhalle de Zúrich, Laeiszhalle y Elbphilharmonie de Hamburgo, Teatro della Pergola de Florencia y Wigmore Hall de Londres.`,
+      `Ha realizado grabaciones para EMI, Warner, Deutsche Grammophon, Hänssler y Challenge, además de producciones para televisión y radio en BR, SWR, MDR, BBC, RAI y AMC.Entre los momentos destacados de la temporada 2024/25 se incluyen giras por Europa y Asia junto a Andreas Ottensamer, Akiko Suwanai, Michiaki Ueno y Sunao Goko.Desde 2008, enseña en el Leopold Mozart Centre de la Universidad de Augsburgo. Junto con Andreas Ottensamer, es director artístico del festival de música de cámara Bürgenstock Festival en Lucerna.`,
+    ],
+    image: `/media/artists/José_Gallardo.webp`,
+  },
+
+  // English - José Gallardo
+  {
+    locale: `en`,
+    name: `José Gallardo`,
+    slug_name: `José Gallardo EN`,
+    instrument: `piano`,
+    para_1: `The Argentine-born José Gallardo is one of the world's most sought-after chamber music pianists.`,
+    sentences: [
+      `At five, he received piano lessons at the Conservatory in Buenos Aires and later continued his studies with Prof. Poldi Mildner at the Department of Music, University of Mainz, Germany.`,
+      `He has received numerous national and international awards and has been invited to musical festivals such as Chamber Music Festival Lockenhaus, Verbier Festival, Lucerne Festival, Chopin and his Europe Warsaw, Schleswig Holstein, Kronberg Academy Festival, Cork Music Festival, City of London Festival, Musiktage Hitzacker, Budapest Academy Festival and the Rheingau Music Festival.`,
+      `In chamber music, he collaborated with, among others, Gidon Kremer, Vilde Frang, Michael Guttman, Andreas Ottensamer, Philippe Quint, Veronika Eberle, Diana Tishchenko, Benjamin Appl, Nils Mönkemeyer, Barnabás Kelemen, Linus Roth, Tomoko Akasaka, Janusz Wawrowski, Nicolas Altstaedt, Julius Berger, Danjulo Ishizaka, Miklós Perényi, and Maximilian Hornung.`,
+      `He has performed in Europe, Asia, Israel, Oceania, and South America in major concert halls including Berlin Philharmonie, Zurich Tonhalle, Laeiszhalle and Elbphilharmonie (Hamburg), Teatro della Pergola (Florence) and Wigmore Hall (London).`,
+      `He recorded for, among others, EMI, Warner, Deutsche Grammophon, Hänssler, and Challenge, as well as for television and radio productions in BR, SWR, MDR, BBC, RAI, and AMC. José Gallardo’s 2024/25 season highlights include tours in Europe and Asia with Andreas Ottensamer, Akiko Suwanai, Michiaki Ueno and Sunao Goko. Since 2008, he has been teaching at the Leopold Mozart Centre, University of Augsburg. Together with Andreas Ottensamer, he is the artistic director of the chamber music festival “Bürgenstock Festival” in Lucerne.`,
+    ],
+    image: `/media/artists/José_Gallardo.webp`,
+  },
+
+  // Natalia Kucháeva
+  {
+    locale: `es`,
+    name: `Natalia Kucháeva`,
+    slug_name: `Natalia Kucháeva ES`,
+    instrument: `piano`,
+    para_1: `Destacada por la crítica por “una técnica formidable, delicadeza y una sensibilidad exquisita” la pianista Natalia Kucháeva ha ganado premios en concursos como el Anton Rubinstein de París, el José Iturbi (Valencia), el Alexandr Scriabin de Grosetto (Italia), y el Ettlingen y el Pianale (Alemania), se formó en la Escuela de Música afiliada al Conservatorio Estatal P. I. Tchaikovsky de Moscú, en la Academia Gnessin y en la Escuela Superior de Música de Lucerna (Suiza), con los maestros Vladimir Tropp y Konstantin Lifschitz.`,
+    sentences: [
+      `Recientemente ha terminado el Máster de Lied “Victoria de los Ángeles” en la ESMUC de Barcelona recibiendo Matrícula de Honor. Durante 10 años ha sido maestra repetidora de la ópera en el Teatro de la Maestranza de Sevilla, y ha actuado en festivales y conciertos en Bienal de Flamenco 2020 (Sevilla) Festival Rafael Orozco (Córdoba), Festival Otoño Clásico (Lisboa), Casa Bösendorfer (Suiza), Casa Steingräber (Alemania), Teatro Petruzelli (Italia), Teatro de la Maestranza de Sevilla, Auditorio de Tenerife, Sala Bolshoi (Conservatorio Tchaikovsky de Moscú) y Act City Concert Hall (Japón), y forma un dúo pianístico con Jorge Lechado.`,
+      `Entre sus actuaciones destaca el concierto en la entrega del Premio Internacional de Poesía Federico García Lorca, en el Auditorio Manuel de Falla de Granada, con la presencia de los Príncipes de Asturias. Es profesora invitada en la Academia Internacional Galamian en Málaga, donde imparte clases del Método Brainin: “Desarrollo de intelecto musical“.`,
+      `Desde el año 2022 es profesora de repertorio de la Cátedra de Canto "Alfredo Kraus" de la Escuela Superior de Música Reina Sofía de Madrid.`,
+    ],
+    image: `/media/artists/Natalia_Kuchaeva_sq_xhbtyf.webp`,
+  },
+
+  // English - Natalia Kucháeva
+  {
+    locale: `en`,
+    name: `Natalia Kucháeva`,
+    slug_name: `Natalia Kucháeva EN`,
+    instrument: `piano`,
+    para_1: `Noted by critics for "a formidable technique, delicacy and exquisite sensitivity", pianist Natalia Kucháeva has won prizes in competitions, such as the Anton Rubinstein in Paris, the José Iturbi (Valencia), the Alexandr Scriabin in Grosetto (Italy) and the Ettlingen and Pianale (Germany). She studied at the School of Music affiliated with the P.I. Tchaikovsky State Conservatory (Moscow), at the Gnessin Academy and School of Music of Lucerne (Switzerland), with Vladimir Tropp and Konstantin Lifschitz.`,
+    sentences: [
+      `Recently she finished the Master of Lied "Victoria de los Ángeles" at the ESMUC in Barcelona graduation with an honorary degree. For 10 years she was a piano répétiteur of opera at the Teatro de la Maestranza in Seville, and has participated in festivals and performed in Bienal de Flamenco 2020 (Seville), Rafael Orozco Festival (Cordoba), Classic Autumn Festival (Lisbon), Bösendorfer House (Switzerland), Steingraber House (Germany), Petruzelli Theater (Italy), Teatro de la Maestranza (Seville), Tenerife Auditorium, Bolshoi Hall (Moscow Tchaikovsky Conservatory) and Act City Concert Hall (Japan), and she forms a piano duo with Jorge Lechado.`,
+      `Recent highlights include performances at the Federico García Lorca International Poetry Prize ceremony, in the Manuel de Falla Auditorium in Granada, with the presence of the Prince and Princess of Asturias. She is a visiting professor at the Galamian International Academy in Malaga, where she teaches the Brainin Method: "Development of musical intellect".`,
+      `Since 2022 she has been a repertoire teacher at the "Alfredo Kraus" Singing Chair at the Reina Sofía Superior School of Music in Madrid.`,
+    ],
+    image: `/media/artists/Natalia_Kuchaeva_sq_xhbtyf.webp`,
+  },
+
+  // Josu De Solaun
+  {
+    locale: `es`,
+    name: `Josu De Solaun`,
+    slug_name: `Josu De Solaun ES`,
+    instrument: `piano`,
+    para_1: `El pianista hispanoamericano Josu De Solaun es el ganador del Primer Premio del XIII Concurso Internacional de Piano George Enescu, Bucarest, el XV Concurso Internacional de Piano José Iturbi y el Primer Concurso de Piano de la Unión Europea.`,
+    sentences: [
+      `Ha sido invitado a actuar en distinguidas salas de conciertos de todo el mundo, incluyendo al Ateneo Rumano de Bucarest, el Teatro La Fenice de Venecia, el Teatro Mariinsky de San Petersburgo, el Kennedy Center de Washington, Carnegie Hall y Metropolitan Opera de Nueva York, Southbank Centre de Londres, Salle Cortot de París, Schumann Haus de Leipzig, Novel Hall en Taipei, la Sala Silvestre Revueltas de la Ciudad de México, el Palacio Nostitz de Praga, la Academia de España en Roma, el Festival Internacional de Música de Menton y todas las principales ciudades de España. `,
+      `La temporada 2020-2021 contó con su concierto–debut de improvisación libre al piano, panDEMiCity, en el Auditorio Ciudad de León, así como actuaciones como solista con orquestas en España, República Checa y Rumanía. En 2021, también recibió el prestigioso premio ICMA (International Classical Music Awards) por su grabación de Sonatas para violín y piano francesas con la violinista Franziska Pietsch («Fantasque«), y en 2023, recibión el mismo galardón por su álbum Haydn Piano Sonatas. Su último álbum en solitario de obras de Brahms y Schumann para el sello IBS Classical – «Digressions» – ha cosechado excelentes críticas.`,
+    ],
+    image: `/media/artists/Josu_de_Solaun_mrounb.webp`,
+  },
+
+  // English - Josu De Solaun
+  {
+    locale: `en`,
+    name: `Josu De Solaun`,
+    slug_name: `Josu De Solaun EN`,
+    instrument: `piano`,
+    para_1: `Spanish-American pianist Josu De Solaun is the winner of the First Prize of the XIII George Enescu International Piano Competition, Bucharest, the XV José Iturbi International Piano Competition and the First Piano Competition of the European Union.`,
+    sentences: [
+      `He has been invited to perform in distinguished concert halls around the world, including the Romanian Athenaeum in Bucharest, the La Fenice Theater in Venice, the Mariinsky Theater in St. Petersburg, the Kennedy Center in Washington, Carnegie Hall and the Metropolitan Opera in New York, the Southbank Center in London, the Salle Cortot in Paris, the Schumann Haus in Leipzig, the Novel Hall in Taipei, the Sala Silvestre Revueltas in Mexico City, the Nostitz Palace in Prague, the Spanish Academy in Rome, the International Music Festival of Menton and all the main cities of Spain. `,
+      `The 2020-2021 season featured his free improvisation concert-debut on piano, panDEMiCity, at the León Auditorium, as well as solo performances with orchestras, in Spain, the Czech Republic and Romania. In 2021, he also received the prestigious ICMA (International Classical Music Awards) award for his recording of French Violin and Piano Sonatas with violinist Franziska Pietsch (“Fantasque”), and in 2023 he obtained the same award for his Haydn Piano Sonatas album. His latest solo album of works by Brahms and Schumann for the IBS Classical label – “Digressions” – has garnered great reviews.`,
+    ],
+    image: `/media/artists/Josu_de_Solaun_mrounb.webp`,
+  },
+
   // Robert Kowalski
   // {
   //   locale: `es`,
@@ -332,42 +489,6 @@ const artists = [
       `After graduation, she studied at the Liszt Academy in Budapest, Hungary. Shortly after, she switched to the viola and studied at the Toho Tokyo University, continuing her studies at the Geneva Conservatory with Nobuko Imai, while being her assistant. She was also a guest professor at the Conservatory of Neuchatel. Tomoko joined the Amaryllis Quartet in 2016.`,
     ],
     image: `/media/artists/tomoko_ndhzaw.webp`,
-  },
-
-  //Christoophe Morin
-  {
-    locale: `es`,
-    name: `Christophe Morin`,
-    slug_name: `Christophe Morin ES`,
-    instrument: `violonchelo`,
-    para_1: `"Violonchelista poseedor de una técnica brillante y con un sonido destacable. Su expresión musical es intensa y su carácter rico, impetuoso y apasionado capta inmediatamente nuestra atención". Esta apreciación de un maestro como Roland Pidoux, define mejor el talento y el compromiso de Christophe Morin.`,
-    sentences: [
-      `Mientras comienza a tocar el violonchelo con su madre a la edad de 5 años, obtiene a los 17 años el 1er Premio de violonchelo por unanimidad en el CNSMD de París en la clase de Roland Pidoux, y su 1er Premio de música de cámara en la clase de Christian Ivaldi. Luego es admitido en clase de perfeccionamiento y, durante estos dos años, obtiene el premio de la Fundación Natexis y el de la Fundación Charles Oulmont, y, paralelamente, sigue las clases de maestría de Jànos Starker, Mstislav Rostropovitch y Yo Yo. Ma, quien le dio la oportunidad de seguir clases privadas con él.`,
-      `Hoy Christophe Morin actúa con solistas internacionales conocidos como Renaud Capuçon, Jérôme Ducros con quien grabó un disco en vivo del trío op. 100 de Schubert, pero también Nicholas Angelich, Augustin Dumay, Jean-Marc Luisada, David Grimal, el cuarteto Modigliani, y él, que ha librado una dura batalla de más de diez años, tras una operación que le obliga a jugar con un guante. por lo que intenta perfeccionarse de años en años al lado de investigadores, testigo de su pasión sin fronteras por la música y su instrumento!`,
-      `El trío que forma con la violinista Sarah Nemtanu y el pianista Jean-Frédéric Neuburger, "Compass Trio", se presenta en grandes salas francesas; su concierto en el Museo del Louvre, retransmitido en directo por Medici. TV, conoció en particular un éxito sorprendente.`,
-      `Es invitado de prestigiosos festivales donde compartió escenario con el pianista Éric Lesage, y los solistas de la Orquesta Filarmónica de Berlín (Guy Braunstein, Daishin Kashimoto, Amihai Grosz, Emmanuel Pahud, Paul Meyer); y es miembro de la Mahler Chamber Orchestra con la que viaja por el mundo supervisado por los grandes jefes (Claudio Abbado, Daniel Harding).`,
-      `Muy comprometido en el panorama de la música de cámara, Christophe Morin lidera también su carrera como solista. Es invitado como violonchelo solista de Camerata europea, orquesta de cuerdas constituida principalmente por los elementos más brillantes de la Orquesta Sinfónica de Londres y la Orquesta Nacional de Francia; pero también de todo David Grimal y de la Mahler Chamber Orchestra.`,
-      `La pasión de Christophe Morin por la música de cámara le llevó a crear en 2010 el festival "3 días de mayo" en la isla de Ré, que dirige desde 2012 con Sarah Nemtanu.`,
-    ],
-    image: `/media/artists/Christophe_Morin_v3_fuauuf.webp`,
-  },
-
-  // English - Christophe Morin
-  {
-    locale: `en`,
-    name: `Christophe Morin`,
-    slug_name: `Christophe Morin EN`,
-    instrument: `cello`,
-    para_1: `"Christophe Morin is a cellist with brilliant technique and an outstanding sound. His musical expression is intense, and his rich, impetuous, and passionate character immediately captures our attention." This assessment by a master like Roland Pidoux best defines the talent and dedication of Christophe Morin.`,
-    sentences: [
-      `Christophe Morin's musical journey is a testament to his exceptional talent and dedication. He embarked on his cello journey at the tender age of 5, guided by his mother. At 17, he achieved a remarkable feat, winning the First Prize in cello unanimously at the CNSMD in Paris under the tutelage of Roland Pidoux, and the First Prize in chamber music under Christian Ivaldi. His journey continued to flourish as he was admitted to the advanced class, winning awards from the Natexis Foundation and the Charles Oulmont Foundation. His thirst for knowledge led him to attend master classes with János Starker, Mstislav Rostropovich, and Yo-Yo Ma, who offered him the opportunity for private lessons.`,
-      `Today, Christophe Morin performs with internationally renowned soloists such as Renaud Capuçon and Jérôme Ducros, with whom he recorded a live album of Schubert's Trio Op. 100. He also collaborates with Nicholas Angelich, Augustin Dumay, Jean-Marc Luisada, David Grimal, and the Modigliani Quartet. After a challenging battle lasting over ten years following surgery that required him to play with a glove, he continues to perfect his art alongside researchers, demonstrating his boundless passion for music and his instrument.`,
-      `The trio he forms with violinist Sarah Nemtanu and pianist Jean-Frédéric Neuburger, "Compass Trio," performs in major French venues—their Louvre Museum concert broadcast live on Medici.TV was particularly well-received.`,
-      `He is a guest at prestigious festivals, sharing the stage with pianist Éric Lesage and soloists from the Berlin Philharmonic Orchestra (Guy Braunstein, Daishin Kashimoto, Amihai Grosz, Emmanuel Pahud, Paul Meyer). He is also a member of the Mahler Chamber Orchestra, with which he tours the world under the direction of great conductors like Claudio Abbado and Daniel Harding.`,
-      `Deeply committed to the chamber music scene, Christophe Morin also pursues a career as a soloist. He is invited as a solo cellist with the European Camerata, a string orchestra comprised mainly of the most brilliant members of the London Symphony Orchestra and the National Orchestra of France, as well as with David Grimal and the Mahler Chamber Orchestra.`,
-      `Christophe Morin's passion for chamber music extends beyond his performances. In 2010, he took a significant step in his career by creating the '3 Days in May' festival on Ré Island. This festival, which he has directed since 2012 with Sarah Nemtanu, has become a platform for showcasing the best of chamber music, leaving a lasting impact on the music scene.`,
-    ],
-    image: `/media/artists/Christophe_Morin_v3_fuauuf.webp`,
   },
 
   // Rumen Cvetkov
@@ -541,64 +662,6 @@ const artists = [
   //   ],
   //   image: `/media/artists/adolfo-gutierrez_fkv4oe.webp`,
   // },
-
-  // Natalia Kucháeva
-  {
-    locale: `es`,
-    name: `Natalia Kucháeva`,
-    slug_name: `Natalia Kucháeva ES`,
-    instrument: `piano`,
-    para_1: `Destacada por la crítica por “una técnica formidable, delicadeza y una sensibilidad exquisita” la pianista Natalia Kucháeva ha ganado premios en concursos como el Anton Rubinstein de París, el José Iturbi (Valencia), el Alexandr Scriabin de Grosetto (Italia), y el Ettlingen y el Pianale (Alemania), se formó en la Escuela de Música afiliada al Conservatorio Estatal P. I. Tchaikovsky de Moscú, en la Academia Gnessin y en la Escuela Superior de Música de Lucerna (Suiza), con los maestros Vladimir Tropp y Konstantin Lifschitz.`,
-    sentences: [
-      `Recientemente ha terminado el Máster de Lied “Victoria de los Ángeles” en la ESMUC de Barcelona recibiendo Matrícula de Honor. Durante 10 años ha sido maestra repetidora de la ópera en el Teatro de la Maestranza de Sevilla, y ha actuado en festivales y conciertos en Bienal de Flamenco 2020 (Sevilla) Festival Rafael Orozco (Córdoba), Festival Otoño Clásico (Lisboa), Casa Bösendorfer (Suiza), Casa Steingräber (Alemania), Teatro Petruzelli (Italia), Teatro de la Maestranza de Sevilla, Auditorio de Tenerife, Sala Bolshoi (Conservatorio Tchaikovsky de Moscú) y Act City Concert Hall (Japón), y forma un dúo pianístico con Jorge Lechado.`,
-      `Entre sus actuaciones destaca el concierto en la entrega del Premio Internacional de Poesía Federico García Lorca, en el Auditorio Manuel de Falla de Granada, con la presencia de los Príncipes de Asturias. Es profesora invitada en la Academia Internacional Galamian en Málaga, donde imparte clases del Método Brainin: “Desarrollo de intelecto musical“.`,
-      `Desde el año 2022 es profesora de repertorio de la Cátedra de Canto "Alfredo Kraus" de la Escuela Superior de Música Reina Sofía de Madrid.`,
-    ],
-    image: `/media/artists/Natalia_Kuchaeva_sq_xhbtyf.webp`,
-  },
-
-  // English - Natalia Kucháeva
-  {
-    locale: `en`,
-    name: `Natalia Kucháeva`,
-    slug_name: `Natalia Kucháeva EN`,
-    instrument: `piano`,
-    para_1: `Noted by critics for "a formidable technique, delicacy and exquisite sensitivity", pianist Natalia Kucháeva has won prizes in competitions, such as the Anton Rubinstein in Paris, the José Iturbi (Valencia), the Alexandr Scriabin in Grosetto (Italy) and the Ettlingen and Pianale (Germany). She studied at the School of Music affiliated with the P.I. Tchaikovsky State Conservatory (Moscow), at the Gnessin Academy and School of Music of Lucerne (Switzerland), with Vladimir Tropp and Konstantin Lifschitz.`,
-    sentences: [
-      `Recently she finished the Master of Lied "Victoria de los Ángeles" at the ESMUC in Barcelona graduation with an honorary degree. For 10 years she was a piano répétiteur of opera at the Teatro de la Maestranza in Seville, and has participated in festivals and performed in Bienal de Flamenco 2020 (Seville), Rafael Orozco Festival (Cordoba), Classic Autumn Festival (Lisbon), Bösendorfer House (Switzerland), Steingraber House (Germany), Petruzelli Theater (Italy), Teatro de la Maestranza (Seville), Tenerife Auditorium, Bolshoi Hall (Moscow Tchaikovsky Conservatory) and Act City Concert Hall (Japan), and she forms a piano duo with Jorge Lechado.`,
-      `Recent highlights include performances at the Federico García Lorca International Poetry Prize ceremony, in the Manuel de Falla Auditorium in Granada, with the presence of the Prince and Princess of Asturias. She is a visiting professor at the Galamian International Academy in Malaga, where she teaches the Brainin Method: "Development of musical intellect".`,
-      `Since 2022 she has been a repertoire teacher at the "Alfredo Kraus" Singing Chair at the Reina Sofía Superior School of Music in Madrid.`,
-    ],
-    image: `/media/artists/Natalia_Kuchaeva_sq_xhbtyf.webp`,
-  },
-
-  // Josu De Solaun
-  {
-    locale: `es`,
-    name: `Josu De Solaun`,
-    slug_name: `Josu De Solaun ES`,
-    instrument: `piano`,
-    para_1: `El pianista hispanoamericano Josu De Solaun es el ganador del Primer Premio del XIII Concurso Internacional de Piano George Enescu, Bucarest, el XV Concurso Internacional de Piano José Iturbi y el Primer Concurso de Piano de la Unión Europea.`,
-    sentences: [
-      `Ha sido invitado a actuar en distinguidas salas de conciertos de todo el mundo, incluyendo al Ateneo Rumano de Bucarest, el Teatro La Fenice de Venecia, el Teatro Mariinsky de San Petersburgo, el Kennedy Center de Washington, Carnegie Hall y Metropolitan Opera de Nueva York, Southbank Centre de Londres, Salle Cortot de París, Schumann Haus de Leipzig, Novel Hall en Taipei, la Sala Silvestre Revueltas de la Ciudad de México, el Palacio Nostitz de Praga, la Academia de España en Roma, el Festival Internacional de Música de Menton y todas las principales ciudades de España. `,
-      `La temporada 2020-2021 contó con su concierto–debut de improvisación libre al piano, panDEMiCity, en el Auditorio Ciudad de León, así como actuaciones como solista con orquestas en España, República Checa y Rumanía. En 2021, también recibió el prestigioso premio ICMA (International Classical Music Awards) por su grabación de Sonatas para violín y piano francesas con la violinista Franziska Pietsch («Fantasque«), y en 2023, recibión el mismo galardón por su álbum Haydn Piano Sonatas. Su último álbum en solitario de obras de Brahms y Schumann para el sello IBS Classical – «Digressions» – ha cosechado excelentes críticas.`,
-    ],
-    image: `/media/artists/Josu_de_Solaun_mrounb.webp`,
-  },
-
-  // English - Josu De Solaun
-  {
-    locale: `en`,
-    name: `Josu De Solaun`,
-    slug_name: `Josu De Solaun EN`,
-    instrument: `piano`,
-    para_1: `Spanish-American pianist Josu De Solaun is the winner of the First Prize of the XIII George Enescu International Piano Competition, Bucharest, the XV José Iturbi International Piano Competition and the First Piano Competition of the European Union.`,
-    sentences: [
-      `He has been invited to perform in distinguished concert halls around the world, including the Romanian Athenaeum in Bucharest, the La Fenice Theater in Venice, the Mariinsky Theater in St. Petersburg, the Kennedy Center in Washington, Carnegie Hall and the Metropolitan Opera in New York, the Southbank Center in London, the Salle Cortot in Paris, the Schumann Haus in Leipzig, the Novel Hall in Taipei, the Sala Silvestre Revueltas in Mexico City, the Nostitz Palace in Prague, the Spanish Academy in Rome, the International Music Festival of Menton and all the main cities of Spain. `,
-      `The 2020-2021 season featured his free improvisation concert-debut on piano, panDEMiCity, at the León Auditorium, as well as solo performances with orchestras, in Spain, the Czech Republic and Romania. In 2021, he also received the prestigious ICMA (International Classical Music Awards) award for his recording of French Violin and Piano Sonatas with violinist Franziska Pietsch (“Fantasque”), and in 2023 he obtained the same award for his Haydn Piano Sonatas album. His latest solo album of works by Brahms and Schumann for the IBS Classical label – “Digressions” – has garnered great reviews.`,
-    ],
-    image: `/media/artists/Josu_de_Solaun_mrounb.webp`,
-  },
 
   // Antonio del Pino
   {
