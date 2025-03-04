@@ -348,7 +348,7 @@ const artists = [
       `Debutó en la Ópera de Montpellier en Francia en 2003 con el Coro Infantil Femenino Noruego, y posteriormente ha interpretado papeles como Susanna en «Le nozze di Figaro»  de Mozart, Adele en «Die Fledermaus»  de J. Strauss, Pamina en «Die Zauberflöte» de Mozart, y Lucia en «La violación de Lucrecia» de Benjamin Britten.`,
       `Susanne es una soprano muy solicitada en Noruega, y ha colaborado con varias orquestas en oratorios y actúa en varios festivales y conciertos tanto en Noruega como en el extranjero. Junto con su hermana y violinista Kathrine Hvinden Hals, forma el dúo Søstrene Hals.`,
     ],
-    image: `/media/artists/Susanne_Hvinden_Hals_sq_nizgnv.webp`,
+    image: `/media/artists/Susanne_Hvinden_Hals.webp`,
   },
 
   // English - Susanne Hvinden Hals
@@ -362,7 +362,7 @@ const artists = [
       `She made her debut at the Opera Montpellier in France in 2003 with the Norwegian Girls Choir, and has later on sung roles such as Susanna in Mozart´s «Le nozze di Figaro», Adele in «Die Fledermaus», J. Strauss, Pamina in «Die Zauberflöte», and Lucia in «The rape of Lucretia» by Benjamin Britten.`,
       `Susanne is a highly sought-after soprano in Norway, and has collaborated with various orchestras in oratorios, and performs at several festivals and concerts both in Norway and abroad. Together with her sister and violinist Kathrine Hvinden Hals, she forms the duo Søstrene Hals.`,
     ],
-    image: `/media/artists/Susanne_Hvinden_Hals_sq_nizgnv.webp`,
+    image: `/media/artists/Susanne_Hvinden_Hals.webp`,
   },
 
   // Nils Nilsen
@@ -376,7 +376,7 @@ const artists = [
       `Desde entonces, ha cantado como solista con la Orquesta Sinfónica de Chicago, en la Ópera de Israel, la Ópera National de Noruega y Opera Tampa en Florida, y ha actuado en varios festivales y conciertos internacionales en Europa y los Estados Unidos. Nils Georg ha sido el ganador del Premio Solveig en el Concurso Edvard Grieg, el Premio del Público durante el festival LidalNorth en numerosas ocasiones y el Concurso de Música para Jóvenes en Noruega.`,
       `Recientemente ha cantado el Mozart Requiem con la Orquesta de Radio Noruega, Rossinis Stabat Mater y Handels Messiah con la Orquesta Sinfónica Drammen y en el Festival Ravinia en los Estados Unidos, y es Profesor de Voz en la Academia Internacional Galamian en Málaga. Desde 2021 forma parte del grupo vocal Nordic Tenors, junto a los tenores Jan-Tore Saltnes and Roald Haarr.`,
     ],
-    image: `/media/artists/Nils_Nilsen_sq_bdcfss.webp`,
+    image: `/media/artists/Nils_Georg_Nilsen.webp`,
   },
 
   // English - Nils Nilsen
@@ -390,7 +390,7 @@ const artists = [
       `Since then he has appeared as a soloist with the Chicago Symphony Orchestra, at the Israeli Opera, the Norwegian Opera House and Opera Tampa in Florida, and performed in several international festivals and concerts in Europe and the US. Nils Georg has won the Solveig’s Award in the Edvard Grieg Competition, the Audience Award during the festival LidalNorth on numerous occasions, and the Youth Music Competition in Norway.`,
       `In addition to being professor of Voice at the Galamian International Accademy in Malaga, Nils Georg is a sought-after tenor, and recent highlights include Mozart Requiem with the Norwegian Radio Orchestra, Rossinis Stabat Mater and Handels Messiah with Drammen Symphony Orchestra and performances at the Ravinia Festival in the US. Since 2021 he is part of the vocal group Nordic Tenors, together with the tenors Jan-Tore Saltnes and Roald Haarr.`,
     ],
-    image: `/media/artists/Nils_Nilsen_sq_bdcfss.webp`,
+    image: `/media/artists/Nils_Georg_Nilsen.webp`,
   },
   // Robert Kowalski
   // {
