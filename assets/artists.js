@@ -320,7 +320,7 @@ const artists = [
       `Ha sido invitado a actuar en distinguidas salas de conciertos de todo el mundo, incluyendo al Ateneo Rumano de Bucarest, el Teatro La Fenice de Venecia, el Teatro Mariinsky de San Petersburgo, el Kennedy Center de Washington, Carnegie Hall y Metropolitan Opera de Nueva York, Southbank Centre de Londres, Salle Cortot de París, Schumann Haus de Leipzig, Novel Hall en Taipei, la Sala Silvestre Revueltas de la Ciudad de México, el Palacio Nostitz de Praga, la Academia de España en Roma, el Festival Internacional de Música de Menton y todas las principales ciudades de España. `,
       `La temporada 2020-2021 contó con su concierto–debut de improvisación libre al piano, panDEMiCity, en el Auditorio Ciudad de León, así como actuaciones como solista con orquestas en España, República Checa y Rumanía. En 2021, también recibió el prestigioso premio ICMA (International Classical Music Awards) por su grabación de Sonatas para violín y piano francesas con la violinista Franziska Pietsch («Fantasque«), y en 2023, recibión el mismo galardón por su álbum Haydn Piano Sonatas. Su último álbum en solitario de obras de Brahms y Schumann para el sello IBS Classical – «Digressions» – ha cosechado excelentes críticas.`,
     ],
-    image: `/media/artists/Josu_de_Solaun_mrounb.webp`,
+    image: `/media/artists/Josu_de_Solaun.webp`,
   },
 
   // English - Josu De Solaun
@@ -334,7 +334,7 @@ const artists = [
       `He has been invited to perform in distinguished concert halls around the world, including the Romanian Athenaeum in Bucharest, the La Fenice Theater in Venice, the Mariinsky Theater in St. Petersburg, the Kennedy Center in Washington, Carnegie Hall and the Metropolitan Opera in New York, the Southbank Center in London, the Salle Cortot in Paris, the Schumann Haus in Leipzig, the Novel Hall in Taipei, the Sala Silvestre Revueltas in Mexico City, the Nostitz Palace in Prague, the Spanish Academy in Rome, the International Music Festival of Menton and all the main cities of Spain. `,
       `The 2020-2021 season featured his free improvisation concert-debut on piano, panDEMiCity, at the León Auditorium, as well as solo performances with orchestras, in Spain, the Czech Republic and Romania. In 2021, he also received the prestigious ICMA (International Classical Music Awards) award for his recording of French Violin and Piano Sonatas with violinist Franziska Pietsch (“Fantasque”), and in 2023 he obtained the same award for his Haydn Piano Sonatas album. His latest solo album of works by Brahms and Schumann for the IBS Classical label – “Digressions” – has garnered great reviews.`,
     ],
-    image: `/media/artists/Josu_de_Solaun_mrounb.webp`,
+    image: `/media/artists/Josu_de_Solaun.webp`,
   },
 
   // Robert Kowalski
