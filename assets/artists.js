@@ -5,13 +5,13 @@ const artists = [
     name: `Jesús Reina`,
     slug_name: `Jesús Reina ES`,
     instrument: `Dirección Artística, violín`,
-    para_1: `Más allá de su virtuosismo y dominio del instrumento, el violinista malagueño Jesús Reina es ensalzado por la crítica gracias a su “personalidad radiante y llena de alma” -John Rockwell y la “belleza de su sonido caracterizado por una verdadera musicalidad, temperamento y carisma” -El País.`,
+    para_1: `Reconocido por su profunda musicalidad y un sonido lleno de ex- presión, Jesús Reina (Málaga, 1986) es una de las figuras más des- tacadas del panorama violinístico actual. Su talento y sensibilidad interpretativa lo han llevado a presentarse en prestigiosas salas como Wigmore Hall y Royal Festival Hall en Londres, Carnegie Hall en Nueva York, la Filarmónica de San Petersburgo, el Auditorio Nacional de Madrid y el Palau de la Música de Barcelona.`,
     sentences: [
-      `Se ha presentado en grandes salas como el Wigmore Hall y el Royal Festival Hall de Londres, el Carnegie Hall de Nueva York, el National Arts Centre de Ottawa, la Filarmónica de San Petersburgo, el Auditorio Nacional de Madrid o el Palau de la Música de Barcelona y en festivales internacionales como el Miami Piano Festival o el Music@Menlo de California, así como en algunas de las programaciones más importantes españolas como el Auditorio de Zaragoza, el Festival del Escorial, el Festival Musika-Música de Bilbao, la Sociedad de Conciertos de Alicante, la Sociedad Filarmónica de Valencia, Sociedad Filarmónica de Málaga o la Quincena Musical de San Sebastián.`,
-      `Ha actuado con la Orquesta Filarmónica del Teatro Mariinsky, la Orquesta de Cámara de Munich, la Orquesta de Baja California, la Orquesta Sinfónica de Yucatán, la Sinfónica de Barcelona o la Sinfónica del Principado de Asturias, invitado por directores como Valery Gergiev, Pinchas Zukerman, Manuel Hernández Silva, Oliver Díaz, Virginia Martínez, Juan Carlos Lomónaco, Sebastian Hamman, Tomàs Grau, Francisco Valero, Eiji Oue o Ari Rasilainen.`,
-      `Su entusiasmo por la música de cámara le ha llevado a unirse a otros músicos como el violinista Guy Braunstein, el violista Paul Neubauer, los pianistas Judith Jáuregui y Josu de Solaun o los violonchelistas Øyvind Gimse, Amanda Forsyth y Kyril Slotnikov, y es miembro fundador del Cuarteto Picasso. Entre sus próximos compromisos destacan conciertos con la Orquesta de Timisoara en Rumanía, con la Sinfónica de la Región de Murcia, la Filarmónica de Málaga y la Franz Schubert Fiharmonía con el director Tomàs Grau, realiando una gira por España.`,
-      `Adicionalmente, grabará la integral de Enescu para violín producido por el sello Aria Classics. Jesús es cofundador de Málaga Clásica, junto a la violinista Anna Nilsen, y de la Academia Galamian, un centro de alta especialización musical. Su labor y compromiso con la ciudad le han valido la Medalla de Honor de Málaga y el Premio Puerta de Andalucía, reconocimiento otorgado a personas, entidades e instituciones que resaltan los valores andaluces por el mundo.`,
-      `Jesús se inicio al violín con su abuelo José Reina en el ámbito del folclore. Entre sus maestros posteriores se encuentran Vincenzo Puma, Ara Vartanian, Mauricio Fuks, Natasha Boyarsky, Yehudi Menuhin, José Luis García Asensio y Mauricio Fuks. Obtuvo un máster en la Manhattan School of Music con Patinka Kopec y Pinchas Zukerman. Aparece semanalmente en el exito televisivo de Canal Sur, “Tierra de Talento”, conducido por el humorista Manu Sánchez. Además de ejercer de jurado, ha colaborado con grandes artistas de diversos géneros musicales, como José Mercé, India Martínez, Mariola Cantarero, Pasión Vega, el Kanka y Ale Romero.`,
+      `Desde temprana edad, Reina mostró una conexión excepcional con el violín. Inició su formación con su abuelo, José Reina, antes de trasladarse a la Yehudi Menuhin School para estudiar con Natasha Boyarskaya y el propio Menuhin. Posteriormente, continuó su educación en la Escuela Reina Sofía con José Luis García Asensio, en la Universidad de Indiana con Mauricio Fuks y en la Manhattan School of Music con Patinka Kopec y Pinchas Zukerman. Ha actuado como solista junto a la Orquesta Filarmónica del Teatro Mariinsky, la Orquesta de Cámara de Múnich, la Orquesta Sinfónica de Barcelona y la Filarmónica de Málaga, bajo la dirección de maestros como Valery Gergiev, Pinchas Zukerman, Manuel Hernández Silva y Eiji Oue.`,
+      `Su pasión por la música de cámara lo ha llevado a compartir escenario con músicos de renombre como Guy Braunstein, Paul Neubauer, Judith Jáuregui y Josu de Solaun. Ha participado en festivales de gran prestigio como el Miami Piano Festival, Music@Menlo en California, Fêtes Musicales y el Festival Pau Casals en Francia, el Festival Sonoro en Rumanía, así como en la Quincena Musical de San Sebastián y el Festival del Escorial en España.`,
+      `En 2025, Jesús Reina ha sido nombrado Artista Residente de la Orquesta Ciudad de Almería (OCAL), donde colabora como solista en los conciertos sinfónicos, profesor en las actividades de formación para jóvenes músicos y miembro en agrupaciones de cámara. Comprometido con la educación y el desarrollo musical, es cofundador y codirector artístico, junto a la violinista Anna Nilsen, del festival Málaga Clásica y de la Academia Galamian, institución de referencia para la alta especialización de jóvenes músicos. Su labor ha sido reconocida con la Medalla de Honor de Málaga y el Premio Puerta de Andalucía. Además de su carrera interpretativa, participa como jurado en el programa televisivo Tierra de Talento, de Canal Sur, acercando la música clásica a nuevas audiencias y colaborando con artistas de diversos géneros.`,
+      ``,
+      ``,
     ],
     image: `/media/image-03-small_ccpydm.jpg`,
   },
@@ -21,13 +21,13 @@ const artists = [
     name: `Jesús Reina`,
     slug_name: `Jesús Reina EN`,
     instrument: `Artistic Director, violin`,
-    para_1: `Beyond his virtuosity and mastery of the instrument, the violinist Jesús Reina, from Malaga, is praised by critics for his "radiant and soulful personality" -John Rockwell and the "beauty of his sound characterized by a true musicality, temperament and charisma " -El País.`,
+    para_1: `Recognized for his profound musicality and highly expressive sound, Jesús Reina (Málaga, 1986) is one of the most outstanding figures in today’s violin scene. His talent and interpretative sensitivity have led him to perform in prestigious venues such as Wigmore Hall and Royal Festival Hall in London, Carnegie Hall in New York, the St. Petersburg Philharmonia, the Auditorio Nacional in Madrid, and the Palau de la Música in Barcelona.`,
     sentences: [
-      `He has appeared in great venues such as Wigmore Hall and the Royal Festival Hall in London, Carnegie Hall in New York, the National Arts Center in Ottawa, the Saint Petersburg Philharmonic, the National Auditorium in Madrid and the Palau de la Música in Barcelona and international festivals such as the Miami Piano Festival and Music@Menlo in California, as well as in some of the most important Spanish programs such as the Zaragoza Auditorium, the Escorial Festival, the Bilbao Musika-Música Festival, the Alicante Concert Society, the Valencia Philharmonic Society, the Malaga Philharmonic Society or the Quincena Musical in San Sebastian.`,
-      `He has performed with the Mariinsky Theater Philharmonic Orchestra, the Munich Chamber Orchestra, the Baja California Orchestra, the Yucatan Symphony Orchestra , the Barcelona Symphony and the Principality of Asturias Symphony, invited by conductors such as Valery Gergiev, Pinchas Zukerman, Manuel Hernández Silva, Oliver Díaz, Virginia Martínez, Juan Carlos Lomónaco, Sebastian Hamman, Tomàs Grau, Francisco Valero, Eiji Oue and Ari Rasilainen.`,
-      `His enthusiasm for chamber music has led him to join other musicians such as the violinist Guy Braunstein, the violist Paul Neubauer, the pianists Judith Jáuregui and Josu de Solaun, the cellists Øyvind Gimse, Amanda Forsyth and Kyril Slotnikov, and he is a founding member of the Picasso Quartet. Upcoming highlights include concerts with the Timisoara Orchestra in Romania, with the Murcia Region Symphony, the Malaga Philharmonic and the Franz Schubert Fiharmonía with conductor Tomàs Grau, touring Spain. `,
-      `Additionally, he will record the entirety of Enescu’s repertoire for violin produced by the Aria Classics label. Jesús is co-founder of Málaga Clásica, together with the violinist Anna Nilsen, and of the Galamian Academy, a highly specialized musical center. His work and commitment to the city have earned him the Malaga Medal of Honor and the Puerta de Andalucía Prize, a recognition given to people, entities and institutions that highlight Andalusian values ​​throughout the world.`,
-      `Jesús began playing the violin with his grandfather José Reina in the realm of folklore. His teachers include Vincenzo Puma, Ara Vartanian, Mauricio Fuks, Natasha Boyarsky, Yehudi Menuhin, José Luis García Asensio, and Mauricio Fuks. He earned a master's degree from the Manhattan School of Music with Patinka Kopec and Pinchas Zukerman. Jesús appears weekly on Canal Sur's hit television show, “Tierra de Talento”, hosted by comedian Manu Sánchez. In addition to serving as a jury member, he has collaborated with great artists from various musical genres, such as José Mercé, India Martínez, Mariola Cantarero, Pasión Vega, el Kanka and Ale Romero.`,
+      `From an early age, Reina showed an exceptional connection with the violin. He began his training with his grandfather, José Reina, before moving to the Yehudi Menuhin School, where he studied under Natasha Boyarskaya and Lord Menuhin himself. He later continued his education at the Escuela Reina Sofía with José Luis García Asensio, Indiana University with Mauricio Fuks, and the Manhattan School of Music with Patinka Kopec and Pinchas Zukerman.`,
+      `As a soloist, he has performed with the Mariinsky Theatre Philharmonic Orchestra, the Munich Cham- ber Orchestra, the Barcelona Symphony Orchestra, and the Málaga Philharmonic Orchestra, under the direction of renowned conductors such as Valery Gergiev, Pinchas Zukerman, Manuel Hernández Silva, and Eiji Oue. His passion for chamber music has led him to share the stage with distinguished musi- cians such as Guy Braunstein, Paul Neubauer, Judith Jáuregui, and Josu de Solaun. He has participated in prestigious festivals such as the Miami Piano Festival, Music@Menlo in California, Fêtes Musicales and the Pau Casals Festival in France, the Sonoro Festival in Romania, as well as Quincena Musical de San Sebastián and the Festival del Escorial in Spain.`,
+      `In 2025, Jesús Reina was named Artist-in-Residence of the Orquesta Ciudad de Almería (OCAL), where he collaborates as a soloist in symphonic concerts, a professor in training programs for young musi- cians, and a member of chamber ensembles. Committed to education and musical development, he is, alongside violinist Anna Nilsen, the co-founder and artistic co-director of Festival Málaga Clásica and the Galamian Academy alongside violinist Anna Nilsen, a leading institution for the advanced training of young musicians. His work has been recognized with the Medalla de Honor de Málaga and the Premio Puerta de Andalucía. Beyond his performing career, he has also served as a judge on the Canal Sur television program “Tierra de Talento,” bringing classical music to new audiences and collaborating with artists from various genres.`,
+      ``,
+      ``,
     ],
     image: `/media/image-03-small_ccpydm.jpg`,
   },
@@ -43,8 +43,9 @@ const artists = [
       `A la edad de nueve años hizo su debut como solista con la Orquesta de Radiotelevisión de Noruega, y luego fue invitada a actuar como solista con la Orquesta Filarmónica de Bergen, la Orquesta de Cámara de Kaliningrado, la Orquesta Sinfónica de Murcia, la Orquesta Sinfónica de Trondheim, la Orquesta Sinfónica de Kristiansand, las Orquestas Sinfónicas de Asker y Bærum, Orquesta de Cámara de Novgorod, Orquesta de Ópera de Noruega, Orquesta de Cámara de Galicia, la Orquesta Filarmónica Manhattan School of Music, Orquesta Sinfónica Estatal de San Petersburgo y Orquesta de Cámara Estatal de Bielorrusia.`,
       `Ha actuado por toda Europa, en Asia, Norteamérica y Sudamérica, en prestigiosos escenarios como Wiener Konzerthaus, Oslo Concert Hall, Carnegie Hall, Grieg Hall de Bergen, Teatro Cervantes de Málaga, Leon Auditorio, St. Petersburg Philharmonic Glinka Hall y Teatro de las Condes en Santiago (Chile). Como ávida músico de cámara ha tenido el placer de tocar junto a artistas distinguidos como Lars Anders Tomter, Guy Braunstein, Liza Fershtman, Henri Demarquette, Øyvind Gimse, el American String Quartet, Paul Neubauer, Amanda Forsyth y Pinchas Zukerman, y es una de los violinistas del recién formado Cuarteto Picasso. Como concertino invitada de la Orquesta Santa Cecilia, realizó una gira por España actuando en el Auditorio Nacional de Madrid, Auditorio de Zaragoza y Palau de Valencia, con el director y violinista Julian Rachlin.`,
       `Comenzó a tocar el violín a la edad de 4 años y ha estudiado con el profesor Isaac Schuldman, obtuvo una Bachelor y Master de Música en la Manhattan School of Music en Nueva York, estudiando con Patinka Kopec y Pinchas Zukerman, como parte del “The Pinchas Zukerman Performance Program”. Nilsen es ganadora de los concursos Sparre Olsen (Noruega), Eisenberg-Fried (Nueva York), Lillian Fuchs (Nueva York) y Nacional de Violín para Jóvenes Noruegos, y ha recibido el Premio Dobloug, el Premio Hugo Kortschak y la Medalla de Honor de Málaga.`,
-      `Destacados recientes y futuros incluyen actuaciones como solista con la Orquesta de la Universidad Nacional de Santiago (Chile), la Orquesta Sinfónica de Murcia, la Orquesta Juvenil de León, la Orquesta de la Academia Galamian y la Orquesta de Cámara Barratt Due, interpretando conciertos para violín de Tchaikovsky, Brahms, Mendelssohn, Mozart y Vivaldi, recitales y conciertos de música de cámara con Pinchas Zukerman en Nueva York, en el Festival Internacional de Piano de Miami en Florida, el Festival de Música MurciArt en Murcia (España), el festival Podium en Haugesund (Noruega), concertino invitado para la ADDA Sinfonica de Alicante, y grabaciones en CD para el sello Aria Classics, de las sonatas completas de Busoni y Brahms, junto a los pianistas Josu de Solaun y Oscar Martín.`,
-      `Es cofundadora y profesora de violín en la Academia Internacional Galamian y cofundadora y directora del festival Málaga Clásica.`,
+      `En pasadas temporadas ha actuado como solista con la Orquesta de la Universidad Nacional de Santiago (Chile), la Orquesta Sinfónica de Murcia, la Orquesta Juvenil de León, la Orquesta de la Academia Galamian y la Orquesta de Cámara Barratt Due, interpretando conciertos para violín de Tchaikovsky, Brahms, Mendelssohn, Mozart y Vivaldi.`,
+      `También en recitales y conciertos de música de cámara en Nueva York, con músicos como Pinchas Zukerman, en el Festival Internacional de Piano de Miami en Florida, el Festival de Música MurciArt de Murcia, el festival Podium en Haugesund en Noruega y el Festival Internacional AvilÉs Música. Próximamente se publicará su grabación para el sello Aria Classics con obras de Busoni y Szymanowski, junto al pianista Josu de Solaun.`,
+      ` Actualmente es uno de los concertinos principales de la ADDA Simfònica de Alicante. Es cofundadora y profesora de violín en la Academia Internacional Galamian y codirectora del festival Málaga Clásica.`,
     ],
     image: `/media/anna-nilsen_kolwch.webp`,
   },
@@ -59,41 +60,40 @@ const artists = [
       `At the age of nine, she made her solo debut with the Norwegian Broadcasting Orchestra, and has following been invited to perform as a soloist with the Bergen Philharmonic Orchestra, Kaliningrad Chamber Orchestra, Murcia Symphony Orchestra, Trondheim Symphony Orchestra, Kristiansand Symphony Orchestra, Bærum and Asker Symphony Orchestras, Novgorod Chamber Orchestra, Norwegian Opera Orchestra, Galician Chamber Orchestra, Manhattan School of Music Philharmonia, St. Petersburg State Symphony Orchestra and Belarussian State Chamber Orchestra.`,
       `She has performed all over Europe, in Asia, North America and South America, in prestigious venues such as the Wiener Konzerthaus, Oslo Concert Hall, Carnegie Hall, Grieg Hall of Bergen, Teatro Cervantes in Málaga, Leon Auditorio, St. Petersburg Philharmonic Glinka Hall and Teatro de las Condes in Santiago (Chile). An avid chamber musician she has had the pleasure of performing alongside distinguished artists, including Lars Anders Tomter, Guy Braunstein, Liza Fershtman, Henri Demarquette, Øyvind Gimse, the American String Quartet, Paul Neubauer, Amanda Forsyth and Pinchas Zukerman, and is one of the violinists in the newly formed Picasso String Quartet. Invited as a guest concertmaster of the Santa Cecilia Orchestra, she toured Spain, performing in Madrid’s National Auditorium, Auditorium of Zaragoza and Palau de Valencia, with conductor and violinist Julian Rachlin.`,
       `Music at the Manhattan School of Music, studying with Patinka Kopec and Pinchas Zukerman in “The Pinchas Zukerman Performance Program”. Nilsen is a winner of the competitions Sparre Olsen (Norway) , Eisenberg-Fried (New York), Lillian Fuchs (New York) and National Violin Competition for Youth (Norway), and has received the Dobloug Award, Hugo Kortschak Award and the Medal of Honor of Málaga.`,
-      `Recent and upcoming highlights include performances as a soloist with the Santiago National University Orchestra (Chile), Murcia Symphony Orchestra, Leon Youth Orchestra, Galamian Academy Orchestra and Barratt Due Chamber Orchestra, performing violin concertos by Tchaikovsky, Brahms, Mendelssohn, Mozart and Vivaldi, recitals and chamber music appearances with Pinchas Zukerman in New York, at the Miami International Piano Festival in Florida, the MurciArt Music Festival in Murcia (Spain), the Podium festival in Haugesund (Norway), invited concertmaster for the ADDA Symphony Orchestra of Alicante, and cd-recordings for the Aria Classics Label of the complete sonatas by Busoni and Brahms together with pianists Josu de Solaun and Oscar Martín.`,
-      `She is the co-founder and professor of violin at the Galamian International Academy (Málaga), and co-founder and director of Málaga Clásica festival.
-      `,
+      `She started playing the violin at the age of 4, and has studied with Professor Isaac Schuldman, obtai- ned a Bachelor and Master of Music at the Manhattan School of Music, studying with Patinka Kopec and Pinchas Zukerman in “The Pinchas Zukerman Performance Program”. Nilsen is a winner of the competitions Sparre Olsen (Norway) , Eisenberg-Fried (New York), Lillian Fuchs (New York) and National Violin Competition for Youth (Norway), and has received the Dobloug Award, Hugo Kortschak Award and the Medal of Honor of Málaga. In previous concert seasons she has performances as a soloist with the Santiago National University Orchestra (Chile), Murcia Symphony Orchestra, Leon Youth Orches- tra, Galamian Academy Orchestra and Barratt Due Chamber Orchestra, performing violin concertos by Tchaikovsky, Brahms, Mendelssohn, Mozart and Vivaldi, recitals and chamber music appearances with Pinchas Zukerman in New York, at the Miami International Piano Festival in Florida, the MurciArt Music Festival in Murcia (Spain), the Podium festival in Haugesund (Norway) and the AvilÉs Música Interna- tional Festival. She will be releasing her recording for the Aria Classics label with works by Busoni and Szymanowski, together with pianist Josu de Solaun.`,
+      `Currently she is one of the main concertmaster for the ADDA Symphony Orchestra of Alicante. She is the co-founder and professor of violin at the Galamian International Academy (Málaga), and co-director of Málaga Clásica festival.`,
     ],
     image: `/media/anna-nilsen_kolwch.webp`,
   },
 
   // Nicolas Dautricourt
-  {
-    locale: `es`,
-    name: `Nicolas Dautricourt`,
-    slug_name: `Nicolas Dautricourt ES`,
-    instrument: `violín & viola`,
-    para_1: `El renombrado violinista francés Nicolas Dautricourt, aclamado como el Descubrimiento Clásico del Año por ADAMI y galardonado con el Premio Sacem Georges Enesco, ha dejado una marca indeleble en la escena de la música clásica.`,
-    sentences: [
-      `Actuando a nivel mundial, desde el Kennedy Center hasta el Tokyo Bunka Kaikan, ha colaborado con orquestas como la Detroit Symphony, la Royal Philharmonic Orchestra y la Orchestre National de France. También bajo la dirección de distinguidos directores como Leonard Slatkin, Paavo Järvi y Fabien Gabel.`,
-      `Su participación en festivales como Lockenhaus Kammermusikfest y Jazz à Vienne muestra su versatilidad. Como intérprete de un Stradivarius, la dirección artística de Dautricourt en "Fêtes Musicales de Corbigny" añade a su carrera multifacética.`,
-    ],
-    image: `/media/artists/Nicolas_Dautricourt_bzxdyo.webp`,
-  },
+  // {
+  //   locale: `es`,
+  //   name: `Nicolas Dautricourt`,
+  //   slug_name: `Nicolas Dautricourt ES`,
+  //   instrument: `violín & viola`,
+  //   para_1: `El renombrado violinista francés Nicolas Dautricourt, aclamado como el Descubrimiento Clásico del Año por ADAMI y galardonado con el Premio Sacem Georges Enesco, ha dejado una marca indeleble en la escena de la música clásica.`,
+  //   sentences: [
+  //     `Actuando a nivel mundial, desde el Kennedy Center hasta el Tokyo Bunka Kaikan, ha colaborado con orquestas como la Detroit Symphony, la Royal Philharmonic Orchestra y la Orchestre National de France. También bajo la dirección de distinguidos directores como Leonard Slatkin, Paavo Järvi y Fabien Gabel.`,
+  //     `Su participación en festivales como Lockenhaus Kammermusikfest y Jazz à Vienne muestra su versatilidad. Como intérprete de un Stradivarius, la dirección artística de Dautricourt en "Fêtes Musicales de Corbigny" añade a su carrera multifacética.`,
+  //   ],
+  //   image: `/media/artists/Nicolas_Dautricourt_bzxdyo.webp`,
+  // },
 
   // English - Nicolas Dautricourt
-  {
-    locale: `en`,
-    name: `Nicolas Dautricourt`,
-    slug_name: `Nicolas Dautricourt EN`,
-    instrument: `violin & viola`,
-    para_1: `Renowned French violinist Nicolas Dautricourt, lauded as ADAMI Classical Discovery of the Year and recipient of the Sacem Georges Enesco Prize, has left an indelible mark on the classical music scene.`,
-    sentences: [
-      `Performing globally, from the Kennedy Center to Tokyo Bunka Kaikan, he's collaborated with orchestras like the Detroit Symphony, Royal Philharmonic Orchestra, and Orchestre National de France, and under the baton of distinguished conductors such as Leonard Slatkin, Paavo Järvi, and Fabien Gabel.
-      `,
-      `His participation in festivals like Lockenhaus Kammermusikfest and Jazz à Vienne showcases his versatility. A Stradivari player, Dautricourt's artistic directorship of "Fêtes Musicales de Corbigny" adds to his multifaceted career.`,
-    ],
-    image: `/media/artists/Nicolas_Dautricourt_bzxdyo.webp`,
-  },
+  // {
+  //   locale: `en`,
+  //   name: `Nicolas Dautricourt`,
+  //   slug_name: `Nicolas Dautricourt EN`,
+  //   instrument: `violin & viola`,
+  //   para_1: `Renowned French violinist Nicolas Dautricourt, lauded as ADAMI Classical Discovery of the Year and recipient of the Sacem Georges Enesco Prize, has left an indelible mark on the classical music scene.`,
+  //   sentences: [
+  //     `Performing globally, from the Kennedy Center to Tokyo Bunka Kaikan, he's collaborated with orchestras like the Detroit Symphony, Royal Philharmonic Orchestra, and Orchestre National de France, and under the baton of distinguished conductors such as Leonard Slatkin, Paavo Järvi, and Fabien Gabel.
+  //     `,
+  //     `His participation in festivals like Lockenhaus Kammermusikfest and Jazz à Vienne showcases his versatility. A Stradivari player, Dautricourt's artistic directorship of "Fêtes Musicales de Corbigny" adds to his multifaceted career.`,
+  //   ],
+  //   image: `/media/artists/Nicolas_Dautricourt_bzxdyo.webp`,
+  // },
 
   // Clémence de Forceville
   {
@@ -122,6 +122,34 @@ const artists = [
       `In addition, Clémence's leadership as concertmaster in orchestras like the Orchestre National de Lille highlights her versatility and prowess in the symphonic repertoire. As an assistant in Philippe Graffin's class at the Conservatoire National Supérieur de Musique et de Danse de Paris since 2021, she has notably contributed to the next generation of musicians. Supported by the Boubo-Music Foundation, Clémence performs on a 1777 Lorenzo Storioni violin. Clémence was recently appointed concertmaster at the Orchestre de Chambre de Lausanne.`,
     ],
     image: `/media/artists/Clemence_de_Forceville_sxgcd6.webp`,
+  },
+
+  // Spanish - Grigory Kalinovsky
+  {
+    locale: `es`,
+    name: `Grigory Kalinovsky`,
+    slug_name: `Grigory Kalinovsky ES`,
+    instrument: `violín`,
+    para_1: `Grigory Kalinovsky es un destacado violinista, reconocido por la crítica por su virtuosismo y expresividad.`,
+    sentences: [
+      `Elogiado por la crítica como un “poeta superior” (Vancouver Sun) y alabado por su “corazón y voluntad indomable” (Gramophone), Grigory Kalinovsky se ha presentado en algunos de los escenarios más importantes del mundo, desde los tres auditorios del Carnegie Hall de Nueva York hasta el Musikhalle Grosser Saal de Hamburgo.`,
+      `Su grabación para Centaur Records, que incluye la Sonata para violín y los veinticuatro preludios de Shostakóvich, fue publicada con gran éxito de crítica y aclamada por el hijo del compositor, el director Maxim Shostakóvich, como “imprescindible para cualquier conocedor de la música de Shostakóvich”. En 2017, también grabó para Naxos el ciclo completo de sonatas para violín y piano de Mieczysław Weinberg. Ha impartido clases magistrales en los principales conservatorios de música de Estados Unidos, Canadá, Europa y Asia. Sus estudiantes han ganado los primeros premios en concursos nacionales e internacionales, incluidos el Internacional de Violín Spohr, el Junior Tibor Varga, el de Jóvenes Artistas Menuhin en Inglaterra, el de Jóvenes Violinistas Andrea Postacchini en Italia y el Internacional de Música de Cámara Fischoff en Chicago, entre otros. Inició su educación musical con Tatiana Liberova en su ciudad natal, San Petersburgo, Rusia. Tras mudarse a Nueva York, continuó sus estudios con Pinchas Zukerman y Patinka Kopec en la Manhattan School of Music, donde posteriormente fue miembro del profesorado durante quince años hasta su traslado a la Universidad de Indiana.`,
+    ],
+    image: `/media/artists/Grigory_Kalinovsky.webp`,
+  },
+
+  // English - Grigory Kalinovsky
+  {
+    locale: `en`,
+    name: `Grigory Kalinovsky`,
+    slug_name: `Grigory Kalinovsky EN`,
+    instrument: `violin`,
+    para_1: `Grigory Kalinovsky stands out as a prominent violinist acclaimed by critics for his virtuosity and expressive power.`,
+    sentences: [
+      `Hailed by critics as a “superior poet” (Vancouver Sun) and praised for his “heart and indomitable will” (Gramophone), Grigory Kalinovsky has performed at some of the world’s major venues, from all three stages of Carnegie Hall in New York to Musikhalle Grosser Saal in Hamburg.`,
+      `His recording for Centaur Records featuring Shostakovich’s Violin Sonata and Twenty-Four Preludes was released to great critical acclaim and hailed by the composer’s son, conductor Maxim Shostakovich, as “a must-have for any Shostakovich music connoisseur.” Mr. Kalinovsky also recorded the complete set of sonatas for violin and piano by Mieczysław Weinberg for Naxos in 2017. He has presented master classes at major music conservatories across the US, Canada, Europe, and Asia. His students have won top prizes at national and international competitions, including the Spohr International Violin Competition, Tibor Varga Junior Competition, Menuhin Young Artists Competition in England, Andrea Postacchini Young Violinists Competition in Italy, and Fischoff International Chamber Music Competition in Chicago, among others. Mr. Kalinovsky started his music education with Tatiana Liberova in his native St. Petersburg, Russia. After coming to New York, he continued his studies with Pinchas Zukerman and Patinka Kopec at the Manhattan School of Music, where he later served as a faculty member for fifteen years until his move to Indiana University.`,
+    ],
+    image: `/media/artists/Grigory_Kalinovsky.webp`,
   },
 
   // Robert Kowalski

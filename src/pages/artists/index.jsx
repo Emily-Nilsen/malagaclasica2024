@@ -104,7 +104,7 @@ export default function Artists() {
       <Header />
 
       <main className="">
-        <div className="relative px-10 py-0 pb-0 overflow-hidden bg-blue2024 sm:px-12 sm:py-0">
+        <div className="relative overflow-hidden bg-blue2024 px-10 py-0 pb-0 sm:px-12 sm:py-0">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -114,27 +114,27 @@ export default function Artists() {
                 type: 'fade',
                 ease: 'easeIn',
               }}
-              className="object-cover w-full h-full overflow-hidden"
+              className="h-full w-full overflow-hidden object-cover"
             >
-              <div className="absolute right-0 w-full h-full -mt-10 sm:-mt-0">
+              <div className="absolute right-0 -mt-10 h-full w-full sm:-mt-0">
                 <Image
                   src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                   alt="Málaga Clásica"
                   width={2000}
                   height={2000}
-                  className="object-cover object-center w-full h-full"
+                  className="h-full w-full object-cover object-center"
                   unoptimized
                 />
               </div>
             </motion.div>
           </div>
-          <div className="relative px-0 py-24 mx-auto max-w-7xl sm:px-6 sm:py-32 lg:px-8">
-            <div className="px-3 -m-10 text-center bg-t -mb-80 pb-60 pt-28 sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48 sm:text-left">
+          <div className="relative mx-auto max-w-7xl px-0 py-24 sm:px-6 sm:py-32 lg:px-8">
+            <div className="bg-t -m-10 -mb-80 px-3 pb-60 pt-28 text-center sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48 sm:text-left">
               <motion.h4
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="block text-4xl italic font-extrabold tracking-normal text-blueGreyDark2024 sm:text-5xl lg:text-6xl"
+                className="block text-4xl font-extrabold italic tracking-normal text-blueGreyDark2024 sm:text-5xl lg:text-6xl"
               >
                 {locale === 'en'
                   ? festivalArtists.map((letter, i) => (
@@ -155,14 +155,14 @@ export default function Artists() {
                 animate="show"
                 className="max-w-3xl text-lg text-blueGrey2024 sm:mt-3 sm:text-2xl"
               >
-                27/05__01/06{' '}
-                <span className="text-blueGreyDark2024">&nbsp;2024</span>
+                26/05__01/06{' '}
+                <span className="text-blueGreyDark2024">&nbsp;2025</span>
               </motion.h3>
             </div>
           </div>
         </div>
         <div className="bg-white">
-          <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+          <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-24">
             <div className="space-y-6 sm:space-y-12">
               <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
                 <h4 className="max-w-sm text-4xl font-bold leading-none tracking-normal text-blueText2024 sm:max-w-lg sm:text-5xl md:text-6xl">
@@ -174,7 +174,7 @@ export default function Artists() {
               </div>
               <ul
                 role="list"
-                className="pb-10 space-y-0 group sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-6 sm:space-y-0 sm:pb-12 md:pb-16 lg:grid-cols-3 lg:gap-x-8"
+                className="group space-y-0 pb-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-6 sm:space-y-0 sm:pb-12 md:pb-16 lg:grid-cols-3 lg:gap-x-8"
               >
                 {artists
                   .filter((p) => p.locale === locale)
@@ -196,14 +196,14 @@ export default function Artists() {
                             delay: i * 0.15,
                             ease: 'easeInOut',
                           }}
-                          className="p-6 space-y-4 transition duration-300 ease-in-out delay-75 rounded-lg cursor-pointer group hover:bg-pink3_2024/40"
+                          className="group cursor-pointer space-y-4 rounded-lg p-6 transition delay-75 duration-300 ease-in-out hover:bg-pink3_2024/40"
                         >
                           <div className="aspect-h-2 aspect-w-3">
-                            <div className="object-cover overflow-hidden rounded-lg shadow-none">
+                            <div className="overflow-hidden rounded-lg object-cover shadow-none">
                               <Image
                                 width={2000}
                                 height={2000}
-                                className="object-cover object-center w-full h-full"
+                                className="h-full w-full object-cover object-center"
                                 unoptimized
                                 objectPosition={artist.image_position}
                                 src={artist.image}
@@ -214,10 +214,10 @@ export default function Artists() {
 
                           <div className="space-y-2">
                             <div className="space-y-1 text-lg leading-6">
-                              <h4 className="italic font-bold text-pinkText2024">
+                              <h4 className="font-bold italic text-pinkText2024">
                                 {artist.name}
                               </h4>
-                              <p className="font-normal text-gray-600 capitalize">
+                              <p className="font-normal capitalize text-gray-600">
                                 {artist.instrument}
                               </p>
                             </div>
