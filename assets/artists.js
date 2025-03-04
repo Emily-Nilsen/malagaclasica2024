@@ -392,6 +392,35 @@ const artists = [
     ],
     image: `/media/artists/Nils_Georg_Nilsen.webp`,
   },
+  // Spanish - Rafael García
+  {
+    locale: `es`,
+    name: `Rafael García`,
+    slug_name: `Rafael García ES`,
+    instrument: `clarinete`,
+    para_1: `Rafael García (Cádiz, 1975) es un clarinetista reconocido tanto en formación de cámara como en el ámbito orquestal.`,
+    sentences: [
+      `Se formó en el Conservatorio Superior de Málaga con Matrícula de Honor, amplió estudios con maestros como Carlos Gil, José Luis Estellés y Antony Pay, y se especializó en clarinete colaborando con formaciones de cámara como el Trío Casaux, Málaga de Cámara y el Trío Mühlfeld, con los que obtuvo reconocimientos en concursos como el Internacional de Zumaya y el I Concurso Forum de Barcelona.`,
+      `En el ámbito orquestal, ha trabajado con la Orquesta Ciudad de Granada, la Orquesta Ciudad de Córdoba, la Camerata Gran Teatro Falla y la Orquesta Manuel de Falla de Cádiz, y actualmente imparte clases en el Conservatorio Manuel Carra y la Academia Orquestal de Málaga, combinando su labor docente con una intensa actividad concertística y grabaciones para RNE, RTVA y France Musique, actuando con directores como Krzysztof Penderecki, Josep Pons y Antoni Ros Marbà, y compartiendo escenario con destacados artistas como Josep Colom, Anna Netrebko, Plácido Domingo y Andrea Bocelli.
+    `,
+    ],
+    image: `/media/artists/Rafael_García.webp`,
+  },
+
+  // English - Rafael García
+  {
+    locale: `en`,
+    name: `Rafael García`,
+    slug_name: `Rafael García EN`,
+    instrument: `clarinet`,
+    para_1: `Rafael García (Cádiz, 1975) is a clarinetist celebrated for his work in both chamber and orchestral settings.`,
+    sentences: [
+      `He trained at the Málaga Superior Conservatory with top honours, furthering his studies with maestros such as Carlos Gil, José Luis Estellés, and Antony Pay, and specialized in clarinet while performing with renowned chamber ensembles like Trío Casaux, Málaga de Cámara, and Trío Mühlfeld, earning accolades at competitions including the Zumaya International Competition and the I Forum Competition in Barcelona.`,
+      `In the orchestral realm, he has collaborated with the Orquesta Ciudad de Granada, Orquesta Ciudad de Córdoba, Camerata Gran Teatro Falla, and the Manuel de Falla Orchestra in Cádiz; he currently teaches at the Manuel Carra Conservatory and the Málaga Orchestral Academy, balancing his academic role with an active concert career and recordings for RNE, RTVA, and France Musique, while performing under conductors such as Krzysztof Penderecki, Josep Pons, and Ros Marbà, and sharing the stage with renowned artists including Josep Colom, Anna Netrebko, Plácido Domingo, and Andrea Bocelli.
+    `,
+    ],
+    image: `/media/artists/Rafael_García.webp`,
+  },
   // Robert Kowalski
   // {
   //   locale: `es`,
