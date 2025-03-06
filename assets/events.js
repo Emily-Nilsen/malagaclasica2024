@@ -1,68 +1,136 @@
 const events = [
+  // Concert 26 May
+  {
+    id: 1,
+    locale: 'en',
+    date: `26 May, 2025`,
+    price: `regular`,
+    title: `CONCERT WITH MÁLAGA CLÁSICA TALENTS`,
+    location: `Echegaray Theatre, 8 p.m.`,
+    sentence: [``],
+    detailsOne: [
+      // {
+      //   composer: [`Johann Pachelbel (1653-1706)`],
+      //   info: `Canon in D major`,
+      //   artists: [`Artists of the Festival strings`, `Antonio del Pino organ`],
+      // },
+      // {
+      //   composer: [`Málaga Clásica Talents`],
+      //   info: `A selected group of young artists perform a chamber work to be announced`,
+      // },
+      // {
+      //   composer: [`Josu de Solaun (1981-)`],
+      //   info: `Tombeau: a Bernardo de Clairveaux’, for string quartet (World Premiere)`,
+      //   artists: [
+      //     `Jesús Reina violin`,
+      //     `Nicolas Dautricourt violin`,
+      //     `Laura Romero Alba viola`,
+      //     `Øyvind Gimse cello`,
+      //   ],
+      // },
+      // {
+      //   composer: [`Tomaso Albinoni (1671-1751)`],
+      //   info: `Sonata de Chiesa in G minor, Op. 4, for violin and organ`,
+      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
+      // },
+      // {
+      //   composer: [`Joaquín Turina (1882-1949)`],
+      //   info: `‘La oración del torero’, Op. 34, for string quartet`,
+      //   artists: [
+      //     `Clemence de Forceville violin`,
+      //     `Anna Margrethe Nilsen violin`,
+      //     `Laura Romero Alba viola`,
+      //     `Øyvind Gimse cello`,
+      //   ],
+      // },
+      // {
+      //   composer: [`Franz Schubert (1797-1828)`],
+      //   info: `‘Ave Maria’, D. 839, Op. 52 No. 6 (arr. Wilhelmj)`,
+      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
+      // },
+      // {
+      //   composer: [`William Gomez (1939-2000)`],
+      //   info: `‘Ave Maria’`,
+      //   artists: [
+      //     `Anna Margrethe Nilsen violin`,
+      //     `Artists of the Festival strings`,
+      //     `Antonio del Pino organ`,
+      //   ],
+      // },
+    ],
+    image: '/media/talentos_mobile_sdlzwr.webp',
+    image_position: `object-top`,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
+  },
   // Concert 27 May
   {
     id: 1,
     locale: 'en',
     date: `27 May, 2024`,
     price: `regular`,
-    title: `PRAYER - Opening Concert`,
+    title: `ENCOUNTER WITH FESTIVAL ARTISTS CONCERT WITH MÁLAGA CLÁSICA TALENTS`,
     location: `Echegaray Theatre, 8 p.m.`,
     sentence: [
-      `Immerse yourself in an eclectic musical experience titled "Prayer." Pachelbel kicks off with his timeless Canon, now enriched with strings and organ, a sea of sounds surrounding the audience in an infrequent performance of the well-known work.`,
-      `Next, the world premiere of Josu de Solaun's "Madrigal," a piece for string quartet in which De Solaun, one of the most versatile musicians of the scene, brings us back to a counterpoint tradition dating back centuries to show its ever-present relevance.`,
-      `Albinoni’s Sonata da Chiesa features an emotive dialogue between violin and organ which shows virtuosic and creative compositional skills. Turina evokes the characteristic Spanish features of passion and sacrifice, with his "Oración del Torero."`,
-      `Schubert leads us into the celestial Ave Maria, in a version where the violin becomes both the melodic voice and choir. The rendition of Gomez’s work follows, fusing violin, strings, and organ. `,
-      `Join us to explore these diverse compositions, each being, in its way, a prayer from the depths of the soul.`,
+      `MÁLAGA CLÁSICA TALENTS`,
+      `As a chamber music festival, and following one of the main philosophies of the genre, we understand that Málaga Clásica ought to be an event closely tied to and celebrated by the audience and the city of Málaga.`,
+      `As such, we aim for a reciprocal relationship where all parties involved can enjoy the music. In this XIII edition, we want young talents to participate in the festival, allowing them to perform and share experiences with the invited musicians of international prestige.`,
+      `The groups of young talents, chosen through a selection process by our artistic directors, will be in charge of performing in one of the concerts of this series. They will also be the lucky ones to receive the masterclasses scheduled during the festival.`,
+      `For more information: secretaria.malagaclasica@gmail.com`,
+      `Tel. 699 067 452`,
+      `ENCOUNTER WITH THE ARTISTS`,
+      `In this interactive event, open to the public and featuring a Q&A session, the artists of Málaga Clásica will share their personal stories and experiences of encountering The New World.`,
+      `Many of the musicians performing at Málaga Clásica emigrated from their home countries, sometimes settling permanently in their new homes, while others returned or sought new lives elsewhere. In all cases, they encountered cultural fusion, novelty, and different ways of seeing the world. The event will be preceded with a performance by Málaga Clásica Talentos.`,
     ],
     detailsOne: [
-      {
-        composer: [`Johann Pachelbel (1653-1706)`],
-        info: `Canon in D major`,
-        artists: [`Artists of the Festival strings`, `Antonio del Pino organ`],
-      },
-      {
-        composer: [`Málaga Clásica Talents`],
-        info: `A selected group of young artists perform a chamber work to be announced`,
-      },
-      {
-        composer: [`Josu de Solaun (1981-)`],
-        info: `Tombeau: a Bernardo de Clairveaux’, for string quartet (World Premiere)`,
-        artists: [
-          `Jesús Reina violin`,
-          `Nicolas Dautricourt violin`,
-          `Laura Romero Alba viola`,
-          `Øyvind Gimse cello`,
-        ],
-      },
-      {
-        composer: [`Tomaso Albinoni (1671-1751)`],
-        info: `Sonata de Chiesa in G minor, Op. 4, for violin and organ`,
-        artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
-      },
-      {
-        composer: [`Joaquín Turina (1882-1949)`],
-        info: `‘La oración del torero’, Op. 34, for string quartet`,
-        artists: [
-          `Clemence de Forceville violin`,
-          `Anna Margrethe Nilsen violin`,
-          `Laura Romero Alba viola`,
-          `Øyvind Gimse cello`,
-        ],
-      },
-      {
-        composer: [`Franz Schubert (1797-1828)`],
-        info: `‘Ave Maria’, D. 839, Op. 52 No. 6 (arr. Wilhelmj)`,
-        artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
-      },
-      {
-        composer: [`William Gomez (1939-2000)`],
-        info: `‘Ave Maria’`,
-        artists: [
-          `Anna Margrethe Nilsen violin`,
-          `Artists of the Festival strings`,
-          `Antonio del Pino organ`,
-        ],
-      },
+      // {
+      //   composer: [`Johann Pachelbel (1653-1706)`],
+      //   info: `Canon in D major`,
+      //   artists: [`Artists of the Festival strings`, `Antonio del Pino organ`],
+      // },
+      // {
+      //   composer: [`Málaga Clásica Talents`],
+      //   info: `A selected group of young artists perform a chamber work to be announced`,
+      // },
+      // {
+      //   composer: [`Josu de Solaun (1981-)`],
+      //   info: `Tombeau: a Bernardo de Clairveaux’, for string quartet (World Premiere)`,
+      //   artists: [
+      //     `Jesús Reina violin`,
+      //     `Nicolas Dautricourt violin`,
+      //     `Laura Romero Alba viola`,
+      //     `Øyvind Gimse cello`,
+      //   ],
+      // },
+      // {
+      //   composer: [`Tomaso Albinoni (1671-1751)`],
+      //   info: `Sonata de Chiesa in G minor, Op. 4, for violin and organ`,
+      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
+      // },
+      // {
+      //   composer: [`Joaquín Turina (1882-1949)`],
+      //   info: `‘La oración del torero’, Op. 34, for string quartet`,
+      //   artists: [
+      //     `Clemence de Forceville violin`,
+      //     `Anna Margrethe Nilsen violin`,
+      //     `Laura Romero Alba viola`,
+      //     `Øyvind Gimse cello`,
+      //   ],
+      // },
+      // {
+      //   composer: [`Franz Schubert (1797-1828)`],
+      //   info: `‘Ave Maria’, D. 839, Op. 52 No. 6 (arr. Wilhelmj)`,
+      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
+      // },
+      // {
+      //   composer: [`William Gomez (1939-2000)`],
+      //   info: `‘Ave Maria’`,
+      //   artists: [
+      //     `Anna Margrethe Nilsen violin`,
+      //     `Artists of the Festival strings`,
+      //     `Antonio del Pino organ`,
+      //   ],
+      // },
     ],
     // detailsTwo: [
     //   {
@@ -319,70 +387,140 @@ const events = [
       'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
   },
 
+  // ESPANOL----------------------------------------------------------------
+  // Concert 26 May
+  {
+    id: 1,
+    locale: 'es',
+    date: `26 de mayo, 2024`,
+    price: `regular`,
+    title: `CONCIERTO DE MÁLAGA CLÁSICA TALENTOS`,
+    location: `Teatro Echegaray, 20:00 h.`,
+    sentence: [``],
+    detailsOne: [
+      // {
+      //   composer: [`Johann Pachelbel (1653-1706)`],
+      //   info: `Canon in D major`,
+      //   artists: [`Artists of the Festival strings`, `Antonio del Pino organ`],
+      // },
+      // {
+      //   composer: [`Málaga Clásica Talents`],
+      //   info: `A selected group of young artists perform a chamber work to be announced`,
+      // },
+      // {
+      //   composer: [`Josu de Solaun (1981-)`],
+      //   info: `Tombeau: a Bernardo de Clairveaux’, for string quartet (World Premiere)`,
+      //   artists: [
+      //     `Jesús Reina violin`,
+      //     `Nicolas Dautricourt violin`,
+      //     `Laura Romero Alba viola`,
+      //     `Øyvind Gimse cello`,
+      //   ],
+      // },
+      // {
+      //   composer: [`Tomaso Albinoni (1671-1751)`],
+      //   info: `Sonata de Chiesa in G minor, Op. 4, for violin and organ`,
+      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
+      // },
+      // {
+      //   composer: [`Joaquín Turina (1882-1949)`],
+      //   info: `‘La oración del torero’, Op. 34, for string quartet`,
+      //   artists: [
+      //     `Clemence de Forceville violin`,
+      //     `Anna Margrethe Nilsen violin`,
+      //     `Laura Romero Alba viola`,
+      //     `Øyvind Gimse cello`,
+      //   ],
+      // },
+      // {
+      //   composer: [`Franz Schubert (1797-1828)`],
+      //   info: `‘Ave Maria’, D. 839, Op. 52 No. 6 (arr. Wilhelmj)`,
+      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
+      // },
+      // {
+      //   composer: [`William Gomez (1939-2000)`],
+      //   info: `‘Ave Maria’`,
+      //   artists: [
+      //     `Anna Margrethe Nilsen violin`,
+      //     `Artists of the Festival strings`,
+      //     `Antonio del Pino organ`,
+      //   ],
+      // },
+    ],
+    image: '/media/talentos_mobile_sdlzwr.webp',
+    image_position: `object-top`,
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
+  },
   // Concierto 27 de Mayo
   {
     id: 8,
     locale: 'es',
     date: `27 de mayo, 2024`,
     price: `regular`,
-    title: `PLEGARIA - Concierto de apertura`,
+    title: `ENCUENTRO CON ARTISTAS DEL FESTIVAL CONCIERTO DE MÁLAGA CLÁSICA TALENTOS`,
     location: `Teatro Echegaray, 20:00 h.`,
     sentence: [
-      `Sumérgete en una experiencia musical ecléctica titulada "Plegaria". Pachelbel da inicio con su Canon atemporal, ahora enriquecido con cuerdas y órgano, un mar de sonidos envolvente en una interpretación poco habitual de la archiconocida obra.`,
-      `A continuación, el estreno mundial de "Madrigal" de Josu de Solaun, una obra para cuarteto de cuerdas, en la que De Solaun, uno de los músicos más versátiles del panorama, nos retrotrae a una tradición contrapuntística de hace siglos, mostrando su relevancia presente.`,
-      `La Sonata da Chiesa de Albinoni presenta un diálogo emotivo entre violín y órgano de gran virtuosismo y creatividad compositiva. Turina evoca la pasión y entrega característica española con su "Oración del torero". `,
-      `Schubert nos lleva al celestial Ave María, en una versión en la que el violín hace a su vez de voz melódica y coro. A esto lo sigue la interpretación de Gómez, fusionando violín, cuerdas y órgano.`,
-      `Únete a nosotros para explorar estas composiciones diversas, cada una siendo a su modo, una plegaria desde lo más profundo del alma.`,
+      `MÁLAGA CLÁSICA TALENTOS`,
+      `Como festival de música de cámara y siguiendo una de las filosofías principales del género, entendemos que Málaga Clásica ha de ser un acontecimiento estrechamente unido al público y a la ciudad en la que se celebra, con una relación recíproca en la que todas las partes se sientan implicadas en el disfrute de la música. `,
+      `Es por esto que en esta XIII edición queremos que, de nuevo, los jóvenes talentos puedan ser partícipes del festival brindándoles la oportunidad de tocar y de compartir experiencias con músicos invitados de prestigio internacional.`,
+      `Los jóvenes talentos, elegidos mediante un proceso de selección por nuestros directores artísticos, serán los encargados de actuar en uno de los conciertos de este ciclo. Además serán afortunados de recibir clases magistrales programadas en el transcurso del festival.`,
+
+      `Para más información: secretaria.malagaclasica@gmail.com`,
+      `Tel. 699 067 452`,
+      `ENCUENTRO CON LOS ARTISTAS`,
+      `En este encuentro interactivo, abierto al público y en el que habrá una sesión de preguntas y respuestas, los artistas de Málaga Clásica compartirán sus historias sobre lo vivido y experimentado al encontrarse personalmente con El Nuevo Mundo. `,
+      `Muchos de los músicos que actúan en Málaga Clásica emigraron de sus países de origen y a veces permanecieron en el nuevo hogar. Otros regresaron o buscaron una nueva vida en un lugar distinto. En todos los casos, vivieron la mezcla cultural, la novedad y las diferentes maneras de ver el mundo. El encuentro estará precedido por una actuación de Málaga Clásica Talentos.`,
     ],
     detailsOne: [
-      {
-        composer: [`Johann Pachelbel (1653-1706)`],
-        info: `Canon en Re mayor`,
-        artists: [`Artistas del festival cuerda`, `Antonio del Pino órgano`],
-      },
-      {
-        composer: [`Málaga Clásica Talentos`],
-        info: `Un grupo de jóvenes artistas previamente seleccionados interpretan una obra de música de cámara`,
-      },
-      {
-        composer: [`Josu de Solaun (1981-)`],
-        info: `’Tombeau: a Bernardo de Clairveaux’, para cuarteto de cuerda (Estreno mundial)`,
-        artists: [
-          `Jesús Reina violín`,
-          `Nicolas Dautricourt violín`,
-          `Laura Romero Alba viola`,
-          `Øyvind Gimse violonchelo`,
-        ],
-      },
-      {
-        composer: [`Tomaso Albinoni (1671-1751)`],
-        info: `Sonata de Chiesa en Sol menor, Op. 4, para violín y órgano`,
-        artists: [`Jesús Reina violín`, `Antonio del Pino órgano`],
-      },
-      {
-        composer: [`Joaquín Turina (1882-1949)`],
-        info: `‘La oración del torero’, Op. 34, para cuarteto de cuerda`,
-        artists: [
-          `Clemence de Forceville violín`,
-          `Anna Margrethe Nilsen violín`,
-          `Laura Romero Alba viola`,
-          `Øyvind Gimse violonchelo`,
-        ],
-      },
-      {
-        composer: [`Franz Schubert (1797-1828)`],
-        info: `‘Ave Maria’, D. 839, Op. 52 No. 6 (arr. Wilhelmj)`,
-        artists: [`Jesús Reina violín`, `Antonio del Pino órgano`],
-      },
-      {
-        composer: [`William Gomez (1939-2000)`],
-        info: `‘Ave Maria’`,
-        artists: [
-          `Anna Margrethe Nilsen violín`,
-          `Artistas del festival cuerda`,
-          `Antonio del Pino órgano`,
-        ],
-      },
+      // {
+      //   composer: [`Johann Pachelbel (1653-1706)`],
+      //   info: `Canon en Re mayor`,
+      //   artists: [`Artistas del festival cuerda`, `Antonio del Pino órgano`],
+      // },
+      // {
+      //   composer: [`Málaga Clásica Talentos`],
+      //   info: `Un grupo de jóvenes artistas previamente seleccionados interpretan una obra de música de cámara`,
+      // },
+      // {
+      //   composer: [`Josu de Solaun (1981-)`],
+      //   info: `’Tombeau: a Bernardo de Clairveaux’, para cuarteto de cuerda (Estreno mundial)`,
+      //   artists: [
+      //     `Jesús Reina violín`,
+      //     `Nicolas Dautricourt violín`,
+      //     `Laura Romero Alba viola`,
+      //     `Øyvind Gimse violonchelo`,
+      //   ],
+      // },
+      // {
+      //   composer: [`Tomaso Albinoni (1671-1751)`],
+      //   info: `Sonata de Chiesa en Sol menor, Op. 4, para violín y órgano`,
+      //   artists: [`Jesús Reina violín`, `Antonio del Pino órgano`],
+      // },
+      // {
+      //   composer: [`Joaquín Turina (1882-1949)`],
+      //   info: `‘La oración del torero’, Op. 34, para cuarteto de cuerda`,
+      //   artists: [
+      //     `Clemence de Forceville violín`,
+      //     `Anna Margrethe Nilsen violín`,
+      //     `Laura Romero Alba viola`,
+      //     `Øyvind Gimse violonchelo`,
+      //   ],
+      // },
+      // {
+      //   composer: [`Franz Schubert (1797-1828)`],
+      //   info: `‘Ave Maria’, D. 839, Op. 52 No. 6 (arr. Wilhelmj)`,
+      //   artists: [`Jesús Reina violín`, `Antonio del Pino órgano`],
+      // },
+      // {
+      //   composer: [`William Gomez (1939-2000)`],
+      //   info: `‘Ave Maria’`,
+      //   artists: [
+      //     `Anna Margrethe Nilsen violín`,
+      //     `Artistas del festival cuerda`,
+      //     `Antonio del Pino órgano`,
+      //   ],
+      // },
     ],
     // detailsTwo: [
     //   {
