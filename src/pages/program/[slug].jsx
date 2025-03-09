@@ -9,7 +9,7 @@ import { PricingRegular } from '@/components/PricingRegular'
 import { PricingLastConcert } from '@/components/PricingLastConcert'
 import { motion, AnimatePresence } from 'framer-motion'
 import useTranslation from 'next-translate/useTranslation'
-import { ExternalLinkIcon, TicketIcon } from '@heroicons/react/24/solid'
+import { TicketIcon } from '@heroicons/react/24/solid'
 
 export const getStaticProps = async ({ params }) => {
   const slugify = require('slugify')
@@ -35,11 +35,11 @@ export const getStaticPaths = async () => {
   return { paths, fallback: false }
 }
 
-events.map((event) => ({}))
+events.map(() => ({}))
 
 const Concert = ({ event }) => {
   const router = useRouter()
-  const { t, lang } = useTranslation('common')
+  const { t } = useTranslation('common')
   const buy_tickets = t('buy_tickets')
   const program = t('program')
 

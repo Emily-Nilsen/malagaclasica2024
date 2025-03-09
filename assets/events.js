@@ -67,7 +67,7 @@ const events = [
   {
     id: 1,
     locale: 'en',
-    date: `27 May, 2024`,
+    date: `27 May, 2025`,
     price: `regular`,
     title: `ENCOUNTER WITH FESTIVAL ARTISTS CONCERT WITH MÁLAGA CLÁSICA TALENTS`,
     location: `Echegaray Theatre, 8 p.m.`,
@@ -154,7 +154,7 @@ const events = [
   {
     id: 2,
     locale: 'en',
-    date: `28 May, 2024`,
+    date: `28 May, 2025`,
     price: `regular`,
     title: `MUST IT BE?`,
     location: `Echegaray Theatre, 8 p.m.`,
@@ -199,7 +199,7 @@ const events = [
   {
     id: 3,
     locale: 'en',
-    date: `29 May, 2024`,
+    date: `29 May, 2025`,
     price: `regular`,
     title: `SPIRITUAL JOURNEY`,
     location: `Echegaray Theatre, 8 p.m.`,
@@ -241,7 +241,7 @@ const events = [
   {
     id: 4,
     locale: 'en',
-    date: `30 May, 2024`,
+    date: `30 May, 2025`,
     price: `regular`,
     title: `CONVERSATION WITH HEAVEN`,
     location: `Echegaray Theatre, 8 p.m.`,
@@ -278,7 +278,7 @@ const events = [
   {
     id: 5,
     locale: 'en',
-    date: `31 May, 2024`,
+    date: `31 May, 2025`,
     price: `regular`,
     title: `MACABRE JOURNEY`,
     location: `Echegaray Theatre, 8 p.m.`,
@@ -330,7 +330,7 @@ const events = [
   {
     id: 14,
     locale: 'en',
-    date: `1 June, 2024`,
+    date: `1 June, 2025`,
     price: `regular`,
     title: `ALFA & OMEGA`,
     location: `Cervantes Theatre, 8 p.m.`,
@@ -392,7 +392,7 @@ const events = [
   {
     id: 1,
     locale: 'es',
-    date: `26 de mayo, 2024`,
+    date: `26 de mayo, 2025`,
     price: `regular`,
     title: `CONCIERTO DE MÁLAGA CLÁSICA TALENTOS`,
     location: `Teatro Echegaray, 20:00 h.`,
@@ -456,7 +456,7 @@ const events = [
   {
     id: 8,
     locale: 'es',
-    date: `27 de mayo, 2024`,
+    date: `27 de mayo, 2025`,
     price: `regular`,
     title: `ENCUENTRO CON ARTISTAS DEL FESTIVAL CONCIERTO DE MÁLAGA CLÁSICA TALENTOS`,
     location: `Teatro Echegaray, 20:00 h.`,
@@ -544,26 +544,39 @@ const events = [
   {
     id: 9,
     locale: 'es',
-    date: `28 de mayo, 2024`,
+    date: `28 de mayo, 2025`,
     price: `regular`,
-    title: `¿DEBE SER?`,
+    title: `DEL NUEVO MUNDO`,
     location: `Teatro Echegaray, 20:00 h.`,
     sentence: [
-      `Felix Mendelssohn nos lleva en un viaje emocional con su Cuarteto de Cuerdas No. 2 en la menor, donde una cita de su canción "Ist es wahr?" (“¿Debe ser?”) sirve como unificador, cita que alude al destino y la libertad, y la cual da título a este programa.`,
-      `Luego, Johann Sebastian Bach nos envuelve en la belleza del “Aire en la cuerda sol”, una conocida y reconocible melodía, en su versión para violín y piano.`,
-      `Completa esta velada la Sonata No. 3 para violín y piano de Brahms. El compositor decía que una fuerza, o “espíritu supremo” creaba, a través de él, sus obras. `,
-      `Obras que, como esta sonata en re menor, provocan resonancias profundas en el espíritu del oyente.`,
+      `Este primer concierto nos adentra en perspectivas de un nuevo mundo cultural descubierto, creado y, sobre todo, imaginado en la obra de diferentes compositores.`,
+      `Desde la figura del controvertido personaje ficticio ‘Golliwog’ en Debussy hasta el homenaje al nuevo continente por parte del checo Dvorak.`,
+      ` También sonarán en el concierto referencias al sur de América en Milhaud, al folk americano en Banjo and fiddle, de Kroll, o una miniatura basada en un tema concebido en Nueva York de Reina.`,
+      `Tendrá presencia el considerado “padre” de la música Americana, Stephen Foster, en una velada que promete llenar al público con la energía de estos nuevos mundos sonoros.`,
     ],
     detailsOne: [
       {
-        composer: [`Felix Mendelssohn (1809-1847)`],
-        info: `Cuarteto de cuerda No. 2 en La menor, Op. 13`,
+        composer: [`Claude Debussy (1862-1918)`],
+        info: `‘Golliwog’s cakewalk’ de Children’s corner (El rincón de los niños) L.113, para piano solo`,
+        artists: [`Josu de Solaun piano`],
+      },
+      {
+        composer: [`Darius Milhaud (1892-1974)`],
+        info: `La création du monde, Op.81b, para quinteto con piano`,
         artists: [
-          `Jesús Reina violín`,
-          `Anna Margrethe Nilsen violín`,
-          `Tomoko Akasaka  viola`,
-          `Gabriel Ureña violonchelo`,
+          `Grigory Kalinovsky violín`,
+          `Clemence de Forceville violín`,
+          `Eleanor Kendra James viola`,
+          `Benedict Kloeckner violonchelo`,
+          `José Gallardo piano`,
         ],
+      },
+      {
+        composer: [`Stephen Foster (1826-1864)`],
+        info: `Old folks at home, para voz y piano`,
+        // composer: [`Stephen Foster 2 (1826-1864)`],
+        // info: `Old folks at home, para voz y piano`,
+        artists: [`Jesús Reina violín`, `Natalia Kuchaeva piano`],
       },
     ],
     detailsTwo: [
@@ -589,7 +602,7 @@ const events = [
   {
     id: 10,
     locale: 'es',
-    date: `29 de mayo, 2024`,
+    date: `29 de mayo, 2025`,
     price: `regular`,
     title: `TRAVESIA ESPIRITUAL`,
     location: `Teatro Echegaray, 20:00 h.`,
@@ -631,7 +644,7 @@ const events = [
   {
     id: 11,
     locale: 'es',
-    date: `30 de mayo, 2024`,
+    date: `30 de mayo, 2025`,
     price: `regular`,
     title: `CONVERSACIÓN CON EL CIELO`,
     location: `Teatro Echegaray, 20:00 h.`,
@@ -668,7 +681,7 @@ const events = [
   {
     id: 12,
     locale: 'es',
-    date: `31 de mayo, 2024`,
+    date: `31 de mayo, 2025`,
     price: `regular`,
     title: `DANSE MACABRE`,
     location: `Teatro Echegaray, 20:00 h`,
@@ -720,7 +733,7 @@ const events = [
   {
     id: 13,
     locale: 'es',
-    date: `1 de junio, 2024`,
+    date: `1 de junio, 2025`,
     price: `regular`,
     title: `ALFA & OMEGA`,
     location: `Teatro Cervantes, 20:00 h`,
