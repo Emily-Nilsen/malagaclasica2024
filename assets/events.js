@@ -253,44 +253,71 @@ const events = [
     locale: 'en',
     date: `31 May, 2025`,
     price: `regular`,
-    title: `MACABRE JOURNEY`,
+    title: `THE IMMIGRANT’S DREAM`,
     location: `Echegaray Theatre, 8 p.m.`,
     sentence: [
-      `The "Macabre Journey" program plunges us into a dark musical odyssey. Clarke opens with her Passacaglia, a piece invoking mysterious atmospheres. Bruch, with Kol Nidrei, offers a profoundly resonant cello and piano lament.`,
-      `Saint-Saëns uses Henri Cazalis's poem to bring us his “Danse Macabre”. According to the legend the poem is based on, death appears on the midnight of Halloween to call forth the dead to dance for him while he plays his fiddle.`,
-      `Bloch presents his brief yet poignant “Prayer” for cello and piano. Shostakovich closes with his Piano Trio No. 2, where lament and urgency intertwine in a musical narrative exploring the extremes of emotional expression.
+      `The list of people that emigrated to the New World is endless. Dreaming of new career opportunities, many composers and performers, like Rachmaninoff, Romberg and Bloch, set sails for America in the late 1800s and early 1900s, each bringing with them their background and style, resulting in an exciting mix of cultures.`,
+      `Later on when the World Wars roared in Europe, composers like Bartók, Stravinsky and Weill were forced to flee and continue their life across the Atlantic.`,
+      `Several of the musicians took up important posts as conductors of emerging American orchestras, as influential teachers and heads of conservatories, and thus ended up shaping the future of music, performance and education in America.
       `,
+      `In this program we can hear the memories of the “old” world in the works of Rachmaninoff, Bartók and Bloch, while the New World brings a different light to the works of Romberg, Dalla, Stravinsky and Weill.`,
     ],
     detailsOne: [
       {
-        composer: [`Rebecca Clarke (1886-1979)`],
-        info: `‘Passacaglia on an Old English Tune’, for viola and piano`,
-        artists: [`Tomoko Akasaka viola`, `Josu de Solaun piano`],
+        composer: [`Sergei Rachmaninov (1873-1943)`],
+        info: `Elegiac Trio No.1 in G minor, for piano trio`,
+        artists: [
+          `Grigory Kalinovsky violin`,
+          `Christophe Morin cello`,
+          `Natalia Kuchaeva piano`,
+        ],
       },
       {
-        composer: [`Max Bruch (1838-1920)`],
-        info: `‘Kol Nidrei’, Op. 47, for cello and piano`,
-        artists: [`Gabriel Ureña cello`, `Natalia Kuchaeva piano`],
+        composer: [`Béla Bartók (1881-1945)`],
+        info: `Rhapsody No.1 for violin and piano, BB.94a`,
+        artists: [`Jesús Reina violin`, `Josu de Solaun piano`],
       },
       {
-        composer: [`Camille Saint-Saëns (1835-1921)`],
-        info: `‘Danse macabre’, Op. 40, for piano 4 hands`,
-        artists: [`Natalia Kuchaeva piano`, `Josu de Solaun piano`],
+        composers: [
+          {
+            name: 'Sigmund Romberg (1887-1951)',
+            info: `'I’ll Walk with God' from the operetta The Student Prince (El príncipe estudiante), for voice and piano`,
+          },
+          {
+            name: 'Lucio Dalla (1943-2012)',
+            info: `Caruso, for voice and piano`,
+          },
+        ],
+        artists: [`Nils Georg Nilsen tenor`, `Natalia Kuchaeva piano`],
       },
     ],
     detailsTwo: [
       {
         composer: [`Ernest Bloch (1880-1959)`],
-        info: `‘Prayer’, No. 1 from From Jewish Life, B. 54, for cello and piano`,
-        artists: [`Christophe Morin cello`, `Josu de Solaun piano`],
+        info: `'Nigun', No.2 from Baal Shem, for violin and piano`,
+        artists: [`Grigory Kalinovsky violin`, `Natalia Kuchaeva piano`],
       },
       {
-        composer: [`Dmitri Shostakóvich (1906-1975)`],
-        info: `Piano trio no. 2 in E minor, Op. 67`,
+        composer: [`Igor Stravinsky (1882-1971)`],
+        info: `L’Histoire du soldat (The Soldier's Tale), for violin, clarinet and piano`,
         artists: [
-          `Anna Margrethe Nilsen violin`,
-          `Christophe Morin cello`,
-          `Natalia Kuchaeva piano`,
+          `Clemence de Forceville violin`,
+          `Rafael García clarinet`,
+          `Josu de Solaun piano`,
+        ],
+      },
+      {
+        composer: [`Kurt Weill (1900-1950)`],
+        info: `'I’m a Stranger Here Myself' from the musical One Touch of Venus (Venus Was a Woman), for voice and piano; 'It Never Was You' from the musical Knickerbocker Holiday (Silver Leg), for voice and piano`,
+        artists: [`Susanne Hvinden Hals soprano`, `José Gallardo piano`],
+      },
+      {
+        composer: [`Sigmund Romberg (1887-1951)`],
+        info: `'Deep in My Heart, Dear' from the operetta The Student Prince (El príncipe estudiante), for voice and piano duo`,
+        artists: [
+          `Susanne Hvinden Hals soprano`,
+          `Nils Georg Nilsen tenor`,
+          `José Gallardo piano`,
         ],
       },
     ],
@@ -617,44 +644,71 @@ const events = [
     locale: 'es',
     date: `31 de mayo, 2025`,
     price: `regular`,
-    title: `DANSE MACABRE`,
+    title: `EL SUEÑO DEL INMIGRANTE`,
     location: `Teatro Echegaray, 20:00 h`,
     sentence: [
-      `El programa “Danse Macabre" nos lleva a través de un oscuro recorrido musical. Clarke inicia el concierto con su Passacaglia, una pieza que invoca atmósferas misteriosas. Bruch, con Kol Nidrei, ofrece un lamento para cello y piano de profunda resonancia.`,
-      `Saint-Saëns se sirve del poema de Henri Cazalis, para traernos su “Danse Macabre”. La leyenda en la que se basa el poema dice que la muerte sale a medianoche del Día de los Difuntos, para que los muertos bailen para ella mientras toca su violín.`,
-      `Bloch presenta su breve pero conmovedora Oración para violonchelo y piano. Shostakovich cierra con su Trío para Piano No. 2, donde el lamento y la urgencia se entrelazan en una narrativa musical que explora los extremos de la expresión emocional.
+      `La lista de personas que emigraron al Nuevo Mundo es interminable. Soñando con nuevas oportunidades profesionales, muchos compositores e intérpretes, como Rachmaninov, Romberg y Bloch, zarparon hacia América a finales del siglo XIX y principios del XX llevando consigo sus orígenes y estilo, lo que resultó en una emocionante mezcla de culturas.`,
+      `Más tarde, cuando las Guerras Mundiales arrasaron Europa, autores como Bartók, Stravinsky y Weill se vieron obligados a huir y continuar su vida al otro lado del Atlántico.`,
+      `Algunos de estos músicos ocuparon importantes puestos como directores de orquestas emergentes en América o como influyentes maestros y directores de conservatorios, de modo que terminaron moldeando el futuro de la música, la interpretación y la educación en América.
       `,
+      `En este programa podemos escuchar los recuerdos del “viejo” mundo en las obras de Rachmaninov, Bartók y Bloch, mientras que el Nuevo Mundo trae una luz diferente a las obras de Romberg, Dalla, Stravinsky y Weill.`,
     ],
     detailsOne: [
       {
-        composer: [`Rebecca Clarke (1886-1979)`],
-        info: `‘Passacaglia on an Old English Tune’, para viola y piano`,
-        artists: [`Tomoko Akasaka viola`, `Josu de Solaun piano`],
+        composer: [`Sergei Rachmaninov (1873-1943)`],
+        info: `Trío elegíaco No.1 en sol menor, para trio con piano`,
+        artists: [
+          `Grigory Kalinovsky violín`,
+          `Christophe Morin violinchelo`,
+          `Natalia Kuchaeva piano`,
+        ],
       },
       {
-        composer: [`Max Bruch (1838-1920)`],
-        info: `‘Kol Nidrei’, Op. 47, para violonchelo y piano`,
-        artists: [`Gabriel Ureña violonchelo`, `Natalia Kuchaeva piano`],
+        composer: [`Béla Bartók (1881-1945)`],
+        info: `Rapsodia No.1 para violín y piano, BB.94a`,
+        artists: [`Jesús Reina violín`, `Josu de Solaun piano`],
       },
       {
-        composer: [`Camille Saint-Saëns (1835-1921)`],
-        info: `‘Danse macabre’, Op. 40, para piano a 4 manos`,
-        artists: [`Natalia Kuchaeva piano`, `Josu de Solaun piano`],
+        composers: [
+          {
+            name: 'Sigmund Romberg (1887-1951)',
+            info: '‘I’ll walk with God’ de la opereta The student prince (El príncipe estudiante), para voz y piano',
+          },
+          {
+            name: 'Lucio Dalla (1943-2012)',
+            info: `Caruso, para voz y piano`,
+          },
+        ],
+        artists: [`Nils Georg Nilsen tenor`, `Natalia Kuchaeva piano`],
       },
     ],
     detailsTwo: [
       {
         composer: [`Ernest Bloch (1880-1959)`],
-        info: `‘Prayer’, No. 1 de From Jewish Life, B. 54, para violonchelo y piano`,
-        artists: [`Christophe Morin violonchelo`, `Josu de Solaun piano`],
+        info: `‘Nigun’, No.2 de Baal Shem, para violín y piano`,
+        artists: [`Grigory Kalinovsky violín`, `Natalia Kuchaeva piano`],
       },
       {
-        composer: [`Dmitri Shostakóvich (1906-1975)`],
-        info: `Trío con piano no. 2 en Mi menor, Op. 67`,
+        composer: [`Igor Stravinsky (1882-1971)`],
+        info: `L’Histoire du soldat (La historia del soldado), para violín, clarinete y piano`,
         artists: [
-          `Anna Margrethe Nilsen violín`,
-          `Christophe Morin violonchelo`,
-          `Natalia Kuchaeva piano`,
+          `Clemence de Forceville violín`,
+          `Rafael García clarinete`,
+          `Josu de Solaun piano`,
+        ],
+      },
+      {
+        composer: [`Kurt Weill (1900-1950)`],
+        info: `‘I’m a stranger here myself’ del musical One touch of Venus (Venus era mujer), para voz y piano; ‘It never was you’ del musical Knickerbocker holiday (Pierna de plata), para voz y piano`,
+        artists: [`Susanne Hvinden Hals soprano`, `José Gallardo piano`],
+      },
+      {
+        composer: [`Sigmund Romberg (1887-1951)`],
+        info: `‘Deep in my heart, dear’ de la opereta The student prince (El príncipe estudiante), para dúo de voz y piano`,
+        artists: [
+          `Susanne Hvinden Hals soprano`,
+          `Nils Georg Nilsen tenor`,
+          `José Gallardo piano`,
         ],
       },
     ],
