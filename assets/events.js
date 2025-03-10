@@ -8,56 +8,7 @@ const events = [
     title: `CONCERT WITH MÁLAGA CLÁSICA TALENTS`,
     location: `Echegaray Theatre, 8 p.m.`,
     sentence: [``],
-    detailsOne: [
-      // {
-      //   composer: [`Johann Pachelbel (1653-1706)`],
-      //   info: `Canon in D major`,
-      //   artists: [`Artists of the Festival strings`, `Antonio del Pino organ`],
-      // },
-      // {
-      //   composer: [`Málaga Clásica Talents`],
-      //   info: `A selected group of young artists perform a chamber work to be announced`,
-      // },
-      // {
-      //   composer: [`Josu de Solaun (1981-)`],
-      //   info: `Tombeau: a Bernardo de Clairveaux’, for string quartet (World Premiere)`,
-      //   artists: [
-      //     `Jesús Reina violin`,
-      //     `Nicolas Dautricourt violin`,
-      //     `Laura Romero Alba viola`,
-      //     `Øyvind Gimse cello`,
-      //   ],
-      // },
-      // {
-      //   composer: [`Tomaso Albinoni (1671-1751)`],
-      //   info: `Sonata de Chiesa in G minor, Op. 4, for violin and organ`,
-      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
-      // },
-      // {
-      //   composer: [`Joaquín Turina (1882-1949)`],
-      //   info: `‘La oración del torero’, Op. 34, for string quartet`,
-      //   artists: [
-      //     `Clemence de Forceville violin`,
-      //     `Anna Margrethe Nilsen violin`,
-      //     `Laura Romero Alba viola`,
-      //     `Øyvind Gimse cello`,
-      //   ],
-      // },
-      // {
-      //   composer: [`Franz Schubert (1797-1828)`],
-      //   info: `‘Ave Maria’, D. 839, Op. 52 No. 6 (arr. Wilhelmj)`,
-      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
-      // },
-      // {
-      //   composer: [`William Gomez (1939-2000)`],
-      //   info: `‘Ave Maria’`,
-      //   artists: [
-      //     `Anna Margrethe Nilsen violin`,
-      //     `Artists of the Festival strings`,
-      //     `Antonio del Pino organ`,
-      //   ],
-      // },
-    ],
+    detailsOne: [],
     image: '/media/talentos_mobile_sdlzwr.webp',
     image_position: `object-top`,
     ticket_url:
@@ -82,72 +33,11 @@ const events = [
       `In this interactive event, open to the public and featuring a Q&A session, the artists of Málaga Clásica will share their personal stories and experiences of encountering The New World.`,
       `Many of the musicians performing at Málaga Clásica emigrated from their home countries, sometimes settling permanently in their new homes, while others returned or sought new lives elsewhere. In all cases, they encountered cultural fusion, novelty, and different ways of seeing the world. The event will be preceded with a performance by Málaga Clásica Talentos.`,
     ],
-    detailsOne: [
-      // {
-      //   composer: [`Johann Pachelbel (1653-1706)`],
-      //   info: `Canon in D major`,
-      //   artists: [`Artists of the Festival strings`, `Antonio del Pino organ`],
-      // },
-      // {
-      //   composer: [`Málaga Clásica Talents`],
-      //   info: `A selected group of young artists perform a chamber work to be announced`,
-      // },
-      // {
-      //   composer: [`Josu de Solaun (1981-)`],
-      //   info: `Tombeau: a Bernardo de Clairveaux’, for string quartet (World Premiere)`,
-      //   artists: [
-      //     `Jesús Reina violin`,
-      //     `Nicolas Dautricourt violin`,
-      //     `Laura Romero Alba viola`,
-      //     `Øyvind Gimse cello`,
-      //   ],
-      // },
-      // {
-      //   composer: [`Tomaso Albinoni (1671-1751)`],
-      //   info: `Sonata de Chiesa in G minor, Op. 4, for violin and organ`,
-      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
-      // },
-      // {
-      //   composer: [`Joaquín Turina (1882-1949)`],
-      //   info: `‘La oración del torero’, Op. 34, for string quartet`,
-      //   artists: [
-      //     `Clemence de Forceville violin`,
-      //     `Anna Margrethe Nilsen violin`,
-      //     `Laura Romero Alba viola`,
-      //     `Øyvind Gimse cello`,
-      //   ],
-      // },
-      // {
-      //   composer: [`Franz Schubert (1797-1828)`],
-      //   info: `‘Ave Maria’, D. 839, Op. 52 No. 6 (arr. Wilhelmj)`,
-      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
-      // },
-      // {
-      //   composer: [`William Gomez (1939-2000)`],
-      //   info: `‘Ave Maria’`,
-      //   artists: [
-      //     `Anna Margrethe Nilsen violin`,
-      //     `Artists of the Festival strings`,
-      //     `Antonio del Pino organ`,
-      //   ],
-      // },
-    ],
-    // detailsTwo: [
-    //   {
-    //     composer: [`Béla Bartók (1882-1945)`, `Luciano Berio (1925-2003)`],
-    //     info: `Selección de dúos para dos violines`,
-    //     artists: [`Joanna Wronko violín`, `Anna Margrethe Nilsen violín`],
-    //   },
-    //   {
-    //     composer: [`Zoltán Kodály (1882-1967)`],
-    //     info: `Dúo para violín y violonchelo, Op.7`,
-    //     artists: [`Jesus Reina violín`, `Adolfo Gutiérrez violonchelo`],
-    //   },
-    // ],
+    detailsOne: [],
+
     image: '/media/events/strings_rxaspi.webp',
     image_position: `object-top`,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
+    ticket_url: '#',
   },
 
   // Concert 28 May
@@ -156,85 +46,133 @@ const events = [
     locale: 'en',
     date: `28 May, 2025`,
     price: `regular`,
-    title: `MUST IT BE?`,
+    title: `FROM THE NEW WORLD`,
     location: `Echegaray Theatre, 8 p.m.`,
     sentence: [
-      `Felix Mendelssohn takes us on an emotional journey with his String Quartet No. 2 in A Minor, where a quotation from his song "Ist es wahr?” (“Must it be?”) serves as a unifying motif, a quotation that references destiny and freedom, and which also gives the title to the program.`,
-      `Then, Johann Sebastian Bach envelops us in the beauty of the Air on the G String, a recognisable melody performed on violin and piano.`,
-      `Brahms’ Sonata No. 3 for violin and piano completes this musical evening. Brahms said that a force, or “supreme spirit”, creates his works through him.`,
-      `These works, such as the sonata in D minor, provoke deep resonances in the listener's spirit.`,
+      `The first concert takes us through perspectives of a newly discovered cultural world, which has been created and above all imagined in the works of different composers.`,
+      `From the controversial fictional character “Golliwog” in Debussy, to Dvorak’s homage to the new continent.`,
+      `Additionally, there will be references to the South of America in Milhaud, to American folk music in Kroll’s Banjo and fiddle and a miniature based on a theme conceived in New York by Jesús Reina.`,
+      `Stephen Foster, known as the “father” of American music, will also be present in an evening which promises to fill the audience with the energy of these new sounding worlds.`,
     ],
     detailsOne: [
       {
-        composer: [`Felix Mendelssohn (1809-1847)`],
-        info: `String quartet No. 2 in A minor, Op. 13`,
+        composer: [`Claude Debussy (1862-1918)`],
+        info: `'Golliwog's Cakewalk' from Children's Corner, L.113, for solo piano`,
+        artists: [`Josu de Solaun piano`],
+      },
+      {
+        composer: [`Darius Milhaud (1892-1974)`],
+        info: `La création du monde, Op.81b, for piano quintet`,
         artists: [
-          `Jesús Reina violin`,
-          `Anna Margrethe Nilsen violin`,
-          `Tomoko Akasaka viola`,
-          `Gabriel Ureña cello`,
+          `Grigory Kalinovsky violin`,
+          `Clemence de Forceville violin`,
+          `Eleanor Kendra James viola`,
+          `Benedict Kloeckner cello`,
+          `José Gallardo piano`,
         ],
+      },
+      {
+        composers: [
+          {
+            name: 'Darius Milhaud (1892-1974)',
+            info: `'Brazileira', No.3 from Scaramouche, Op.165b (arr. Jasha Heifetz), for violin and piano`,
+          },
+          {
+            name: 'William Kroll (1901-1980)',
+            info: 'Banjo and Fiddle, for violin and piano',
+          },
+        ],
+        artists: [`Jesús Reina violin`, `Natalia Kuchaeva piano`],
       },
     ],
     detailsTwo: [
       {
-        composer: [`Johann Sebastian Bach (1685-1750)`],
-        info: `‘Air on the G string‘ from the Orchestral Suite No. 3 in D major (arr. August Wilhelmj), for violin and piano`,
+        composer: [`Jesús Reina (1986-)`],
+        info: `Miniatures, for violin and piano`,
         artists: [`Jesús Reina violin`, `Josu de Solaun piano`],
       },
       {
-        composer: [`Johannes Brahms (1833-1897)`],
-        info: `Sonata for violin and piano No. 3 in D minor, Op. 108`,
-
+        composers: [
+          {
+            name: 'Stephen Foster (1826-1864)',
+            info: 'Old Folks at Home, for voice and piano',
+          },
+          {
+            name: 'Antonín Dvorak (1841-1904)',
+            info: `'Goin' Home' from Symphony No.9 'From the New World' (arr. William Arms Fisher), for voice and piano`,
+          },
+        ],
         artists: [`Jesús Reina violin`, `Josu de Solaun piano`],
+      },
+      {
+        composer: [`Antonín Dvorak (1841-1904)`],
+        info: `String Quartet No.12 in F major 'Americano', Op.96`,
+        artists: [
+          `Anna Margrethe Nilsen violin`,
+          `Jesús Reina violin`,
+          `Eleanor Kendra James viola`,
+          `Christophe Morin cello`,
+        ],
       },
     ],
     image: '/media/events/piano_icg2qd.webp',
     image_position: `object-top`,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/debe-ser-1607',
+    ticket_url: '#',
   },
-
   // Concert 29 May
   {
     id: 3,
     locale: 'en',
     date: `29 May, 2025`,
     price: `regular`,
-    title: `SPIRITUAL JOURNEY`,
+    title: `THE SOUND OF AMERICA`,
     location: `Echegaray Theatre, 8 p.m.`,
     sentence: [
-      `Smetana's Piano Trio weaves a spiritual exploration reflecting life and death. Following this, Schubert’s monumental String Quintet captures the intensity and complexity of human existence.`,
-      `This program invites the audience to delve into the depths of emotion and contemplation, guided by the unique expressiveness of Smetana and the tonal richness of Schubert.`,
+      `The title of this program is the best explanation that can be made about it. “The sound of America”, the sound of chamber music resulting from a cultural melting pot, which was and is the United States.`,
+      `Amy Beach’s beautiful melodies, Barber’s sensitivity, the musical revolution of Ives or the bravery of Corigliano, will take the spotlight in a concert that shows the birth and development of something new, built atop of preexisting monuments of the native and European cultures.`,
     ],
     detailsOne: [
       {
-        composer: [`Bedřich Smetana (1824-1884)`],
-        info: `Piano trio in G minor, Op. 15`,
+        composer: [`Amy Beach (1867-1944)`],
+        info: `Romance, for violin and piano, Op.23`,
+        artists: [`Clemence de Forceville violin`, `Natalia Kuchaeva piano`],
+      },
+      {
+        composer: [`Samuel Barber (1910-1981)`],
+        info: `Four Songs for voice and piano, Op.13`,
+        artists: [`Susanne Hvinden Hals soprano`, `Josu de Solaun piano`],
+      },
+      {
+        composer: [`Charles Ives (1874-1954)`],
+        info: `String Quartet No.1 of The Salvation Army (El Ejército de Salvación)`,
         artists: [
           `Clemence de Forceville violin`,
-          `Gabriel Ureña cello`,
-          `Josu de Solaun piano`,
+          `Anna Margrethe Nilsen violin`,
+          `Eleanor Kendra James viola`,
+          `Benedict Kloeckner cello`,
         ],
       },
     ],
     detailsTwo: [
       {
-        composer: [`Franz Schubert (1797-1828)`],
-        info: `String quintet in C major, D. 956`,
+        composer: [`Samuel Barber (1910-1981)`],
+        info: `Adagio from the String Quartet, Op.11`,
         artists: [
-          `Nicolas Dautricourt violin`,
           `Clemence de Forceville violin`,
-          `Tomoko Akasaka viola`,
-          `Per Nyström cello`,
-          `Øyvind Gimse cello`,
+          `Grigory Kalinovsky violin`,
+          `Eleanor Kendra James viola`,
+          `Christophe Morin cello`,
         ],
+      },
+      {
+        composer: [`John Corigliano (1938-)`],
+        info: `Sonata for violin and piano`,
+        artists: [`Jesús Reina violin`, `Natalia Kuchaeva piano`],
       },
     ],
     image: '/media/events/cello_z7sixb.webp',
     image_position: `object-top`,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/travesia-espiritual-1608',
+    ticket_url: '#',
   },
 
   // Concert 30 May
@@ -270,8 +208,7 @@ const events = [
     ],
     image: '/media/events/violin_1_duczzp.webp',
     image_position: `object-center`,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/conversacion-con-el-cielo-1609',
+    ticket_url: '#',
   },
 
   // Concert 31 May
@@ -323,8 +260,7 @@ const events = [
     ],
     image: '/media/events/piano_duette_qkdrgf.webp',
     image_position: ``,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/danse-macabre-1610',
+    ticket_url: '#',
   },
   // 1 June
   {
@@ -383,11 +319,12 @@ const events = [
     ],
     image: '/media/events/violin_2_uqtbs2.webp',
     image_position: ``,
-    ticket_url:
-      'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
+    ticket_url: '#',
   },
 
+  //
   // ESPANOL----------------------------------------------------------------
+  //--------------------------------------
   // Concert 26 May
   {
     id: 1,
@@ -397,60 +334,10 @@ const events = [
     title: `CONCIERTO DE MÁLAGA CLÁSICA TALENTOS`,
     location: `Teatro Echegaray, 20:00 h.`,
     sentence: [``],
-    detailsOne: [
-      // {
-      //   composer: [`Johann Pachelbel (1653-1706)`],
-      //   info: `Canon in D major`,
-      //   artists: [`Artists of the Festival strings`, `Antonio del Pino organ`],
-      // },
-      // {
-      //   composer: [`Málaga Clásica Talents`],
-      //   info: `A selected group of young artists perform a chamber work to be announced`,
-      // },
-      // {
-      //   composer: [`Josu de Solaun (1981-)`],
-      //   info: `Tombeau: a Bernardo de Clairveaux’, for string quartet (World Premiere)`,
-      //   artists: [
-      //     `Jesús Reina violin`,
-      //     `Nicolas Dautricourt violin`,
-      //     `Laura Romero Alba viola`,
-      //     `Øyvind Gimse cello`,
-      //   ],
-      // },
-      // {
-      //   composer: [`Tomaso Albinoni (1671-1751)`],
-      //   info: `Sonata de Chiesa in G minor, Op. 4, for violin and organ`,
-      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
-      // },
-      // {
-      //   composer: [`Joaquín Turina (1882-1949)`],
-      //   info: `‘La oración del torero’, Op. 34, for string quartet`,
-      //   artists: [
-      //     `Clemence de Forceville violin`,
-      //     `Anna Margrethe Nilsen violin`,
-      //     `Laura Romero Alba viola`,
-      //     `Øyvind Gimse cello`,
-      //   ],
-      // },
-      // {
-      //   composer: [`Franz Schubert (1797-1828)`],
-      //   info: `‘Ave Maria’, D. 839, Op. 52 No. 6 (arr. Wilhelmj)`,
-      //   artists: [`Jesús Reina violin`, `Antonio del Pino organ`],
-      // },
-      // {
-      //   composer: [`William Gomez (1939-2000)`],
-      //   info: `‘Ave Maria’`,
-      //   artists: [
-      //     `Anna Margrethe Nilsen violin`,
-      //     `Artists of the Festival strings`,
-      //     `Antonio del Pino organ`,
-      //   ],
-      // },
-    ],
+    detailsOne: [],
     image: '/media/talentos_mobile_sdlzwr.webp',
     image_position: `object-top`,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
+    ticket_url: '#',
   },
   // Concierto 27 de Mayo
   {
@@ -472,72 +359,11 @@ const events = [
       `En este encuentro interactivo, abierto al público y en el que habrá una sesión de preguntas y respuestas, los artistas de Málaga Clásica compartirán sus historias sobre lo vivido y experimentado al encontrarse personalmente con El Nuevo Mundo. `,
       `Muchos de los músicos que actúan en Málaga Clásica emigraron de sus países de origen y a veces permanecieron en el nuevo hogar. Otros regresaron o buscaron una nueva vida en un lugar distinto. En todos los casos, vivieron la mezcla cultural, la novedad y las diferentes maneras de ver el mundo. El encuentro estará precedido por una actuación de Málaga Clásica Talentos.`,
     ],
-    detailsOne: [
-      // {
-      //   composer: [`Johann Pachelbel (1653-1706)`],
-      //   info: `Canon en Re mayor`,
-      //   artists: [`Artistas del festival cuerda`, `Antonio del Pino órgano`],
-      // },
-      // {
-      //   composer: [`Málaga Clásica Talentos`],
-      //   info: `Un grupo de jóvenes artistas previamente seleccionados interpretan una obra de música de cámara`,
-      // },
-      // {
-      //   composer: [`Josu de Solaun (1981-)`],
-      //   info: `’Tombeau: a Bernardo de Clairveaux’, para cuarteto de cuerda (Estreno mundial)`,
-      //   artists: [
-      //     `Jesús Reina violín`,
-      //     `Nicolas Dautricourt violín`,
-      //     `Laura Romero Alba viola`,
-      //     `Øyvind Gimse violonchelo`,
-      //   ],
-      // },
-      // {
-      //   composer: [`Tomaso Albinoni (1671-1751)`],
-      //   info: `Sonata de Chiesa en Sol menor, Op. 4, para violín y órgano`,
-      //   artists: [`Jesús Reina violín`, `Antonio del Pino órgano`],
-      // },
-      // {
-      //   composer: [`Joaquín Turina (1882-1949)`],
-      //   info: `‘La oración del torero’, Op. 34, para cuarteto de cuerda`,
-      //   artists: [
-      //     `Clemence de Forceville violín`,
-      //     `Anna Margrethe Nilsen violín`,
-      //     `Laura Romero Alba viola`,
-      //     `Øyvind Gimse violonchelo`,
-      //   ],
-      // },
-      // {
-      //   composer: [`Franz Schubert (1797-1828)`],
-      //   info: `‘Ave Maria’, D. 839, Op. 52 No. 6 (arr. Wilhelmj)`,
-      //   artists: [`Jesús Reina violín`, `Antonio del Pino órgano`],
-      // },
-      // {
-      //   composer: [`William Gomez (1939-2000)`],
-      //   info: `‘Ave Maria’`,
-      //   artists: [
-      //     `Anna Margrethe Nilsen violín`,
-      //     `Artistas del festival cuerda`,
-      //     `Antonio del Pino órgano`,
-      //   ],
-      // },
-    ],
-    // detailsTwo: [
-    //   {
-    //     composer: [`Béla Bartók (1882-1945)`, `Luciano Berio (1925-2003)`],
-    //     info: `Selección de dúos para dos violines`,
-    //     artists: [`Joanna Wronko violín`, `Anna Margrethe Nilsen violín`],
-    //   },
-    //   {
-    //     composer: [`Zoltán Kodály (1882-1967)`],
-    //     info: `Dúo para violín y violonchelo, Op.7`,
-    //     artists: [`Jesus Reina violín`, `Adolfo Gutiérrez violonchelo`],
-    //   },
-    // ],
+    detailsOne: [],
+
     image: '/media/events/strings_rxaspi.webp',
     image_position: `object-top`,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
+    ticket_url: '#',
   },
 
   // Concierto 28 de mayo
@@ -572,30 +398,53 @@ const events = [
         ],
       },
       {
-        composer: [`Stephen Foster (1826-1864)`],
-        info: `Old folks at home, para voz y piano`,
-        // composer: [`Stephen Foster 2 (1826-1864)`],
-        // info: `Old folks at home, para voz y piano`,
+        composers: [
+          {
+            name: 'Darius Milhaud (1892-1974)',
+            info: '‘Brazileira’, No.3 de Scaramouche, Op.165b (arr. Jasha Heifetz), para violín y piano',
+          },
+          {
+            name: 'William Kroll (1901-1980)',
+            info: 'Banjo and fiddle, para violín y piano',
+          },
+        ],
         artists: [`Jesús Reina violín`, `Natalia Kuchaeva piano`],
       },
     ],
     detailsTwo: [
       {
-        composer: [`Johann Sebastian Bach (1685-1750)`],
-        info: `‘Aria para la cuerda de sol‘ de la Suite orquestal No. 3 en Re mayor (arr. August Wilhelmj), para violín y piano`,
+        composer: [`Jesús Reina (1986-)`],
+        info: `Miniaturas, para violín y piano`,
+        artists: [`Jesús Reina violín`, `Josu de Solaun piano`],
+      },
+
+      {
+        composers: [
+          {
+            name: 'Stephen Foster (1826-1864)',
+            info: 'Old folks at home, para voz y piano',
+          },
+          {
+            name: 'Antonín Dvorak (1841-1904)',
+            info: '‘Goin’ home’ de la Sinfonía No.9 ‘Del Nuevo Mundo’ (arr. William Arms Fisher),para voz y piano',
+          },
+        ],
         artists: [`Jesús Reina violín`, `Josu de Solaun piano`],
       },
       {
-        composer: [`Johannes Brahms (1833-1897)`],
-        info: `Sonata para violín y piano No. 3 en Re menor, Op. 108`,
-
-        artists: [`Jesús Reina violín`, `Josu de Solaun piano`],
+        composer: [`Antonín Dvorak (1841-1904)`],
+        info: `Cuarteto de cuerda No.12 en fa mayor ’Americano’, Op.96`,
+        artists: [
+          `Anna Margrethe Nilsen violín`,
+          `Jesús Reina violín`,
+          `Eleanor Kendra James viola`,
+          `Christophe Morin violonchelo`,
+        ],
       },
     ],
     image: '/media/events/piano_icg2qd.webp',
     image_position: `object-top`,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/debe-ser-1607',
+    ticket_url: '#',
   },
 
   // Concierto 29 de mayo
@@ -604,40 +453,54 @@ const events = [
     locale: 'es',
     date: `29 de mayo, 2025`,
     price: `regular`,
-    title: `TRAVESIA ESPIRITUAL`,
+    title: `EL SONIDO DE AMÉRICA`,
     location: `Teatro Echegaray, 20:00 h.`,
     sentence: [
-      `El Trío para Piano de Smetana teje un viaje espiritual que reflexiona sobre la vida y la muerte. A continuación, el monumental Quinteto de Cuerdas de Schubert, captura la intensidad y la complejidad de la existencia humana.`,
-      `Este programa invita a la audiencia a a vivir las profundidades de la emoción y la contemplación, guiados por la expresividad única de Smetana y la riqueza tonal de Schubert.`,
+      `El título del programa es la mejor explicación que se puede tener sobre este. “El sonido de América”, el sonido en la música de cámara resultante del crisol cultural que fue y que es EE.UU.`,
+      `Bellas melodías de Amy Beach, la sensibilidad de Barber, la revolución musical de Ives y la valentía de Corigliano tomarán protagonismo en un concierto que muestra el nacimiento y desarrollo de algo nuevo creado sobre los monumentos ya existentes de las culturas nativas y europeas.`,
     ],
     detailsOne: [
       {
-        composer: [`Bedřich Smetana (1824-1884)`],
-        info: `Trío con piano en Sol menor, Op. 15`,
+        composer: [`Amy Beach (1867-1944)`],
+        info: `Romance, para violín y piano, Op.23`,
+        artists: [`Clemence de Forceville violín`, `Natalia Kuchaeva piano`],
+      },
+      {
+        composer: [`Samuel Barber (1910-1981)`],
+        info: `Cuatro canciones para voz y piano, Op.13`,
+        artists: [`Susanne Hvinden Hals soprano`, `Josu de Solaun piano`],
+      },
+      {
+        composer: [`Charles Ives (1874-1954)`],
+        info: `Cuarteto de cuerda No.1 de The Salvation Army (El Ejército de Salvación)`,
         artists: [
           `Clemence de Forceville violín`,
-          `Gabriel Ureña violonchelo`,
-          `Josu de Solaun piano`,
+          `Anna Margrethe Nilsen violín`,
+          `Eleanor Kendra James viola`,
+          `Benedict Kloeckner violonchelo`,
         ],
       },
     ],
     detailsTwo: [
       {
-        composer: [`Franz Schubert (1797-1828)`],
-        info: `Quinteto de cuerda en Do mayor, D. 956`,
+        composer: [`Samuel Barber (1910-1981)`],
+        info: `Adagio del Cuarteto de cuerda, Op.11`,
         artists: [
-          `Nicolas Dautricourt violín`,
           `Clemence de Forceville violín`,
-          `Tomoko Akasaka viola`,
-          `Christophe Morin  violonchelo`,
-          `Øyvind Gimse violonchelo`,
+          `Grigory Kalinovsky violín`,
+          `Eleanor Kendra James viola`,
+          `Christophe Morin violonchelo`,
         ],
+      },
+      {
+        composer: [`John Corigliano (1938-)`],
+        info: `Sonata para violín y piano`,
+        artists: [`Jesús Reina violín`, `Natalia Kuchaeva piano`],
       },
     ],
     image: '/media/events/cello_z7sixb.webp',
     image_position: `object-top`,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/travesia-espiritual-1608',
+    ticket_url: '#',
   },
 
   // Concierto 30 de mayo
@@ -673,8 +536,7 @@ const events = [
     ],
     image: '/media/events/violin_1_duczzp.webp',
     image_position: `object-top`,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/conversacion-con-el-cielo-1609',
+    ticket_url: '#',
   },
 
   // Conciert0 31 de mayo
@@ -726,8 +588,7 @@ const events = [
     ],
     image: '/media/events/piano_duette_qkdrgf.webp',
     image_position: ``,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/danse-macabre-1610',
+    ticket_url: '#',
   },
   // 1 de junio
   {
@@ -786,8 +647,7 @@ const events = [
     ],
     image: '/media/events/violin_2_uqtbs2.webp',
     image_position: ``,
-    ticket_url:
-      'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
+    ticket_url: '#',
   },
 ]
 

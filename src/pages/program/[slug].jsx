@@ -1,3 +1,4 @@
+import React from 'react'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -59,9 +60,9 @@ const Concert = ({ event }) => {
                 type: 'fade',
                 ease: 'easeIn',
               }}
-              className="aspect-h-2 aspect-w-3 overflow-hidden sm:aspect-w-5 2xl:aspect-none xl:pr-16 2xl:absolute 2xl:h-full 2xl:w-1/2 2xl:pr-4"
+              className="overflow-hidden aspect-h-2 aspect-w-3 sm:aspect-w-5 2xl:aspect-none xl:pr-16 2xl:absolute 2xl:h-full 2xl:w-1/2 2xl:pr-4"
             >
-              <div className="h-full w-full object-cover object-center 2xl:h-full 2xl:w-full">
+              <div className="object-cover object-center w-full h-full 2xl:h-full 2xl:w-full">
                 <Image
                   src={event.image}
                   alt={event.title}
@@ -74,76 +75,51 @@ const Concert = ({ event }) => {
             </motion.div>
           </AnimatePresence>
 
-          <div className="mx-auto max-w-2xl px-4 pb-24 pt-16 sm:px-6 sm:pb-32 2xl:grid 2xl:max-w-7xl 2xl:grid-cols-2 2xl:gap-x-8 2xl:px-8 2xl:pt-32">
+          <div className="max-w-2xl px-4 pt-16 pb-24 mx-auto sm:px-6 sm:pb-32 2xl:grid 2xl:max-w-7xl 2xl:grid-cols-2 2xl:gap-x-8 2xl:px-8 2xl:pt-32">
             <div className="2xl:col-start-2">
               <h4
                 id="details-heading"
-                className="font-bold italic text-pinkText2024"
+                className="italic font-bold text-pinkText2024"
               >
                 {event.date}
               </h4>
               <h4 className="mt-4 text-4xl font-extrabold tracking-normal text-blueGreyDark2024">
                 {event.title}
               </h4>
-              <h4 className="mt-4 font-bold italic text-blueText2024">
+              <h4 className="mt-4 italic font-bold text-blueText2024">
                 {event.location}
               </h4>
               {/* Act 1 */}
-              <dl className="mt-10 grid grid-cols-1 gap-x-8 gap-y-10 text-base sm:grid-cols-2">
+              <dl className="grid grid-cols-1 mt-10 text-base gap-x-8 gap-y-10 sm:grid-cols-2">
                 {event.detailsOne.map((detail, i) => (
-                  <div key={i}>
-                    {detail.composer.map((composer, i) => (
-                      <dt key={i} className="font-semibold text-gray-800">
-                        {composer}
-                      </dt>
-                    ))}
-
-                    <dd className="mt-2 text-gray-500">{detail.info}</dd>
-                    {detail.artists
-                      ? detail.artists.map((artist, i) => (
-                          <dd
-                            key={i}
-                            className="mt-4 font-semibold text-gray-600"
-                          >
-                            {artist.split(' ').slice(0, -1).join(' ')}{' '}
-                            <span className="font-normal">
-                              {artist.split(' ').pop()}
-                            </span>
+                  <div className="" key={i}>
+                    {/* Check if we have a composers array */}
+                    {detail.composers ? (
+                      detail.composers.map((composerDetail, j) => (
+                        <React.Fragment key={j}>
+                          <dt className="font-semibold text-gray-800">
+                            {composerDetail.name}
+                          </dt>
+                          <dd className="mt-2 text-gray-500">
+                            {composerDetail.info}
                           </dd>
-                        ))
-                      : null}
-                  </div>
-                ))}
-              </dl>
-              <hr className="mt-12" />
-              {/* Act 2 */}
-              <dl className="mt-10 grid grid-cols-1 gap-x-8 gap-y-10 text-base sm:grid-cols-2">
-                {event.detailsTwo &&
-                  event.detailsTwo.map((detail, i) => (
-                    <div key={i}>
-                      {detail.composer.map((composer, i) => (
-                        <dt key={i} className="font-semibold text-gray-800">
-                          {composer}
-                        </dt>
-                      ))}
-
-                      <dd className="mt-2 text-gray-500">{detail.info}</dd>
-                      {detail.songs ? <div className="py-2" /> : null}
-                      {detail.songs &&
-                        detail.songs.map((song, i) => (
-                          <figure
-                            key={i}
-                            className="border-l border-pinkText2024/50 pl-9"
-                          >
-                            <blockquote className="font-medium italic text-blueText2024">
-                              <p className="py-2">{song}</p>
-                            </blockquote>
-                          </figure>
+                        </React.Fragment>
+                      ))
+                    ) : (
+                      <>
+                        {detail.composer.map((composer, j) => (
+                          <dt key={j} className="font-semibold text-gray-800">
+                            {composer}
+                          </dt>
                         ))}
-                      {detail.artists.map((artist, i) => (
+                        <dd className="mt-2 text-gray-500">{detail.info}</dd>
+                      </>
+                    )}
+                    {detail.artists &&
+                      detail.artists.map((artist, j) => (
                         <dd
-                          key={i}
-                          className="mt-4 font-semibold text-gray-700"
+                          key={j}
+                          className="mt-4 font-semibold text-gray-600"
                         >
                           {artist.split(' ').slice(0, -1).join(' ')}{' '}
                           <span className="font-normal">
@@ -151,11 +127,53 @@ const Concert = ({ event }) => {
                           </span>
                         </dd>
                       ))}
-                    </div>
-                  ))}
+                  </div>
+                ))}
+              </dl>
+              <hr className="mt-12" />
+              {/* Act 2 */}
+              <dl className="grid grid-cols-1 mt-10 text-base gap-x-8 gap-y-10 sm:grid-cols-2">
+                {event.detailsTwo.map((detail, i) => (
+                  <div key={i}>
+                    {/* Check if we have a composers array */}
+                    {detail.composers ? (
+                      detail.composers.map((composerDetail, j) => (
+                        <React.Fragment key={j}>
+                          <dt className="font-semibold text-gray-800">
+                            {composerDetail.name}
+                          </dt>
+                          <dd className="mt-2 text-gray-500">
+                            {composerDetail.info}
+                          </dd>
+                        </React.Fragment>
+                      ))
+                    ) : (
+                      <>
+                        {detail.composer.map((composer, j) => (
+                          <dt key={j} className="font-semibold text-gray-800">
+                            {composer}
+                          </dt>
+                        ))}
+                        <dd className="mt-2 text-gray-500">{detail.info}</dd>
+                      </>
+                    )}
+                    {detail.artists &&
+                      detail.artists.map((artist, j) => (
+                        <dd
+                          key={j}
+                          className="mt-4 font-semibold text-gray-600"
+                        >
+                          {artist.split(' ').slice(0, -1).join(' ')}{' '}
+                          <span className="font-normal">
+                            {artist.split(' ').pop()}
+                          </span>
+                        </dd>
+                      ))}
+                  </div>
+                ))}
               </dl>
               {event.detailsTwo ? (
-                <div className="mt-10 border-t border-blue2024/50 py-10" />
+                <div className="py-10 mt-10 border-t border-blue2024/50" />
               ) : null}
               <div>
                 {event.sentence.map((sentence, i) => (
@@ -172,21 +190,21 @@ const Concert = ({ event }) => {
                 )}
 
                 {/* <Discount /> */}
-                <div className="mt-10 flex">
+                <div className="flex mt-10">
                   <a href={event.ticket_url} target="_blank" rel="noreferrer">
                     <button
                       type="button"
-                      className="inline-flex items-center rounded-md border border-transparent bg-blueText2024 px-4 py-2 text-sm font-medium text-white shadow-none transition duration-200 ease-in-out hover:bg-pinkText2024 focus:outline-none focus:ring-2 focus:ring-pink2024 focus:ring-offset-2"
+                      className="inline-flex items-center px-4 py-2 text-sm font-medium text-white transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-blueText2024 hover:bg-pinkText2024 focus:outline-none focus:ring-2 focus:ring-pink2024 focus:ring-offset-2"
                     >
                       <TicketIcon
-                        className="-ml-1 mr-2 h-5 w-5"
+                        className="w-5 h-5 mr-2 -ml-1"
                         aria-hidden="true"
                       />
                       {buy_tickets}
                     </button>
                   </a>
                   <Link href="/program" passHref>
-                    <button className="ml-6 inline-flex justify-center rounded-md border border-transparent bg-blue2024/30 px-4 py-2 text-sm font-medium text-blueGrey2024 shadow-none ring-1 ring-blue2024/20 transition duration-200 ease-in-out hover:bg-blue2024/20 hover:text-blueGreyDark2024 hover:ring-blue2024/30 focus:outline-none focus:ring-2 focus:ring-blueGrey2024 focus:ring-offset-2">
+                    <button className="inline-flex justify-center px-4 py-2 ml-6 text-sm font-medium transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-blue2024/30 text-blueGrey2024 ring-1 ring-blue2024/20 hover:bg-blue2024/20 hover:text-blueGreyDark2024 hover:ring-blue2024/30 focus:outline-none focus:ring-2 focus:ring-blueGrey2024 focus:ring-offset-2">
                       {program}
                     </button>
                   </Link>
