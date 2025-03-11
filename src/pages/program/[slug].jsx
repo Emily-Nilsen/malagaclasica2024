@@ -92,7 +92,7 @@ const Concert = ({ event }) => {
               {/* Act 1 */}
               <dl className="grid grid-cols-1 mt-10 text-base gap-x-8 gap-y-10 sm:grid-cols-2">
                 {event.detailsOne.map((detail, i) => (
-                  <div className="" key={i}>
+                  <div className="space-y-4" key={i}>
                     {/* Check if we have a composers array */}
                     {detail.composers ? (
                       detail.composers.map((composerDetail, j) => (
@@ -134,7 +134,7 @@ const Concert = ({ event }) => {
               {/* Act 2 */}
               <dl className="grid grid-cols-1 mt-10 text-base gap-x-8 gap-y-10 sm:grid-cols-2">
                 {event.detailsTwo.map((detail, i) => (
-                  <div key={i}>
+                  <div className="space-y-4" key={i}>
                     {/* Check if we have a composers array */}
                     {detail.composers ? (
                       detail.composers.map((composerDetail, j) => (
