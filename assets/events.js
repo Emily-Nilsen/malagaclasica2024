@@ -1,7 +1,7 @@
 const events = [
   // Concert 26 May
   {
-    id: 1,
+    id: 765,
     locale: 'en',
     date: `26 May, 2025`,
     price: `regular`,
@@ -418,7 +418,8 @@ const events = [
     ],
     image: '/media/events/violin_2_uqtbs2.webp',
     image_position: ``,
-    ticket_url: '#',
+    ticket_url:
+      'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
   },
 
   //
@@ -844,7 +845,8 @@ const events = [
     ],
     image: '/media/events/violin_2_uqtbs2.webp',
     image_position: ``,
-    ticket_url: '#',
+    ticket_url:
+      'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
   },
 ]
 

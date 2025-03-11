@@ -2,7 +2,7 @@ import { TicketIcon } from '@heroicons/react/outline'
 import useTranslation from 'next-translate/useTranslation'
 
 export function PricingLastConcert() {
-  const { t, lang } = useTranslation('common')
+  const { t } = useTranslation('common')
   const single_ticket = t('single_ticket')
   const ticket_cost_en = t('ticket_cost_en')
   const ticket_cost_es = t('ticket_cost_es')
@@ -17,7 +17,7 @@ export function PricingLastConcert() {
         {ticket_cost_en}
         20
         {ticket_cost_es}{' '}
-        <span className="font-normal lowercase tracking-normal text-gray-500">
+        <span className="font-normal tracking-normal text-gray-500 lowercase">
           {no_discounts}
         </span>
       </h4>

@@ -49,17 +49,13 @@ const Concert = ({ event }) => {
       <Header />
       <div className="bg-white">
         <section aria-labelledby="details-heading" className="relative">
-          {/* Need to use AnimatePresence on a slug */}
+          {/* AnimatePresence keyed on the slug */}
           <AnimatePresence exitBeforeEnter>
             <motion.div
               key={router.asPath}
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
-              transition={{
-                duration: 0.6,
-                type: 'fade',
-                ease: 'easeIn',
-              }}
+              transition={{ duration: 0.6, type: 'fade', ease: 'easeIn' }}
               className="overflow-hidden aspect-h-2 aspect-w-3 sm:aspect-w-5 2xl:aspect-none xl:pr-16 2xl:absolute 2xl:h-full 2xl:w-1/2 2xl:pr-4"
             >
               <div className="object-cover object-center w-full h-full 2xl:h-full 2xl:w-full">
@@ -89,11 +85,11 @@ const Concert = ({ event }) => {
               <h4 className="mt-4 italic font-bold text-blueText2024">
                 {event.location}
               </h4>
+
               {/* Act 1 */}
               <dl className="grid grid-cols-1 mt-10 text-base gap-x-8 gap-y-10 sm:grid-cols-2">
-                {event.detailsOne.map((detail, i) => (
+                {(event.detailsOne || []).map((detail, i) => (
                   <div className="space-y-4" key={i}>
-                    {/* Check if we have a composers array */}
                     {detail.composers ? (
                       detail.composers.map((composerDetail, j) => (
                         <React.Fragment key={j}>
@@ -107,7 +103,7 @@ const Concert = ({ event }) => {
                       ))
                     ) : (
                       <>
-                        {detail.composer.map((composer, j) => (
+                        {(detail.composer || []).map((composer, j) => (
                           <dt key={j} className="font-semibold text-gray-800">
                             {composer}
                           </dt>
@@ -130,12 +126,13 @@ const Concert = ({ event }) => {
                   </div>
                 ))}
               </dl>
+
               <hr className="mt-12" />
+
               {/* Act 2 */}
               <dl className="grid grid-cols-1 mt-10 text-base gap-x-8 gap-y-10 sm:grid-cols-2">
-                {event.detailsTwo.map((detail, i) => (
+                {(event.detailsTwo || []).map((detail, i) => (
                   <div className="space-y-4" key={i}>
-                    {/* Check if we have a composers array */}
                     {detail.composers ? (
                       detail.composers.map((composerDetail, j) => (
                         <React.Fragment key={j}>
@@ -149,7 +146,7 @@ const Concert = ({ event }) => {
                       ))
                     ) : (
                       <>
-                        {detail.composer.map((composer, j) => (
+                        {(detail.composer || []).map((composer, j) => (
                           <dt key={j} className="font-semibold text-gray-800">
                             {composer}
                           </dt>
@@ -172,15 +169,17 @@ const Concert = ({ event }) => {
                   </div>
                 ))}
               </dl>
-              {event.detailsTwo ? (
+              {event.detailsTwo && event.detailsTwo.length > 0 ? (
                 <div className="py-10 mt-10 border-t border-blue2024/50" />
               ) : null}
+
               <div>
-                {event.sentence.map((sentence, i) => (
+                {(event.sentence || []).map((sentence, i) => (
                   <p key={i} className="mt-4 text-gray-500">
                     {sentence}
                   </p>
                 ))}
+                <Discount />
                 {/* Dynamic rendering of Pricing component based on the event's ticket URL */}
                 {event.ticket_url ===
                 'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613' ? (
@@ -190,6 +189,7 @@ const Concert = ({ event }) => {
                 )}
 
                 {/* <Discount /> */}
+
                 <div className="flex mt-10">
                   <a href={event.ticket_url} target="_blank" rel="noreferrer">
                     <button
