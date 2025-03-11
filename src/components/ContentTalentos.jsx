@@ -1,36 +1,34 @@
-import { TicketIcon } from '@heroicons/react/24/solid'
-import { SpeakerphoneIcon, XIcon } from '@heroicons/react/24/outline'
 import useTranslation from 'next-translate/useTranslation'
-import Link from 'next/link'
 
 export function ContentTalentos() {
-  const { t, lang } = useTranslation('talents')
+  const { t } = useTranslation('talents')
   const subtitle_1 = t('subtitle_1')
   const title_1 = t('title_1')
   const para_1 = t('para_1')
   const para_3 = t('para_3')
   const para_4 = t('para_4')
+  const para_5b = t('para_5b')
 
   return (
-    <div className="overflow-hidden bg-white px-4 py-16 sm:px-6 lg:px-8 xl:py-36">
+    <div className="px-4 py-16 overflow-hidden bg-white sm:px-6 lg:px-8 xl:py-36">
       <div className="relative px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-prose text-lg">
+        <div className="mx-auto text-lg max-w-prose">
           <h4>
-            <span className="block text-center text-base font-semibold uppercase tracking-wide text-pinkText2024">
+            <span className="block text-base font-semibold tracking-wide text-center uppercase text-pinkText2024">
               {subtitle_1}
             </span>
-            <span className="mt-2 block text-center text-5xl font-extrabold italic leading-none tracking-normal text-blueText2024 sm:text-6xl">
+            <span className="block mt-2 text-5xl italic font-extrabold leading-none tracking-normal text-center text-blueText2024 sm:text-6xl">
               {title_1}
             </span>
           </h4>
           <p className="mt-8 text-xl leading-8 text-gray-500">{para_1}</p>
         </div>
-        <div className="prose prose-lg mx-auto mt-6 text-gray-500">
+        <div className="mx-auto mt-6 prose prose-lg text-gray-500">
           <p>{para_3}</p>
           <p>{para_4}</p>
 
-          {/* <h2 className="text-blueRevolution">{t('talents:title_2')}</h2>
-          <p>{t('talents:para_5')}</p> */}
+          <h2 className="text-blueRevolution">{t('talents:title_2')}</h2>
+          <p>{t('talents:para_5b')}</p>
         </div>
 
         {/* Announce new talent program */}

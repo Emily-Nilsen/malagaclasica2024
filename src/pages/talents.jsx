@@ -109,7 +109,7 @@ export default function Talents() {
                       <h4 className="pt-0 pl-10 text-4xl font-extrabold tracking-normal text-white uppercase sm:pl-12 sm:text-5xl lg:text-6xl ">
                         {talentsTitle}{' '}
                         <span className="text-xl italic font-bold tracking-normal sm:2xl lg:3xl">
-                          2024
+                          2025
                         </span>
                       </h4>
                     </div>
@@ -160,15 +160,15 @@ export default function Talents() {
                           <div className="pb-2" />
                           <hr />
                           <div className="pt-3 font-medium">
-                            <p>
+                            <h4>
                               {deadline}{' '}
                               <span className="">
-                                <h4 className="inline italic font-bold text-pinkText2024">
+                                <span className="inline italic font-bold text-pinkText2024">
                                   {deadlineDate}
-                                </h4>
+                                </span>
                               </span>{' '}
-                              2024
-                            </p>
+                              2025
+                            </h4>
                           </div>
                           <dl className="mt-3 transition duration-200 ease-in-out text-blueGreyDark2024">
                             <div className="mt-0">
@@ -225,15 +225,15 @@ export default function Talents() {
               <div className="pb-2" />
               <hr />
               <div className="pt-3 font-medium">
-                <p>
+                <h4>
                   {deadline}{' '}
                   <span className="text-pinkText2024">
-                    <h4 className="inline italic font-bold text-pinkText2024">
+                    <span className="inline italic font-bold text-pinkText2024">
                       {deadlineDate}
-                    </h4>
+                    </span>
                   </span>{' '}
-                  2024
-                </p>
+                  2025
+                </h4>
               </div>
               <dl className="mt-3 transition duration-200 ease-in-out text-bleuGreyDark2024">
                 <div className="pb-3">
