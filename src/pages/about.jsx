@@ -35,36 +35,45 @@ export default function About() {
   const { locale } = useRouter()
 
   const elNuovoMundo = [
-    'E',
-    'l',
+    '2',
+    '6',
+    '/',
+    '0',
+    '5',
+    '_',
+    '_',
+    '0',
+    '1',
+    '/',
+    '0',
+    '6',
     ' ',
-    'N',
-    'u',
-    'o',
-    'v',
-    'o',
     ' ',
-    'M',
-    'u',
-    'n',
-    'd',
-    'o',
+    '2',
+    '0',
+    '2',
+    '5',
   ]
 
   const theNewWorld = [
-    'T',
-    'h',
-    'e',
+    '2',
+    '6',
+    '/',
+    '0',
+    '5',
+    '_',
+    '_',
+    '0',
+    '1',
+    '/',
+    '0',
+    '6',
     ' ',
-    'N',
-    'e',
-    'w',
     ' ',
-    'W',
-    'o',
-    'r',
-    'l',
-    'd',
+    '2',
+    '0',
+    '2',
+    '5',
   ]
 
   const { t } = useTranslation('about')
@@ -97,7 +106,7 @@ export default function About() {
       <Header />
 
       <main className="">
-        <div className="relative px-10 py-0 pb-0 overflow-hidden bg-blue2024 sm:px-12 sm:py-0">
+        <div className="relative px-10 py-20 pb-20 overflow-hidden bg-lightOrange2025 sm:px-12 sm:py-20">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -111,7 +120,7 @@ export default function About() {
             >
               <div className="absolute right-0 w-full h-full -mt-10 sm:-mt-0">
                 <Image
-                  src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
+                  src="/media/Ocean_water.jpg"
                   alt="Málaga Clásica"
                   unoptimized
                   className="object-cover object-center w-full h-full"
@@ -122,12 +131,12 @@ export default function About() {
             </motion.div>
           </div>
           <div className="relative px-0 py-24 mx-auto max-w-7xl sm:px-6 sm:py-32 lg:px-8">
-            <div className="px-3 -m-10 text-center bg-t -mb-80 pb-60 pt-28 sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48 sm:text-left">
+            <div className="px-3 -m-10 text-left bg-t -mb-80 pb-60 pt-28 sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48">
               <motion.h4
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="block text-4xl font-extrabold tracking-tight uppercase text-black2025 sm:text-5xl lg:text-6xl"
+                className="block text-3xl font-extrabold tracking-tight uppercase text-black2025 sm:text-4xl lg:text-5xl"
               >
                 {locale === 'en'
                   ? theNewWorld.map((letter, i) => (
@@ -142,14 +151,15 @@ export default function About() {
                     ))}
               </motion.h4>
 
-              <motion.h3
+              {/* Where the date was displayed in 2024 */}
+              {/* <motion.h3
                 variants={itemBottom}
                 initial="hidden"
                 animate="show"
                 className="max-w-3xl text-lg text-black2025 sm:mt-3 sm:text-2xl"
               >
                 26/05__01/06 <span className="text-black2025">&nbsp;2025</span>
-              </motion.h3>
+              </motion.h3> */}
             </div>
           </div>
         </div>
@@ -161,7 +171,7 @@ export default function About() {
                 <h4 className="text-base font-extrabold tracking-normal uppercase text-red2025">
                   Málaga Clásica
                 </h4>
-                <h4 className="mt-2 text-4xl font-extrabold leading-none tracking-normal uppercase text-black2025 sm:text-5xl md:text-6xl">
+                <h4 className="mt-2 text-4xl font-extrabold leading-none tracking-tight uppercase text-black2025 sm:text-5xl md:text-6xl">
                   {title}
                 </h4>
               </div>

@@ -38,7 +38,7 @@ export function AnnaJesus() {
               <dl className="mt-10 space-y-10">
                 {directors.map((feature) => (
                   <div key={feature.name}>
-                    <h4 className="text-lg italic font-bold text-red2025">
+                    <h4 className="text-lg italic font-extrabold text-red2025">
                       {feature.name}
                     </h4>
                     <dd className="mt-3 text-base font-medium text-black2025">

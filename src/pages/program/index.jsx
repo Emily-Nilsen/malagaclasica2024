@@ -43,36 +43,45 @@ export default function Program() {
   const read_more = t('read_more')
   const { locale } = useRouter()
   const elNuovoMundo = [
-    'E',
-    'l',
+    '2',
+    '6',
+    '/',
+    '0',
+    '5',
+    '_',
+    '_',
+    '0',
+    '1',
+    '/',
+    '0',
+    '6',
     ' ',
-    'N',
-    'u',
-    'o',
-    'v',
-    'o',
     ' ',
-    'M',
-    'u',
-    'n',
-    'd',
-    'o',
+    '2',
+    '0',
+    '2',
+    '5',
   ]
 
   const theNewWorld = [
-    'T',
-    'h',
-    'e',
+    '2',
+    '6',
+    '/',
+    '0',
+    '5',
+    '_',
+    '_',
+    '0',
+    '1',
+    '/',
+    '0',
+    '6',
     ' ',
-    'N',
-    'e',
-    'w',
     ' ',
-    'W',
-    'o',
-    'r',
-    'l',
-    'd',
+    '2',
+    '0',
+    '2',
+    '5',
   ]
 
   return (
@@ -95,7 +104,7 @@ export default function Program() {
       </Head>
       <Header />
       <main>
-        <div className="relative overflow-hidden bg-blue2024 px-10 py-0 pb-0 sm:px-12 sm:py-0">
+        <div className="relative px-10 py-20 pb-20 overflow-hidden bg-lightOrange2025 sm:px-12 sm:py-20">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -105,27 +114,27 @@ export default function Program() {
                 type: 'fade',
                 ease: 'easeIn',
               }}
-              className="h-full w-full overflow-hidden object-cover"
+              className="object-cover w-full h-full overflow-hidden"
             >
-              <div className="absolute right-0 -mt-10 h-full w-full sm:-mt-0">
+              <div className="absolute right-0 w-full h-full -mt-10 sm:-mt-0">
                 <Image
-                  src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
+                  src="/media/Ocean_water.jpg"
                   alt="Málaga Clásica"
-                  width={2000}
-                  height={2000}
-                  className="h-full w-full object-cover object-center"
                   unoptimized
+                  className="object-cover object-center w-full h-full"
+                  width={500}
+                  height={750}
                 />
               </div>
             </motion.div>
           </div>
-          <div className="relative mx-auto max-w-7xl px-0 py-24 sm:px-6 sm:py-32 lg:px-8">
-            <div className="bg-t -m-10 -mb-80 px-3 pb-60 pt-28 text-center sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48 sm:text-left">
+          <div className="relative px-0 py-24 mx-auto max-w-7xl sm:px-6 sm:py-32 lg:px-8">
+            <div className="px-3 -m-10 text-left bg-t -mb-80 pb-60 pt-28 sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48">
               <motion.h4
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="block text-4xl font-extrabold italic tracking-normal text-blueGreyDark2024 sm:text-5xl lg:text-6xl"
+                className="block text-3xl font-extrabold tracking-tight uppercase text-black2025 sm:text-4xl lg:text-5xl"
               >
                 {locale === 'en'
                   ? theNewWorld.map((letter, i) => (
@@ -140,30 +149,30 @@ export default function Program() {
                     ))}
               </motion.h4>
 
-              <motion.h3
-                variants={itemBottom}
-                initial="hidden"
-                animate="show"
-                className="max-w-3xl text-lg text-blueGrey2024 sm:mt-3 sm:text-2xl"
-              >
-                26/05__01/06{' '}
-                <span className="text-blueGreyDark2024">&nbsp;2025</span>
-              </motion.h3>
+              {/* Where the date was displayed in 2024 */}
+              {/* <motion.h3
+                        variants={itemBottom}
+                        initial="hidden"
+                        animate="show"
+                        className="max-w-3xl text-lg text-black2025 sm:mt-3 sm:text-2xl"
+                      >
+                        26/05__01/06 <span className="text-black2025">&nbsp;2025</span>
+                      </motion.h3> */}
             </div>
           </div>
         </div>
 
-        <div className="bg-pink3_2024/40 px-4 pb-20 pt-16 sm:px-6 lg:px-8 lg:pb-28 lg:pt-24">
-          <div className="relative mx-auto max-w-lg divide-y-2 divide-pinkText2024/20 lg:max-w-7xl">
+        <div className="px-4 pt-16 pb-20 bg-lightOrange2025 sm:px-6 lg:px-8 lg:pb-28 lg:pt-24">
+          <div className="relative max-w-lg mx-auto divide-y-2 divide-red2025/20 lg:max-w-7xl">
             <div>
-              <h4 className="text-4xl font-extrabold tracking-tight text-pinkText2024 sm:text-5xl md:text-6xl">
+              <h4 className="text-4xl font-extrabold tracking-tight uppercase text-red2025 sm:text-5xl md:text-6xl">
                 {program_title}
               </h4>
               <div className="mt-3 sm:mt-4 lg:grid lg:grid-cols-2 lg:items-center lg:gap-5">
-                <p className="text-xl text-gray-600">{program_subtitle}</p>
+                <p className="text-xl text-black2025">{program_subtitle}</p>
               </div>
             </div>
-            <div className="mt-6 grid gap-6 pt-10 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-8">
+            <div className="grid gap-6 pt-10 mt-6 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-8">
               {events
                 .filter((p) => p.locale === locale)
                 .map((event, i) => (
@@ -173,19 +182,19 @@ export default function Program() {
                     passHref
                   >
                     <div
-                      className="group cursor-pointer rounded-md bg-white p-6 transition duration-300 ease-in-out hover:bg-blue2024"
+                      className="p-6 transition duration-300 ease-in-out bg-white rounded-md cursor-pointer group hover:bg-orange2025"
                       key={i}
                     >
-                      <p className="text-sm text-gray-500 group-hover:text-white">
+                      <p className="text-sm font-semibold group-hover:black2025/90 text-black2025/80">
                         <time dateTime={event.datetime}>{event.date}</time>
                       </p>
-                      <div className="mt-2 block">
-                        <h4 className="text-xl font-bold text-blueGreyDark2024 group-hover:text-white">
+                      <div className="block mt-2">
+                        <h4 className="text-xl font-bold group-hover:black2025 text-black2025">
                           {event.title}
                         </h4>
                       </div>
                       <div className="mt-3">
-                        <button className="text-base font-semibold text-pinkText2024 group-hover:text-pinkText2024">
+                        <button className="text-base font-semibold text-red2025 group-hover:text-white">
                           <h4 className="italic">{read_more}</h4>
                         </button>
                       </div>
