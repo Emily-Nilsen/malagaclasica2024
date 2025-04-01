@@ -107,7 +107,7 @@ export function Theatres() {
                     type: 'fade',
                     ease: 'easeIn',
                   }}
-                  className="overflow-hidden bg-gray-100 rounded-lg aspect-h-1 aspect-w-1"
+                  className="overflow-hidden rounded-lg aspect-h-1 aspect-w-1 bg-grey2025"
                 >
                   <div className="object-cover object-center w-full h-full">
                     <Image
@@ -124,11 +124,11 @@ export function Theatres() {
             </div>
 
             <div className="lg:pl-20">
-              <div className="pb-10 border-b border-pink2024/30">
-                <h4 className="italic font-bold text-pinkText2024">
+              <div className="pb-10 border-b border-orange2025/50">
+                <h4 className="italic font-extrabold text-red2025">
                   {theatre_subtitle}
                 </h4>
-                <h4 className="mt-2 text-3xl font-bold tracking-normal text-blueText2024 sm:text-4xl">
+                <h4 className="mt-2 text-3xl font-extrabold tracking-normal text-black2025 sm:text-4xl">
                   {theatre_echegaray}
                 </h4>
               </div>
@@ -136,10 +136,10 @@ export function Theatres() {
               <dl className="mt-10 space-y-10">
                 {detailsEchegaray.map((detail) => (
                   <div key={detail.name}>
-                    <dt className="text-base font-medium text-gray-700">
+                    <dt className="text-base font-medium text-black2025">
                       {detail.name}
                     </dt>
-                    <dd className="max-w-sm mt-3 text-base text-gray-500">
+                    <dd className="max-w-sm mt-3 text-base text-grey2025">
                       {detail.description}
                     </dd>
                   </div>
@@ -153,7 +153,7 @@ export function Theatres() {
                 >
                   <button
                     type="button"
-                    className="inline-flex items-center px-4 py-2 text-sm font-medium text-white transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-pink2024 hover:bg-blueText2024 focus:outline-none focus:ring-2 focus:ring-blue2024 focus:ring-offset-2"
+                    className="inline-flex items-center px-4 py-2 text-sm font-medium text-white transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-red2025 hover:bg-red2025/90 hover:text-black2025 focus:outline-none focus:ring-2 focus:ring-blue2024 focus:ring-offset-2"
                   >
                     <TicketIcon
                       className="w-5 h-5 mr-2 -ml-1"
@@ -168,15 +168,15 @@ export function Theatres() {
         </div>
       </div>
       {/* Teatro Cervantes */}
-      <div className="bg-blue2024/40">
+      <div className="bg-lightOrange2025">
         <div className="max-w-2xl px-4 py-24 mx-auto sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
           <div className="grid items-center grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
             <div>
-              <div className="pb-10 border-b border-blue2024/50">
-                <h4 className="italic font-bold text-pinkText2024">
+              <div className="pb-10 border-b border-orange2025/30">
+                <h4 className="italic font-extrabold text-red2025">
                   {theatre_subtitle}
                 </h4>
-                <h4 className="mt-2 text-3xl font-bold tracking-normal text-blueGreyDark2024 sm:text-4xl">
+                <h4 className="mt-2 text-3xl font-extrabold tracking-normal text-blueGreyDark2024 sm:text-4xl">
                   {theatre_cervantes}
                 </h4>
               </div>
@@ -184,10 +184,10 @@ export function Theatres() {
               <dl className="mt-10 space-y-10">
                 {detailsCervantes.map((detail) => (
                   <div key={detail.name}>
-                    <dt className="text-base font-medium text-gray-700">
+                    <dt className="text-base font-medium text-black2025">
                       {detail.name}
                     </dt>
-                    <dd className="max-w-sm mt-3 text-base text-gray-500">
+                    <dd className="max-w-sm mt-3 text-base text-grey2025">
                       {detail.description}
                     </dd>
                   </div>
@@ -201,7 +201,7 @@ export function Theatres() {
                 >
                   <button
                     type="button"
-                    className="inline-flex items-center px-4 py-2 text-sm font-medium text-white transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-blueText2024 hover:bg-pinkText2024 focus:outline-none focus:ring-2 focus:ring-pink2024 focus:ring-offset-2"
+                    className="inline-flex items-center px-4 py-2 text-sm font-medium transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-orange2025 text-black2025 hover:bg-red2025 hover:text-white focus:outline-none focus:ring-2 focus:ring-pink2024 focus:ring-offset-2"
                   >
                     <TicketIcon
                       className="w-5 h-5 mr-2 -ml-1"

@@ -189,7 +189,7 @@ export default function Program() {
                         <time dateTime={event.datetime}>{event.date}</time>
                       </p>
                       <div className="block mt-2">
-                        <h4 className="text-xl font-bold group-hover:black2025 text-black2025">
+                        <h4 className="text-xl font-extrabold group-hover:black2025 text-black2025">
                           {event.title}
                         </h4>
                       </div>
