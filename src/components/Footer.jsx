@@ -57,7 +57,7 @@ export function Footer() {
     ],
   }
   return (
-    <footer className="bg-pink3_2024">
+    <footer className="bg-red2025">
       <div className="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
         <nav
           className="flex flex-wrap justify-center -mx-5 -my-2"
@@ -66,7 +66,7 @@ export function Footer() {
           {navigation.links.map((item) => (
             <div key={item.name} className="px-5 py-2">
               <Link href={item.href} target="_blank" rel="noreferrer">
-                <h4 className="text-2xl text-gray-600 transition duration-200 ease-in-out cursor-pointer hover:text-gray-900">
+                <h4 className="text-2xl transition duration-200 ease-in-out cursor-pointer text-black2025 hover:text-gray-900">
                   {item.name}
                 </h4>
               </Link>
@@ -80,14 +80,14 @@ export function Footer() {
               href={item.href}
               target="_blank"
               rel="noreferrer"
-              className="transition duration-200 ease-in-out text-pinkText2024 hover:text-blueGreyDark2024"
+              className="transition duration-200 ease-in-out text-black2025 hover:text-black2025/80"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon className="w-6 h-6" aria-hidden="true" />
             </Link>
           ))}
         </div>
-        <p className="mt-8 text-sm text-center text-gray-700 sm:text-base">
+        <p className="mt-8 text-sm text-center text-black2025 sm:text-base">
           &copy; {new Date().getFullYear()} {copyright}
         </p>
       </div>

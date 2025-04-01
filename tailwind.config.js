@@ -45,7 +45,9 @@ module.exports = {
         blueText2024: '#899a97',
         red2025: '#f26a47',
         orange2025: '#f68f6c',
+        lightOrange2025: '#feece2',
         black2025: '#231f20',
+        grey2025: '#6d6e70',
       },
 
       keyframes: {

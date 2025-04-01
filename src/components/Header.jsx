@@ -41,7 +41,7 @@ function MobileNavLink({ children, ...props }) {
   return (
     <Popover.Button
       as={Link}
-      className="block text-base uppercase leading-7 tracking-tight text-gray-700"
+      className="block text-base leading-7 tracking-tight text-gray-700 uppercase"
       {...props}
     >
       {children}
@@ -75,16 +75,16 @@ export function Header(props) {
   }
 
   return (
-    <header className="relative -mb-3 w-full bg-pink3_2024 lg:relative lg:px-20">
+    <header className="relative w-full -mb-3 bg-red2025 lg:relative lg:px-20">
       <nav>
-        <div className="relative z-50 mx-auto flex max-w-7xl justify-between px-6 py-8 lg:px-0">
+        <div className="relative z-50 flex justify-between px-6 py-8 mx-auto max-w-7xl lg:px-0">
           <div className="relative z-10 flex items-center gap-16">
             <Link
               className="flex items-center gap-1"
               href="/"
               aria-label="Home"
             >
-              <MalagaclasicaLogo className="h-6 w-auto fill-pinkText2024 transition-all sm:h-6 sm:w-auto sm:fill-gray-900 sm:hover:fill-blueGreyDark2024" />
+              <MalagaclasicaLogo className="w-auto h-6 transition-all fill-black2025 sm:h-6 sm:w-auto sm:fill-gray-900 sm:hover:fill-black2025/80" />
             </Link>
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
@@ -95,14 +95,14 @@ export function Header(props) {
               {({ open }) => (
                 <>
                   <Popover.Button
-                    className="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-blueGrey2024 p-2 hover:bg-blueText2024 hover:stroke-white/80 active:stroke-gray-900 [&:not(:focus-visible)]:focus:outline-none"
+                    className="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-black2025 p-2 hover:bg-lightOrange2025 hover:stroke-red2025 active:stroke-gray-900 [&:not(:focus-visible)]:focus:outline-none"
                     aria-label="Toggle site navigation"
                   >
                     {({ open }) =>
                       open ? (
-                        <ChevronUpIcon className="h-6 w-6" />
+                        <ChevronUpIcon className="w-6 h-6" />
                       ) : (
-                        <MenuIcon className="h-6 w-6" />
+                        <MenuIcon className="w-6 h-6" />
                       )
                     }
                   </Popover.Button>
@@ -127,36 +127,36 @@ export function Header(props) {
                             y: -32,
                             transition: { duration: 0.2 },
                           }}
-                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-pink3_2024 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
+                          className="absolute inset-x-0 top-0 z-0 px-6 pt-32 pb-6 origin-top shadow-2xl rounded-b-2xl bg-lightOrange2025 shadow-gray-900/20"
                         >
                           <div className="space-y-4">
                             <MobileNavLink href="/">
-                              <h4 className="text-lg font-bold capitalize italic">
+                              <h4 className="text-lg italic font-bold capitalize">
                                 {link_home}
                               </h4>
                             </MobileNavLink>
                             <MobileNavLink href="/about">
-                              <h4 className="text-lg font-bold capitalize italic">
+                              <h4 className="text-lg italic font-bold capitalize">
                                 {link_info}
                               </h4>
                             </MobileNavLink>
                             <MobileNavLink href="/program">
-                              <h4 className="text-lg font-bold capitalize italic">
+                              <h4 className="text-lg italic font-bold capitalize">
                                 {link_programa}
                               </h4>
                             </MobileNavLink>
                             <MobileNavLink href="/artists">
-                              <h4 className="text-lg font-bold capitalize italic">
+                              <h4 className="text-lg italic font-bold capitalize">
                                 {link_artistas}
                               </h4>
                             </MobileNavLink>
                             <MobileNavLink href="/talents">
-                              <h4 className="text-lg font-bold capitalize italic">
+                              <h4 className="text-lg italic font-bold capitalize">
                                 {link_talentos}
                               </h4>
                             </MobileNavLink>
                             <MobileNavLink href="/contact">
-                              <h4 className="text-lg font-bold capitalize italic">
+                              <h4 className="text-lg italic font-bold capitalize">
                                 {link_contactar}
                               </h4>
                             </MobileNavLink>

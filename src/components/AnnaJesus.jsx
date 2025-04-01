@@ -22,12 +22,12 @@ export function AnnaJesus() {
   ]
   return (
     <div className="">
-      <div className="relative bg-pink3_2024/50"></div>
-      <div className="bg-pink3_2024/50">
+      <div className="relative bg-lightOrange2025"></div>
+      <div className="bg-lightOrange2025">
         <div className="max-w-2xl px-4 pt-0 pb-24 mx-auto sm:px-6 sm:pb-32 sm:pt-0 lg:max-w-7xl lg:px-8">
           <div className="grid items-center grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
             <div>
-              <div className="pb-10 border-b border-pinkText2024/30">
+              <div className="pb-10 border-b border-orange2025">
                 <div className="text-gray-600 ">
                   <p>{para_5}</p>
                   <p className="mt-5">{para_6}</p>
@@ -38,10 +38,10 @@ export function AnnaJesus() {
               <dl className="mt-10 space-y-10">
                 {directors.map((feature) => (
                   <div key={feature.name}>
-                    <h4 className="text-lg italic font-bold text-pinkText2024">
+                    <h4 className="text-lg italic font-bold text-red2025">
                       {feature.name}
                     </h4>
-                    <dd className="mt-3 text-base font-medium text-blueGrey2024">
+                    <dd className="mt-3 text-base font-medium text-black2025">
                       {feature.description}
                     </dd>
                   </div>
