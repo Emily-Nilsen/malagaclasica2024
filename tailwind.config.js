@@ -43,6 +43,9 @@ module.exports = {
         blueGreyMedium2024: '#828b88',
         pinkText2024: '#b88a8c',
         blueText2024: '#899a97',
+        red2025: '#f26a47',
+        orange2025: '#f68f6c',
+        black2025: '#231f20',
       },
 
       keyframes: {
