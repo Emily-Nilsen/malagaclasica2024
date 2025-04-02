@@ -68,15 +68,15 @@ export default function Talents() {
               <Image
                 width={2356}
                 height={1564}
-                src="/media/talentos_v2_owxzye.webp"
+                src="/media/Ocean_water.jpg"
                 alt="Talentos"
                 className="object-cover object-center w-full h-full"
                 unoptimized
                 priority
               />
-              <div className="absolute inset-0 bg-blue2024 mix-blend-overlay" />
-              <div className="absolute inset-0 bg-blue2024/80" />
-              <div className="absolute inset-0 opacity-50 sm:hidden">
+              {/* <div className="absolute inset-0 bg-lightOrange2025 mix-blend-overlay" /> */}
+              <div className="absolute inset-0 bg-lightOrange2025/40" />
+              {/* <div className="absolute inset-0 opacity-50 sm:hidden">
                 <Image
                   alt="Málaga Clásica - Resonancias Del Espíritu 2024"
                   width={2000}
@@ -85,8 +85,8 @@ export default function Talents() {
                   unoptimized
                   src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                 />
-              </div>
-              <div className="absolute inset-0 hidden opacity-50 sm:block">
+              </div> */}
+              {/* <div className="absolute inset-0 hidden opacity-50 sm:block">
                 <Image
                   alt="Málaga Clásica - Resonancias Del Espíritu 2024"
                   width={2000}
@@ -95,7 +95,7 @@ export default function Talents() {
                   unoptimized
                   src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
                 />
-              </div>
+              </div> */}
             </motion.div>
             {/* something in here!! */}
             <div className="absolute inset-0 grid grid-cols-1 sm:grid-cols-3">
@@ -103,22 +103,22 @@ export default function Talents() {
                 <div className="relative">
                   <div className="w-full px-4 pt-3 pb-1 mt-0 sm:mt-0 sm:px-8 sm:pt-4">
                     <div className="text-left max-w-none">
-                      <h4 className="pt-3 text-4xl font-extrabold tracking-normal uppercase text-blueGreyDark2024 sm:text-5xl lg:text-6xl ">
+                      <h4 className="pt-3 text-4xl font-extrabold tracking-tight uppercase text-black2025 sm:text-5xl lg:text-6xl ">
                         málaga
                       </h4>
-                      <h4 className="pt-0 pl-10 text-4xl font-extrabold tracking-normal text-white uppercase sm:pl-12 sm:text-5xl lg:text-6xl ">
+                      <h4 className="pt-0 pl-10 text-4xl font-extrabold tracking-tight uppercase text-red2025 sm:pl-12 sm:text-5xl lg:text-6xl ">
                         {talentsTitle}{' '}
-                        <span className="text-xl italic font-bold tracking-normal sm:2xl lg:3xl">
+                        <span className="text-xl italic font-extrabold tracking-tight sm:2xl lg:3xl">
                           2025
                         </span>
                       </h4>
                     </div>
-                    <div className="h-0.5 w-full bg-blueGreyDark2024 px-20 sm:my-6" />
+                    <div className="h-0.5 w-full bg-black2025 px-20 sm:my-6" />
                     <div className="text-left max-w-none">
-                      <h4 className="pt-3 text-3xl font-extrabold tracking-normal uppercase text-blueGreyDark2024 sm:text-5xl lg:text-6xl ">
+                      <h4 className="pt-3 text-3xl font-extrabold tracking-tight uppercase text-black2025 sm:text-5xl lg:text-6xl ">
                         {convocatoria}
                       </h4>
-                      <h4 className="pt-0 pl-10 text-3xl font-extrabold tracking-normal uppercase text-blueGreyDark2024 sm:pl-12 sm:text-5xl lg:text-6xl ">
+                      <h4 className="pt-0 pl-10 text-3xl font-extrabold tracking-normal uppercase text-black2025 sm:pl-12 sm:text-5xl lg:text-6xl ">
                         {abierta}
                       </h4>
                     </div>
@@ -129,11 +129,11 @@ export default function Talents() {
                 <div className="relative">
                   <div className="w-full px-4 pt-3 pb-1 mt-0 bg-t sm:mt-0 sm:px-8 sm:pt-4">
                     <div className="text-right max-w-none">
-                      <h4 className="pt-3 text-4xl italic font-extrabold tracking-normal capitalise text-pinkText2024 sm:pr-0 lg:text-5xl">
+                      <h4 className="pt-3 text-4xl font-extrabold tracking-tight uppercase text-red2025 sm:pr-0 lg:text-5xl">
                         {requisitosTitle}{' '}
                       </h4>
                       {/* somthing in here!! */}
-                      <div className="text-blueGreyDark2024">
+                      <div className="text-black2025">
                         <ul
                           role="list"
                           className="grid grid-cols-1 gap-4 mt-8 text-xl leading-6 sm:gap-6"
@@ -145,7 +145,7 @@ export default function Talents() {
                             >
                               <div className="flex justify-end">
                                 <CheckIcon
-                                  className="flex-none w-5 h-6 mr-2 text-white"
+                                  className="flex-none w-5 h-6 mr-2 text-orange2025"
                                   aria-hidden="true"
                                 />
                                 <span>{feature.item}</span>
@@ -159,23 +159,23 @@ export default function Talents() {
                           ))}
                           <div className="pb-2" />
                           <hr />
-                          <div className="pt-3 font-medium">
+                          <div className="pt-3 font-bold">
                             <h4>
                               {deadline}{' '}
                               <span className="">
-                                <span className="inline italic font-bold text-pinkText2024">
+                                <span className="inline font-extrabold text-red2025">
                                   {deadlineDate}
                                 </span>
                               </span>{' '}
                               2025
                             </h4>
                           </div>
-                          <dl className="mt-3 transition duration-200 ease-in-out text-blueGreyDark2024">
+                          <dl className="mt-3 transition duration-200 ease-in-out text-black2025">
                             <div className="mt-0">
                               <dt className="sr-only">Email</dt>
                               <dd className="flex">
                                 <EnvelopeIcon
-                                  className="flex-shrink-0 w-6 h-6 text-pinkText2024"
+                                  className="flex-shrink-0 w-6 h-6 text-orange2025"
                                   aria-hidden="true"
                                 />
                                 <span className="ml-3 font-normal">
@@ -194,10 +194,10 @@ export default function Talents() {
           </div>
         </div>
         {/* and in here!! */}
-        <div className="px-6 bg-pink3_2024/30 lg:hidden">
+        <div className="px-6 bg-lightOrange2025 lg:hidden">
           <div className="pt-1 pb-6">
             <div className="flex items-center mt-10 gap-x-4">
-              <h4 className="pt-3 pr-10 text-4xl italic font-bold tracking-normal capitalize text-pinkText2024 sm:pr-20">
+              <h4 className="pt-3 pr-10 text-4xl font-extrabold tracking-tight uppercase text-red2025 sm:pr-20">
                 {requisitosTitle}{' '}
               </h4>
               <div className="flex-auto h-px bg-gray-100" />
@@ -210,7 +210,7 @@ export default function Talents() {
                 <li key={feature} className="flex flex-col gap-x-3">
                   <div className="flex gap-x-3">
                     <CheckIcon
-                      className="flex-none w-5 h-6 text-pinkText2024"
+                      className="flex-none w-5 h-6 text-orange2025"
                       aria-hidden="true"
                     />
                     {feature.item}
@@ -224,11 +224,11 @@ export default function Talents() {
               ))}
               <div className="pb-2" />
               <hr />
-              <div className="pt-3 font-medium">
+              <div className="pt-3 font-bold">
                 <h4>
                   {deadline}{' '}
-                  <span className="text-pinkText2024">
-                    <span className="inline italic font-bold text-pinkText2024">
+                  <span className="text-red2025">
+                    <span className="inline font-extrabold text-red2025">
                       {deadlineDate}
                     </span>
                   </span>{' '}
@@ -240,7 +240,7 @@ export default function Talents() {
                   <dt className="sr-only">Email</dt>
                   <dd className="flex">
                     <EnvelopeIcon
-                      className="flex-shrink-0 w-6 h-6 text-pinkText2024"
+                      className="flex-shrink-0 w-6 h-6 text-orange2025"
                       aria-hidden="true"
                     />
                     <span className="ml-3 font-normal">
