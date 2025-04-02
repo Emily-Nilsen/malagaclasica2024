@@ -104,7 +104,7 @@ export default function Artists() {
       <Header />
 
       <main className="">
-        <div className="relative px-10 py-20 pb-20 overflow-hidden bg-lightOrange2025 sm:px-12 sm:py-20">
+        <div className="relative px-10 py-20 pb-20 overflow-hidden bg-white sm:px-12 sm:py-20">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -116,7 +116,7 @@ export default function Artists() {
               }}
               className="object-cover w-full h-full overflow-hidden"
             >
-              <div className="absolute right-0 w-full h-full -mt-10 sm:-mt-0">
+              <div className="absolute right-0 hidden w-full h-full -mt-10 sm:-mt-0 lg:block">
                 <Image
                   src="/media/Ocean_water.jpg"
                   alt="Málaga Clásica"
@@ -124,6 +124,17 @@ export default function Artists() {
                   className="object-cover object-center w-full h-full"
                   width={500}
                   height={750}
+                />
+              </div>
+              <div className="lg:hidden">
+                <Image
+                  width={2356}
+                  height={1564}
+                  src="/media/Ocean_water_square.jpg"
+                  alt="Talentos"
+                  className="object-cover object-center w-full h-full"
+                  unoptimized
+                  priority
                 />
               </div>
             </motion.div>
