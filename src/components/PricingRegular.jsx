@@ -10,14 +10,14 @@ export function PricingRegular() {
 
   return (
     <div className="bg-t">
-      <h4 className="mt-10 text-lg font-bold tracking-normal text-blueText2024">
-        <span className="font-bold tracking-normal text-blueGrey2024">
+      <h4 className="mt-10 text-lg font-extrabold tracking-normal text-red2025">
+        <span className="font-bold tracking-normal text-black2025">
           {single_ticket}{' '}
         </span>
         {ticket_cost_en}
         15
         {ticket_cost_es}{' '}
-        <span className="font-normal lowercase tracking-normal text-gray-500">
+        <span className="font-normal tracking-normal text-gray-600 lowercase">
           {no_discounts}
         </span>
       </h4>

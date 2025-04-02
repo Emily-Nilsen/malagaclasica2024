@@ -75,14 +75,14 @@ const Concert = ({ event }) => {
             <div className="2xl:col-start-2">
               <h4
                 id="details-heading"
-                className="italic font-bold text-pinkText2024"
+                className="italic font-extrabold text-red2025"
               >
                 {event.date}
               </h4>
-              <h4 className="mt-4 text-4xl font-extrabold tracking-normal text-blueGreyDark2024">
+              <h4 className="mt-4 text-4xl font-extrabold tracking-tight text-black2025">
                 {event.title}
               </h4>
-              <h4 className="mt-4 italic font-bold text-blueText2024">
+              <h4 className="mt-4 font-extrabold text-grey2025">
                 {event.location}
               </h4>
 
@@ -93,10 +93,10 @@ const Concert = ({ event }) => {
                     {detail.composers ? (
                       detail.composers.map((composerDetail, j) => (
                         <React.Fragment key={j}>
-                          <dt className="font-semibold text-gray-800">
+                          <dt className="font-bold text-black2025">
                             {composerDetail.name}
                           </dt>
-                          <dd className="mt-2 text-gray-500">
+                          <dd className="mt-2 text-grey2025">
                             {composerDetail.info}
                           </dd>
                         </React.Fragment>
@@ -104,18 +104,18 @@ const Concert = ({ event }) => {
                     ) : (
                       <>
                         {(detail.composer || []).map((composer, j) => (
-                          <dt key={j} className="font-semibold text-gray-800">
+                          <dt key={j} className="font-bold text-black2025">
                             {composer}
                           </dt>
                         ))}
-                        <dd className="mt-2 text-gray-500">{detail.info}</dd>
+                        <dd className="mt-2 text-grey2025">{detail.info}</dd>
                       </>
                     )}
                     {detail.artists &&
                       detail.artists.map((artist, j) => (
                         <dd
                           key={j}
-                          className="mt-4 font-semibold text-gray-600"
+                          className="mt-4 font-semibold text-black2025"
                         >
                           {artist.split(' ').slice(0, -1).join(' ')}{' '}
                           <span className="font-normal">
@@ -136,10 +136,10 @@ const Concert = ({ event }) => {
                     {detail.composers ? (
                       detail.composers.map((composerDetail, j) => (
                         <React.Fragment key={j}>
-                          <dt className="font-semibold text-gray-800">
+                          <dt className="font-bold text-black2025">
                             {composerDetail.name}
                           </dt>
-                          <dd className="mt-2 text-gray-500">
+                          <dd className="mt-2 text-grey2025">
                             {composerDetail.info}
                           </dd>
                         </React.Fragment>
@@ -147,18 +147,18 @@ const Concert = ({ event }) => {
                     ) : (
                       <>
                         {(detail.composer || []).map((composer, j) => (
-                          <dt key={j} className="font-semibold text-gray-800">
+                          <dt key={j} className="font-bold text-black2025">
                             {composer}
                           </dt>
                         ))}
-                        <dd className="mt-2 text-gray-500">{detail.info}</dd>
+                        <dd className="mt-2 text-grey2025">{detail.info}</dd>
                       </>
                     )}
                     {detail.artists &&
                       detail.artists.map((artist, j) => (
                         <dd
                           key={j}
-                          className="mt-4 font-semibold text-gray-600"
+                          className="mt-4 font-semibold text-black2025"
                         >
                           {artist.split(' ').slice(0, -1).join(' ')}{' '}
                           <span className="font-normal">
@@ -170,12 +170,12 @@ const Concert = ({ event }) => {
                 ))}
               </dl>
               {event.detailsTwo && event.detailsTwo.length > 0 ? (
-                <div className="py-10 mt-10 border-t border-blue2024/50" />
+                <div className="py-10 mt-10 border-t border-red2025/50" />
               ) : null}
 
               <div>
                 {(event.sentence || []).map((sentence, i) => (
-                  <p key={i} className="mt-4 text-gray-500">
+                  <p key={i} className="mt-4 text-grey2025">
                     {sentence}
                   </p>
                 ))}
@@ -194,7 +194,7 @@ const Concert = ({ event }) => {
                   <a href={event.ticket_url} target="_blank" rel="noreferrer">
                     <button
                       type="button"
-                      className="inline-flex items-center px-4 py-2 text-sm font-medium text-white transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-blueText2024 hover:bg-pinkText2024 focus:outline-none focus:ring-2 focus:ring-pink2024 focus:ring-offset-2"
+                      className="inline-flex items-center px-4 py-2 text-sm font-medium transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-red2025 text-black2025 hover:text-white focus:outline-none focus:ring-2 focus:ring-red2025 focus:ring-offset-2"
                     >
                       <TicketIcon
                         className="w-5 h-5 mr-2 -ml-1"
@@ -204,7 +204,7 @@ const Concert = ({ event }) => {
                     </button>
                   </a>
                   <Link href="/program" passHref>
-                    <button className="inline-flex justify-center px-4 py-2 ml-6 text-sm font-medium transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-blue2024/30 text-blueGrey2024 ring-1 ring-blue2024/20 hover:bg-blue2024/20 hover:text-blueGreyDark2024 hover:ring-blue2024/30 focus:outline-none focus:ring-2 focus:ring-blueGrey2024 focus:ring-offset-2">
+                    <button className="inline-flex justify-center px-4 py-2 ml-6 text-sm font-medium transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-grey2025/40 text-black2025 ring-1 ring-grey2025/40 hover:bg-grey2025/20 hover:text-black2025 hover:ring-grey2025/30 focus:outline-none focus:ring-2 focus:ring-grey2025 focus:ring-offset-2">
                       {program}
                     </button>
                   </Link>

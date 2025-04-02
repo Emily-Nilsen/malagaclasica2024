@@ -10,16 +10,16 @@ export function Discount() {
     <div className="bg-t">
       <div className="relative mx-auto mt-10 max-w-7xl lg:mt-12">
         <div className="max-w-md lg:max-w-5xl">
-          <div className="px-6 py-8 rounded-lg bg-blue2024/10 ring-1 ring-blue2024/30 sm:p-10 lg:flex lg:items-center">
+          <div className="px-6 py-8 rounded-lg bg-lightOrange2025 ring-1 ring-orange2025/30 sm:p-10 lg:flex lg:items-center">
             <div className="flex-1">
               <div>
-                <h4 className="inline-flex px-4 py-1 text-sm font-semibold tracking-wide uppercase rounded-full bg-blue2024/30 text-blueText2024">
+                <h4 className="inline-flex px-4 py-1 text-sm font-semibold tracking-wide uppercase rounded-full bg-red2025 text-black2025">
                   {discount}
                 </h4>
               </div>
               <div className="mt-4 text-lg text-gray-700">
-                <span className="font-semibold text-pinkText2024">
-                  <h4 className="inline font-bold">10%</h4>
+                <span className="font-bold text-red2025">
+                  <h4 className="inline font-extrabold">10%</h4>
                 </span>{' '}
                 {discount_text}
               </div>
