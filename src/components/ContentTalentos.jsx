@@ -14,16 +14,16 @@ export function ContentTalentos() {
       <div className="relative px-4 sm:px-6 lg:px-8">
         <div className="mx-auto text-lg max-w-prose">
           <h4>
-            <span className="block text-base font-semibold tracking-wide text-center uppercase text-pinkText2024">
+            <span className="block text-base font-extrabold tracking-normal text-center uppercase text-red2025">
               {subtitle_1}
             </span>
-            <span className="block mt-2 text-5xl italic font-extrabold leading-none tracking-normal text-center text-blueText2024 sm:text-6xl">
+            <span className="block mt-2 text-5xl font-extrabold leading-none tracking-tight text-center uppercase text-black2025 sm:text-6xl">
               {title_1}
             </span>
           </h4>
-          <p className="mt-8 text-xl leading-8 text-gray-500">{para_1}</p>
+          <p className="mt-8 text-xl leading-8 text-grey2025">{para_1}</p>
         </div>
-        <div className="mx-auto mt-6 prose prose-lg text-gray-500">
+        <div className="mx-auto mt-6 prose prose-lg text-grey2025">
           <p>{para_3}</p>
           <p>{para_4}</p>
 

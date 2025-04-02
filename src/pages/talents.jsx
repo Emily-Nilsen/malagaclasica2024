@@ -65,15 +65,30 @@ export default function Talents() {
               }}
               className="w-full"
             >
-              <Image
-                width={2356}
-                height={1564}
-                src="/media/Ocean_water.jpg"
-                alt="Talentos"
-                className="object-cover object-center w-full h-full"
-                unoptimized
-                priority
-              />
+              <div className="hidden lg:block">
+                <Image
+                  width={2356}
+                  height={1564}
+                  src="/media/Ocean_water.jpg"
+                  alt="Talentos"
+                  className="object-cover object-center w-full h-full"
+                  unoptimized
+                  priority
+                />
+              </div>
+
+              <div className="lg:hidden">
+                <Image
+                  width={2356}
+                  height={1564}
+                  src="/media/Ocean_water_square.jpg"
+                  alt="Talentos"
+                  className="object-cover object-center w-full h-full"
+                  unoptimized
+                  priority
+                />
+              </div>
+
               {/* <div className="absolute inset-0 bg-lightOrange2025 mix-blend-overlay" /> */}
               <div className="absolute inset-0 bg-lightOrange2025/40" />
               {/* <div className="absolute inset-0 opacity-50 sm:hidden">
@@ -108,7 +123,7 @@ export default function Talents() {
                       </h4>
                       <h4 className="pt-0 pl-10 text-4xl font-extrabold tracking-tight uppercase text-red2025 sm:pl-12 sm:text-5xl lg:text-6xl ">
                         {talentsTitle}{' '}
-                        <span className="text-xl italic font-extrabold tracking-tight sm:2xl lg:3xl">
+                        <span className="text-xl font-extrabold tracking-tight sm:2xl lg:3xl text-black2025 lg:italic lg:text-red2025">
                           2025
                         </span>
                       </h4>

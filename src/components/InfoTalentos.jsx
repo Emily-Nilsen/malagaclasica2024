@@ -47,14 +47,14 @@ export function InfoTalentos() {
   ]
 
   return (
-    <div className="relative py-16 bg-pink3_2024/30 sm:py-24">
+    <div className="relative py-16 bg-lightOrange2025 sm:py-24">
       <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         <div className="relative sm:py-16 lg:py-0">
           <div
             aria-hidden="true"
             className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
           >
-            <div className="absolute inset-y-0 w-full opacity-100 right-1/2 rounded-r-3xl bg-pink3_2024/50 lg:right-72" />
+            <div className="absolute inset-y-0 w-full opacity-100 right-1/2 rounded-r-3xl bg-orange2025 lg:right-72" />
           </div>
           <div className="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
             {/* Testimonial card*/}
@@ -79,7 +79,7 @@ export function InfoTalentos() {
                 />
               </motion.div>
               {/* <div className="absolute inset-0 bg-blueCrescendo mix-blend-multiply" /> */}
-              <div className="absolute inset-0 bg-gradient-to-t from-blueText2024 via-pinkText2024 opacity-70" />
+              <div className="absolute inset-0 bg-gradient-to-t from-grey2025 via-red2025 opacity-70" />
               <div className="relative px-8">
                 <blockquote className="mt-8">
                   <footer className="mt-4">
@@ -96,10 +96,10 @@ export function InfoTalentos() {
         <div className="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
           {/* Content area */}
           <div className="pt-12 sm:pt-16 lg:pt-20">
-            <h4 className="w-full text-4xl font-bold tracking-normal xl:8/12 text-pinkText2024 sm:text-5xl md:w-8/12 lg:w-10/12 xl:text-6xl 2xl:w-8/12">
+            <h4 className="w-full text-4xl font-extrabold tracking-tight uppercase xl:8/12 text-red2025 sm:text-5xl md:w-8/12 lg:w-10/12 xl:text-6xl 2xl:w-8/12">
               {title_3}
             </h4>
-            <div className="mt-6 space-y-6 text-gray-500">
+            <div className="mt-6 space-y-6 text-black2025">
               <p className="text-lg">{t('talents:para_1')}</p>
               <p className="text-base leading-7">
                 {para_7_start}
@@ -175,7 +175,7 @@ export function InfoTalentos() {
           <div>
             <div className="mt-12 text-gray-500">
               <span className="">
-                <h4 className="text-lg italic font-bold text-blueText2024">
+                <h4 className="text-lg font-extrabold text-black2025">
                   {more_info}
                 </h4>
               </span>
@@ -186,7 +186,7 @@ export function InfoTalentos() {
                 <dt className="sr-only">Telefono</dt>
                 <dd className="flex">
                   <PhoneIcon
-                    className="flex-shrink-0 w-6 h-6 text-pinkText2024"
+                    className="flex-shrink-0 w-6 h-6 text-orange2025"
                     aria-hidden="true"
                   />
                   <span className="ml-3 font-medium">699 06 74 52</span>
@@ -197,7 +197,7 @@ export function InfoTalentos() {
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
                   <EnvelopeIcon
-                    className="flex-shrink-0 w-6 h-6 text-pinkText2024"
+                    className="flex-shrink-0 w-6 h-6 text-orange2025"
                     aria-hidden="true"
                   />
                   <span className="ml-3 font-medium">
