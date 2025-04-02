@@ -42,7 +42,7 @@ export default function Contact() {
       <Header />
 
       <main className="">
-        <div className="relative bg-blue2024/10">
+        <div className="relative bg-lightOrange2025">
           <motion.div
             whileInView={{ opacity: 1 }}
             initial={{ opacity: 0 }}
@@ -54,9 +54,9 @@ export default function Contact() {
             className="lg:absolute lg:inset-0"
           >
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-              <div className="relative object-cover w-full h-64 bg-blue2024 lg:absolute lg:h-full">
+              <div className="relative object-cover w-full h-64 bg-lightOrange2025 lg:absolute lg:h-full">
                 <Image
-                  src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
+                  src="/media/Ocean_water.jpg"
                   alt="Resonancias del espíritu 2024"
                   width={2000}
                   height={2000}
@@ -69,17 +69,19 @@ export default function Contact() {
           <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:py-32">
             <div className="lg:pr-8">
               <div className="max-w-md mx-auto sm:max-w-lg lg:mx-0">
-                <h4 className="text-5xl italic font-extrabold tracking-normal text-blueText2024 sm:text-6xl">
+                <h4 className="text-5xl font-extrabold tracking-tight uppercase text-red2025 sm:text-6xl">
                   {contactTitle}
                 </h4>
-                <p className="mt-4 text-lg text-gray-600 sm:mt-3">{subtitle}</p>
-                <dl className="mt-8 text-base transition duration-200 ease-in-out text-blueGreyDark2024">
+                <p className="mt-4 text-lg text-black2025 sm:mt-3">
+                  {subtitle}
+                </p>
+                <dl className="mt-8 text-base transition duration-200 ease-in-out text-black2025">
                   {/* phone */}
                   <div className="mt-3">
                     <dt className="sr-only">Telefono</dt>
                     <dd className="flex">
                       <PhoneIcon
-                        className="flex-shrink-0 w-6 h-6 text-blueText2024"
+                        className="flex-shrink-0 w-6 h-6 text-orange2025"
                         aria-hidden="true"
                       />
                       <span className="ml-3 font-medium">699 06 74 52</span>
@@ -90,7 +92,7 @@ export default function Contact() {
                     <dt className="sr-only">Email</dt>
                     <dd className="flex">
                       <EnvelopeIcon
-                        className="flex-shrink-0 w-6 h-6 text-blueText2024"
+                        className="flex-shrink-0 w-6 h-6 text-orange2025"
                         aria-hidden="true"
                       />
                       <span className="ml-3 font-medium">
@@ -132,7 +134,7 @@ export default function Contact() {
                         id="first-name"
                         required
                         autoComplete="given-name"
-                        className="block w-full rounded-md shadow-none border-blue2024/30 focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
+                        className="block w-full rounded-md shadow-none border-orange2025/30 focus:border-orange2025 focus:ring-orange2025 sm:text-sm"
                       />
                     </div>
                   </div>
@@ -150,7 +152,7 @@ export default function Contact() {
                         id="last-name"
                         required
                         autoComplete="family-name"
-                        className="block w-full rounded-md shadow-none border-blue2024/30 focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
+                        className="block w-full rounded-md shadow-none border-orange2025/30 focus:border-orange2025 focus:ring-orange2025 sm:text-sm"
                       />
                     </div>
                   </div>
@@ -168,7 +170,7 @@ export default function Contact() {
                         required
                         type="email"
                         autoComplete="email"
-                        className="block w-full rounded-md shadow-none border-blue2024/30 focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
+                        className="block w-full rounded-md shadow-none border-orange2025/30 focus:border-orange2025 focus:ring-orange2025 sm:text-sm"
                       />
                     </div>
                   </div>
@@ -183,7 +185,7 @@ export default function Contact() {
                       </label>
                       <span
                         id="phone-description"
-                        className="text-sm text-gray-500"
+                        className="text-sm text-grey2025"
                       >
                         {optional}
                       </span>
@@ -195,7 +197,7 @@ export default function Contact() {
                         id="phone"
                         autoComplete="tel"
                         aria-describedby="phone-description"
-                        className="block w-full rounded-md shadow-none border-blue2024/30 focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
+                        className="block w-full rounded-md shadow-none border-orange2025/30 focus:border-orange2025 focus:ring-orange2025 sm:text-sm"
                       />
                     </div>
                   </div>
@@ -209,7 +211,7 @@ export default function Contact() {
                       </label>
                       <span
                         id="how-can-we-help-description"
-                        className="text-sm text-gray-500"
+                        className="text-sm text-grey2025"
                       >
                         {max}
                       </span>
@@ -222,7 +224,7 @@ export default function Contact() {
                         maxLength="500"
                         aria-describedby="how-can-we-help-description"
                         rows={4}
-                        className="block w-full border rounded-md shadow-none border-blue2024/30 focus:border-blueText2024 focus:ring-blueText2024 sm:text-sm"
+                        className="block w-full border rounded-md shadow-none border-orange2025/30 focus:border-orange2025 focus:ring-orange2025 sm:text-sm"
                         defaultValue={''}
                       />
                     </div>
@@ -231,7 +233,7 @@ export default function Contact() {
                   <div className="text-right sm:col-span-2">
                     <button
                       type="submit"
-                      className="inline-flex justify-center px-4 py-2 text-sm font-medium text-white transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-blueText2024 hover:bg-blueGreyDark2024 focus:outline-none focus:ring-2 focus:ring-blueText2024 focus:ring-offset-2"
+                      className="inline-flex justify-center px-4 py-2 text-sm font-medium text-white transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-orange2025 hover:bg-red2025 focus:outline-none focus:ring-2 focus:ring-orange2025 focus:ring-offset-2"
                     >
                       {submit}
                     </button>
