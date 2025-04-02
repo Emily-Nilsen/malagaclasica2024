@@ -97,7 +97,7 @@ export default function Program() {
         {/* Open Graph data */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
-        <meta property="og:image" content="/media/OG_2024_hfuxay.webp" />
+        <meta property="og:image" content="/media/El_Nuevo_Mundo_2025.webp" />
         <meta property="og:url" content="https://malagaclasica.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
