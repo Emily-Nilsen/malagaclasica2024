@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import events from '../../../assets/events'
+import { ByInvitation } from '@/components/ByInvitation'
 import { Discount } from '@/components/Discount'
 import { PricingRegular } from '@/components/PricingRegular'
 import { PricingLastConcert } from '@/components/PricingLastConcert'
@@ -36,13 +37,52 @@ export const getStaticPaths = async () => {
   return { paths, fallback: false }
 }
 
-events.map(() => ({}))
-
 const Concert = ({ event }) => {
   const router = useRouter()
   const { t } = useTranslation('common')
   const buy_tickets = t('buy_tickets')
   const program = t('program')
+
+  // Helper function to render info with two line breaks between songs.
+  const renderInfo = (info) => {
+    if (!info.includes(';')) {
+      return info
+    }
+    const songs = info.split(';')
+    return songs.map((song, idx) => (
+      <React.Fragment key={idx}>
+        {song.trim()}
+        {idx < songs.length - 1 && (
+          <>
+            <br />
+            <br />
+          </>
+        )}
+      </React.Fragment>
+    ))
+  }
+
+  // Helper function to render titles split by ';' onto separate lines.
+  const renderTitle = (title) => {
+    if (!title.includes(';')) return title
+    const parts = title.split(';')
+    return parts.map((part, idx) => (
+      <React.Fragment key={idx}>
+        {part.trim()}
+        {idx < parts.length - 1 && <br />}
+      </React.Fragment>
+    ))
+  }
+
+  // Helper function to render a sentence. If the sentence is all uppercase (and has letters),
+  // it is rendered in bold.
+  const renderSentence = (sentence) => {
+    const hasAlpha = /[A-Z]/.test(sentence)
+    if (sentence === sentence.toUpperCase() && hasAlpha) {
+      return <strong>{sentence}</strong>
+    }
+    return sentence
+  }
 
   return (
     <>
@@ -80,7 +120,7 @@ const Concert = ({ event }) => {
                 {event.date}
               </h4>
               <h4 className="mt-4 text-4xl font-extrabold tracking-tight text-black2025">
-                {event.title}
+                {renderTitle(event.title)}
               </h4>
               <h4 className="mt-4 font-extrabold text-grey2025">
                 {event.location}
@@ -93,22 +133,24 @@ const Concert = ({ event }) => {
                     {detail.composers ? (
                       detail.composers.map((composerDetail, j) => (
                         <React.Fragment key={j}>
-                          <dt className="font-bold text-black2025">
+                          <dt className="font-extrabold text-red2025">
                             {composerDetail.name}
                           </dt>
                           <dd className="mt-2 text-grey2025">
-                            {composerDetail.info}
+                            {renderInfo(composerDetail.info)}
                           </dd>
                         </React.Fragment>
                       ))
                     ) : (
                       <>
                         {(detail.composer || []).map((composer, j) => (
-                          <dt key={j} className="font-bold text-black2025">
+                          <dt key={j} className="font-extrabold text-red2025">
                             {composer}
                           </dt>
                         ))}
-                        <dd className="mt-2 text-grey2025">{detail.info}</dd>
+                        <dd className="mt-2 text-grey2025">
+                          {renderInfo(detail.info)}
+                        </dd>
                       </>
                     )}
                     {detail.artists &&
@@ -136,22 +178,24 @@ const Concert = ({ event }) => {
                     {detail.composers ? (
                       detail.composers.map((composerDetail, j) => (
                         <React.Fragment key={j}>
-                          <dt className="font-bold text-black2025">
+                          <dt className="font-bold text-red2025">
                             {composerDetail.name}
                           </dt>
                           <dd className="mt-2 text-grey2025">
-                            {composerDetail.info}
+                            {renderInfo(composerDetail.info)}
                           </dd>
                         </React.Fragment>
                       ))
                     ) : (
                       <>
                         {(detail.composer || []).map((composer, j) => (
-                          <dt key={j} className="font-bold text-black2025">
+                          <dt key={j} className="font-bold text-red2025">
                             {composer}
                           </dt>
                         ))}
-                        <dd className="mt-2 text-grey2025">{detail.info}</dd>
+                        <dd className="mt-2 text-grey2025">
+                          {renderInfo(detail.info)}
+                        </dd>
                       </>
                     )}
                     {detail.artists &&
@@ -176,39 +220,48 @@ const Concert = ({ event }) => {
               <div>
                 {(event.sentence || []).map((sentence, i) => (
                   <p key={i} className="mt-4 text-grey2025">
-                    {sentence}
+                    {renderSentence(sentence)}
                   </p>
                 ))}
-                <Discount />
-                {/* Dynamic rendering of Pricing component based on the event's ticket URL */}
-                {event.ticket_url ===
-                'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613' ? (
-                  <PricingLastConcert />
+
+                {/* Render Pricing or Invitation section based on ticket_url */}
+                {event.ticket_url === '#' ? (
+                  <ByInvitation />
                 ) : (
-                  <PricingRegular />
+                  <div>
+                    <Discount />
+                    {event.ticket_url ===
+                    'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/hollywood-y-broadway-1898' ? (
+                      <PricingLastConcert />
+                    ) : (
+                      <PricingRegular />
+                    )}
+
+                    <div className="flex mt-10">
+                      <a
+                        href={event.ticket_url}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button
+                          type="button"
+                          className="inline-flex items-center px-4 py-2 text-sm font-medium transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-red2025 text-black2025 hover:text-white focus:outline-none focus:ring-2 focus:ring-red2025 focus:ring-offset-2"
+                        >
+                          <TicketIcon
+                            className="w-5 h-5 mr-2 -ml-1"
+                            aria-hidden="true"
+                          />
+                          {buy_tickets}
+                        </button>
+                      </a>
+                      <Link href="/program" passHref>
+                        <button className="inline-flex justify-center px-4 py-2 ml-6 text-sm font-medium transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-grey2025/40 text-black2025 ring-1 ring-grey2025/40 hover:bg-grey2025/20 hover:text-black2025 hover:ring-grey2025/30 focus:outline-none focus:ring-2 focus:ring-grey2025 focus:ring-offset-2">
+                          {program}
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
                 )}
-
-                {/* <Discount /> */}
-
-                <div className="flex mt-10">
-                  <a href={event.ticket_url} target="_blank" rel="noreferrer">
-                    <button
-                      type="button"
-                      className="inline-flex items-center px-4 py-2 text-sm font-medium transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-red2025 text-black2025 hover:text-white focus:outline-none focus:ring-2 focus:ring-red2025 focus:ring-offset-2"
-                    >
-                      <TicketIcon
-                        className="w-5 h-5 mr-2 -ml-1"
-                        aria-hidden="true"
-                      />
-                      {buy_tickets}
-                    </button>
-                  </a>
-                  <Link href="/program" passHref>
-                    <button className="inline-flex justify-center px-4 py-2 ml-6 text-sm font-medium transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-grey2025/40 text-black2025 ring-1 ring-grey2025/40 hover:bg-grey2025/20 hover:text-black2025 hover:ring-grey2025/30 focus:outline-none focus:ring-2 focus:ring-grey2025 focus:ring-offset-2">
-                      {program}
-                    </button>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

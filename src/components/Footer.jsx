@@ -10,11 +10,11 @@ export function Footer() {
     links: [
       {
         name: 'teatrocervantes.es',
-        href: 'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/',
+        href: 'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/',
       },
       {
         name: 'teatroechegaray.es',
-        href: 'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/',
+        href: 'https://www.teatroechegaray.com/es/buscador/?s=mundo',
       },
     ],
     social: [
@@ -66,7 +66,7 @@ export function Footer() {
           {navigation.links.map((item) => (
             <div key={item.name} className="px-5 py-2">
               <Link href={item.href} target="_blank" rel="noreferrer">
-                <h4 className="text-2xl transition duration-200 ease-in-out cursor-pointer text-black2025 hover:text-gray-900">
+                <h4 className="text-2xl transition duration-200 ease-in-out cursor-pointer text-black2025 hover:text-white">
                   {item.name}
                 </h4>
               </Link>
@@ -80,7 +80,7 @@ export function Footer() {
               href={item.href}
               target="_blank"
               rel="noreferrer"
-              className="transition duration-200 ease-in-out text-black2025 hover:text-black2025/80"
+              className="transition duration-200 ease-in-out text-black2025 hover:text-lightOrange2025"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon className="w-6 h-6" aria-hidden="true" />

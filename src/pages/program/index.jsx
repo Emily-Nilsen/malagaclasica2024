@@ -8,6 +8,7 @@ import { useRouter } from 'next/router'
 import { Theatres } from '@/components/Theatres'
 import { motion } from 'framer-motion'
 import useTranslation from 'next-translate/useTranslation'
+import React from 'react'
 
 const container = {
   hidden: { opacity: 0 },
@@ -84,6 +85,18 @@ export default function Program() {
     '5',
   ]
 
+  // Helper function to render titles that contain ";" on separate lines.
+  const renderTitle = (eventTitle) => {
+    if (!eventTitle.includes(';')) return eventTitle
+    const parts = eventTitle.split(';')
+    return parts.map((part, idx) => (
+      <React.Fragment key={idx}>
+        {part.trim()}
+        {idx < parts.length - 1 && <br />}
+      </React.Fragment>
+    ))
+  }
+
   return (
     <>
       <Head>
@@ -148,16 +161,6 @@ export default function Program() {
                       </motion.span>
                     ))}
               </motion.h4>
-
-              {/* Where the date was displayed in 2024 */}
-              {/* <motion.h3
-                        variants={itemBottom}
-                        initial="hidden"
-                        animate="show"
-                        className="max-w-3xl text-lg text-black2025 sm:mt-3 sm:text-2xl"
-                      >
-                        26/05__01/06 <span className="text-black2025">&nbsp;2025</span>
-                      </motion.h3> */}
             </div>
           </div>
         </div>
@@ -190,7 +193,7 @@ export default function Program() {
                       </p>
                       <div className="block mt-2">
                         <h4 className="text-xl font-extrabold group-hover:black2025 text-black2025">
-                          {event.title}
+                          {renderTitle(event.title)}
                         </h4>
                       </div>
                       <div className="mt-3">

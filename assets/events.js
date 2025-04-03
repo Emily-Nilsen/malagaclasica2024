@@ -11,8 +11,7 @@ const events = [
     detailsOne: [],
     image: '/media/talentos_mobile_sdlzwr.webp',
     image_position: `object-top`,
-    ticket_url:
-      'https://www.teatroechegaray.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/plegaria-1612',
+    ticket_url: '#',
   },
   // Concert 27 May
   {
@@ -20,15 +19,17 @@ const events = [
     locale: 'en',
     date: `27 May, 2025`,
     price: `regular`,
-    title: `ENCOUNTER WITH FESTIVAL ARTISTS CONCERT WITH MÁLAGA CLÁSICA TALENTS`,
+    title: `ENCOUNTER WITH FESTIVAL ARTISTS; CONCERT WITH MÁLAGA CLÁSICA TALENTS`,
     location: `Echegaray Theatre, 8 p.m.`,
     sentence: [
       `MÁLAGA CLÁSICA TALENTS`,
       `As a chamber music festival, and following one of the main philosophies of the genre, we understand that Málaga Clásica ought to be an event closely tied to and celebrated by the audience and the city of Málaga.`,
       `As such, we aim for a reciprocal relationship where all parties involved can enjoy the music. In this XIII edition, we want young talents to participate in the festival, allowing them to perform and share experiences with the invited musicians of international prestige.`,
       `The groups of young talents, chosen through a selection process by our artistic directors, will be in charge of performing in one of the concerts of this series. They will also be the lucky ones to receive the masterclasses scheduled during the festival.`,
-      `For more information: secretaria.malagaclasica@gmail.com`,
-      `Tel. 699 067 452`,
+      `FOR MORE INFORMATION`,
+      `secretariamalagaclasica@gmail.com`,
+      `TELEPHONE`,
+      `699 067 452`,
       `ENCOUNTER WITH THE ARTISTS`,
       `In this interactive event, open to the public and featuring a Q&A session, the artists of Málaga Clásica will share their personal stories and experiences of encountering The New World.`,
       `Many of the musicians performing at Málaga Clásica emigrated from their home countries, sometimes settling permanently in their new homes, while others returned or sought new lives elsewhere. In all cases, they encountered cultural fusion, novelty, and different ways of seeing the world. The event will be preceded with a performance by Málaga Clásica Talentos.`,
@@ -117,7 +118,8 @@ const events = [
     ],
     image: '/media/events/piano_icg2qd.webp',
     image_position: `object-top`,
-    ticket_url: '#',
+    ticket_url:
+      'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/del-nuevo-mundo-1894',
   },
   // Concert 29 May
   {
@@ -172,7 +174,8 @@ const events = [
     ],
     image: '/media/events/cello_z7sixb.webp',
     image_position: `object-top`,
-    ticket_url: '#',
+    ticket_url:
+      'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/el-sonido-de-america-1895',
   },
 
   // Concert 30 May
@@ -244,7 +247,8 @@ const events = [
     ],
     image: '/media/events/violin_1_duczzp.webp',
     image_position: `object-center`,
-    ticket_url: '#',
+    ticket_url:
+      'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/todo-es-jazz-1896',
   },
 
   // Concert 31 May
@@ -323,7 +327,8 @@ const events = [
     ],
     image: '/media/events/piano_duette_qkdrgf.webp',
     image_position: ``,
-    ticket_url: '#',
+    ticket_url:
+      'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/el-sueno-del-inmigrante-1897',
   },
   // 1 June
   {
@@ -403,7 +408,7 @@ const events = [
       },
       {
         composer: [`Manuel Ponce (1882-1948)`],
-        info: `Little Star, for voice and piano`,
+        info: `Estrellita, for voice and piano`,
         artists: [`Nils Georg Nilsen tenor`, `Natalia Kuchaeva piano`],
       },
       {
@@ -419,7 +424,7 @@ const events = [
     image: '/media/events/violin_2_uqtbs2.webp',
     image_position: ``,
     ticket_url:
-      'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
+      'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/hollywood-y-broadway-1898',
   },
 
   //
@@ -445,16 +450,17 @@ const events = [
     locale: 'es',
     date: `27 de mayo, 2025`,
     price: `regular`,
-    title: `ENCUENTRO CON ARTISTAS DEL FESTIVAL CONCIERTO DE MÁLAGA CLÁSICA TALENTOS`,
+    title: `ENCUENTRO CON ARTISTAS DEL FESTIVAL; CONCIERTO DE MÁLAGA CLÁSICA TALENTOS`,
     location: `Teatro Echegaray, 20:00 h.`,
     sentence: [
       `MÁLAGA CLÁSICA TALENTOS`,
       `Como festival de música de cámara y siguiendo una de las filosofías principales del género, entendemos que Málaga Clásica ha de ser un acontecimiento estrechamente unido al público y a la ciudad en la que se celebra, con una relación recíproca en la que todas las partes se sientan implicadas en el disfrute de la música. `,
       `Es por esto que en esta XIII edición queremos que, de nuevo, los jóvenes talentos puedan ser partícipes del festival brindándoles la oportunidad de tocar y de compartir experiencias con músicos invitados de prestigio internacional.`,
       `Los jóvenes talentos, elegidos mediante un proceso de selección por nuestros directores artísticos, serán los encargados de actuar en uno de los conciertos de este ciclo. Además serán afortunados de recibir clases magistrales programadas en el transcurso del festival.`,
-
-      `Para más información: secretaria.malagaclasica@gmail.com`,
-      `Tel. 699 067 452`,
+      `PARA MÁS INFORMACIÓN`,
+      `secretaria.malagaclasica@gmail.com`,
+      `TELEFONO`,
+      `699 067 452`,
       `ENCUENTRO CON LOS ARTISTAS`,
       `En este encuentro interactivo, abierto al público y en el que habrá una sesión de preguntas y respuestas, los artistas de Málaga Clásica compartirán sus historias sobre lo vivido y experimentado al encontrarse personalmente con El Nuevo Mundo. `,
       `Muchos de los músicos que actúan en Málaga Clásica emigraron de sus países de origen y a veces permanecieron en el nuevo hogar. Otros regresaron o buscaron una nueva vida en un lugar distinto. En todos los casos, vivieron la mezcla cultural, la novedad y las diferentes maneras de ver el mundo. El encuentro estará precedido por una actuación de Málaga Clásica Talentos.`,
@@ -544,7 +550,8 @@ const events = [
     ],
     image: '/media/events/piano_icg2qd.webp',
     image_position: `object-top`,
-    ticket_url: '#',
+    ticket_url:
+      'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/del-nuevo-mundo-1894',
   },
 
   // Concierto 29 de mayo
@@ -600,7 +607,8 @@ const events = [
     ],
     image: '/media/events/cello_z7sixb.webp',
     image_position: `object-top`,
-    ticket_url: '#',
+    ticket_url:
+      'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/el-sonido-de-america-1895',
   },
 
   // Concierto 30 de mayo
@@ -672,7 +680,8 @@ const events = [
     ],
     image: '/media/events/violin_1_duczzp.webp',
     image_position: `object-top`,
-    ticket_url: '#',
+    ticket_url:
+      'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/todo-es-jazz-1896',
   },
 
   // Conciert0 31 de mayo
@@ -751,7 +760,8 @@ const events = [
     ],
     image: '/media/events/piano_duette_qkdrgf.webp',
     image_position: ``,
-    ticket_url: '#',
+    ticket_url:
+      'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/el-sueno-del-inmigrante-1897',
   },
   // 1 de junio
   {
@@ -846,7 +856,7 @@ const events = [
     image: '/media/events/violin_2_uqtbs2.webp',
     image_position: ``,
     ticket_url:
-      'https://www.teatrocervantes.com/es/genero/musica/xii-malaga-clasica-resonancias-del-espiritu/alfa-omega-1613',
+      'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/hollywood-y-broadway-1898',
   },
 ]
 

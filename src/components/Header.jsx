@@ -2,9 +2,6 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Popover } from '@headlessui/react'
 import { AnimatePresence, motion } from 'framer-motion'
-
-import { Button } from '@/components/Button'
-import { Container } from '@/components/Container'
 import { MalagaclasicaLogo } from './Logos'
 import { NavLinks } from '@/components/NavLinks'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
@@ -49,12 +46,8 @@ function MobileNavLink({ children, ...props }) {
   )
 }
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
-
 export function Header(props) {
-  const { t, lang } = useTranslation('common')
+  const { t } = useTranslation('common')
   const router = useRouter()
   const currentPath = router.pathname
 

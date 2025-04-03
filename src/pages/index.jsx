@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { LogoCloud } from '@/components/LogoCloud'
 import { Features } from '@/components/Features'
 import { Testimonials } from '@/components/Testimonials'
 import useTranslation from 'next-translate/useTranslation'
@@ -29,15 +30,16 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
       </Head>
-      {/* <Header /> */}
+      <Header />
 
       <main className="">
         <Hero />
-        {/* <Features /> */}
-        {/* <Testimonials /> */}
+        <LogoCloud />
+        <Features />
+        <Testimonials />
       </main>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

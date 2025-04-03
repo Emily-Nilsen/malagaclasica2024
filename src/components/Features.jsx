@@ -42,13 +42,13 @@ export function Features() {
     <div>
       <section>
         {/* Feature section */}
-        <div className="bg-pink3_2024/50">
+        <div className="bg-white">
           <div className="max-w-2xl px-4 pt-10 pb-16 mx-auto sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
             <div className="max-w-3xl">
-              <h4 className="mt-2 text-4xl font-bold tracking-normal text-blueText2024 sm:text-5xl">
+              <h4 className="mt-2 text-4xl font-extrabold tracking-tight uppercase text-black2025 sm:text-5xl">
                 {features_title}
               </h4>
-              <p className="mt-4 text-blueGreyDark2024">{features_text}</p>
+              <p className="mt-4 text-black2025">{features_text}</p>
             </div>
 
             <div className="grid items-start grid-cols-2 mt-11 gap-x-6 gap-y-10 sm:mt-16 sm:grid-cols-2 sm:gap-y-16 lg:grid-cols-4 lg:gap-x-8">
@@ -80,7 +80,7 @@ export function Features() {
                       }}
                       className="mt-4"
                     >
-                      <h4 className="text-2xl italic font-bold text-pinkText2024 group-hover:text-blueGrey2024">
+                      <h4 className="text-2xl font-extrabold text-black2025 group-hover:text-red2025">
                         {feature.name}
                       </h4>
                     </motion.div>
