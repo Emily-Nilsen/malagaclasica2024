@@ -42,15 +42,15 @@ export function Hero() {
     <>
       <div>
         {/* From 2025 */}
-        <div className="relative overflow-hidden isolate pt-14">
+        <div className="relative isolate overflow-hidden pt-14">
           <img
             alt="Málaga Clásica"
             src="/media/Ocean_water.jpg"
-            className="absolute inset-0 object-cover -z-10 size-full"
+            className="absolute inset-0 -z-10 size-full object-cover"
           />
           <div
             aria-hidden="true"
-            className="absolute inset-x-0 overflow-hidden -top-40 -z-10 transform-gpu blur-3xl sm:-top-80"
+            className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           >
             <div
               style={{
@@ -60,7 +60,7 @@ export function Hero() {
               className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-red2025 to-orange2025 opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             />
           </div>
-          <div className="px-6 mx-auto max-w-7xl lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
             {/* <div className="relative px-3 py-1 mx-auto text-center text-gray-400 rounded-full text-sm/6 ring-1 ring-white/10 hover:ring-white/20">
               Announcing our next round of funding.{' '}
               <a href="#" className="font-semibold text-black">
@@ -69,20 +69,20 @@ export function Hero() {
               </a>
             </div> */}
             <div className="text-center">
-              <div className="grid max-w-xs grid-cols-3 gap-0 pb-2 mx-auto sm:max-w-sm lg:max-w-lg">
-                <div className="flex col-span-1 justify-self-end">
-                  <MalagaclasicaLogo className="w-auto h-8 fill-gray-900 sm:h-10" />
+              <div className="mx-auto grid max-w-xs grid-cols-3 gap-0 pb-2 sm:max-w-sm lg:max-w-lg">
+                <div className="col-span-1 flex justify-self-end">
+                  <MalagaclasicaLogo className="h-7 w-auto fill-gray-900 sm:h-10" />
                 </div>
-                <div className="flex items-center justify-center col-span-2">
+                <div className="col-span-2 flex items-center justify-center">
                   <div>
-                    <p className="text-2xl font-normal tracking-wider uppercase text-black2025 sm:text-3xl lg:text-4xl">
+                    <p className="text-xl font-normal uppercase tracking-wider text-black2025 sm:text-3xl lg:text-4xl">
                       Málaga Clásica
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="mx-auto border-gray-400 w-fit border-y">
+              <div className="mx-auto w-fit border-y border-gray-400">
                 <h4 className="px-2 py-1 text-xs font-extrabold uppercase text-red2025 sm:text-xl lg:text-2xl">
                   {title}
                 </h4>
@@ -98,7 +98,7 @@ export function Hero() {
                   variants={container}
                   initial="hidden"
                   animate="show"
-                  className="block pt-40 text-5xl font-extrabold text-left uppercase text-black2025 sm:pt-20 sm:text-6xl lg:text-7xl"
+                  className="block pt-40 text-left text-5xl font-extrabold uppercase text-black2025 sm:pt-20 sm:text-6xl lg:text-7xl"
                 >
                   {locale === 'en'
                     ? theNewWorld.map((letter, i) => (
@@ -112,21 +112,21 @@ export function Hero() {
                         </motion.span>
                       ))}
                 </motion.h4>
-                <h4 className="max-w-xl mt-5 text-xl font-extrabold tracking-tight uppercase text-red2025 sm:text-2xl lg:text-3xl">
+                <h4 className="mt-5 max-w-xl text-xl font-extrabold uppercase tracking-tight text-red2025 sm:text-2xl lg:text-3xl">
                   {subtitle}
                 </h4>
                 <motion.h3
                   variants={itemBottom}
                   initial="hidden"
                   animate="show"
-                  className="max-w-lg mx-auto mt-3 text-2xl font-normal text-left text-gray-600 sm:max-w-3xl sm:text-3xl lg:text-4xl"
+                  className="mx-auto mt-3 max-w-lg text-left text-2xl font-normal text-gray-600 sm:max-w-3xl sm:text-3xl lg:text-4xl"
                 >
                   26/05__01/06{' '}
                   <span className="font-medium text-blueGreyDark2024">
                     &nbsp;2025
                   </span>
                 </motion.h3>
-                <div className="flex items-center justify-center mt-10 gap-x-6"></div>
+                <div className="mt-10 flex items-center justify-center gap-x-6"></div>
               </div>
             </div>
           </div>
