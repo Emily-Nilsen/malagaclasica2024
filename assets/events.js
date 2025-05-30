@@ -349,7 +349,7 @@ const events = [
     date: `1 June, 2025`,
     price: `regular`,
     title: `HOLLYWOOD AND BROADWAY`,
-    location: `Cervantes Theatre, 8 p.m.`,
+    location: `Cervantes Theatre, 7 p.m.`,
     sentence: [
       `Like Irving Berlin states clearly; there is no business like show business. When Korngold took Hollywood by storm, having left Austria during the World War II, he revolutionised film scoring enriching movies with stunning music.`,
       `As Hollywood attracted many classical composers, offering good work and opportunities, their innovation and great imagination, altered the very idea of film composing, bringing a new respect to the genre. One of America most loved composers, Copland, also wrote both for the stage and film, represented in this concert program with his cherished Appalachian Spring.`,
@@ -794,7 +794,7 @@ const events = [
     date: `1 de junio, 2025`,
     price: `regular`,
     title: `HOLLYWOOD Y BROADWAY`,
-    location: `Teatro Cervantes, 20:00 h`,
+    location: `Teatro Cervantes, 19:00 h`,
     sentence: [
       `Como afirma claramente Irving Berlin: no hay negocio como el negocio del espectáculo. Cuando Korngold conquistó Hollywood, habiendo dejado Austria durante la Segunda Guerra Mundial, revolucionó la composición para el cine, enriqueciendo las películas con una música impresionante.`,
       `A medida que Hollywood atrajo a otros muchos compositores clásicos, ofreciendo buenos trabajos y oportunidades, su innovación y gran imaginación alteraron la propia idea de la composición para el celuloide, otorgando un nuevo respeto al género. Uno de los compositores más queridos de América, Copland, también escribió tanto para el escenario como para la gran pantalla, y está representado en este programa con su apreciada Appalachian spring.`,
