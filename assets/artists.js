@@ -180,6 +180,34 @@ const artists = [
     image: `/media/artists/Eleanor_Kendra_James.webp`,
   },
 
+  // Spanish - Liana Gourdjia
+  {
+    locale: `es`,
+    name: `Liana Gourdjia`,
+    slug_name: `Liana Gourdjia ES`,
+    instrument: `violín`,
+    para_1: `Liana Gourdjia es una violinista nacida en Moscú, formada primero en el Conservatorio Estatal Tchaikovsky y posteriormente en Cleveland y la Indiana University–Bloomington, donde estudió con Jaime Laredo. Fue becaria durante tres años del prestigioso Marlboro Music Festival, colaborando allí con maestros como Mitsuko Uchida y Leon Fleisher. Ha compartido escenario con Martha Argerich y Misha Maisky, y ha desarrollado proyectos creativos junto al violinista Tcha Limberger, explorando nuevos lenguajes entre lo clásico y lo tradicional. Entre sus grabaciones destacan el álbum dedicado a Stravinsky junto a la pianista Katia Skanavi y la Deutsche Radio Philharmonie, así como las sonatas de Charles Ives, registradas con el pianista Matan Porat. Reconocida por su versatilidad y profundidad artística, Gourdjia se ha consolidado como una voz singular en la escena internacional.`,
+    sentences: [
+      `Es profesora de Violín en Musikene, Centro Superior de Música del País Vasco e imparte clases en la École Normale de Musique Alfred Cortot de París. Forma parte del equipo artístico y académico de la JONDE como profesora invitada para su Encuentro de Música de Cámara.`,
+    ],
+    image: `/media/artists/Liana_Gourdjia.webp`,
+    preview_image: `/media/artists/Liana_Gourdjia_PREVIEW.webp`,
+  },
+
+  // English - Liana Gourdjia
+  {
+    locale: `en`,
+    name: `Liana Gourdjia`,
+    slug_name: `Liana Gourdjia EN`,
+    instrument: `violin`,
+    para_1: `Liana Gourdjia, a violinist born in Moscow, trained first at the Tchaikovsky State Conservatory and later in Cleveland and at the Indiana University in Bloomington, where she studied with Jaime Laredo. She was a three-year fellow at the prestigious Marlboro Music Festival, collaborating there with masters such as Mitsuko Uchida and Leon Fleisher. She has shared the stage with Martha Argerich and Misha Maisky, and has developed creative projects with the violinist Tcha Limberger, exploring new languages between the classical and the traditional. Among her recordings, the album dedicated to Stravinsky with pianist Katia Skanavi and the Deutsche Radio Philharmonie stands out, as well as the Charles Ives Sonatas, recorded with pianist Matan Porat. Recognized for her versatility and artistic depth, Gourdjia has established herself as a singular voice on the international scene.`,
+    sentences: [
+      `Liana Gourdjia is a violin professor at Musikene, Conservatory of Music of the Basque Country. She also teaches at the École Normale de Musique “Alfred Cortot” in Paris. Liana Gourdjia is part of the artistic and academic team of JONDE as a guest professor for its chamber-music program.`,
+    ],
+    image: `/media/artists/Liana_Gourdjia.webp`,
+    preview_image: `/media/artists/Liana_Gourdjia_PREVIEW.webp`,
+  },
+
   // Spanish - Lesster Frank Mejías Ercia
   {
     locale: `es`,
@@ -454,8 +482,8 @@ const artists = [
     locale: `es`,
     name: `Robert Kowalski`,
     slug_name: `Robert Kowalski ES`,
-    instrument: `viola`,
-    para_1: `Robert Kowalski es un violista que transita con naturalidad entre diversos mundos musicales. Actúa como solista, músico de cámara y como concertino de la Orchestra della Svizzera Italiana, tres facetas que juntas conforman su estilo artístico inconfundible. Desde 2016 forma parte del prestigioso Karol Szymanowski Quartet, con el que se presenta en los principales escenarios de Europa, América y Asia. Debutó como solista a los once años interpretando el Concierto en mi menor de Mendelssohn con la Filarmónica Báltica de Polonia. Más tarde actuó en salas como el Musikverein de Viena, el Mozarteum de Salzburgo, la Laeiszhalle de Hamburgo y el Carnegie Hall de Nueva York, colaborando con directores como Markus Poschner, Krzysztof Urbański y Robert Treviño. Su grabación del Concierto de Richard Strauss con la Orchestra della Svizzera Italiana y Markus Poschner (CPO, 2018) recibió elogios de la crítica y fue nominada a los International Classical Music Awards 2019.`,
+    instrument: `violín`,
+    para_1: `Robert Kowalski es un violinista que transita con naturalidad entre diversos mundos musicales. Actúa como solista, músico de cámara y como concertino de la Orchestra della Svizzera Italiana, tres facetas que juntas conforman su estilo artístico inconfundible. Desde 2016 forma parte del prestigioso Karol Szymanowski Quartet, con el que se presenta en los principales escenarios de Europa, América y Asia. Debutó como solista a los once años interpretando el Concierto en mi menor de Mendelssohn con la Filarmónica Báltica de Polonia. Más tarde actuó en salas como el Musikverein de Viena, el Mozarteum de Salzburgo, la Laeiszhalle de Hamburgo y el Carnegie Hall de Nueva York, colaborando con directores como Markus Poschner, Krzysztof Urbański y Robert Treviño. Su grabación del Concierto de Richard Strauss con la Orchestra della Svizzera Italiana y Markus Poschner (CPO, 2018) recibió elogios de la crítica y fue nominada a los International Classical Music Awards 2019.`,
     sentences: [
       `Kowalski estudió en Alemania y Suiza con Waleri Gradow y trabajó posteriormente con Kolja Blacher y Ana Chumachenco. También influyeron en su desarrollo musical figuras como Bernard Greenhouse, Ivry Gitlis e Ida Haendel. Completó estudios especializados en Interpretación Musical Histórica en el Mozarteum de Salzburgo con Reinhard Goebel. Toca una viola Jean-Baptiste Vuillaume de 1860, cedida generosamente por la Fondazione per l’Arte e Socialità.`,
     ],
@@ -468,8 +496,8 @@ const artists = [
     locale: `en`,
     name: `Robert Kowalski`,
     slug_name: `Robert Kowalski EN`,
-    instrument: `viola`,
-    para_1: `Robert Kowalski is a violist who moves fluently between several musical worlds. He performs as a soloist, chamber musician, and as concertmaster of the Orchestra della Svizzera italiana, roles that together shape his distinctive artistic voice. Since 2016 he has also been a member of the internationally acclaimed Karol Szymanowski Quartet, appearing on major stages across Europe, the Americas, and Asia. He made his solo debut at the age of eleven, performing Mendelssohn’s Concerto in E minor with the Polish Baltic Philharmonic. Since then he has appeared in venues such as the Wiener Musikverein, Mozarteum Salzburg, Laeiszhalle Hamburg, and Carnegie Hall New York, collaborating with conductors including Markus Poschner, Krzysztof Urbański, and Robert Treviño. His recording of Richard Strauss’s concerto with the Orchestra della Svizzera italiana and Markus Poschner (CPO, 2018) received widespread critical praise and was nominated for the 2019 International Classical Music Awards.`,
+    instrument: `violin`,
+    para_1: `Robert Kowalski is a violinist who moves fluently between several musical worlds. He performs as a soloist, chamber musician, and as concertmaster of the Orchestra della Svizzera italiana, roles that together shape his distinctive artistic voice. Since 2016 he has also been a member of the internationally acclaimed Karol Szymanowski Quartet, appearing on major stages across Europe, the Americas, and Asia. He made his solo debut at the age of eleven, performing Mendelssohn’s Concerto in E minor with the Polish Baltic Philharmonic. Since then he has appeared in venues such as the Wiener Musikverein, Mozarteum Salzburg, Laeiszhalle Hamburg, and Carnegie Hall New York, collaborating with conductors including Markus Poschner, Krzysztof Urbański, and Robert Treviño. His recording of Richard Strauss’s concerto with the Orchestra della Svizzera italiana and Markus Poschner (CPO, 2018) received widespread critical praise and was nominated for the 2019 International Classical Music Awards.`,
     sentences: [
       `Kowalski studied in Germany and Switzerland with Waleri Gradow, later working with Kolja Blacher and Ana Chumachenco. Influential musical figures in his development also included Bernard Greenhouse, Ivry Gitlis, and Ida Haendel. He completed specialized studies in historical performance practice at the Mozarteum Salzburg with Reinhard Goebel. He plays a Jean-Baptiste Vuillaume viola from 1860, generously loaned by the Fondazione per l’Arte e Socialità.`,
     ],
