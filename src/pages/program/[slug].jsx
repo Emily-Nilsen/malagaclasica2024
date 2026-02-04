@@ -43,15 +43,27 @@ const Concert = ({ event }) => {
   const buy_tickets = t('buy_tickets')
   const program = t('program')
 
+  const normalizeLines = (value, delimiter) => {
+    if (Array.isArray(value)) {
+      return value.filter(Boolean).map((entry) => String(entry))
+    }
+    if (typeof value === 'string') {
+      if (!value.includes(delimiter)) {
+        return [value]
+      }
+      return value.split(delimiter).map((entry) => entry.trim())
+    }
+    return []
+  }
+
   // Helper function to render info with two line breaks between songs.
   const renderInfo = (info) => {
-    if (!info.includes(';')) {
-      return info
-    }
-    const songs = info.split(';')
+    const songs = normalizeLines(info, ';')
+    if (songs.length === 0) return null
+    if (songs.length === 1) return songs[0]
     return songs.map((song, idx) => (
       <React.Fragment key={idx}>
-        {song.trim()}
+        {song}
         {idx < songs.length - 1 && (
           <>
             <br />
@@ -64,14 +76,40 @@ const Concert = ({ event }) => {
 
   // Helper function to render titles split by ';' onto separate lines.
   const renderTitle = (title) => {
-    if (!title.includes(';')) return title
-    const parts = title.split(';')
+    const parts = normalizeLines(title, ';')
+    if (parts.length === 0) return null
+    if (parts.length === 1) return parts[0]
     return parts.map((part, idx) => (
       <React.Fragment key={idx}>
-        {part.trim()}
+        {part}
         {idx < parts.length - 1 && <br />}
       </React.Fragment>
     ))
+  }
+
+  const renderArtist = (artist) => {
+    if (typeof artist === 'string') {
+      const parts = artist.split(' ')
+      const lastName = parts.pop()
+      const firstNames = parts.join(' ')
+      return (
+        <>
+          {firstNames}{' '}
+          {lastName ? <span className="font-normal">{lastName}</span> : null}
+        </>
+      )
+    }
+    if (artist && typeof artist === 'object') {
+      const name = artist.name ? String(artist.name) : ''
+      const info = artist.info ? String(artist.info) : ''
+      return (
+        <>
+          {name}
+          {info ? <span className="font-normal"> {info}</span> : null}
+        </>
+      )
+    }
+    return null
   }
 
   // Helper function to render a sentence. If the sentence is all uppercase (and has letters),
@@ -96,9 +134,9 @@ const Concert = ({ event }) => {
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{ duration: 0.6, type: 'fade', ease: 'easeIn' }}
-              className="overflow-hidden aspect-h-2 aspect-w-3 sm:aspect-w-5 2xl:aspect-none xl:pr-16 2xl:absolute 2xl:h-full 2xl:w-1/2 2xl:pr-4"
+              className="aspect-h-2 aspect-w-3 overflow-hidden sm:aspect-w-5 2xl:aspect-none xl:pr-16 2xl:absolute 2xl:h-full 2xl:w-1/2 2xl:pr-4"
             >
-              <div className="object-cover object-center w-full h-full 2xl:h-full 2xl:w-full">
+              <div className="h-full w-full object-cover object-center 2xl:h-full 2xl:w-full">
                 <Image
                   src={event.image}
                   alt={event.title}
@@ -111,11 +149,11 @@ const Concert = ({ event }) => {
             </motion.div>
           </AnimatePresence>
 
-          <div className="max-w-2xl px-4 pt-16 pb-24 mx-auto sm:px-6 sm:pb-32 2xl:grid 2xl:max-w-7xl 2xl:grid-cols-2 2xl:gap-x-8 2xl:px-8 2xl:pt-32">
+          <div className="mx-auto max-w-2xl px-4 pb-24 pt-16 sm:px-6 sm:pb-32 2xl:grid 2xl:max-w-7xl 2xl:grid-cols-2 2xl:gap-x-8 2xl:px-8 2xl:pt-32">
             <div className="2xl:col-start-2">
               <h4
                 id="details-heading"
-                className="italic font-extrabold text-red2025"
+                className="font-extrabold italic text-red2025"
               >
                 {event.date}
               </h4>
@@ -127,7 +165,7 @@ const Concert = ({ event }) => {
               </h4>
 
               {/* Act 1 */}
-              <dl className="grid grid-cols-1 mt-10 text-base gap-x-8 gap-y-10 sm:grid-cols-2">
+              <dl className="mt-10 grid grid-cols-1 gap-x-8 gap-y-10 text-base sm:grid-cols-2">
                 {(event.detailsOne || []).map((detail, i) => (
                   <div className="space-y-4" key={i}>
                     {detail.composers ? (
@@ -159,10 +197,7 @@ const Concert = ({ event }) => {
                           key={j}
                           className="mt-4 font-semibold text-black2025"
                         >
-                          {artist.split(' ').slice(0, -1).join(' ')}{' '}
-                          <span className="font-normal">
-                            {artist.split(' ').pop()}
-                          </span>
+                          {renderArtist(artist)}
                         </dd>
                       ))}
                   </div>
@@ -172,7 +207,7 @@ const Concert = ({ event }) => {
               <hr className="mt-12" />
 
               {/* Act 2 */}
-              <dl className="grid grid-cols-1 mt-10 text-base gap-x-8 gap-y-10 sm:grid-cols-2">
+              <dl className="mt-10 grid grid-cols-1 gap-x-8 gap-y-10 text-base sm:grid-cols-2">
                 {(event.detailsTwo || []).map((detail, i) => (
                   <div className="space-y-4" key={i}>
                     {detail.composers ? (
@@ -214,7 +249,7 @@ const Concert = ({ event }) => {
                 ))}
               </dl>
               {event.detailsTwo && event.detailsTwo.length > 0 ? (
-                <div className="py-10 mt-10 border-t border-red2025/50" />
+                <div className="mt-10 border-t border-red2025/50 py-10" />
               ) : null}
 
               <div>
@@ -237,7 +272,7 @@ const Concert = ({ event }) => {
                       <PricingRegular />
                     )}
 
-                    <div className="flex mt-10">
+                    <div className="mt-10 flex">
                       <a
                         href={event.ticket_url}
                         target="_blank"
@@ -245,17 +280,17 @@ const Concert = ({ event }) => {
                       >
                         <button
                           type="button"
-                          className="inline-flex items-center px-4 py-2 text-sm font-medium transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-red2025 text-black2025 hover:text-white focus:outline-none focus:ring-2 focus:ring-red2025 focus:ring-offset-2"
+                          className="inline-flex items-center rounded-md border border-transparent bg-red2025 px-4 py-2 text-sm font-medium text-black2025 shadow-none transition duration-200 ease-in-out hover:text-white focus:outline-none focus:ring-2 focus:ring-red2025 focus:ring-offset-2"
                         >
                           <TicketIcon
-                            className="w-5 h-5 mr-2 -ml-1"
+                            className="-ml-1 mr-2 h-5 w-5"
                             aria-hidden="true"
                           />
                           {buy_tickets}
                         </button>
                       </a>
                       <Link href="/program" passHref>
-                        <button className="inline-flex justify-center px-4 py-2 ml-6 text-sm font-medium transition duration-200 ease-in-out border border-transparent rounded-md shadow-none bg-grey2025/40 text-black2025 ring-1 ring-grey2025/40 hover:bg-grey2025/20 hover:text-black2025 hover:ring-grey2025/30 focus:outline-none focus:ring-2 focus:ring-grey2025 focus:ring-offset-2">
+                        <button className="ml-6 inline-flex justify-center rounded-md border border-transparent bg-grey2025/40 px-4 py-2 text-sm font-medium text-black2025 shadow-none ring-1 ring-grey2025/40 transition duration-200 ease-in-out hover:bg-grey2025/20 hover:text-black2025 hover:ring-grey2025/30 focus:outline-none focus:ring-2 focus:ring-grey2025 focus:ring-offset-2">
                           {program}
                         </button>
                       </Link>
