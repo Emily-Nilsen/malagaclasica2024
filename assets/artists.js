@@ -191,6 +191,7 @@ const artists = [
       `En la actualidad es profesor en la Orquesta Adda Simfónica Alicante. Toca una viola Timofei Podgorny de 1940 (Krilov).`,
     ],
     image: `/media/artists/Lesster_Frank_Mejias_Erica.jpg`,
+    preview_image: `/media/artists/Lesster_Frank_Mejias_Erica_PREVIEW.jpg`,
   },
 
   // English - Lesster Frank Mejías Ercia
@@ -204,6 +205,7 @@ const artists = [
       `He is currently a member of the Adda Symphony Orchestra in Alicante. Lesster Frank performs on a 1940 Timofei Podgorny (Krilov) viola.`,
     ],
     image: `/media/artists/Lesster_Frank_Mejias_Erica.jpg`,
+    preview_image: `/media/artists/Lesster_Frank_Mejias_Erica_PREVIEW.jpg`,
   },
 
   // Spanish - Benedict Kloeckner

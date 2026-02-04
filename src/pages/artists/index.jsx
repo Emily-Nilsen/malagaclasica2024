@@ -104,7 +104,7 @@ export default function Artists() {
       <Header />
 
       <main className="">
-        <div className="relative px-10 py-20 pb-20 overflow-hidden bg-white sm:px-12 sm:py-20">
+        <div className="relative overflow-hidden bg-white px-10 py-20 pb-20 sm:px-12 sm:py-20">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -114,14 +114,14 @@ export default function Artists() {
                 type: 'fade',
                 ease: 'easeIn',
               }}
-              className="object-cover w-full h-full overflow-hidden"
+              className="h-full w-full overflow-hidden object-cover"
             >
-              <div className="absolute right-0 hidden w-full h-full -mt-10 sm:-mt-0 lg:block">
+              <div className="absolute right-0 -mt-10 hidden h-full w-full sm:-mt-0 lg:block">
                 <Image
                   src="/media/Ocean_water.jpg"
                   alt="Málaga Clásica"
                   unoptimized
-                  className="object-cover object-center w-full h-full"
+                  className="h-full w-full object-cover object-center"
                   width={500}
                   height={750}
                 />
@@ -132,20 +132,20 @@ export default function Artists() {
                   height={1564}
                   src="/media/Ocean_water_square.jpg"
                   alt="Talentos"
-                  className="object-cover object-center w-full h-full"
+                  className="h-full w-full object-cover object-center"
                   unoptimized
                   priority
                 />
               </div>
             </motion.div>
           </div>
-          <div className="relative px-0 py-24 mx-auto max-w-7xl sm:px-6 sm:py-32 lg:px-8">
-            <div className="px-3 -m-10 text-left bg-t -mb-80 pb-60 pt-28 sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48">
+          <div className="relative mx-auto max-w-7xl px-0 py-24 sm:px-6 sm:py-32 lg:px-8">
+            <div className="bg-t -m-10 -mb-80 px-3 pb-60 pt-28 text-left sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48">
               <motion.h4
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="block text-3xl font-extrabold tracking-tight uppercase text-black2025 sm:text-4xl lg:text-5xl"
+                className="block text-3xl font-extrabold uppercase tracking-tight text-black2025 sm:text-4xl lg:text-5xl"
               >
                 {locale === 'en'
                   ? festivalArtists.map((letter, i) => (
@@ -173,10 +173,10 @@ export default function Artists() {
           </div>
         </div>
         <div className="bg-white">
-          <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+          <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-24">
             <div className="space-y-6 sm:space-y-12">
               <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-                <h4 className="max-w-sm text-4xl font-extrabold leading-none tracking-tight uppercase text-red2025 sm:max-w-lg sm:text-5xl md:text-6xl">
+                <h4 className="max-w-sm text-4xl font-extrabold uppercase leading-none tracking-tight text-red2025 sm:max-w-lg sm:text-5xl md:text-6xl">
                   {artistsTitle}
                 </h4>
                 <p className="max-w-sm text-xl text-black2025 sm:max-w-md">
@@ -185,7 +185,7 @@ export default function Artists() {
               </div>
               <ul
                 role="list"
-                className="pb-10 space-y-0 group sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-6 sm:space-y-0 sm:pb-12 md:pb-16 lg:grid-cols-3 lg:gap-x-8"
+                className="group space-y-0 pb-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-6 sm:space-y-0 sm:pb-12 md:pb-16 lg:grid-cols-3 lg:gap-x-8"
               >
                 {artists
                   .filter((p) => p.locale === locale)
@@ -207,17 +207,17 @@ export default function Artists() {
                             delay: i * 0.15,
                             ease: 'easeInOut',
                           }}
-                          className="p-6 space-y-4 transition duration-300 ease-in-out delay-75 rounded-lg cursor-pointer group hover:bg-lightOrange2025"
+                          className="group cursor-pointer space-y-4 rounded-lg p-6 transition delay-75 duration-300 ease-in-out hover:bg-lightOrange2025"
                         >
                           <div className="aspect-h-2 aspect-w-3">
-                            <div className="object-cover overflow-hidden rounded-lg shadow-none">
+                            <div className="overflow-hidden rounded-lg object-cover shadow-none">
                               <Image
                                 width={2000}
                                 height={2000}
-                                className="object-cover object-center w-full h-full"
+                                className="h-full w-full object-cover object-center"
                                 unoptimized
                                 objectPosition={artist.image_position}
-                                src={artist.image}
+                                src={artist.preview_image || artist.image}
                                 alt={artist.name}
                               />
                             </div>
