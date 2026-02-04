@@ -158,12 +158,12 @@ const artists = [
     name: `Eleanor Kendra James`,
     slug_name: `Eleanor Kendra James ES`,
     instrument: `viola`,
-    para_1: `Eleanor Kendra James es una destacada violista nacida en Vancouver y actualmente radicada en Wiesbaden, Alemania.`,
+    para_1: `La violista Eleanor Kendra James, nacida en Vancouver, actualmente reside en Wiesbaden, Alemania. Fue galardonada con el “Premio Primrose” en el Concurso Internacional de Viola Primrose de 2014 y nombrada Joven Artista del Año en 2015 por la Canadian Broadcasting Corporation.`,
     sentences: [
-      `Fue galardonada con el Premio Primrose en el Concurso Internacional de Viola Primrose de 2014 y nombrada Joven Artista del Año en 2015 por la Canadian Broadcasting Corporation. Ha participado en festivales de música de cámara como el Festspiele Mecklenburg-Vorpommern, Krzyżowa-Music, Young Euro Classic Berlin, Schleswig Holstein Musik Festival, Prussia Cove y el Menuhin Festival Gstaad. Además, estudió en The Colburn School con Paul Coletti, en la Universidad de Yale con Ettore Causa y finalizó sus estudios con Nils Mönkemeyer en la Hochschule für Musik und Theater München.`,
-      `Desde 2020, es la violista principal de la Orquesta Estatal de Hesse en Wiesbaden y es invitada regularmente en el mismo puesto por la Orquesta de la Radio de Alemania Occidental, la Orquesta de la Radio de Hesse, la Orquesta Sinfónica de la Radio Sueca y la Deutsche Oper Berlin.`,
+      `Ha participado en festivales de música de cámara como el Festspiele Mecklenburg-Vorpommern, Krzyżowa-Music, Young Euro Classic Berlin, Schleswig Holstein Musik Festival, Prussia Cove y el Menuhin Festival Gstaad. Estudió en The Colburn School con Paul Coletti, en la Universidad de Yale con Ettore Causa y finalizó sus estudios con Nils Mönkemeyer en la Hochschule für Musik und Theater München. Desde 2020, es la violista principal de la Orquesta Estatal de Hesse en Wiesbaden y es invitada regularmente en el mismo puesto por la Orquesta de la Radio de Alemania Occidental, la Orquesta de la Radio de Hesse, la Orquesta Sinfónica de la Radio Sueca y la Deutsche Oper Berlin.`,
     ],
     image: `/media/artists/Eleanor_Kendra_James.webp`,
+    preview_image: `/media/artists/Eleanor_Kendra_James.webp`,
   },
 
   // English - Eleanor Kendra James
@@ -172,12 +172,12 @@ const artists = [
     name: `Eleanor Kendra James`,
     slug_name: `Eleanor Kendra James EN`,
     instrument: `viola`,
-    para_1: `Vancouver-born violist Eleanor Kendra James is currently based in Wiesbaden, Germany.`,
+    para_1: `Vancouver-born violist Eleanor Kendra James is currently based in Wiesbaden, Germany. She was awarded the “Primrose Prize” at the 2014 Primrose International Viola Competition and was named a Young Artist of the Year in 2015 by the Canadian Broadcasting Corporation.`,
     sentences: [
-      `She was awarded the “Primrose Prize” at the 2014 Primrose International Viola Competition and was named a Young Artist of the Year in 2015 by the Canadian Broadcasting Corporation. Kendra has appeared at chamber music festivals including Festspiele Mecklenburg-Vorpommern, Krzyżowa-Music, Young Euro Classic Berlin, Schleswig Holstein Musik Festival, Prussia Cove, and Menuhin Festival Gstaad. She studied at The Colburn School with Paul Coletti, at Yale University with Ettore Causa, and finished her studies with Nils Mönkemeyer at the Hochschule für Musik und Theater München.`,
-      `Since 2020, she has been Principal Violist of the Hessian State Orchestra in Wiesbaden, and is a regular guest in the same role with the West German Radio Orchestra, Hessian Radio Orchestra, Swedish Radio Symphony Orchestra, and the Deutsche Oper Berlin.`,
+      `Kendra has appeared at Chamber Music Festivals including Festspiele Mecklenburg-Vorpommern, Krzyżowa-Music, Young Euro Classic Berlin, Schleswig Holstein Musik Festival, Prussia Cove, and Menuhin Festival Gstaad. Kendra studied at The Colburn School with Paul Coletti, at Yale University with Ettore Causa, and finished her studies with Nils Mönkemeyer at the Hochschule für Musik und Theater München. Since 2020 Kendra has been Principal Violist of the Hessian State Orchestra in Wiesbaden, and is a regular guest in the same role with the West German Radio Orchestra, Hessian Radio Orchestra, Swedish Radio Symphony Orchestra and the Deutsche Oper Berlin.`,
     ],
     image: `/media/artists/Eleanor_Kendra_James.webp`,
+    preview_image: `/media/artists/Eleanor_Kendra_James.webp`,
   },
 
   // Spanish - Liana Gourdjia
