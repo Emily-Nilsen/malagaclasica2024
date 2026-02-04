@@ -534,7 +534,7 @@ const events = [
     locale: 'es',
     date: `28 de mayo, 2026`,
     price: `regular`,
-    title: `NUEVA YORK / NEW YORK`,
+    title: `NUEVA YORK`,
     location: `Teatro Echegaray, 20:00 h.`,
     sentence: [
       `Como afirma William Bolcom, “Nueva York, donde las luces brillan” ha representado un lugar de oportunidad y nuevos comienzos para muchos. La mezcla de artistas y la variedad de estilos musicales que uno podía encontrar simultáneamente en esta ciudad resulta asombrosa. Tanto Serguéi Rachmaninov como Béla Bartók pasaron la última parte de su vida en esta metrópolis, aferrándose a su propio estilo distintivo de composición, evocador de sus orígenes.`,
@@ -589,7 +589,7 @@ const events = [
     locale: 'es',
     date: `29 de mayo, 2026`,
     price: `regular`,
-    title: `PARÍS / PARIS`,
+    title: `PARÍS`,
     location: `Teatro Echegaray, 20:00 h.`,
     sentence: [
       `Caminar por París es absorber la creatividad de la ciudad con todos los sentidos: el destello de la luz sobre el Sena, el murmullo de las conversaciones en sus cafés, la grandeza de Notre Dame o los teatros de ópera y las salas de conciertos. Su rica vida artística ha moldeado la evolución de muchos estilos y compositores influyentes.`,
@@ -663,7 +663,7 @@ const events = [
     locale: 'es',
     date: `30 de mayo, 2026`,
     price: `regular`,
-    title: `VIENA / VIENNA`,
+    title: `VIENA`,
     location: `Teatro Echegaray, 20:00 h.`,
     sentence: [
       `Viena ocupa un lugar único y central en la historia de la música clásica. Durante el apogeo del Imperio de los Habsburgo, la ciudad no solo era el corazón político y cultural de Europa central, sino también la cuna de la era Clásica en la música. Como los gobernantes Habsburgo y la aristocracia vienesa eran grandes mecenas de las artes, crearon un entorno donde los compositores podían prosperar y Viena se convirtió en un imán para el talento musical de toda Europa.`,
