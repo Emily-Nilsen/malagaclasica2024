@@ -450,36 +450,32 @@ const artists = [
     image: `/media/artists/Rafael_García.webp`,
   },
   // Robert Kowalski
-  // {
-  //   locale: `es`,
-  //   name: `Robert Kowalski`,
-  //   slug_name: `Robert Kowalski ES`,
-  //   instrument: `violín`,
-  //   para_1: `El primer concertino de la Orchestra della Svizzera italiana cautiva al público con un sonido único e intenso y una musicalidad que es a la vez vivaz y elegante.`,
-  //   sentences: [
-  //     `Comenzó a estudiar el violín con siete años y solo cuatro años después interpretó el concierto para violín de Mendelssohn con la Orquesta Filarmónica del Báltico. Aparece regularmente como solista y músico de cámara en festivales de música en Europa, Estados Unidos y Asia, actuando en prestigiosas salas de conciertos como el Wiener Musikverein, el Mozarteum de Salzburgo, el Laeiszhalle (Hamburgo) y el Carnegie Hall (Nueva York).`,
-  //     `Ha ganado premios en concursos internacionales, incluido el Concurso Internacional de Personalidades Musicales Aleksander Tansman en Polonia, el Premio a Artistas Jóvenes del Ministerio de Cultura de Polonia y el Premio a Creadores Jóvenes del alcalde de su ciudad natal de Gdansk. `,
-  //     `Robert estudió en Alemania y Suiza con Waleri Gradow, y más tarde con Kolja Blacher y Ana Chumachenco. Su desarrollo musical también estuvo profundamente influenciado por Bernard Greenhouse, Ivry Gitlis e Ida Haendel y ha trabajado con notables musicos como Vladimir Ashkenazy, Reinhard Goebel, Martha Argerich y Julian Rachlin.`,
-  //     `Su grabación del concierto para violín de Richard Strauss con la Orchestra della Svizzera Italiana y Markus Poschner, lanzada en 2018 por el sello CPO, obtuvo elogios de la crítica en toda Europa y la nominación a los International Classical Music Awards 2019. En 2016 se unió a la mundialmente reconocida Cuarteto Karol Szymanowski. Toca un violín J. B. Vuillaume de 1860, cedido generosamente por la Fondazione per l'Arte e Socialità.`,
-  //   ],
-  //   image: `/media/artists/Robert_Kowalski_g93mwg.webp`,
-  // },
+  {
+    locale: `es`,
+    name: `Robert Kowalski`,
+    slug_name: `Robert Kowalski ES`,
+    instrument: `viola`,
+    para_1: `Robert Kowalski es un violista que transita con naturalidad entre diversos mundos musicales. Actúa como solista, músico de cámara y como concertino de la Orchestra della Svizzera Italiana, tres facetas que juntas conforman su estilo artístico inconfundible. Desde 2016 forma parte del prestigioso Karol Szymanowski Quartet, con el que se presenta en los principales escenarios de Europa, América y Asia. Debutó como solista a los once años interpretando el Concierto en mi menor de Mendelssohn con la Filarmónica Báltica de Polonia. Más tarde actuó en salas como el Musikverein de Viena, el Mozarteum de Salzburgo, la Laeiszhalle de Hamburgo y el Carnegie Hall de Nueva York, colaborando con directores como Markus Poschner, Krzysztof Urbański y Robert Treviño. Su grabación del Concierto de Richard Strauss con la Orchestra della Svizzera Italiana y Markus Poschner (CPO, 2018) recibió elogios de la crítica y fue nominada a los International Classical Music Awards 2019.`,
+    sentences: [
+      `Kowalski estudió en Alemania y Suiza con Waleri Gradow y trabajó posteriormente con Kolja Blacher y Ana Chumachenco. También influyeron en su desarrollo musical figuras como Bernard Greenhouse, Ivry Gitlis e Ida Haendel. Completó estudios especializados en Interpretación Musical Histórica en el Mozarteum de Salzburgo con Reinhard Goebel. Toca una viola Jean-Baptiste Vuillaume de 1860, cedida generosamente por la Fondazione per l’Arte e Socialità.`,
+    ],
+    image: `/media/artists/Robert_Kowalski.webp`,
+    preview_image: `/media/artists/Robert_Kowalski_PREVIEW.webp`,
+  },
 
   // English - Robert Kowalski
-  // {
-  //   locale: `en`,
-  //   name: `Robert Kowalski`,
-  //   slug_name: `Robert Kowalski EN`,
-  //   instrument: `violin`,
-  //   para_1: `The first concertmaster of the Orchestra della Svizzera italiana captivates audiences with a unique, intense sound and a musicality that is at once lively and elegant.`,
-  //   sentences: [
-  //     `He began studying the violin aged seven, and only four years later performed Mendelssohn’s Violin Concerto with the Baltic Philharmonic Orchestra. He appears regularly as a soloist and chamber musician at music festivals in Europe, the USA and Asia, performing in prestigious concert venues such as the Wiener Musikverein, Mozarteum Salzburg, Laeiszhalle (Hamburg) and Carnegie Hall (New York).`,
-  //     `He has won prizes in international competitions, including the Aleksander Tansman International Competition of Musical Personalities in Poland, Young Artists Award of the Polish Ministry of Culture, and Young Creators Award from the mayor of his native city of Gdansk.`,
-  //     `Robert studied in Germany and Switzerland with Waleri Gradow, and later on with Kolja Blacher and Ana Chumachenco. His musical development was also profoundly influenced by Bernard Greenhouse, Ivry Gitlis and Ida Haendel and he has worked with remarkable musicians such as Vladimir Ashkenazy, Reinhard Goebel, Martha Argerich and Julian Rachlin.`,
-  //     `His recording of the violin concerto by Richard Strauss with the Orchestra della Svizzera Italiana and Markus Poschner, released in 2018 by the CPO label, earned critical acclaim throughout Europe and the nomination for International Classical Music Awards 2019. In 2016 he joined the world-renowned Karol Szymanowski Quartet. He plays a J. B. Vuillaume violin from 1860, on generous loan from the Fondazione per l'Arte e Socialità.`,
-  //   ],
-  //   image: `/media/artists/Robert_Kowalski_g93mwg.webp`,
-  // },
+  {
+    locale: `en`,
+    name: `Robert Kowalski`,
+    slug_name: `Robert Kowalski EN`,
+    instrument: `viola`,
+    para_1: `Robert Kowalski is a violist who moves fluently between several musical worlds. He performs as a soloist, chamber musician, and as concertmaster of the Orchestra della Svizzera italiana, roles that together shape his distinctive artistic voice. Since 2016 he has also been a member of the internationally acclaimed Karol Szymanowski Quartet, appearing on major stages across Europe, the Americas, and Asia. He made his solo debut at the age of eleven, performing Mendelssohn’s Concerto in E minor with the Polish Baltic Philharmonic. Since then he has appeared in venues such as the Wiener Musikverein, Mozarteum Salzburg, Laeiszhalle Hamburg, and Carnegie Hall New York, collaborating with conductors including Markus Poschner, Krzysztof Urbański, and Robert Treviño. His recording of Richard Strauss’s concerto with the Orchestra della Svizzera italiana and Markus Poschner (CPO, 2018) received widespread critical praise and was nominated for the 2019 International Classical Music Awards.`,
+    sentences: [
+      `Kowalski studied in Germany and Switzerland with Waleri Gradow, later working with Kolja Blacher and Ana Chumachenco. Influential musical figures in his development also included Bernard Greenhouse, Ivry Gitlis, and Ida Haendel. He completed specialized studies in historical performance practice at the Mozarteum Salzburg with Reinhard Goebel. He plays a Jean-Baptiste Vuillaume viola from 1860, generously loaned by the Fondazione per l’Arte e Socialità.`,
+    ],
+    image: `/media/artists/Robert_Kowalski.webp`,
+    preview_image: `/media/artists/Robert_Kowalski_PREVIEW.webp`,
+  },
 
   // Joanna Wronko
   // {
