@@ -45,44 +45,44 @@ export default function Program() {
   const { locale } = useRouter()
   const elNuovoMundo = [
     '2',
-    '6',
+    '7',
     '/',
     '0',
     '5',
     '_',
     '_',
-    '0',
+    '3',
     '1',
     '/',
     '0',
-    '6',
+    '5',
     ' ',
     ' ',
     '2',
     '0',
     '2',
-    '5',
+    '6',
   ]
 
   const theNewWorld = [
     '2',
-    '6',
+    '7',
     '/',
     '0',
     '5',
     '_',
     '_',
-    '0',
+    '3',
     '1',
     '/',
     '0',
-    '6',
+    '5',
     ' ',
     ' ',
     '2',
     '0',
     '2',
-    '5',
+    '6',
   ]
 
   // Helper function to render titles that contain ";" on separate lines.
@@ -117,7 +117,7 @@ export default function Program() {
       </Head>
       <Header />
       <main>
-        <div className="relative px-10 py-20 pb-20 overflow-hidden bg-lightOrange2025 sm:px-12 sm:py-20">
+        <div className="relative overflow-hidden bg-lightOrange2025 px-10 py-20 pb-20 sm:px-12 sm:py-20">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -127,27 +127,27 @@ export default function Program() {
                 type: 'fade',
                 ease: 'easeIn',
               }}
-              className="object-cover w-full h-full overflow-hidden"
+              className="h-full w-full overflow-hidden object-cover"
             >
-              <div className="absolute right-0 w-full h-full -mt-10 sm:-mt-0">
+              <div className="absolute right-0 -mt-10 h-full w-full sm:-mt-0">
                 <Image
                   src="/media/Ocean_water.jpg"
                   alt="Málaga Clásica"
                   unoptimized
-                  className="object-cover object-center w-full h-full"
+                  className="h-full w-full object-cover object-center"
                   width={500}
                   height={750}
                 />
               </div>
             </motion.div>
           </div>
-          <div className="relative px-0 py-24 mx-auto max-w-7xl sm:px-6 sm:py-32 lg:px-8">
-            <div className="px-3 -m-10 text-left bg-t -mb-80 pb-60 pt-28 sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48">
+          <div className="relative mx-auto max-w-7xl px-0 py-24 sm:px-6 sm:py-32 lg:px-8">
+            <div className="bg-t -m-10 -mb-80 px-3 pb-60 pt-28 text-left sm:-mb-28 sm:w-fit sm:px-9 sm:pb-10 sm:pt-48">
               <motion.h4
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="block text-3xl font-extrabold tracking-tight uppercase text-black2025 sm:text-4xl lg:text-5xl"
+                className="block text-3xl font-extrabold uppercase tracking-tight text-black2025 sm:text-4xl lg:text-5xl"
               >
                 {locale === 'en'
                   ? theNewWorld.map((letter, i) => (
@@ -165,17 +165,17 @@ export default function Program() {
           </div>
         </div>
 
-        <div className="px-4 pt-16 pb-20 bg-lightOrange2025 sm:px-6 lg:px-8 lg:pb-28 lg:pt-24">
-          <div className="relative max-w-lg mx-auto divide-y-2 divide-red2025/20 lg:max-w-7xl">
+        <div className="bg-lightOrange2025 px-4 pb-20 pt-16 sm:px-6 lg:px-8 lg:pb-28 lg:pt-24">
+          <div className="relative mx-auto max-w-lg divide-y-2 divide-red2025/20 lg:max-w-7xl">
             <div>
-              <h4 className="text-4xl font-extrabold tracking-tight uppercase text-red2025 sm:text-5xl md:text-6xl">
+              <h4 className="text-4xl font-extrabold uppercase tracking-tight text-red2025 sm:text-5xl md:text-6xl">
                 {program_title}
               </h4>
               <div className="mt-3 sm:mt-4 lg:grid lg:grid-cols-2 lg:items-center lg:gap-5">
                 <p className="text-xl text-black2025">{program_subtitle}</p>
               </div>
             </div>
-            <div className="grid gap-6 pt-10 mt-6 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-8">
+            <div className="mt-6 grid gap-6 pt-10 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-8">
               {events
                 .filter((p) => p.locale === locale)
                 .map((event, i) => (
@@ -185,14 +185,14 @@ export default function Program() {
                     passHref
                   >
                     <div
-                      className="p-6 transition duration-300 ease-in-out bg-white rounded-md cursor-pointer group hover:bg-orange2025"
+                      className="group cursor-pointer rounded-md bg-white p-6 transition duration-300 ease-in-out hover:bg-orange2025"
                       key={i}
                     >
-                      <p className="text-sm font-semibold group-hover:black2025/90 text-black2025/80">
+                      <p className="group-hover:black2025/90 text-sm font-semibold text-black2025/80">
                         <time dateTime={event.datetime}>{event.date}</time>
                       </p>
-                      <div className="block mt-2">
-                        <h4 className="text-xl font-extrabold group-hover:black2025 text-black2025">
+                      <div className="mt-2 block">
+                        <h4 className="group-hover:black2025 text-xl font-extrabold text-black2025">
                           {renderTitle(event.title)}
                         </h4>
                       </div>
