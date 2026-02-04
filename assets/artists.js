@@ -180,6 +180,32 @@ const artists = [
     image: `/media/artists/Eleanor_Kendra_James.webp`,
   },
 
+  // Spanish - Lesster Frank Mejías Ercia
+  {
+    locale: `es`,
+    name: `Lesster Frank Mejías Ercia`,
+    slug_name: `Lesster Frank Mejías Ercia ES`,
+    instrument: `viola`,
+    para_1: `Nacido en Cienfuegos (Cuba), Lesster Frank Mejías Ercia inició sus estudios a los seis años y se formó en el Conservatorio Ignacio Cervantes, la Escuela Nacional de Arte de La Habana y el Real Conservatorio Superior de Música de Madrid, donde se graduó con Matrícula de Honor. Amplió su formación en el Instituto Internacional de Música de Cámara de Madrid (Escuela Reina Sofía). Ha tocado en orquestas como Orquesta Sinfónica de la Región de Murcia, Orquesta Nacional de España, Orquesta y Coro de Radio Televisión Española, Orquesta Sinfónica de Barcelona y Nacional de Cataluña, Franz Schubert Filharmonia, Utopia Orquesta, entre otras, compaginado este trabajo con una intensa actividad camerística.`,
+    sentences: [
+      `En la actualidad es profesor en la Orquesta Adda Simfónica Alicante. Toca una viola Timofei Podgorny de 1940 (Krilov).`,
+    ],
+    image: `/media/artists/Lesster_Frank_Mejias_Erica.jpg`,
+  },
+
+  // English - Lesster Frank Mejías Ercia
+  {
+    locale: `en`,
+    name: `Lesster Frank Mejías Ercia`,
+    slug_name: `Lesster Frank Mejías Ercia EN`,
+    instrument: `viola`,
+    para_1: `Born in Cienfuegos (Cuba), Lesster Frank Mejías Ercia began his studies at the age of six and trained at the Ignacio Cervantes Conservatory, the National School of Arts in Havana, and later at the Royal Conservatory of Music in Madrid, where he graduated with highest honors. He furthered his training at the International Institute of Chamber Music of Madrid (Reina Sofía School of Music). He has played in orchestras such as the Murcia Region Symphony Orchestra, the Spanish National Orchestra, the Spanish Radio and Television Orchestra and Choir, the Barcelona and Catalonia National Symphony Orchestra, the Franz Schubert Filarmonia, and Utopia Orquesta, among others, combining this work with an active chamber-music career.`,
+    sentences: [
+      `He is currently a member of the Adda Symphony Orchestra in Alicante. Lesster Frank performs on a 1940 Timofei Podgorny (Krilov) viola.`,
+    ],
+    image: `/media/artists/Lesster_Frank_Mejias_Erica.jpg`,
+  },
+
   // Spanish - Benedict Kloeckner
   {
     locale: `es`,
