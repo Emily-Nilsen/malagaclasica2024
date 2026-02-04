@@ -13,10 +13,10 @@ import { motion, AnimatePresence } from 'framer-motion'
 import useTranslation from 'next-translate/useTranslation'
 import { TicketIcon } from '@heroicons/react/24/solid'
 
-export const getStaticProps = async ({ params }) => {
+export const getStaticProps = async ({ params, locale }) => {
   const slugify = require('slugify')
   const eventslist = events.filter(
-    (event) => slugify(event.title) === params.slug
+    (event) => slugify(event.title) === params.slug && event.locale === locale
   )
   return {
     props: {
