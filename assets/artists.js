@@ -378,7 +378,8 @@ const artists = [
       `Ha actuado en distinguidas salas de conciertos de todo el mundo; entre ellas, el Ateneo Rumano (Bucarest), Teatro Mariinsky (San Petersburgo), Kennedy Center (Washington), Carnegie Hall y Metropolitan Opera (Nueva York), Southbank Center (Londres), Salle Cortot (París), Schumann Haus (Leipzig), Novel Hall (Taipei), Sala Silvestre Revueltas (Ciudad de México) y, como solista, con orquestas como la Orquesta del Teatro Mariinsky, Orquesta RTÉ de Dublín, Orquesta Sinfónica Nacional de Colombia y de México, Orquesta Filarmónica de Bucarest George Enescu, Orquestas de Radio de Bucarest y Praga, Orquesta de Radio y Televisión y Orquesta Nacional de España.`,
       `Formado desde joven por el músico Salvador Chuliá, los pianistas María Teresa Naranjo y Ana Guijarro en España, y, posteriormente, en Nueva York por los pianistas Nina Svetlanova y Horacio Gutiérrez, ha podido mostrar su arte musical como pianista de recitales, compositor, director de orquesta, improvisador, músico de cámara y solista. Ha sido galardonado dos veces (2021 y 2023) con el prestigioso Premio Internacional de Música Clásica (ICMA) y fue nombrado Oficial de la Orden del Mérito Cultural de la República de Rumania (2019). En 2024 publicó un disco con la Orquesta Sinfónica de Castilla y León para el sello IBS Classical, inter- pretando el Concierto para piano no.2 de Prokoviev y el Concierto para piano no.3 de Rachmaninov. En 2025 editará un doble CD de las Mazurcas de Chopin para el mismo sello, así como The age of anxiety de Bernstein con la Orquesta ADDA Simfónica de Alicante para el sello Aria Classics.`,
     ],
-    image: `/media/artists/Josu_de_Solaun.webp`,
+    image: `/media/artists/Josu_De_Solaun.webp`,
+    preview_image: `/media/artists/Josu_De_Solaun_PREVIEW.webp`,
   },
 
   // English - Josu De Solaun
@@ -392,7 +393,8 @@ const artists = [
       `Spanish-American pianist Josu de Solaun has won the first prizes at both the Jose Iturbi (2006) and George Enescu (2014) international piano competitions. He has performed, in distinguished concert halls around the world, including the Romanian Athenaeum (Bucharest), Mariinsky Theater (St. Petersburg), Kennedy Center (Washington), Carnegie Hall and Metropolitan Opera (New York), Southbank Center (London), Salle Cortot (Paris), Schumann Haus (Leipzig), Novel Hall (Taipei), Sala Silvestre Revueltas (Mexico City), and as a soloist with orchestra like the Mariinsky Theatre Orchestra, RTÉ Orchestra of Du- blin, National Symphony Orchestra of Colombia and of Mexico, George Enescu Philharmonic Orchestra of Bucharest, Radio Orchestras of Bucharest and Prague, Radio and Television Orchestra and National Orchestra of Spain.`,
       `Trained from a young age by musician Salvador Chuliá, pianists María Teresa Naranjo and Ana Guijarro in Spain, and later in New York by pianists Nina Svetlanova and Horacio Gutiérrez, he has been able to showcase his musical artistry as a recital pianist, composer, conductor, improviser, chamber musician and soloist. He was twice awarded (in 2021 and 2023) the prestigious International Classical Music Awards (ICMA), and was named Officer of the Order of Cultural Merit of the Republic of Romania (2019). In 2024 he released an album with the Castilla y León Symphony Orchestra for the IBS Classical label, playing Prokofiev’s Piano concert no.2 and Rachmaninov’s Piano concerto no.3. In 2025 he will release a double-CD of Chopin’s Mazurkas for the same label, as well as Bernstein’s The Age of Anxiety with the ADDA Simfónica Orchestra of Alicante for the Aria Classics label.`,
     ],
-    image: `/media/artists/Josu_de_Solaun.webp`,
+    image: `/media/artists/Josu_De_Solaun.webp`,
+    preview_image: `/media/artists/Josu_De_Solaun_PREVIEW.webp`,
   },
 
   // Susanne Hvinden Hals
