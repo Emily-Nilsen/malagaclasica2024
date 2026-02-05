@@ -770,34 +770,36 @@ const artists = [
   // },
 
   // Adolfo Gutiérrez
-  // {
-  //   locale: `es`,
-  //   name: `Adolfo Gutiérrez`,
-  //   slug_name: `Adolfo Gutiérrez ES`,
-  //   instrument: `violonchelo`,
-  //   para_1: `Adolfo Gutiérrez, ganador del premio Ravel 2012, debutó con la London Symphony Orchestra en el prestigioso ciclo Ibermusica, en Madrid, interpretando el Concierto para violonchelo de Elgar y enseguida fue invitado a actuar con la Royal Philharmonic Orchestra (Charles Dutoit) , Orquesta Nacional de España (Ton Koopman) y en el Festival Mendelssohn en la Gewandhaus de Leipzig.`,
-  //   sentences: [
-  //     `Entre sus compromisos caben a destacar actuaciones como solista con la Orquesta Filarmónica de Londres (Vladimir Jurowski), la Orquesta Nacional de España (Krzysztof Penderecki), la Sinfónica de Fort Worth bajo la dirección de Miguel Harth-Bedoya, la Orquesta Sinfónica Nacional de Colombia y actuaciones en el Festival de Ravinia y el Festival de Verano de la Sinfónica de Montreal.`,
-  //     `Adolfo ha actuado en escenarios importantes como el Concertgebouw de Ámsterdam, el Auditorio Nacional de Música de Madrid, el Ford Theatre de Los Ángeles, l'Auditori y Palau de la Música de Barcelona, ​​la Sala Bulgaria de Sofía o el Palacio Euskalduna de Bilbao, y ha colaborado con directores como como Edward Gardner, José Ramón Encinar, Roberto Minczuk, Pablo González, Anu Tali y Antoni Ros-Marbà.`,
-  //     `Adolfo ha grabado Barber, Rachmaninov, Piazzolla y el ciclo completo de las suites para violonchelo de J.S. Bach con el sello Verso. Su grabación reciente de las sonatas completas de Beethoven con el pianista Christopher Park ha recibido excelentes críticas. Adolfo toca un Francesco Ruggieri, hecho a mano en Cremona en 1673.`,
-  //   ],
-  //   image: `/media/artists/adolfo-gutierrez_fkv4oe.webp`,
-  // },
+  {
+    locale: `es`,
+    name: `Adolfo Gutiérrez`,
+    slug_name: `Adolfo Gutiérrez ES`,
+    instrument: `violonchelo`,
+    para_1: `Adolfo Gutiérrez, ganador del premio Ravel 2012, debutó con la London Symphony Orchestra en el prestigioso ciclo Ibermusica, en Madrid, interpretando el Concierto para violonchelo de Elgar y enseguida fue invitado a actuar con la Royal Philharmonic Orchestra (Charles Dutoit) , Orquesta Nacional de España (Ton Koopman) y en el Festival Mendelssohn en la Gewandhaus de Leipzig.`,
+    sentences: [
+      `Entre sus compromisos caben a destacar actuaciones como solista con la Orquesta Filarmónica de Londres (Vladimir Jurowski), la Orquesta Nacional de España (Krzysztof Penderecki), la Sinfónica de Fort Worth bajo la dirección de Miguel Harth-Bedoya, la Orquesta Sinfónica Nacional de Colombia y actuaciones en el Festival de Ravinia y el Festival de Verano de la Sinfónica de Montreal.`,
+      `Adolfo ha actuado en escenarios importantes como el Concertgebouw de Ámsterdam, el Auditorio Nacional de Música de Madrid, el Ford Theatre de Los Ángeles, l'Auditori y Palau de la Música de Barcelona, ​​la Sala Bulgaria de Sofía o el Palacio Euskalduna de Bilbao, y ha colaborado con directores como como Edward Gardner, José Ramón Encinar, Roberto Minczuk, Pablo González, Anu Tali y Antoni Ros-Marbà.`,
+      `Adolfo ha grabado Barber, Rachmaninov, Piazzolla y el ciclo completo de las suites para violonchelo de J.S. Bach con el sello Verso. Su grabación reciente de las sonatas completas de Beethoven con el pianista Christopher Park ha recibido excelentes críticas. Adolfo toca un Francesco Ruggieri, hecho a mano en Cremona en 1673.`,
+    ],
+    image: `/media/artists/Adolfo_Gutierrez.webp`,
+    preview_image: `/media/artists/Adolfo_Gutierrez_PREVIEW.webp`,
+  },
 
   // English - Adolfo Gutiérrez
-  // {
-  //   locale: `en`,
-  //   name: `Adolfo Gutiérrez`,
-  //   slug_name: `Adolfo Gutiérrez EN`,
-  //   instrument: `cello`,
-  //   para_1: `Adolfo Gutiérrez, the winner of the Ravel prize 2012, made his debut with the London Symphony Orchestra in the prestigious Ibermusica series, in Madrid, performing Elgar’s Cello Concerto and following was invited to perform with the Royal Philharmonic Orchestra (Charles Dutoit), Orquesta Nacional de España (Ton Koopman) and at the Mendelssohn Festival at Leipzig’s Gewandhaus.`,
-  //   sentences: [
-  //     `Current highlights include performances as a soloist with the London Philharmonic Orchestra (Vladimir Jurowski), Orquesta Nacional de España (Krzysztof Penderecki), Fort Worth Symphony under Miguel Harth-Bedoya, Orquesta Sinfónica Nacional de Colombia and performances at the Ravinia Festival and Montreal Symphony’s Summer Festival.`,
-  //     `Adolfo has performed at major venues such as Amsterdam’s Concertgebouw, Auditorio Nacional de Música in Madrid, Ford Theatre in Los Angeles, l’Auditori and Palau de la Música in Barcelona, Bulgaria Hall in Sofia and Palacio Euskalduna in Bilbao, and collaborated with conductors such as Edward Gardner, José Ramón Encinar, Roberto Minczuk, Pablo González, Anu Tali and Antoni Ros-Marbà.`,
-  //     `Adolfo has recorded Barber, Rachmaninov, Piazzolla and the complete cycle of the cello suites by J.S. Bach on the Verso label. His recent recording of the complete Beethoven Sonatas with pianist Christopher Park received great critical acclaim. Adolfo plays a Francesco Ruggieri, handcrafted in Cremona in 1673. `,
-  //   ],
-  //   image: `/media/artists/adolfo-gutierrez_fkv4oe.webp`,
-  // },
+  {
+    locale: `en`,
+    name: `Adolfo Gutiérrez`,
+    slug_name: `Adolfo Gutiérrez EN`,
+    instrument: `cello`,
+    para_1: `Adolfo Gutiérrez, the winner of the Ravel prize 2012, made his debut with the London Symphony Orchestra in the prestigious Ibermusica series, in Madrid, performing Elgar’s Cello Concerto and following was invited to perform with the Royal Philharmonic Orchestra (Charles Dutoit), Orquesta Nacional de España (Ton Koopman) and at the Mendelssohn Festival at Leipzig’s Gewandhaus.`,
+    sentences: [
+      `Current highlights include performances as a soloist with the London Philharmonic Orchestra (Vladimir Jurowski), Orquesta Nacional de España (Krzysztof Penderecki), Fort Worth Symphony under Miguel Harth-Bedoya, Orquesta Sinfónica Nacional de Colombia and performances at the Ravinia Festival and Montreal Symphony’s Summer Festival.`,
+      `Adolfo has performed at major venues such as Amsterdam’s Concertgebouw, Auditorio Nacional de Música in Madrid, Ford Theatre in Los Angeles, l’Auditori and Palau de la Música in Barcelona, Bulgaria Hall in Sofia and Palacio Euskalduna in Bilbao, and collaborated with conductors such as Edward Gardner, José Ramón Encinar, Roberto Minczuk, Pablo González, Anu Tali and Antoni Ros-Marbà.`,
+      `Adolfo has recorded Barber, Rachmaninov, Piazzolla and the complete cycle of the cello suites by J.S. Bach on the Verso label. His recent recording of the complete Beethoven Sonatas with pianist Christopher Park received great critical acclaim. Adolfo plays a Francesco Ruggieri, handcrafted in Cremona in 1673. `,
+    ],
+    image: `/media/artists/Adolfo_Gutierrez.webp`,
+    preview_image: `/media/artists/Adolfo_Gutierrez_PREVIEW.webp`,
+  },
 
   // Antonio del Pino
   // {
