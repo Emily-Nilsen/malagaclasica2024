@@ -858,6 +858,40 @@ const artists = [
   //   ],
   //   image: `/media/artists/Julien_Quentin_cemtl1.webp`,
   // },
+
+  // Spanish - David Apellániz
+  {
+    locale: `es`,
+    name: `David Apellániz`,
+    slug_name: `David Apellániz ES`,
+    instrument: `violonchelo`,
+    para_1: `Como solista, sus compromisos recientes y próximos incluyen interpretaciones de los conciertos de Schumann, Dvořák, Saint-Saëns, Haydn, Boccherini, Lalo, Shostakovich, el Triple concierto de Beethoven, el Doble concierto de Brahms y las Variaciones rococó de Tchaikovsky.`,
+    sentences: [
+      `Ha actuado junto a orquestas de Sevilla, Valencia, Región de Murcia, Barcelona, Extremadura, Málaga, Gijón, Granada y Córdoba, Orquesta Gulbenkian de Lisboa, Ensemble National de Lyon, Ensemble Praeteritum, Orquesta de Cámara Reina Sofía y Orquesta Nacional de Honduras.`,
+      `Ha participado en festivales y salas como el Festival Aspekte (Salzburg), los Festivales de Lyon y Niza, el Festival A Tempo (Caracas), el Festival Internacional de Granada, el Palacio de Festivales de Santander, la Quincena Musical Donostiarra, en el Konzerthaus de Berlín, el Auditorio Nacional de Madrid, el Teatro de la Maestranza y el Palau de la Música Catalana, y ha colaborado con artistas como el Cuarteto Casals, N. Chumachenco, Gérard Caussé, Rainer Schmidt (Cuarteto Hagen), Alain Meunier, Daniel Masson y Paul McCreesh.`,
+      `Sus grabaciones para sellos como Naxos, Sony, Col-Legno, Neos, Verso y Radio Nacional de España han sido elogiadas por revistas como Scherzo, Ritmo, Melómano, BBC Music Magazine, Fanfare y Gramophone. Formado en Francia con Jacques Doué, continuó sus estudios con Frans Helmerson (Escuela Superior de Música Reina Sofía) en Madrid, y ha recibido clases magistrales de Menahem Pressler, Bernard Greenhouse, David Geringas, Boris Pergamenschikov, Bruno Canino, Lorin Maazel y Natalia Gutman.`,
+      `Desde 2018 es catedrático de Violonchelo en el Conservatorio Superior de Música de Murcia.`,
+    ],
+    image: `/media/artists/David_Apellaniz.webp`,
+    preview_image: `/media/artists/David_Apellaniz_PREVIEW.webp`,
+  },
+
+  // English - David Apellániz
+  {
+    locale: `en`,
+    name: `David Apellániz`,
+    slug_name: `David Apellániz EN`,
+    instrument: `cello`,
+    para_1: `As a soloist, his recent and upcoming engagements include performances of concertos by Schumann, Dvořák, Saint-Saëns, Haydn, Boccherini, Lalo and Shostakovich, as well as Beethoven’s Triple Concerto, Brahms’s Double Concerto and Tchaikovsky’s Rococo Variations.`,
+    sentences: [
+      `He has appeared with orchestras from Seville, Valencia, Murcia Region, Barcelona, Extremadura, Málaga, Gijón, Granada and Córdoba, as well as Lisbon’s Gulbenkian Orchestra, Ensemble National de Lyon, Ensemble Praeteritum, Queen Sofía Chamber Orchestra and National Orchestra of Honduras.`,
+      `He has performed at venues and festivals including Aspekte Festival (Salzburg), Lyon and Nice Festivals, A Tempo Festival (Caracas), Granada International Festival, Palacio de Festivales in Santander, Quincena Musical Donostiarra, Konzerthaus Berlin, Auditorio Nacional de Madrid, Teatro de la Maestranza and Palau de la Música Catalana, and has collaborated with artists such as the Casals Quartet, N. Chumachenco, Gérard Caussé, Rainer Schmidt (Hagen Quartet), Alain Meunier, Daniel Masson and Paul McCreesh.`,
+      `Apellániz’s recordings for labels such as Naxos, Sony, Col-Legno, Neos, Verso and Radio Nacional de España have been praised by Scherzo, Ritmo, Melómano, BBC Music Magazine, Fanfare and Gramophone. He studied in France with Jacques Doué and continued with Frans Helmerson (Reina Sofía School of Music) in Madrid, receiving masterclasses from Menahem Pressler, Bernard Greenhouse, David Geringas, Boris Pergamenschikov, Bruno Canino, Lorin Maazel and Natalia Gutman.`,
+      `Since 2018, he has served as Professor of Cello at the Conservatory of Music of Murcia.`,
+    ],
+    image: `/media/artists/David_Apellaniz.webp`,
+    preview_image: `/media/artists/David_Apellaniz_PREVIEW.webp`,
+  },
 ]
 
 export default artists
