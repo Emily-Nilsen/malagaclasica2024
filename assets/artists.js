@@ -347,7 +347,8 @@ const artists = [
       `Entre sus actuaciones destaca el concierto en la entrega del Premio Internacional de Poesía Federico García Lorca, en el Auditorio Manuel de Falla de Granada, con la presencia de los Príncipes de Asturias. Es profesora invitada en la Academia Internacional Galamian en Málaga, donde imparte clases del Método Brainin: “Desarrollo de intelecto musical“.`,
       `Desde el año 2022 es profesora de repertorio de la Cátedra de Canto "Alfredo Kraus" de la Escuela Superior de Música Reina Sofía de Madrid.`,
     ],
-    image: `/media/artists/Natalia_Kuchaeva_sq_xhbtyf.webp`,
+    image: `/media/artists/Natalia_Kuchaeva.webp`,
+    preview_image: `/media/artists/Natalia_Kuchaeva_PREVIEW.webp`,
   },
 
   // English - Natalia Kucháeva
@@ -362,7 +363,8 @@ const artists = [
       `Recent highlights include performances at the Federico García Lorca International Poetry Prize ceremony, in the Manuel de Falla Auditorium in Granada, with the presence of the Prince and Princess of Asturias. She is a visiting professor at the Galamian International Academy in Malaga, where she teaches the Brainin Method: "Development of musical intellect".`,
       `Since 2022 she has been a repertoire teacher at the "Alfredo Kraus" Singing Chair at the Reina Sofía Superior School of Music in Madrid.`,
     ],
-    image: `/media/artists/Natalia_Kuchaeva_sq_xhbtyf.webp`,
+    image: `/media/artists/Natalia_Kuchaeva.webp`,
+    preview_image: `/media/artists/Natalia_Kuchaeva_PREVIEW.webp`,
   },
 
   // Josu De Solaun
