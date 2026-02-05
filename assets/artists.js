@@ -895,6 +895,36 @@ const artists = [
     image: `/media/artists/David_Apellaniz.webp`,
     preview_image: `/media/artists/David_Apellaniz_PREVIEW.webp`,
   },
+  // Spanish - Antonio Ortiz
+  {
+    locale: `es`,
+    name: `Antonio Ortiz`,
+    slug_name: `Antonio Ortiz ES`,
+    instrument: `piano`,
+    para_1: `Antonio Ortiz es invitado frecuentemente al Festival Internacional de Música y Danza de Granada, al Festival Rafael Orozco de Córdoba, a los Encuentros Musicales y la Academia de Santander, así como a festivales en Mallorca, Lucena, Gijón y Bucaramanga, y a prestigiosas salas como el Auditorio Nacional (Madrid), el Teatro Real y el Palau de la Música (Barcelona), entre muchas otras. Además de España, ha actuado en Francia, Italia, Bélgica, Rusia, Portugal, Puerto Rico, Colombia y Estados Unidos.`,
+    sentences: [
+      `Ha actuado a menudo con las principales orquestas de España, incluyendo una destacada grabación radiada del Quinto concierto para piano de Beethoven con la Orquesta de Radio Nacional de España, y ha colaborado con directores como James Judd, Aldo Ceccato, Bruno Aprea, Fusao Kajima, Darrel Ang, Francisco de Gálvez, Pablo Mielgo, Manuel Hernández-Silva, Roselín Pabón, Salvador Vázquez, José María Moreno y Andrés Salado. Antonio recibió su formación de grandes maestros como Dimitri Bashkirov y Claudio Martínez Mehner (Escuela Superior de Música Reina Sofía, Madrid), Marie Françoise Buquet (París), Josep María Colom (Madrid) y José Felipe Díaz (Málaga).`,
+      `Ha realizado varias grabaciones para Radio y Televisión Española y para Catalunya Ràdio, y ha publicado un CD con obras de Debussy, Ravel, Albéniz, Bártok y Prokófiev. Recibió el reconocimiento Medalla Albéniz en el Festival de Camprodón por su reciente grabación de la Suite Iberia de Isaac Albéniz. Es un dedicado profesor de Piano; trabaja desde 2009 en la Escuela Superior de Música Reina Sofía (Madrid) y desde 2019 en el Conservatorio de Música de Málaga.`,
+    ],
+    image: `/media/artists/Antonio_Ortiz.webp`,
+    preview_image: `/media/artists/Antonio_Ortiz_PREVIEW.webp`,
+  },
+
+  // English - Antonio Ortiz
+  {
+    locale: `en`,
+    name: `Antonio Ortiz`,
+    slug_name: `Antonio Ortiz EN`,
+    instrument: `piano`,
+    para_1: `Antonio Ortiz is frequently invited to the Granada International Music and Dance Festival, Cordoba’s “Rafael Orozco” Festival, Musical Encounters and Academy in Santander, as well as festivals in Mallorca, Lucan, Gijón and Bucaramanga, and to prestigious halls such as National Auditorium (Madrid), Teatro Real and Palau de la Música (Barcelona), among many others. Besides Spain, he has performed in France, Italy, Belgium, Russia, Portugal, Puerto Rico, Colombia and the USA.`,
+    sentences: [
+      `He has performed often with Spain’s leading orchestras, including a notable broadcast recording of Beethoven’s Fifth Piano Concerto with the Spanish Radio Orchestra, and collaborated with conductors such as James Judd, Aldo Ceccato, Bruno Aprea, Fusao Kajima, Darrel Ang, Francisco de Gálvez, Pablo Mielgo, Manuel Hernández-Silva, Roselín Pabón, Salvador Vázquez, José María Moreno and Andrés Salado.`,
+      `Antonio received his education from great teachers like Dimitri Bashkirov and Claudio Martínez Mehner (Reina Sofía School of Music, Madrid) Marie Françoise Buquet (Paris), Josep María Colom (Madrid) and Jose Felipe Diaz (Malaga).`,
+      `He has made several recordings for Spanish National Radio and Television and Catalunya Radio, and published a CD containing works by Debussy, Ravel, Albéniz, Bártok and Prokofiev. He received the recognition “Medalla Albéniz” in Camprodon’s Festival, for his recent recording of Isaac Albeniz’s Iberian Suite. Antonio Ortiz is a devoted piano professor, working since 2009 at the Reina Sofía School of Music (Madrid), and since 2019 at the Conservatory of Music of Málaga.`,
+    ],
+    image: `/media/artists/Antonio_Ortiz.webp`,
+    preview_image: `/media/artists/Antonio_Ortiz_PREVIEW.webp`,
+  },
 ]
 
 export default artists
