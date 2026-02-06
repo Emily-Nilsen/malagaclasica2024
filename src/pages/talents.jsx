@@ -71,7 +71,7 @@ export default function Talents() {
                   height={1564}
                   src="/media/Ocean_water.jpg"
                   alt="Talentos"
-                  className="object-cover object-center w-full h-full"
+                  className="h-full w-full object-cover object-center"
                   unoptimized
                   priority
                 />
@@ -83,7 +83,7 @@ export default function Talents() {
                   height={1564}
                   src="/media/Ocean_water_square.jpg"
                   alt="Talentos"
-                  className="object-cover object-center w-full h-full"
+                  className="h-full w-full object-cover object-center"
                   unoptimized
                   priority
                 />
@@ -114,53 +114,53 @@ export default function Talents() {
             </motion.div>
             {/* something in here!! */}
             <div className="absolute inset-0 grid grid-cols-1 sm:grid-cols-3">
-              <div className="relative flex items-center justify-start h-full bg-t">
+              <div className="bg-t relative flex h-full items-center justify-start">
                 <div className="relative">
-                  <div className="w-full px-4 pt-3 pb-1 mt-0 sm:mt-0 sm:px-8 sm:pt-4">
-                    <div className="text-left max-w-none">
-                      <h4 className="pt-3 text-4xl font-extrabold tracking-tight uppercase text-black2025 sm:text-5xl lg:text-6xl ">
+                  <div className="mt-0 w-full px-4 pb-1 pt-3 sm:mt-0 sm:px-8 sm:pt-4">
+                    <div className="max-w-none text-left">
+                      <h4 className="pt-3 text-4xl font-extrabold uppercase tracking-tight text-black2025 sm:text-5xl lg:text-6xl ">
                         málaga
                       </h4>
-                      <h4 className="pt-0 pl-10 text-4xl font-extrabold tracking-tight uppercase text-red2025 sm:pl-12 sm:text-5xl lg:text-6xl ">
+                      <h4 className="pl-10 pt-0 text-4xl font-extrabold uppercase tracking-tight text-red2025 sm:pl-12 sm:text-5xl lg:text-6xl ">
                         {talentsTitle}{' '}
-                        <span className="text-xl font-extrabold tracking-tight sm:2xl lg:3xl text-black2025 lg:italic lg:text-red2025">
-                          2025
+                        <span className="sm:2xl lg:3xl text-xl font-extrabold tracking-tight text-black2025 lg:italic lg:text-red2025">
+                          2026
                         </span>
                       </h4>
                     </div>
                     <div className="h-0.5 w-full bg-black2025 px-20 sm:my-6" />
-                    <div className="text-left max-w-none">
-                      <h4 className="pt-3 text-3xl font-extrabold tracking-tight uppercase text-black2025 sm:text-5xl lg:text-6xl ">
+                    <div className="max-w-none text-left">
+                      <h4 className="pt-3 text-3xl font-extrabold uppercase tracking-tight text-black2025 sm:text-5xl lg:text-6xl ">
                         {convocatoria}
                       </h4>
-                      <h4 className="pt-0 pl-10 text-3xl font-extrabold tracking-normal uppercase text-black2025 sm:pl-12 sm:text-5xl lg:text-6xl ">
+                      <h4 className="pl-10 pt-0 text-3xl font-extrabold uppercase tracking-normal text-black2025 sm:pl-12 sm:text-5xl lg:text-6xl ">
                         {abierta}
                       </h4>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="items-center justify-end hidden h-full col-start-3 pl-20 lg:flex">
+              <div className="col-start-3 hidden h-full items-center justify-end pl-20 lg:flex">
                 <div className="relative">
-                  <div className="w-full px-4 pt-3 pb-1 mt-0 bg-t sm:mt-0 sm:px-8 sm:pt-4">
-                    <div className="text-right max-w-none">
-                      <h4 className="pt-3 text-4xl font-extrabold tracking-tight uppercase text-red2025 sm:pr-0 lg:text-5xl">
+                  <div className="bg-t mt-0 w-full px-4 pb-1 pt-3 sm:mt-0 sm:px-8 sm:pt-4">
+                    <div className="max-w-none text-right">
+                      <h4 className="pt-3 text-4xl font-extrabold uppercase tracking-tight text-red2025 sm:pr-0 lg:text-5xl">
                         {requisitosTitle}{' '}
                       </h4>
                       {/* somthing in here!! */}
                       <div className="text-black2025">
                         <ul
                           role="list"
-                          className="grid grid-cols-1 gap-4 mt-8 text-xl leading-6 sm:gap-6"
+                          className="mt-8 grid grid-cols-1 gap-4 text-xl leading-6 sm:gap-6"
                         >
                           {requisitosData.map((feature) => (
                             <li
                               key={feature}
-                              className="flex flex-col text-right gap-x-3"
+                              className="flex flex-col gap-x-3 text-right"
                             >
                               <div className="flex justify-end">
                                 <CheckIcon
-                                  className="flex-none w-5 h-6 mr-2 text-orange2025"
+                                  className="mr-2 h-6 w-5 flex-none text-orange2025"
                                   aria-hidden="true"
                                 />
                                 <span>{feature.item}</span>
@@ -182,15 +182,15 @@ export default function Talents() {
                                   {deadlineDate}
                                 </span>
                               </span>{' '}
-                              2025
+                              2026
                             </h4>
                           </div>
-                          <dl className="mt-3 transition duration-200 ease-in-out text-black2025">
+                          <dl className="mt-3 text-black2025 transition duration-200 ease-in-out">
                             <div className="mt-0">
                               <dt className="sr-only">Email</dt>
                               <dd className="flex">
                                 <EnvelopeIcon
-                                  className="flex-shrink-0 w-6 h-6 text-orange2025"
+                                  className="h-6 w-6 flex-shrink-0 text-orange2025"
                                   aria-hidden="true"
                                 />
                                 <span className="ml-3 font-normal">
@@ -209,28 +209,28 @@ export default function Talents() {
           </div>
         </div>
         {/* and in here!! */}
-        <div className="px-6 bg-lightOrange2025 lg:hidden">
-          <div className="pt-1 pb-6">
-            <div className="flex items-center mt-10 gap-x-4">
-              <h4 className="pt-3 pr-10 text-4xl font-extrabold tracking-tight uppercase text-red2025 sm:pr-20">
+        <div className="bg-lightOrange2025 px-6 lg:hidden">
+          <div className="pb-6 pt-1">
+            <div className="mt-10 flex items-center gap-x-4">
+              <h4 className="pr-10 pt-3 text-4xl font-extrabold uppercase tracking-tight text-red2025 sm:pr-20">
                 {requisitosTitle}{' '}
               </h4>
-              <div className="flex-auto h-px bg-gray-100" />
+              <div className="h-px flex-auto bg-gray-100" />
             </div>
             <ul
               role="list"
-              className="grid grid-cols-1 gap-4 mt-8 text-lg leading-6 text-bleuGreyDark2024 sm:grid-cols-2 sm:gap-6"
+              className="text-bleuGreyDark2024 mt-8 grid grid-cols-1 gap-4 text-lg leading-6 sm:grid-cols-2 sm:gap-6"
             >
               {requisitosData.map((feature) => (
                 <li key={feature} className="flex flex-col gap-x-3">
                   <div className="flex gap-x-3">
                     <CheckIcon
-                      className="flex-none w-5 h-6 text-orange2025"
+                      className="h-6 w-5 flex-none text-orange2025"
                       aria-hidden="true"
                     />
                     {feature.item}
                   </div>
-                  <div className="flex text-sm italic pl-7 text-blueGrey2024">
+                  <div className="flex pl-7 text-sm italic text-blueGrey2024">
                     <div className="max-w-xs">
                       {feature.note ? <>{feature.note}</> : null}
                     </div>
@@ -247,15 +247,15 @@ export default function Talents() {
                       {deadlineDate}
                     </span>
                   </span>{' '}
-                  2025
+                  2026
                 </h4>
               </div>
-              <dl className="mt-3 transition duration-200 ease-in-out text-bleuGreyDark2024">
+              <dl className="text-bleuGreyDark2024 mt-3 transition duration-200 ease-in-out">
                 <div className="pb-3">
                   <dt className="sr-only">Email</dt>
                   <dd className="flex">
                     <EnvelopeIcon
-                      className="flex-shrink-0 w-6 h-6 text-orange2025"
+                      className="h-6 w-6 flex-shrink-0 text-orange2025"
                       aria-hidden="true"
                     />
                     <span className="ml-3 font-normal">

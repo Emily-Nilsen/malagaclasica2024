@@ -35,8 +35,8 @@ export function Hero() {
   const title = t('title')
   const subtitle = t('subtitle')
 
-  const elNuevoMundo = 'El Nuevo Mundo'.split('')
-  const theNewWorld = 'The New World'.split('')
+  const elNuevoMundo = 'Metrópolis'.split('')
+  const theNewWorld = 'Metropolis'.split('')
 
   return (
     <>
@@ -121,9 +121,9 @@ export function Hero() {
                   animate="show"
                   className="mx-auto mt-3 max-w-lg text-left text-2xl font-normal text-gray-600 sm:max-w-3xl sm:text-3xl lg:text-4xl"
                 >
-                  26/05__01/06{' '}
+                  25––31 / 05 /{' '}
                   <span className="font-medium text-blueGreyDark2024">
-                    &nbsp;2025
+                    &nbsp;2026
                   </span>
                 </motion.h3>
                 <div className="mt-10 flex items-center justify-center gap-x-6"></div>

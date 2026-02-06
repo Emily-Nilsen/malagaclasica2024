@@ -120,7 +120,8 @@ export default function About() {
                 animate="show"
                 className="max-w-3xl text-lg text-black2025 sm:mt-3 sm:text-2xl"
               >
-                26/05__01/06 <span className="text-black2025">&nbsp;2025</span>
+                25––31 / 05 /{' '}
+                <span className="text-black2025">&nbsp;2026</span>
               </motion.h3> */}
             </div>
           </div>

@@ -43,47 +43,8 @@ export default function Program() {
   const program_subtitle = t('subtitle')
   const read_more = t('read_more')
   const { locale } = useRouter()
-  const elNuovoMundo = [
-    '2',
-    '7',
-    '/',
-    '0',
-    '5',
-    '_',
-    '_',
-    '3',
-    '1',
-    '/',
-    '0',
-    '5',
-    ' ',
-    ' ',
-    '2',
-    '0',
-    '2',
-    '6',
-  ]
-
-  const theNewWorld = [
-    '2',
-    '7',
-    '/',
-    '0',
-    '5',
-    '_',
-    '_',
-    '3',
-    '1',
-    '/',
-    '0',
-    '5',
-    ' ',
-    ' ',
-    '2',
-    '0',
-    '2',
-    '6',
-  ]
+  const elNuovoMundo = '25––31 / 05 / 2026'.split('')
+  const theNewWorld = '25––31 / 05 / 2026'.split('')
 
   // Helper function to render titles that contain ";" on separate lines.
   const renderTitle = (eventTitle) => {
