@@ -43,15 +43,15 @@ export function Features() {
       <section>
         {/* Feature section */}
         <div className="bg-white">
-          <div className="max-w-2xl px-4 pt-10 pb-16 mx-auto sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+          <div className="mx-auto max-w-2xl px-4 pb-16 pt-10 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
             <div className="max-w-3xl">
-              <h4 className="mt-2 text-4xl font-extrabold tracking-tight uppercase text-black2025 sm:text-5xl">
+              <h4 className="mt-2 text-4xl font-extrabold uppercase tracking-tight text-black2026 sm:text-5xl">
                 {features_title}
               </h4>
-              <p className="mt-4 text-black2025">{features_text}</p>
+              <p className="mt-4 text-black2026">{features_text}</p>
             </div>
 
-            <div className="grid items-start grid-cols-2 mt-11 gap-x-6 gap-y-10 sm:mt-16 sm:grid-cols-2 sm:gap-y-16 lg:grid-cols-4 lg:gap-x-8">
+            <div className="mt-11 grid grid-cols-2 items-start gap-x-6 gap-y-10 sm:mt-16 sm:grid-cols-2 sm:gap-y-16 lg:grid-cols-4 lg:gap-x-8">
               {features.map((feature, i) => (
                 <Link key={i} href={feature.href} passHref>
                   <motion.div
@@ -67,7 +67,7 @@ export function Features() {
                       delay: i * 0.3,
                       ease: 'easeOut',
                     }}
-                    className="flex flex-col-reverse cursor-pointer group"
+                    className="group flex cursor-pointer flex-col-reverse"
                   >
                     <motion.div
                       whileInView={{ opacity: 1 }}
@@ -80,18 +80,18 @@ export function Features() {
                       }}
                       className="mt-4"
                     >
-                      <h4 className="text-2xl font-extrabold text-black2025 group-hover:text-red2025">
+                      <h4 className="text-2xl font-extrabold text-black2026 group-hover:text-fuchsia2026">
                         {feature.name}
                       </h4>
                     </motion.div>
-                    <div className="overflow-hidden bg-gray-100 rounded-lg aspect-h-1 aspect-w-1">
+                    <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100">
                       <div className="object-cover object-center transition duration-300 ease-in-out group-hover:brightness-125">
                         <Image
                           src={feature.imageSrc}
                           alt={feature.imageAlt}
                           width={2000}
                           height={2000}
-                          className="object-cover object-center w-full h-full"
+                          className="h-full w-full object-cover object-center"
                           unoptimized
                         />
                       </div>

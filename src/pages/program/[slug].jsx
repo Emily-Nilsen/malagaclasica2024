@@ -114,12 +114,23 @@ const Concert = ({ event }) => {
 
   // Helper function to render a sentence. If the sentence is all uppercase (and has letters),
   // it is rendered in bold.
+  const highlightSentences = new Set([
+    'Programme Contemporary Malaga Composers',
+    'Programa Compositores malagueños y contemporáneos',
+  ])
   const renderSentence = (sentence) => {
+    const isHighlight = highlightSentences.has(sentence)
+    if (isHighlight) {
+      return {
+        content: sentence.toUpperCase(),
+        isHighlight: true,
+      }
+    }
     const hasAlpha = /[A-Z]/.test(sentence)
     if (sentence === sentence.toUpperCase() && hasAlpha) {
-      return <strong>{sentence}</strong>
+      return { content: <strong>{sentence}</strong>, isHighlight: false }
     }
-    return sentence
+    return { content: sentence, isHighlight: false }
   }
 
   return (
@@ -153,14 +164,14 @@ const Concert = ({ event }) => {
             <div className="2xl:col-start-2">
               <h4
                 id="details-heading"
-                className="font-extrabold italic text-red2025"
+                className="font-extrabold italic text-fuchsia2026"
               >
                 {event.date}
               </h4>
-              <h4 className="mt-4 text-4xl font-extrabold tracking-tight text-black2025">
+              <h4 className="mt-4 text-4xl font-extrabold tracking-tight text-black2026">
                 {renderTitle(event.title)}
               </h4>
-              <h4 className="mt-4 font-extrabold text-grey2025">
+              <h4 className="mt-4 font-extrabold text-black2026/80">
                 {event.location}
               </h4>
 
@@ -171,10 +182,10 @@ const Concert = ({ event }) => {
                     {detail.composers ? (
                       detail.composers.map((composerDetail, j) => (
                         <React.Fragment key={j}>
-                          <dt className="font-extrabold text-red2025">
+                          <dt className="font-extrabold text-fuchsia2026">
                             {composerDetail.name}
                           </dt>
-                          <dd className="mt-2 text-grey2025">
+                          <dd className="mt-2 text-black2026/80">
                             {renderInfo(composerDetail.info)}
                           </dd>
                         </React.Fragment>
@@ -182,11 +193,14 @@ const Concert = ({ event }) => {
                     ) : (
                       <>
                         {(detail.composer || []).map((composer, j) => (
-                          <dt key={j} className="font-extrabold text-red2025">
+                          <dt
+                            key={j}
+                            className="font-extrabold text-fuchsia2026"
+                          >
                             {composer}
                           </dt>
                         ))}
-                        <dd className="mt-2 text-grey2025">
+                        <dd className="mt-2 text-black2026/80">
                           {renderInfo(detail.info)}
                         </dd>
                       </>
@@ -195,7 +209,7 @@ const Concert = ({ event }) => {
                       detail.artists.map((artist, j) => (
                         <dd
                           key={j}
-                          className="mt-4 font-semibold text-black2025"
+                          className="mt-4 font-semibold text-black2026"
                         >
                           {renderArtist(artist)}
                         </dd>
@@ -213,10 +227,10 @@ const Concert = ({ event }) => {
                     {detail.composers ? (
                       detail.composers.map((composerDetail, j) => (
                         <React.Fragment key={j}>
-                          <dt className="font-bold text-red2025">
+                          <dt className="font-bold text-fuchsia2026">
                             {composerDetail.name}
                           </dt>
-                          <dd className="mt-2 text-grey2025">
+                          <dd className="mt-2 text-black2026/80">
                             {renderInfo(composerDetail.info)}
                           </dd>
                         </React.Fragment>
@@ -224,11 +238,11 @@ const Concert = ({ event }) => {
                     ) : (
                       <>
                         {(detail.composer || []).map((composer, j) => (
-                          <dt key={j} className="font-bold text-red2025">
+                          <dt key={j} className="font-bold text-fuchsia2026">
                             {composer}
                           </dt>
                         ))}
-                        <dd className="mt-2 text-grey2025">
+                        <dd className="mt-2 text-black2026/80">
                           {renderInfo(detail.info)}
                         </dd>
                       </>
@@ -237,7 +251,7 @@ const Concert = ({ event }) => {
                       detail.artists.map((artist, j) => (
                         <dd
                           key={j}
-                          className="mt-4 font-semibold text-black2025"
+                          className="mt-4 font-semibold text-black2026"
                         >
                           {artist.split(' ').slice(0, -1).join(' ')}{' '}
                           <span className="font-normal">
@@ -249,15 +263,28 @@ const Concert = ({ event }) => {
                 ))}
               </dl>
               {event.detailsTwo && event.detailsTwo.length > 0 ? (
-                <div className="mt-10 border-t border-red2025/50 py-10" />
+                <div className="mt-10 border-t border-fuchsia2026/50 py-10" />
               ) : null}
 
               <div>
-                {(event.sentence || []).map((sentence, i) => (
-                  <p key={i} className="mt-4 text-grey2025">
-                    {renderSentence(sentence)}
-                  </p>
-                ))}
+                {(event.sentence || []).map((sentence, i) => {
+                  const { content, isHighlight } = renderSentence(sentence)
+                  if (isHighlight) {
+                    return (
+                      <p
+                        key={i}
+                        className="mt-6 text-xl font-extrabold uppercase tracking-tight text-black2026 sm:text-2xl"
+                      >
+                        {content}
+                      </p>
+                    )
+                  }
+                  return (
+                    <p key={i} className="mt-4 text-black2026/80">
+                      {content}
+                    </p>
+                  )
+                })}
 
                 {/* Render Pricing or Invitation section based on ticket_url */}
                 {event.ticket_url === '#' ? (
@@ -280,7 +307,7 @@ const Concert = ({ event }) => {
                       >
                         <button
                           type="button"
-                          className="inline-flex items-center rounded-md border border-transparent bg-red2025 px-4 py-2 text-sm font-medium text-black2025 shadow-none transition duration-200 ease-in-out hover:text-white focus:outline-none focus:ring-2 focus:ring-red2025 focus:ring-offset-2"
+                          className="inline-flex items-center rounded-md border border-transparent bg-fuchsia2026 px-4 py-2 text-sm font-medium text-black2026 shadow-none transition duration-200 ease-in-out hover:text-white focus:outline-none focus:ring-2 focus:ring-fuchsia2026 focus:ring-offset-2"
                         >
                           <TicketIcon
                             className="-ml-1 mr-2 h-5 w-5"
@@ -290,7 +317,7 @@ const Concert = ({ event }) => {
                         </button>
                       </a>
                       <Link href="/program" passHref>
-                        <button className="ml-6 inline-flex justify-center rounded-md border border-transparent bg-grey2025/40 px-4 py-2 text-sm font-medium text-black2025 shadow-none ring-1 ring-grey2025/40 transition duration-200 ease-in-out hover:bg-grey2025/20 hover:text-black2025 hover:ring-grey2025/30 focus:outline-none focus:ring-2 focus:ring-grey2025 focus:ring-offset-2">
+                        <button className="ml-6 inline-flex justify-center rounded-md border border-transparent bg-grey2026/40 px-4 py-2 text-sm font-medium text-black2026 shadow-none ring-1 ring-grey2026/40 transition duration-200 ease-in-out hover:bg-grey2026/20 hover:text-black2026 hover:ring-grey2026/30 focus:outline-none focus:ring-2 focus:ring-grey2026 focus:ring-offset-2">
                           {program}
                         </button>
                       </Link>

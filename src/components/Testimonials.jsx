@@ -24,31 +24,31 @@ export function Testimonials() {
     {
       source: `${source_1}`,
       quote: `${quote_1}`,
-      icon: <AforoLibreLogo className="w-auto h-9 fill-orange2025" />,
+      icon: <AforoLibreLogo className="h-9 w-auto fill-fuchsia2026" />,
     },
     {
       quote: `${quote_2}`,
       source: `${source_2}`,
-      icon: <LaOpinionLogo className="w-auto h-5 fill-orange2025" />,
+      icon: <LaOpinionLogo className="h-5 w-auto fill-fuchsia2026" />,
     },
     {
       quote: `${quote_3}`,
       source: `${source_3}`,
-      icon: <EuropressLogo className="w-auto h-9 fill-orange2025" />,
+      icon: <EuropressLogo className="h-9 w-auto fill-fuchsia2026" />,
     },
   ]
   return (
-    <div className="py-16 bg-lightOrange2025">
-      <div className="container flex flex-col justify-between px-4 mx-auto lg:flex-row lg:items-center">
+    <div className="bg-pink2026 py-16">
+      <div className="container mx-auto flex flex-col justify-between px-4 lg:flex-row lg:items-center">
         <div className="mb-14 xl:mb-0">
-          <h4 className="max-w-sm pb-2 pr-16 text-3xl font-extrabold tracking-normal text-black2025 sm:pb-4 sm:text-4xl lg:pr-0 xl:w-2/3 xl:text-5xl">
+          <h4 className="max-w-sm pb-2 pr-16 text-3xl font-extrabold tracking-normal text-black2026 sm:pb-4 sm:text-4xl lg:pr-0 xl:w-2/3 xl:text-5xl">
             {testimonials_title}
           </h4>
-          <p className="pr-16 mt-4 text-base leading-normal text-gray-600 md:w-2/3 lg:w-3/4 lg:pr-0">
+          <p className="mt-4 pr-16 text-base leading-normal text-gray-600 md:w-2/3 lg:w-3/4 lg:pr-0">
             {testimonials_text}
           </p>
           <Link href="/info" passHref>
-            <button className="items-start justify-center hidden w-full px-8 py-4 mt-12 text-base font-medium leading-none text-center text-white transition duration-200 ease-in-out rounded bg-red2025 hover:bg-orange2025 focus:outline-none focus:ring-2 focus:ring-red2025 focus:ring-offset-2 sm:w-auto sm:justify-start md:flex">
+            <button className="mt-12 hidden w-full items-start justify-center rounded bg-fuchsia2026 px-8 py-4 text-center text-base font-medium leading-none text-white transition duration-200 ease-in-out hover:bg-fuchsia2026 focus:outline-none focus:ring-2 focus:ring-fuchsia2026 focus:ring-offset-2 sm:w-auto sm:justify-start md:flex">
               {read_about}
             </button>
           </Link>
@@ -72,17 +72,17 @@ export function Testimonials() {
               }}
               key={i}
               role="listitem"
-              className="px-4 pt-4 pb-6 bg-white rounded shadow-none xl:p-8"
+              className="rounded bg-white px-4 pb-6 pt-4 shadow-none xl:p-8"
             >
               <div>
-                <QuotesIcon className="w-auto h-4 fill-orange2025" />
+                <QuotesIcon className="h-4 w-auto fill-fuchsia2026" />
               </div>
-              <div className="flex items-start justify-between pt-0 pl-4">
+              <div className="flex items-start justify-between pl-4 pt-0">
                 <div className="mr-6">
-                  <p className="text-black2025 xl:text-xl xl:leading-loose">
+                  <p className="text-black2026 xl:text-xl xl:leading-loose">
                     {testimonial.quote}
                   </p>
-                  <p className="mt-4 text-base font-bold leading-none text-red2025">
+                  <p className="mt-4 text-base font-bold leading-none text-fuchsia2026">
                     {testimonial.source}
                   </p>
                 </div>
@@ -91,23 +91,23 @@ export function Testimonials() {
             </motion.div>
           ))}
           <Link href="/info" passHref>
-            <button className="flex items-start justify-center w-full px-8 py-4 mt-4 text-base font-medium leading-none text-center text-white transition duration-200 ease-in-out rounded bg-red2025 hover:bg-orange2025 focus:outline-none focus:ring-2 focus:ring-red2025 focus:ring-offset-2 sm:w-auto sm:justify-start md:hidden">
+            <button className="mt-4 flex w-full items-start justify-center rounded bg-fuchsia2026 px-8 py-4 text-center text-base font-medium leading-none text-white transition duration-200 ease-in-out hover:bg-fuchsia2026 focus:outline-none focus:ring-2 focus:ring-fuchsia2026 focus:ring-offset-2 sm:w-auto sm:justify-start md:hidden">
               {read_about}
             </button>
           </Link>
           {/* pdf */}
           <div className="mt-6">
             <a download href="/p_MC2025.pdf">
-              <article className="relative flex flex-col justify-end w-40 h-64 mt-6 overflow-hidden transition duration-300 ease-in-out bg-white isolate rounded-2xl hover:contrast-125 sm:mt-0 sm:w-48">
+              <article className="relative isolate mt-6 flex h-64 w-40 flex-col justify-end overflow-hidden rounded-2xl bg-white transition duration-300 ease-in-out hover:contrast-125 sm:mt-0 sm:w-48">
                 <Image
                   src="/media/El_Nuevo_Mundo_2025.webp"
                   alt="Resonancias del espíritu - PDF"
                   width={1862}
                   height={2584}
-                  className="absolute inset-0 object-cover w-full h-full -z-10"
+                  className="absolute inset-0 -z-10 h-full w-full object-cover"
                 />
-                <div className="absolute bottom-0 w-full h-40 -z-10 bg-gradient-to-t from-red2025" />
-                <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-red2025/30" />
+                <div className="absolute bottom-0 -z-10 h-40 w-full bg-gradient-to-t from-fuchsia2026" />
+                <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-fuchsia2026/30" />
 
                 <h3 className="absolute bottom-0 p-3 font-medium leading-6 text-white">
                   <span className="absolute inset-0" />

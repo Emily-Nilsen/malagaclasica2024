@@ -89,8 +89,8 @@ export default function Talents() {
                 />
               </div>
 
-              {/* <div className="absolute inset-0 bg-lightOrange2025 mix-blend-overlay" /> */}
-              <div className="absolute inset-0 bg-lightOrange2025/40" />
+              {/* <div className="absolute inset-0 bg-pink2026 mix-blend-overlay" /> */}
+              <div className="absolute inset-0 bg-pink2026/40" />
               {/* <div className="absolute inset-0 opacity-50 sm:hidden">
                 <Image
                   alt="Málaga Clásica - Resonancias Del Espíritu 2024"
@@ -118,22 +118,22 @@ export default function Talents() {
                 <div className="relative">
                   <div className="mt-0 w-full px-4 pb-1 pt-3 sm:mt-0 sm:px-8 sm:pt-4">
                     <div className="max-w-none text-left">
-                      <h4 className="pt-3 text-4xl font-extrabold uppercase tracking-tight text-black2025 sm:text-5xl lg:text-6xl ">
+                      <h4 className="pt-3 text-4xl font-extrabold uppercase tracking-tight text-black2026 sm:text-5xl lg:text-6xl ">
                         málaga
                       </h4>
-                      <h4 className="pl-10 pt-0 text-4xl font-extrabold uppercase tracking-tight text-red2025 sm:pl-12 sm:text-5xl lg:text-6xl ">
+                      <h4 className="pl-10 pt-0 text-4xl font-extrabold uppercase tracking-tight text-fuchsia2026 sm:pl-12 sm:text-5xl lg:text-6xl ">
                         {talentsTitle}{' '}
-                        <span className="sm:2xl lg:3xl text-xl font-extrabold tracking-tight text-black2025 lg:italic lg:text-red2025">
+                        <span className="sm:2xl lg:3xl text-xl font-extrabold tracking-tight text-black2026 lg:italic lg:text-fuchsia2026">
                           2026
                         </span>
                       </h4>
                     </div>
-                    <div className="h-0.5 w-full bg-black2025 px-20 sm:my-6" />
+                    <div className="h-0.5 w-full bg-black2026 px-20 sm:my-6" />
                     <div className="max-w-none text-left">
-                      <h4 className="pt-3 text-3xl font-extrabold uppercase tracking-tight text-black2025 sm:text-5xl lg:text-6xl ">
+                      <h4 className="pt-3 text-3xl font-extrabold uppercase tracking-tight text-black2026 sm:text-5xl lg:text-6xl ">
                         {convocatoria}
                       </h4>
-                      <h4 className="pl-10 pt-0 text-3xl font-extrabold uppercase tracking-normal text-black2025 sm:pl-12 sm:text-5xl lg:text-6xl ">
+                      <h4 className="pl-10 pt-0 text-3xl font-extrabold uppercase tracking-normal text-black2026 sm:pl-12 sm:text-5xl lg:text-6xl ">
                         {abierta}
                       </h4>
                     </div>
@@ -144,11 +144,11 @@ export default function Talents() {
                 <div className="relative">
                   <div className="bg-t mt-0 w-full px-4 pb-1 pt-3 sm:mt-0 sm:px-8 sm:pt-4">
                     <div className="max-w-none text-right">
-                      <h4 className="pt-3 text-4xl font-extrabold uppercase tracking-tight text-red2025 sm:pr-0 lg:text-5xl">
+                      <h4 className="pt-3 text-4xl font-extrabold uppercase tracking-tight text-fuchsia2026 sm:pr-0 lg:text-5xl">
                         {requisitosTitle}{' '}
                       </h4>
                       {/* somthing in here!! */}
-                      <div className="text-black2025">
+                      <div className="text-black2026">
                         <ul
                           role="list"
                           className="mt-8 grid grid-cols-1 gap-4 text-xl leading-6 sm:gap-6"
@@ -160,12 +160,12 @@ export default function Talents() {
                             >
                               <div className="flex justify-end">
                                 <CheckIcon
-                                  className="mr-2 h-6 w-5 flex-none text-orange2025"
+                                  className="mr-2 h-6 w-5 flex-none text-fuchsia2026"
                                   aria-hidden="true"
                                 />
                                 <span>{feature.item}</span>
                               </div>
-                              <div className="flex justify-end text-base italic text-blueGrey2024">
+                              <div className="flex justify-end text-base italic text-black2026/80">
                                 <div className="max-w-xs">
                                   {feature.note ? <>{feature.note}</> : null}
                                 </div>
@@ -178,19 +178,19 @@ export default function Talents() {
                             <h4>
                               {deadline}{' '}
                               <span className="">
-                                <span className="inline font-extrabold text-red2025">
+                                <span className="inline font-extrabold text-fuchsia2026">
                                   {deadlineDate}
                                 </span>
                               </span>{' '}
                               2026
                             </h4>
                           </div>
-                          <dl className="mt-3 text-black2025 transition duration-200 ease-in-out">
+                          <dl className="mt-3 text-black2026 transition duration-200 ease-in-out">
                             <div className="mt-0">
                               <dt className="sr-only">Email</dt>
                               <dd className="flex">
                                 <EnvelopeIcon
-                                  className="h-6 w-6 flex-shrink-0 text-orange2025"
+                                  className="h-6 w-6 flex-shrink-0 text-fuchsia2026"
                                   aria-hidden="true"
                                 />
                                 <span className="ml-3 font-normal">
@@ -209,28 +209,28 @@ export default function Talents() {
           </div>
         </div>
         {/* and in here!! */}
-        <div className="bg-lightOrange2025 px-6 lg:hidden">
+        <div className="bg-pink2026 px-6 lg:hidden">
           <div className="pb-6 pt-1">
             <div className="mt-10 flex items-center gap-x-4">
-              <h4 className="pr-10 pt-3 text-4xl font-extrabold uppercase tracking-tight text-red2025 sm:pr-20">
+              <h4 className="pr-10 pt-3 text-4xl font-extrabold uppercase tracking-tight text-fuchsia2026 sm:pr-20">
                 {requisitosTitle}{' '}
               </h4>
               <div className="h-px flex-auto bg-gray-100" />
             </div>
             <ul
               role="list"
-              className="text-bleuGreyDark2024 mt-8 grid grid-cols-1 gap-4 text-lg leading-6 sm:grid-cols-2 sm:gap-6"
+              className="mt-8 grid grid-cols-1 gap-4 text-lg leading-6 text-black2026/80 sm:grid-cols-2 sm:gap-6"
             >
               {requisitosData.map((feature) => (
                 <li key={feature} className="flex flex-col gap-x-3">
                   <div className="flex gap-x-3">
                     <CheckIcon
-                      className="h-6 w-5 flex-none text-orange2025"
+                      className="h-6 w-5 flex-none text-fuchsia2026"
                       aria-hidden="true"
                     />
                     {feature.item}
                   </div>
-                  <div className="flex pl-7 text-sm italic text-blueGrey2024">
+                  <div className="flex pl-7 text-sm italic text-black2026/80">
                     <div className="max-w-xs">
                       {feature.note ? <>{feature.note}</> : null}
                     </div>
@@ -242,20 +242,20 @@ export default function Talents() {
               <div className="pt-3 font-bold">
                 <h4>
                   {deadline}{' '}
-                  <span className="text-red2025">
-                    <span className="inline font-extrabold text-red2025">
+                  <span className="text-fuchsia2026">
+                    <span className="inline font-extrabold text-fuchsia2026">
                       {deadlineDate}
                     </span>
                   </span>{' '}
                   2026
                 </h4>
               </div>
-              <dl className="text-bleuGreyDark2024 mt-3 transition duration-200 ease-in-out">
+              <dl className="mt-3 text-black2026/80 transition duration-200 ease-in-out">
                 <div className="pb-3">
                   <dt className="sr-only">Email</dt>
                   <dd className="flex">
                     <EnvelopeIcon
-                      className="h-6 w-6 flex-shrink-0 text-orange2025"
+                      className="h-6 w-6 flex-shrink-0 text-fuchsia2026"
                       aria-hidden="true"
                     />
                     <span className="ml-3 font-normal">

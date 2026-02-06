@@ -10,20 +10,20 @@ export function ContentTalentos() {
   const para_5b = t('para_5b')
 
   return (
-    <div className="px-4 py-16 overflow-hidden bg-white sm:px-6 lg:px-8 xl:py-36">
+    <div className="overflow-hidden bg-grey2026 px-4 py-16 sm:px-6 lg:px-8 xl:py-36">
       <div className="relative px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto text-lg max-w-prose">
+        <div className="mx-auto max-w-prose text-lg">
           <h4>
-            <span className="block text-base font-extrabold tracking-normal text-center uppercase text-red2025">
+            <span className="block text-center text-base font-extrabold uppercase tracking-normal text-fuchsia2026">
               {subtitle_1}
             </span>
-            <span className="block mt-2 text-5xl font-extrabold leading-none tracking-tight text-center uppercase text-black2025 sm:text-6xl">
+            <span className="mt-2 block text-center text-5xl font-extrabold uppercase leading-none tracking-tight text-black2026 sm:text-6xl">
               {title_1}
             </span>
           </h4>
-          <p className="mt-8 text-xl leading-8 text-grey2025">{para_1}</p>
+          <p className="mt-8 text-xl leading-8 text-black2026">{para_1}</p>
         </div>
-        <div className="mx-auto mt-6 prose prose-lg text-grey2025">
+        <div className="prose prose-lg mx-auto mt-6 text-black2026">
           <p>{para_3}</p>
           <p>{para_4}</p>
 

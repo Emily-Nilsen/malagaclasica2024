@@ -78,7 +78,7 @@ export default function Program() {
       </Head>
       <Header />
       <main>
-        <div className="relative overflow-hidden bg-lightOrange2025 px-10 py-20 pb-20 sm:px-12 sm:py-20">
+        <div className="relative overflow-hidden bg-pink2026 px-10 py-20 pb-20 sm:px-12 sm:py-20">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -108,7 +108,7 @@ export default function Program() {
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="block text-3xl font-extrabold uppercase tracking-tight text-black2025 sm:text-4xl lg:text-5xl"
+                className="block text-3xl font-extrabold uppercase tracking-tight text-black2026 sm:text-4xl lg:text-5xl"
               >
                 {locale === 'en'
                   ? theNewWorld.map((letter, i) => (
@@ -126,14 +126,14 @@ export default function Program() {
           </div>
         </div>
 
-        <div className="bg-lightOrange2025 px-4 pb-20 pt-16 sm:px-6 lg:px-8 lg:pb-28 lg:pt-24">
-          <div className="relative mx-auto max-w-lg divide-y-2 divide-red2025/20 lg:max-w-7xl">
+        <div className="bg-pink2026 px-4 pb-20 pt-16 sm:px-6 lg:px-8 lg:pb-28 lg:pt-24">
+          <div className="relative mx-auto max-w-lg divide-y-2 divide-fuchsia2026/20 lg:max-w-7xl">
             <div>
-              <h4 className="text-4xl font-extrabold uppercase tracking-tight text-red2025 sm:text-5xl md:text-6xl">
+              <h4 className="text-4xl font-extrabold uppercase tracking-tight text-fuchsia2026 sm:text-5xl md:text-6xl">
                 {program_title}
               </h4>
               <div className="mt-3 sm:mt-4 lg:grid lg:grid-cols-2 lg:items-center lg:gap-5">
-                <p className="text-xl text-black2025">{program_subtitle}</p>
+                <p className="text-xl text-black2026">{program_subtitle}</p>
               </div>
             </div>
             <div className="mt-6 grid gap-6 pt-10 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-8">
@@ -146,19 +146,19 @@ export default function Program() {
                     passHref
                   >
                     <div
-                      className="group cursor-pointer rounded-md bg-white p-6 transition duration-300 ease-in-out hover:bg-orange2025"
+                      className="group cursor-pointer rounded-md bg-white p-6 transition duration-300 ease-in-out hover:bg-fuchsia2026"
                       key={i}
                     >
-                      <p className="group-hover:black2025/90 text-sm font-semibold text-black2025/80">
+                      <p className="group-hover:black2026/90 text-sm font-semibold text-black2026/80">
                         <time dateTime={event.datetime}>{event.date}</time>
                       </p>
                       <div className="mt-2 block">
-                        <h4 className="group-hover:black2025 text-xl font-extrabold text-black2025">
+                        <h4 className="group-hover:black2026 text-xl font-extrabold text-black2026">
                           {renderTitle(event.title)}
                         </h4>
                       </div>
                       <div className="mt-3">
-                        <button className="text-base font-semibold text-red2025 group-hover:text-white">
+                        <button className="text-base font-semibold text-fuchsia2026 group-hover:text-white">
                           <h4 className="italic">{read_more}</h4>
                         </button>
                       </div>

@@ -145,7 +145,7 @@ export default function Artists() {
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="block text-3xl font-extrabold uppercase tracking-tight text-black2025 sm:text-4xl lg:text-5xl"
+                className="block text-3xl font-extrabold uppercase tracking-tight text-black2026 sm:text-4xl lg:text-5xl"
               >
                 {locale === 'en'
                   ? festivalArtists.map((letter, i) => (
@@ -165,10 +165,10 @@ export default function Artists() {
                                 variants={itemBottom}
                                 initial="hidden"
                                 animate="show"
-                                className="max-w-3xl text-lg text-black2025 sm:mt-3 sm:text-2xl"
+                                className="max-w-3xl text-lg text-black2026 sm:mt-3 sm:text-2xl"
                               >
                                 25––31 / 05 /{' '}
-                                <span className="text-black2025">&nbsp;2026</span>
+                                <span className="text-black2026">&nbsp;2026</span>
                               </motion.h3> */}
             </div>
           </div>
@@ -177,10 +177,10 @@ export default function Artists() {
           <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-24">
             <div className="space-y-6 sm:space-y-12">
               <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-                <h4 className="max-w-sm text-4xl font-extrabold uppercase leading-none tracking-tight text-red2025 sm:max-w-lg sm:text-5xl md:text-6xl">
+                <h4 className="max-w-sm text-4xl font-extrabold uppercase leading-none tracking-tight text-fuchsia2026 sm:max-w-lg sm:text-5xl md:text-6xl">
                   {artistsTitle}
                 </h4>
-                <p className="max-w-sm text-xl text-black2025 sm:max-w-md">
+                <p className="max-w-sm text-xl text-black2026 sm:max-w-md">
                   {subtitle}
                 </p>
               </div>
@@ -208,7 +208,7 @@ export default function Artists() {
                             delay: i * 0.15,
                             ease: 'easeInOut',
                           }}
-                          className="group cursor-pointer space-y-4 rounded-lg p-6 transition delay-75 duration-300 ease-in-out hover:bg-lightOrange2025"
+                          className="group cursor-pointer space-y-4 rounded-lg p-6 transition delay-75 duration-300 ease-in-out hover:bg-pink2026"
                         >
                           <div className="aspect-h-2 aspect-w-3">
                             <div className="overflow-hidden rounded-lg object-cover shadow-none">
@@ -226,10 +226,10 @@ export default function Artists() {
 
                           <div className="space-y-2">
                             <div className="space-y-1 text-lg leading-6">
-                              <h4 className="font-extrabold text-red2025">
+                              <h4 className="font-extrabold text-fuchsia2026">
                                 {artist.name}
                               </h4>
-                              <p className="font-normal capitalize text-black2025">
+                              <p className="font-normal capitalize text-black2026">
                                 {artist.instrument}
                               </p>
                             </div>

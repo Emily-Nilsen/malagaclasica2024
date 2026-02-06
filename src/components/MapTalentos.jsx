@@ -7,12 +7,12 @@ export function MapTalentos() {
     <>
       <div className="bg-white">
         <div className="bg-white">
-          <div className="px-4 pt-16 mx-auto max-w-7xl sm:px-6 sm:pt-24 lg:px-8">
+          <div className="mx-auto max-w-7xl px-4 pt-16 sm:px-6 sm:pt-24 lg:px-8">
             <div className="text-center">
-              <h4 className="mt-0 text-4xl font-extrabold tracking-tight uppercase text-red2025 sm:text-5xl lg:text-6xl">
+              <h4 className="mt-0 text-4xl font-extrabold uppercase tracking-tight text-fuchsia2026 sm:text-5xl lg:text-6xl">
                 {map_title}
               </h4>
-              <p className="max-w-xl mx-auto text-xl text-gray-600 -mt-7 sm:-mt-3">
+              <p className="mx-auto -mt-7 max-w-xl text-xl text-gray-600 sm:-mt-3">
                 {/* {t('talents:map_subtitle')} */}
               </p>
               {/* Address */}
@@ -25,7 +25,7 @@ export function MapTalentos() {
             </div>
           </div>
         </div>
-        <div className="px-4 pt-6 pb-12">
+        <div className="px-4 pb-12 pt-6">
           <div className="relative mx-auto w-full max-w-[375px] py-12 md:max-w-[744px] lg:max-w-[1440px]">
             <div className="relative w-full overflow-hidden rounded-lg">
               <iframe

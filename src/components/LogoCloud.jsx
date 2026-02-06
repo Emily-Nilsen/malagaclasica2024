@@ -15,44 +15,44 @@ const logos = [
   {
     name: 'AyuntamientoLogo',
     logoMark: (
-      <AyuntamientoLogo className="w-24 h-auto fill-black2025 sm:w-32" />
+      <AyuntamientoLogo className="h-auto w-24 fill-black2026 sm:w-32" />
     ),
   },
   {
     name: 'MalagaProculturaLogo',
     logoMark: (
-      <MalagaProculturaLogo className="w-auto h-3 fill-black2025 sm:h-4" />
+      <MalagaProculturaLogo className="h-3 w-auto fill-black2026 sm:h-4" />
     ),
   },
   {
     name: 'TeatroCervantesLogo',
     logoMark: (
-      <TeatroCervantesLogo className="w-auto h-7 fill-black2025 stroke-black2025 sm:h-9" />
+      <TeatroCervantesLogo className="h-7 w-auto fill-black2026 stroke-black2026 sm:h-9" />
     ),
   },
   {
     name: 'TeatroEchegarayLogo',
     logoMark: (
-      <TeatroEchegarayLogo className="w-auto h-6 fill-black2025 sm:h-8" />
+      <TeatroEchegarayLogo className="h-6 w-auto fill-black2026 sm:h-8" />
     ),
   },
   {
     name: 'GalamianLogo',
-    logoMark: <MalagaIcon className="w-auto h-8 fill-black2025 sm:h-10" />,
+    logoMark: <MalagaIcon className="h-8 w-auto fill-black2026 sm:h-10" />,
   },
 
   {
     name: 'ReinaNilsenLogo',
-    logoMark: <ReinaNilsenLogo className="w-auto h-9 fill-black2025 sm:h-12" />,
+    logoMark: <ReinaNilsenLogo className="h-9 w-auto fill-black2026 sm:h-12" />,
   },
   {
     name: 'LaCaixaLogo',
-    logoMark: <LaCaixaLogo className="w-auto h-12 fill-black2025 sm:h-16" />,
+    logoMark: <LaCaixaLogo className="h-12 w-auto fill-black2026 sm:h-16" />,
   },
   {
     name: 'HoteldelPintorLogo',
     logoMark: (
-      <HoteldelPintorLogo className="w-auto h-12 fill-black2025 sm:h-16" />
+      <HoteldelPintorLogo className="h-12 w-auto fill-black2026 sm:h-16" />
     ),
   },
 ]
@@ -61,13 +61,13 @@ export function LogoCloud() {
   const { locale } = useRouter()
   const { t } = useTranslation('home')
   return (
-    <div className="relative z-1 bg-red2025">
-      <div className="relative z-20 px-4 py-10 mx-auto max-w-7xl sm:px-6 sm:py-16 lg:px-8">
-        <p className="text-sm font-semibold tracking-wide text-center text-gray-900 uppercase">
+    <div className="z-1 relative bg-fuchsia2026">
+      <div className="relative z-20 mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-16 lg:px-8">
+        <p className="text-center text-sm font-semibold uppercase tracking-wide text-gray-900">
           {t('home:cloud_title')}
         </p>
 
-        <div className="grid grid-cols-2 gap-3 mt-6 sm:hidden">
+        <div className="mt-6 grid grid-cols-2 gap-3 sm:hidden">
           {logos.map((logo) => (
             <div key={logo.name} className="flex items-center justify-center">
               <div>{logo.logoMark}</div>
@@ -75,7 +75,7 @@ export function LogoCloud() {
           ))}
         </div>
 
-        <div className="hidden grid-cols-4 gap-3 mt-6 sm:grid">
+        <div className="mt-6 hidden grid-cols-4 gap-3 sm:grid">
           {logos.map((logo) => (
             <div key={logo.name} className="flex items-center justify-center">
               <a href={logo.link} target="_blank" rel="noreferrer">

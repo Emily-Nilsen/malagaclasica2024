@@ -57,7 +57,7 @@ export function Hero() {
                 clipPath:
                   'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
               }}
-              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-red2025 to-orange2025 opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-fuchsia2026 to-fuchsia2026/50 opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             />
           </div>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -75,7 +75,7 @@ export function Hero() {
                 </div>
                 <div className="col-span-2 flex items-center justify-center">
                   <div>
-                    <p className="text-xl font-normal uppercase tracking-wider text-black2025 sm:text-3xl lg:text-4xl">
+                    <p className="text-xl font-normal uppercase tracking-wider text-black2026 sm:text-3xl lg:text-4xl">
                       Málaga Clásica
                     </p>
                   </div>
@@ -83,11 +83,11 @@ export function Hero() {
               </div>
 
               <div className="mx-auto w-fit border-y border-gray-400">
-                <h4 className="px-2 py-1 text-xs font-extrabold uppercase text-red2025 sm:text-xl lg:text-2xl">
+                <h4 className="px-2 py-1 text-xs font-extrabold uppercase text-fuchsia2026 sm:text-xl lg:text-2xl">
                   {title}
                 </h4>
               </div>
-              {/* <h3 className="max-w-xl mx-auto mt-5 text-xl font-bold tracking-wide uppercase text-red2025 sm:text-2xl lg:text-3xl">
+              {/* <h3 className="max-w-xl mx-auto mt-5 text-xl font-bold tracking-wide uppercase text-fuchsia2026 sm:text-2xl lg:text-3xl">
                 {subtitle}
               </h3> */}
             </div>
@@ -98,7 +98,7 @@ export function Hero() {
                   variants={container}
                   initial="hidden"
                   animate="show"
-                  className="block pt-40 text-left text-5xl font-extrabold uppercase text-black2025 sm:pt-20 sm:text-6xl lg:text-7xl"
+                  className="block pt-40 text-left text-5xl font-extrabold uppercase text-black2026 sm:pt-20 sm:text-6xl lg:text-7xl"
                 >
                   {locale === 'en'
                     ? theNewWorld.map((letter, i) => (
@@ -112,7 +112,7 @@ export function Hero() {
                         </motion.span>
                       ))}
                 </motion.h4>
-                <h4 className="mt-5 max-w-xl text-xl font-extrabold uppercase tracking-tight text-red2025 sm:text-2xl lg:text-3xl">
+                <h4 className="mt-5 max-w-xl text-xl font-extrabold uppercase tracking-tight text-fuchsia2026 sm:text-2xl lg:text-3xl">
                   {subtitle}
                 </h4>
                 <motion.h3
@@ -122,9 +122,7 @@ export function Hero() {
                   className="mx-auto mt-3 max-w-lg text-left text-2xl font-normal text-gray-600 sm:max-w-3xl sm:text-3xl lg:text-4xl"
                 >
                   25––31 / 05 /{' '}
-                  <span className="font-medium text-blueGreyDark2024">
-                    &nbsp;2026
-                  </span>
+                  <span className="font-medium text-black2026">&nbsp;2026</span>
                 </motion.h3>
                 <div className="mt-10 flex items-center justify-center gap-x-6"></div>
               </div>

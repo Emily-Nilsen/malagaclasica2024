@@ -48,6 +48,10 @@ module.exports = {
         lightOrange2025: '#feece2',
         black2025: '#231f20',
         grey2025: '#6d6e70',
+        fuchsia2026: '#db6eab',
+        pink2026: '#f4e9ed',
+        grey2026: '#e4e4e3',
+        black2026: '#231f20',
       },
 
       keyframes: {

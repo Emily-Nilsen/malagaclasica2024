@@ -68,7 +68,7 @@ export default function About() {
       <Header />
 
       <main className="">
-        <div className="relative overflow-hidden bg-lightOrange2025 px-10 py-20 pb-20 sm:px-12 sm:py-20">
+        <div className="relative overflow-hidden bg-pink2026 px-10 py-20 pb-20 sm:px-12 sm:py-20">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -98,7 +98,7 @@ export default function About() {
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="block text-3xl font-extrabold uppercase tracking-tight text-black2025 sm:text-4xl lg:text-5xl"
+                className="block text-3xl font-extrabold uppercase tracking-tight text-black2026 sm:text-4xl lg:text-5xl"
               >
                 {locale === 'en'
                   ? theNewWorld.map((letter, i) => (
@@ -118,23 +118,23 @@ export default function About() {
                 variants={itemBottom}
                 initial="hidden"
                 animate="show"
-                className="max-w-3xl text-lg text-black2025 sm:mt-3 sm:text-2xl"
+                className="max-w-3xl text-lg text-black2026 sm:mt-3 sm:text-2xl"
               >
                 25––31 / 05 /{' '}
-                <span className="text-black2025">&nbsp;2026</span>
+                <span className="text-black2026">&nbsp;2026</span>
               </motion.h3> */}
             </div>
           </div>
         </div>
-        <div className="overflow-hidden bg-lightOrange2025">
+        <div className="overflow-hidden bg-pink2026">
           <div className="relative mx-auto max-w-7xl px-4 pb-0 pt-16 sm:px-6 lg:px-8">
             <div className="bg-t absolute bottom-0 left-3/4 top-0 hidden w-screen opacity-25 lg:block" />
             <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
               <div>
-                <h4 className="text-base font-extrabold uppercase tracking-normal text-red2025">
+                <h4 className="text-base font-extrabold uppercase tracking-normal text-fuchsia2026">
                   Málaga Clásica
                 </h4>
-                <h4 className="mt-2 text-4xl font-extrabold uppercase leading-none tracking-tight text-black2025 sm:text-5xl md:text-6xl">
+                <h4 className="mt-2 text-4xl font-extrabold uppercase leading-none tracking-tight text-black2026 sm:text-5xl md:text-6xl">
                   {title}
                 </h4>
               </div>
@@ -160,7 +160,7 @@ export default function About() {
                           alt="Málaga Clásica"
                           width={2228}
                           height={1300}
-                          className="h-full w-full bg-lightOrange2025 object-cover object-center"
+                          className="h-full w-full bg-pink2026 object-cover object-center"
                           unoptimized
                         />
                       </motion.div>
