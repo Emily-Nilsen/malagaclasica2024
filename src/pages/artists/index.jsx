@@ -143,10 +143,10 @@ export default function Artists() {
             >
               <div className="absolute right-0 -mt-10 hidden h-full w-full sm:-mt-0 lg:block">
                 <Image
-                  src="/media/Ocean_water.jpg"
+                  src="/media/placeholder_2026.webp"
                   alt="Málaga Clásica"
                   unoptimized
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover object-center opacity-60"
                   width={500}
                   height={750}
                 />
@@ -155,9 +155,9 @@ export default function Artists() {
                 <Image
                   width={2356}
                   height={1564}
-                  src="/media/Ocean_water_square.jpg"
+                  src="/media/placeholder_2026.webp"
                   alt="Talentos"
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover object-center opacity-60"
                   unoptimized
                   priority
                 />

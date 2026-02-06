@@ -56,11 +56,11 @@ export default function Contact() {
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
               <div className="relative h-64 w-full bg-pink2026 object-cover lg:absolute lg:h-full">
                 <Image
-                  src="/media/Ocean_water.jpg"
+                  src="/media/placeholder_2026.webp"
                   alt="Resonancias del espíritu 2024"
                   width={2000}
                   height={2000}
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover object-center opacity-80"
                   unoptimized
                 />
               </div>

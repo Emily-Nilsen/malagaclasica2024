@@ -69,9 +69,9 @@ export default function Talents() {
                 <Image
                   width={2356}
                   height={1564}
-                  src="/media/Ocean_water.jpg"
+                  src="/media/placeholder_2026_grey.webp"
                   alt="Talentos"
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover object-center opacity-60"
                   unoptimized
                   priority
                 />
@@ -81,9 +81,9 @@ export default function Talents() {
                 <Image
                   width={2356}
                   height={1564}
-                  src="/media/Ocean_water_square.jpg"
+                  src="/media/placeholder_2026_grey.webp"
                   alt="Talentos"
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover object-center opacity-60"
                   unoptimized
                   priority
                 />
