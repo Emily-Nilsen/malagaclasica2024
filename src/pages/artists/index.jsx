@@ -82,6 +82,31 @@ export default function Artists() {
   const metaDescription = t('common:meta-description')
   const artistsTitle = t('title')
   const subtitle = t('subtitle')
+  const artists2026Order = [
+    'Jesús Reina',
+    'Anna Nilsen',
+    'Liana Gourdjia',
+    'Robert Kowalski',
+    'Eleanor Kendra James',
+    'Lesster Frank Mejías Ercia',
+    'David Apellániz',
+    'Adolfo Gutiérrez',
+    'Natalia Kucháeva',
+    'Antonio Ortiz',
+    'Josu De Solaun',
+    'Susanne Hvinden Hals',
+    'Nils Georg Nilsen',
+  ]
+  const artistOrderLookup = new Map(
+    artists2026Order.map((name, index) => [name, index])
+  )
+  const artists2026 = artists
+    .filter(
+      (artist) => artist.locale === locale && artistOrderLookup.has(artist.name)
+    )
+    .sort(
+      (a, b) => artistOrderLookup.get(a.name) - artistOrderLookup.get(b.name)
+    )
 
   return (
     <>
@@ -188,56 +213,54 @@ export default function Artists() {
                 role="list"
                 className="group space-y-0 pb-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-6 sm:space-y-0 sm:pb-12 md:pb-16 lg:grid-cols-3 lg:gap-x-8"
               >
-                {artists
-                  .filter((p) => p.locale === locale)
-                  .map((artist, i) => (
-                    <li key={i}>
-                      <Link
-                        href={`/artists/${slugify(artist.slug_name)}`}
-                        passHref
+                {artists2026.map((artist, i) => (
+                  <li key={i}>
+                    <Link
+                      href={`/artists/${slugify(artist.slug_name)}`}
+                      passHref
+                    >
+                      <motion.div
+                        initial={{
+                          opacity: 0,
+                          y: 50,
+                        }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{
+                          duration: 0.4,
+                          delay: i * 0.15,
+                          ease: 'easeInOut',
+                        }}
+                        className="group cursor-pointer space-y-4 rounded-lg p-6 transition delay-75 duration-300 ease-in-out hover:bg-pink2026"
                       >
-                        <motion.div
-                          initial={{
-                            opacity: 0,
-                            y: 50,
-                          }}
-                          whileInView={{ opacity: 1, y: 0 }}
-                          viewport={{ once: true }}
-                          transition={{
-                            duration: 0.4,
-                            delay: i * 0.15,
-                            ease: 'easeInOut',
-                          }}
-                          className="group cursor-pointer space-y-4 rounded-lg p-6 transition delay-75 duration-300 ease-in-out hover:bg-pink2026"
-                        >
-                          <div className="aspect-h-2 aspect-w-3">
-                            <div className="overflow-hidden rounded-lg object-cover shadow-none">
-                              <Image
-                                width={2000}
-                                height={2000}
-                                className="h-full w-full object-cover object-center"
-                                unoptimized
-                                objectPosition={artist.image_position}
-                                src={artist.preview_image || artist.image}
-                                alt={artist.name}
-                              />
-                            </div>
+                        <div className="aspect-h-2 aspect-w-3">
+                          <div className="overflow-hidden rounded-lg object-cover shadow-none">
+                            <Image
+                              width={2000}
+                              height={2000}
+                              className="h-full w-full object-cover object-center"
+                              unoptimized
+                              objectPosition={artist.image_position}
+                              src={artist.preview_image || artist.image}
+                              alt={artist.name}
+                            />
                           </div>
+                        </div>
 
-                          <div className="space-y-2">
-                            <div className="space-y-1 text-lg leading-6">
-                              <h4 className="font-extrabold text-fuchsia2026">
-                                {artist.name}
-                              </h4>
-                              <p className="font-normal capitalize text-black2026">
-                                {artist.instrument}
-                              </p>
-                            </div>
+                        <div className="space-y-2">
+                          <div className="space-y-1 text-lg leading-6">
+                            <h4 className="font-extrabold text-fuchsia2026">
+                              {artist.name}
+                            </h4>
+                            <p className="font-normal capitalize text-black2026">
+                              {artist.instrument}
+                            </p>
                           </div>
-                        </motion.div>
-                      </Link>
-                    </li>
-                  ))}
+                        </div>
+                      </motion.div>
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
