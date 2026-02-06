@@ -5,7 +5,7 @@ const events = [
     locale: 'en',
     date: `25 May, 2026`,
     price: `regular`,
-    title: `MÁLAGA CLÁSICA TALENTOS; MÁLAGA CLÁSICA`,
+    title: `MÁLAGA CLÁSICA TALENTS`,
     location: `Echegaray Theatre, 8 p.m.`,
     sentence: [
       `MÁLAGA CLÁSICA TALENTS`,
@@ -413,7 +413,7 @@ const events = [
     locale: 'es',
     date: `25 de mayo, 2026`,
     price: `regular`,
-    title: `MÁLAGA CLÁSICA TALENTOS; MÁLAGA CLÁSICA`,
+    title: `MÁLAGA CLÁSICA TALENTOS`,
     location: `Teatro Echegaray, 20:00 h.`,
     sentence: [
       `MÁLAGA CLÁSICA TALENTOS`,
