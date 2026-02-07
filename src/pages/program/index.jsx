@@ -71,14 +71,14 @@ export default function Program() {
         {/* Open Graph data */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
-        <meta property="og:image" content="/media/El_Nuevo_Mundo_2025.webp" />
+        <meta property="og:image" content="/media/Metropolis_2026_OG.webp" />
         <meta property="og:url" content="https://malagaclasica.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
       </Head>
       <Header />
       <main>
-        <div className="relative overflow-hidden bg-pink2026 px-10 py-20 pb-20 sm:px-12 sm:py-20">
+        <div className="relative overflow-hidden bg-pink2026 px-10 py-20 pb-20 sm:px-12 sm:py-40">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -92,7 +92,7 @@ export default function Program() {
             >
               <div className="absolute right-0 -mt-10 h-full w-full sm:-mt-0">
                 <Image
-                  src="/media/placeholder_2026.webp"
+                  src="/media/Program_2026_desktop.webp"
                   alt="Málaga Clásica"
                   unoptimized
                   className="h-full w-full object-cover object-center opacity-60"
@@ -108,7 +108,7 @@ export default function Program() {
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="block text-3xl font-extrabold uppercase tracking-tight text-black2026 sm:text-4xl lg:text-5xl"
+                className="block text-3xl font-extrabold uppercase tracking-tight text-white sm:text-4xl lg:text-5xl"
               >
                 {locale === 'en'
                   ? theNewWorld.map((letter, i) => (

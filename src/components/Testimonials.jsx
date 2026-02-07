@@ -100,7 +100,7 @@ export function Testimonials() {
             <a download href="/p_MC2025.pdf">
               <article className="relative isolate mt-6 flex h-64 w-40 flex-col justify-end overflow-hidden rounded-2xl bg-white transition duration-300 ease-in-out hover:contrast-125 sm:mt-0 sm:w-48">
                 <Image
-                  src="/media/El_Nuevo_Mundo_2025.webp"
+                  src="/media/Metropolis_2026_OG.webp"
                   alt="Resonancias del espíritu - PDF"
                   width={1862}
                   height={2584}
