@@ -69,7 +69,7 @@ export default function Talents() {
                 <Image
                   width={2356}
                   height={1564}
-                  src="/media/Talents_2026_desktop_sm.jpg"
+                  src="/media/Talents_2026_desktop.webp"
                   alt="Talentos"
                   className="h-full w-full object-cover object-center"
                   unoptimized
@@ -81,7 +81,7 @@ export default function Talents() {
                 <Image
                   width={2356}
                   height={1564}
-                  src="/media/Talents_2026_mobile.jpg"
+                  src="/media/Talents_2026_mobile.webp"
                   alt="Talentos"
                   className="h-full w-full object-cover object-center"
                   unoptimized
