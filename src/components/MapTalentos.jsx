@@ -5,8 +5,8 @@ export function MapTalentos() {
   const map_title = t('map_title')
   return (
     <>
-      <div className="bg-white">
-        <div className="bg-white">
+      <div className="bg-grey2026">
+        <div className="bg-grey2026">
           <div className="mx-auto max-w-7xl px-4 pt-16 sm:px-6 sm:pt-24 lg:px-8">
             <div className="text-center">
               <h4 className="mt-0 text-4xl font-extrabold uppercase tracking-tight text-fuchsia2026 sm:text-5xl lg:text-6xl">

@@ -46,7 +46,7 @@ export default function Talents() {
         {/* Open Graph data */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
-        <meta property="og:image" content="/media/El_Nuevo_Mundo_2025.webp" />
+        <meta property="og:image" content="/media/Metrópolis_2026_OG.webp" />
         <meta property="og:url" content="https://malagaclasica.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
@@ -69,9 +69,9 @@ export default function Talents() {
                 <Image
                   width={2356}
                   height={1564}
-                  src="/media/placeholder_2026_grey.webp"
+                  src="/media/Talents_2026_desktop_sm.jpg"
                   alt="Talentos"
-                  className="h-full w-full object-cover object-center opacity-60"
+                  className="h-full w-full object-cover object-center"
                   unoptimized
                   priority
                 />
@@ -81,9 +81,9 @@ export default function Talents() {
                 <Image
                   width={2356}
                   height={1564}
-                  src="/media/placeholder_2026_grey.webp"
+                  src="/media/Talents_2026_mobile.jpg"
                   alt="Talentos"
-                  className="h-full w-full object-cover object-center opacity-60"
+                  className="h-full w-full object-cover object-center"
                   unoptimized
                   priority
                 />

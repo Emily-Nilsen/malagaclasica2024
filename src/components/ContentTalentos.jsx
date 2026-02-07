@@ -9,7 +9,7 @@ export function ContentTalentos() {
   const para_4 = t('para_4')
 
   return (
-    <div className="overflow-hidden bg-grey2026 px-4 py-16 sm:px-6 lg:px-8 xl:py-36">
+    <div className="overflow-hidden bg-greyMedium2026 px-4 py-16 sm:px-6 lg:px-8 xl:py-36">
       <div className="relative px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-prose text-lg">
           <h4>
