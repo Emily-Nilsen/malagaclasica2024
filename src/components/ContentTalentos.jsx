@@ -7,7 +7,6 @@ export function ContentTalentos() {
   const para_1 = t('para_1')
   const para_3 = t('para_3')
   const para_4 = t('para_4')
-  const para_5b = t('para_5b')
 
   return (
     <div className="overflow-hidden bg-grey2026 px-4 py-16 sm:px-6 lg:px-8 xl:py-36">
@@ -26,9 +25,6 @@ export function ContentTalentos() {
         <div className="prose prose-lg mx-auto mt-6 text-black2026">
           <p>{para_3}</p>
           <p>{para_4}</p>
-
-          <h2 className="text-blueRevolution">{t('talents:title_2')}</h2>
-          <p>{t('talents:para_5b')}</p>
         </div>
 
         {/* Announce new talent program */}

@@ -181,16 +181,16 @@ export function InfoTalentos() {
             </div>
             <dl className="mt-3 text-base text-black2026 transition duration-200 ease-in-out">
               {/* phone */}
-              <div className="mt-3">
+              {/* <div className="mt-3">
                 <dt className="sr-only">Telefono</dt>
                 <dd className="flex">
                   <PhoneIcon
-                    className="h-6 w-6 flex-shrink-0 text-fuchsia2026"
+                    className="flex-shrink-0 w-6 h-6 text-fuchsia2026"
                     aria-hidden="true"
                   />
                   <span className="ml-3 font-medium">699 06 74 52</span>
                 </dd>
-              </div>
+              </div> */}
               {/* email */}
               <div className="mt-3">
                 <dt className="sr-only">Email</dt>
