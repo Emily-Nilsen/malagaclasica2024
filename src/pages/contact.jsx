@@ -34,7 +34,7 @@ export default function Contact() {
         {/* Open Graph data */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
-        <meta property="og:image" content="/media/El_Nuevo_Mundo_2025.webp" />
+        <meta property="og:image" content="/media/Metropolis_2026_OG.webp" />
         <meta property="og:url" content="https://malagaclasica.com/contact" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
@@ -60,7 +60,7 @@ export default function Contact() {
                   alt="Resonancias del espíritu 2024"
                   width={2000}
                   height={2000}
-                  className="h-full w-full object-cover object-center opacity-80"
+                  className="h-full w-full object-cover object-center"
                   unoptimized
                 />
               </div>

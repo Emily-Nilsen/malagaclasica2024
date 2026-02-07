@@ -60,7 +60,7 @@ export default function About() {
         {/* Open Graph data */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
-        <meta property="og:image" content="/media/El_Nuevo_Mundo_2025.webp" />
+        <meta property="og:image" content="/media/Metropolis_2026_OG.webp" />
         <meta property="og:url" content="https://malagaclasica.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={title} />
@@ -82,12 +82,12 @@ export default function About() {
             >
               <div className="absolute right-0 -mt-10 h-full w-full sm:-mt-0">
                 <Image
-                  src="/media/placeholder_2026.webp"
+                  src="/media/About_2026_desktop.webp"
                   alt="Málaga Clásica"
                   unoptimized
                   className="h-full w-full object-cover object-center opacity-60"
-                  width={500}
-                  height={750}
+                  width={2000}
+                  height={1125}
                 />
               </div>
             </motion.div>
