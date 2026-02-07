@@ -68,7 +68,7 @@ export default function About() {
       <Header />
 
       <main className="">
-        <div className="relative overflow-hidden bg-pink2026 px-10 py-20 pb-20 sm:px-12 sm:py-20">
+        <div className="relative overflow-hidden bg-pink2026 px-10 py-20 pb-20 sm:px-12 sm:py-40">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -85,7 +85,7 @@ export default function About() {
                   src="/media/About_2026_desktop.webp"
                   alt="Málaga Clásica"
                   unoptimized
-                  className="h-full w-full object-cover object-center opacity-60"
+                  className="h-full w-full object-cover object-center"
                   width={2000}
                   height={1125}
                 />

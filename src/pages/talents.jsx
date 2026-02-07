@@ -23,7 +23,6 @@ export default function Talents() {
   const deadline = t('deadline')
   const deadlineDate = t('deadlineDate')
   const requisitosTitle = t('requisitos')
-  // const talentos = ['T', 'a', 'l', 'e', 'n', 't', 'o', 's']
   const requisitosData = [
     {
       item: `${requisito01}`,
@@ -89,28 +88,7 @@ export default function Talents() {
                 />
               </div>
 
-              {/* <div className="absolute inset-0 bg-pink2026 mix-blend-overlay" /> */}
               <div className="absolute inset-0 bg-pink2026/40" />
-              {/* <div className="absolute inset-0 opacity-50 sm:hidden">
-                <Image
-                  alt="Málaga Clásica - Resonancias Del Espíritu 2024"
-                  width={2000}
-                  height={2000}
-                  className="object-cover object-center w-full h-full"
-                  unoptimized
-                  src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
-                />
-              </div> */}
-              {/* <div className="absolute inset-0 hidden opacity-50 sm:block">
-                <Image
-                  alt="Málaga Clásica - Resonancias Del Espíritu 2024"
-                  width={2000}
-                  height={2000}
-                  className="object-cover object-center w-full h-full"
-                  unoptimized
-                  src="/media/Resonancias_del_espiritu_2024_desktop_bxxhso.webp"
-                />
-              </div> */}
             </motion.div>
             {/* something in here!! */}
             <div className="absolute inset-0 grid grid-cols-1 sm:grid-cols-3">
