@@ -129,7 +129,7 @@ export default function Artists() {
       <Header />
 
       <main className="">
-        <div className="relative overflow-hidden bg-white px-10 py-20 pb-20 sm:px-12 sm:py-20">
+        <div className="relative overflow-hidden bg-white px-10 py-20 pb-20 sm:px-12 sm:py-40">
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -143,7 +143,7 @@ export default function Artists() {
             >
               <div className="absolute right-0 -mt-10 hidden h-full w-full sm:-mt-0 lg:block">
                 <Image
-                  src="/media/placeholder_2026.webp"
+                  src="/media/About_2026_desktop.webp"
                   alt="Málaga Clásica"
                   unoptimized
                   className="h-full w-full object-cover object-center opacity-60"
@@ -155,7 +155,7 @@ export default function Artists() {
                 <Image
                   width={2356}
                   height={1564}
-                  src="/media/placeholder_2026.webp"
+                  src="/media/About_2026_desktop.webp"
                   alt="Talentos"
                   className="h-full w-full object-cover object-center opacity-60"
                   unoptimized
