@@ -116,7 +116,8 @@ const events = [
     ],
     image: '/media/events/piano_icg2qd.webp',
     image_position: `object-top`,
-    ticket_url: 'https://teatrocervantes.com',
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xiv-malaga-clasica-metropolis/leipzig-2126',
   },
   // Concert 28 May
   {
@@ -170,7 +171,8 @@ const events = [
     ],
     image: '/media/events/cello_z7sixb.webp',
     image_position: `object-top`,
-    ticket_url: 'https://teatrocervantes.com',
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xiv-malaga-clasica-metropolis/nueva-york-2127',
   },
 
   // Concert 29 May
@@ -244,7 +246,8 @@ const events = [
     ],
     image: '/media/events/violin_1_duczzp.webp',
     image_position: `object-center`,
-    ticket_url: 'https://teatrocervantes.com',
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xiv-malaga-clasica-metropolis/paris-2128',
   },
 
   // Concert 30 May
@@ -309,7 +312,8 @@ const events = [
     ],
     image: '/media/events/piano_duette_qkdrgf.webp',
     image_position: ``,
-    ticket_url: 'https://teatrocervantes.com',
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xiv-malaga-clasica-metropolis/viena-2129',
   },
   // Concert 31 May
   {
@@ -401,7 +405,8 @@ const events = [
     ],
     image: '/media/events/violin_2_uqtbs2.webp',
     image_position: ``,
-    ticket_url: 'https://teatrocervantes.com',
+    ticket_url:
+      'https://www.teatrocervantes.com/es/genero/musica/xiv-malaga-clasica-metropolis/madrid-2130',
   },
 
   //
@@ -525,7 +530,8 @@ const events = [
     ],
     image: '/media/events/piano_icg2qd.webp',
     image_position: `object-top`,
-    ticket_url: 'https://teatrocervantes.com',
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xiv-malaga-clasica-metropolis/leipzig-2126',
   },
 
   // Concierto 28 de mayo
@@ -580,7 +586,8 @@ const events = [
     ],
     image: '/media/events/cello_z7sixb.webp',
     image_position: `object-top`,
-    ticket_url: 'https://teatrocervantes.com',
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xiv-malaga-clasica-metropolis/nueva-york-2127',
   },
 
   // Concierto 29 de mayo
@@ -654,7 +661,8 @@ const events = [
     ],
     image: '/media/events/violin_1_duczzp.webp',
     image_position: `object-top`,
-    ticket_url: 'https://teatrocervantes.com',
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xiv-malaga-clasica-metropolis/paris-2128',
   },
 
   // Concierto 30 de mayo
@@ -715,7 +723,8 @@ const events = [
     ],
     image: '/media/events/piano_duette_qkdrgf.webp',
     image_position: ``,
-    ticket_url: 'https://teatrocervantes.com',
+    ticket_url:
+      'https://www.teatroechegaray.com/es/genero/musica/xiv-malaga-clasica-metropolis/viena-2129',
   },
   // Concierto 31 de mayo
   {
@@ -811,7 +820,8 @@ const events = [
     ],
     image: '/media/events/violin_2_uqtbs2.webp',
     image_position: ``,
-    ticket_url: 'https://teatrocervantes.com',
+    ticket_url:
+      'https://www.teatrocervantes.com/es/genero/musica/xiv-malaga-clasica-metropolis/madrid-2130',
   },
 ]
 

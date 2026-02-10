@@ -147,7 +147,7 @@ export function Theatres() {
               </dl>
               <div className="mt-10">
                 <a
-                  href="https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/"
+                  href="https://www.teatroechegaray.com/es/genero/musica/xiv-malaga-clasica-metropolis/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -195,7 +195,7 @@ export function Theatres() {
               </dl>
               <div className="mt-10">
                 <a
-                  href="https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/"
+                  href="https://www.teatrocervantes.com/es/genero/musica/xiv-malaga-clasica-metropolis/"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -27,7 +27,7 @@ export function Discount() {
             {/* Uncomment below? */}
             <div className="mt-6 rounded-md shadow lg:ml-10 lg:mt-0 lg:flex-shrink-0">
               <a
-                href="https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/"
+                href="https://www.teatrocervantes.com/es/genero/musica/xiv-malaga-clasica-metropolis/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"

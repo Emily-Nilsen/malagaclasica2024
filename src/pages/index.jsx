@@ -7,8 +7,8 @@ import { Features } from '@/components/Features'
 import { Testimonials } from '@/components/Testimonials'
 import useTranslation from 'next-translate/useTranslation'
 
-function HiddenHome() {
-  // export default function Home() {
+// function HiddenHome() {
+export default function Home() {
   const { t } = useTranslation('common')
   const title = t('title')
   const metaDescription = t('meta-description')
@@ -45,7 +45,7 @@ function HiddenHome() {
   )
 }
 
-export default function ComingSoon() {
+function ComingSoon() {
   return (
     <>
       <Head>

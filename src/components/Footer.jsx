@@ -10,11 +10,11 @@ export function Footer() {
     links: [
       {
         name: 'teatrocervantes.es',
-        href: 'https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/',
+        href: 'https://www.teatrocervantes.com/es/genero/musica/xiv-malaga-clasica-metropolis/',
       },
       {
         name: 'teatroechegaray.es',
-        href: 'https://www.teatroechegaray.com/es/buscador/?s=mundo',
+        href: 'https://www.teatroechegaray.com/es/genero/musica/xiv-malaga-clasica-metropolis/',
       },
     ],
     social: [

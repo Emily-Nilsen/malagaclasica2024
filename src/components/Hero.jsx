@@ -42,15 +42,10 @@ export function Hero() {
     <>
       <div>
         {/* From 2025 */}
-        <div className="relative isolate overflow-hidden pt-14">
-          <img
-            alt="Málaga Clásica"
-            src="/media/Ocean_water.jpg"
-            className="absolute inset-0 -z-10 size-full object-cover"
-          />
+        <div className="relative isolate overflow-hidden bg-fuchsia2026 px-6 pb-6 pt-3 sm:px-10 sm:pb-8 sm:pt-4 lg:px-14">
           <div
             aria-hidden="true"
-            className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+            className="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           >
             <div
               style={{
@@ -61,70 +56,33 @@ export function Hero() {
             />
           </div>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            {/* <div className="relative px-3 py-1 mx-auto text-center text-gray-400 rounded-full text-sm/6 ring-1 ring-white/10 hover:ring-white/20">
-              Announcing our next round of funding.{' '}
-              <a href="#" className="font-semibold text-black">
-                <span aria-hidden="true" className="absolute inset-0" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </a>
-            </div> */}
-            <div className="text-center">
-              <div className="mx-auto grid max-w-xs grid-cols-3 gap-0 pb-2 sm:max-w-sm lg:max-w-lg">
-                <div className="col-span-1 flex justify-self-end">
-                  <MalagaclasicaLogo className="h-7 w-auto fill-gray-900 sm:h-10" />
-                </div>
-                <div className="col-span-2 flex items-center justify-center">
-                  <div>
-                    <p className="text-xl font-normal uppercase tracking-wider text-black2026 sm:text-3xl lg:text-4xl">
-                      Málaga Clásica
-                    </p>
-                  </div>
-                </div>
+            <div className="flex flex-col items-center text-center">
+              {/* Metropolis title artwork */}
+              <div className="-mt-14 w-full max-w-7xl sm:-mt-28">
+                <img
+                  alt="Málaga Clásica"
+                  src="/media/Metropolis_title.webp"
+                  className="mx-auto max-h-[90vh] w-full object-contain object-center"
+                />
               </div>
 
-              <div className="mx-auto w-fit border-y border-gray-400">
-                <h4 className="px-2 py-1 text-xs font-extrabold uppercase text-fuchsia2026 sm:text-xl lg:text-2xl">
+              {/* Text block (centred, below the image, with a clear gap) */}
+              <div className="-mt-10 pb-4 sm:-mt-20 sm:pb-6">
+                <h1 className="text-xl font-normal uppercase tracking-wider text-black2026 sm:text-3xl lg:text-4xl">
+                  Málaga Clásica
+                </h1>
+                <p className="mt-1 text-[10px] font-extrabold uppercase text-black2026 sm:text-lg lg:text-xl">
                   {title}
-                </h4>
-              </div>
-              {/* <h3 className="max-w-xl mx-auto mt-5 text-xl font-bold tracking-wide uppercase text-fuchsia2026 sm:text-2xl lg:text-3xl">
-                {subtitle}
-              </h3> */}
-            </div>
-            <div className="max-w-2xl py-32 sm:py-48 lg:py-56">
-              <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
-              <div className="text-left">
-                <motion.h4
-                  variants={container}
-                  initial="hidden"
-                  animate="show"
-                  className="block pt-40 text-left text-5xl font-extrabold uppercase text-black2026 sm:pt-20 sm:text-6xl lg:text-7xl"
-                >
-                  {locale === 'en'
-                    ? theNewWorld.map((letter, i) => (
-                        <motion.span key={i} variants={item}>
-                          {letter}
-                        </motion.span>
-                      ))
-                    : elNuevoMundo.map((letter, i) => (
-                        <motion.span key={i} variants={item}>
-                          {letter}
-                        </motion.span>
-                      ))}
-                </motion.h4>
-                <h4 className="mt-5 max-w-xl text-xl font-extrabold uppercase tracking-tight text-fuchsia2026 sm:text-2xl lg:text-3xl">
-                  {subtitle}
-                </h4>
+                </p>
                 <motion.h3
                   variants={itemBottom}
                   initial="hidden"
                   animate="show"
-                  className="mx-auto mt-3 max-w-lg text-left text-2xl font-normal text-gray-600 sm:max-w-3xl sm:text-3xl lg:text-4xl"
+                  className="mx-auto mt-3 max-w-lg text-center text-xl font-normal text-black2026 sm:max-w-3xl sm:text-2xl lg:text-3xl"
                 >
                   25––31 / 05 /{' '}
                   <span className="font-medium text-black2026">&nbsp;2026</span>
                 </motion.h3>
-                <div className="mt-10 flex items-center justify-center gap-x-6"></div>
               </div>
             </div>
           </div>

@@ -97,7 +97,7 @@ export function Testimonials() {
           </Link>
           {/* pdf */}
           <div className="mt-6">
-            <a download href="/p_MC2025.pdf">
+            <a download href="/p_MC2026.pdf">
               <article className="relative isolate mt-6 flex h-64 w-40 flex-col justify-end overflow-hidden rounded-2xl bg-white transition duration-300 ease-in-out hover:contrast-125 sm:mt-0 sm:w-48">
                 <Image
                   src="/media/Metropolis_2026_OG.webp"

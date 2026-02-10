@@ -18,7 +18,7 @@ export function ByInvitation() {
       </div>
       <div className="mt-10 flex">
         <a
-          href="https://teatrocervantes.com/es/genero/musica/xiii-malaga-clasica-el-nuevo-mundo/malaga-clasica-talentos-1893"
+          href="https://www.teatroechegaray.com/es/genero/musica/xiv-malaga-clasica-metropolis/malaga-clasica-talentos-2132"
           target="_blank"
           rel="noreferrer"
         >
