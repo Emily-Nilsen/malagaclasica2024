@@ -759,10 +759,6 @@ const events = [
       {
         composer: [`Joaquín Turina (1882-1949)`],
         info: `Scène Andalouse, Op.7, sexteto para viola, piano y cuarteto de cuerda`,
-      },
-      {
-        composer: [`Leonard Bernstein (1918-1990)`],
-        info: `‘Glitter and be gay’ de la opereta Candide, para voz y piano; ‘Make our garden grow’ de la opereta Candide, para dúo de voz y piano`,
         artists: [
           `Lesster Franck Mejías Ercia viola`,
           `Robert Kowalski violín`,
