@@ -88,7 +88,7 @@ export default function Artists() {
     'Liana Gourdjia',
     'Robert Kowalski',
     'Eleanor Kendra James',
-    'Lesster Frank Mejías Ercia',
+    'Mihai Cocea',
     'David Apellániz',
     'Adolfo Gutiérrez',
     'Natalia Kucháeva',

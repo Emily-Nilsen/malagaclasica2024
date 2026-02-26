@@ -204,33 +204,58 @@ const artists = [
     preview_image: `/media/artists/Liana_Gourdjia_PREVIEW.webp`,
   },
 
-  // Spanish - Lesster Frank Mejías Ercia
+  // Spanish - Mihai Cocea
+
   {
     locale: `es`,
-    name: `Lesster Frank Mejías Ercia`,
-    slug_name: `Lesster Frank Mejías Ercia ES`,
+    name: `Mihai Cocea`,
+    slug_name: `Mihai Cocea ES`,
     instrument: `viola`,
-    para_1: `Nacido en Cienfuegos (Cuba), Lesster Frank Mejías Ercia inició sus estudios a los seis años y se formó en el Conservatorio Ignacio Cervantes, la Escuela Nacional de Arte de La Habana y el Real Conservatorio Superior de Música de Madrid, donde se graduó con Matrícula de Honor. Amplió su formación en el Instituto Internacional de Música de Cámara de Madrid (Escuela Reina Sofía). Ha tocado en orquestas como Orquesta Sinfónica de la Región de Murcia, Orquesta Nacional de España, Orquesta y Coro de Radio Televisión Española, Orquesta Sinfónica de Barcelona y Nacional de Cataluña, Franz Schubert Filharmonia, Utopia Orquesta, entre otras, compaginado este trabajo con una intensa actividad camerística.`,
-    sentences: [
-      `En la actualidad es profesor en la Orquesta Adda Simfónica Alicante. Toca una viola Timofei Podgorny de 1940 (Krilov).`,
-    ],
-    image: `/media/artists/Lesster_Frank_Mejias_Erica.jpg`,
-    preview_image: `/media/artists/Lesster_Frank_Mejias_Erica_PREVIEW.jpg`,
+    para_1: `El violista rumano Mihai Cocea descubrió la expresividad de la viola a los trece años y perfeccionó su arte con Paul Silverthorne en la Real Academia de Música de Londres y Lawrence Power en Zúrich, gracias a una beca de la Confederación Suiza. Como solista, ha actuado con la Filarmónica de Bruselas, NOVA Rossia, The Moscow Soloists y la Orquesta Sinfónica de St. Andrews, en escenarios como la Tonhalle de Zúrich, el Wigmore Hall, el Flagey y el Ateneo de Bucarest. Como músico de camara devoto, ha colaborado con artistas como Daishin Kashimoto, Alexander Sitkovetsky, Liisa Randalu y David Cohen, y ha sido artista residente en el Festival Huilo Huilo de Chile desde 2019. Galardonado en concursos internacionales, Mihai obtuvo el tercer premio en el Concurso Watson Forbes y fue finalista del Concurso Yuri Bashmet. Ha sido el violista principal de la Filarmónica de Bruselas desde 2017, recibió el título de “Associate” de la Real Academia de Música en 2020 y es profesor en el Conservatorio de Maastricht desde 2023`,
+    sentences: [],
+    image: `/media/artists/Mihai_Cocea.webp`,
+    preview_image: `/media/artists/Mihai_Cocea_PREVIEW.webp`,
   },
 
-  // English - Lesster Frank Mejías Ercia
+  // English - Mihai Cocea
   {
     locale: `en`,
-    name: `Lesster Frank Mejías Ercia`,
-    slug_name: `Lesster Frank Mejías Ercia EN`,
+    name: `Mihai Cocea`,
+    slug_name: `Mihai Cocea EN`,
     instrument: `viola`,
-    para_1: `Born in Cienfuegos (Cuba), Lesster Frank Mejías Ercia began his studies at the age of six and trained at the Ignacio Cervantes Conservatory, the National School of Arts in Havana, and later at the Royal Conservatory of Music in Madrid, where he graduated with highest honors. He furthered his training at the International Institute of Chamber Music of Madrid (Reina Sofía School of Music). He has played in orchestras such as the Murcia Region Symphony Orchestra, the Spanish National Orchestra, the Spanish Radio and Television Orchestra and Choir, the Barcelona and Catalonia National Symphony Orchestra, the Franz Schubert Filarmonia, and Utopia Orquesta, among others, combining this work with an active chamber-music career.`,
-    sentences: [
-      `He is currently a member of the Adda Symphony Orchestra in Alicante. Lesster Frank performs on a 1940 Timofei Podgorny (Krilov) viola.`,
-    ],
-    image: `/media/artists/Lesster_Frank_Mejias_Erica.jpg`,
-    preview_image: `/media/artists/Lesster_Frank_Mejias_Erica_PREVIEW.jpg`,
+    para_1: `Romanian violist Mihai Cocea discovered the expressive voice of the viola at thirteen and refined his artistry under Paul Silverthorne at the Royal Academy of Music in London and Lawrence Power in Zurich, supported by a Swiss Confederation scholarship. As a soloist, he has appeared with the Brussels Philharmonic, NOVA Rossia, The Moscow Soloists, and the St. Andrews Symphony Orchestra, performing at venues such as Tonhalle Zurich, Wigmore Hall, Flagey, and the Bucharest Atheneum. A devoted chamber musician, he has collaborated with artists including Daishin Kashimoto, Alexander Sitkovetsky, Liisa Randalu, and David Cohen, and has been artist in residence at Chile’s Huilo Huilo Festival since 2019. A laureate of international competitions, Mihai earned third prize at the Watson Forbes Competition and was a Yuri Bashmet Competition finalist. He has been the viola leader of Brussels Philharmonic since 2017, he was awarded the “Associate” title from the Royal Academy of Music in 2020 and has since 2023 been a professor at the Maastricht Conservatory.`,
+    sentences: [],
+    image: `/media/artists/Mihai_Cocea.webp`,
+    preview_image: `/media/artists/Mihai_Cocea_PREVIEW.webp`,
   },
+
+  // Spanish - Lesster Frank Mejías Ercia
+  // {
+  //   locale: `es`,
+  //   name: `Lesster Frank Mejías Ercia`,
+  //   slug_name: `Lesster Frank Mejías Ercia ES`,
+  //   instrument: `viola`,
+  //   para_1: `Nacido en Cienfuegos (Cuba), Lesster Frank Mejías Ercia inició sus estudios a los seis años y se formó en el Conservatorio Ignacio Cervantes, la Escuela Nacional de Arte de La Habana y el Real Conservatorio Superior de Música de Madrid, donde se graduó con Matrícula de Honor. Amplió su formación en el Instituto Internacional de Música de Cámara de Madrid (Escuela Reina Sofía). Ha tocado en orquestas como Orquesta Sinfónica de la Región de Murcia, Orquesta Nacional de España, Orquesta y Coro de Radio Televisión Española, Orquesta Sinfónica de Barcelona y Nacional de Cataluña, Franz Schubert Filharmonia, Utopia Orquesta, entre otras, compaginado este trabajo con una intensa actividad camerística.`,
+  //   sentences: [
+  //     `En la actualidad es profesor en la Orquesta Adda Simfónica Alicante. Toca una viola Timofei Podgorny de 1940 (Krilov).`,
+  //   ],
+  //   image: `/media/artists/Lesster_Frank_Mejias_Erica.jpg`,
+  //   preview_image: `/media/artists/Lesster_Frank_Mejias_Erica_PREVIEW.jpg`,
+  // },
+
+  // English - Lesster Frank Mejías Ercia
+  // {
+  //   locale: `en`,
+  //   name: `Lesster Frank Mejías Ercia`,
+  //   slug_name: `Lesster Frank Mejías Ercia EN`,
+  //   instrument: `viola`,
+  //   para_1: `Born in Cienfuegos (Cuba), Lesster Frank Mejías Ercia began his studies at the age of six and trained at the Ignacio Cervantes Conservatory, the National School of Arts in Havana, and later at the Royal Conservatory of Music in Madrid, where he graduated with highest honors. He furthered his training at the International Institute of Chamber Music of Madrid (Reina Sofía School of Music). He has played in orchestras such as the Murcia Region Symphony Orchestra, the Spanish National Orchestra, the Spanish Radio and Television Orchestra and Choir, the Barcelona and Catalonia National Symphony Orchestra, the Franz Schubert Filarmonia, and Utopia Orquesta, among others, combining this work with an active chamber-music career.`,
+  //   sentences: [
+  //     `He is currently a member of the Adda Symphony Orchestra in Alicante. Lesster Frank performs on a 1940 Timofei Podgorny (Krilov) viola.`,
+  //   ],
+  //   image: `/media/artists/Lesster_Frank_Mejias_Erica.jpg`,
+  //   preview_image: `/media/artists/Lesster_Frank_Mejias_Erica_PREVIEW.jpg`,
+  // },
 
   // Spanish - Benedict Kloeckner
   {
