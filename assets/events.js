@@ -267,7 +267,7 @@ const events = [
     detailsOne: [
       {
         composer: [`Wolfgang Amadeus Mozart (1756-1791)`],
-        info: `String Quintet No.2 in C minor, K.406/516b`,
+        info: `String quintet No.4 in G minor, K.516`,
         artists: [
           `Anna Margrethe Nilsen violin`,
           `Jesús Reina violin`,
@@ -360,8 +360,16 @@ const events = [
     ],
     detailsTwo: [
       {
-        composer: [`Domenico Scarlatti (1685-1757)`],
-        info: `Sonata a quattro No.2 in C minor, for 2 violins, viola and cello`,
+        composers: [
+          {
+            name: `Domenico Scarlatti (1685-1757)`,
+            info: `Sonata in D minor K.213 (arr. Michel Rondeau), for 2 violins, viola and cello`,
+          },
+          {
+            name: `Alessandro Scarlatti (1660-1725)`,
+            info: `Sonata a quattro No.2 in C minor, for 2 violins, viola and cello`,
+          },
+        ],
         artists: [
           `Liana Gourdjia violin`,
           `Robert Kowalski violin`,
@@ -385,8 +393,8 @@ const events = [
             info: `'Te quiero, morena' from the zarzuela El trust de los tenorios, for voice and piano`,
           },
           {
-            name: 'Antonio Moya Casado (1930-2009)',
-            info: `Mediterráneo, for voice and piano`,
+            name: 'Ernesto Lecuona (1895-1963)',
+            info: `'Por eso te quiero', for voice and piano`,
           },
         ],
         artists: [`Nils Georg Nilsen tenor`, `Josu de Solaun piano`],
@@ -682,7 +690,7 @@ const events = [
     detailsOne: [
       {
         composer: [`Wolfgang Amadeus Mozart (1756-1791)`],
-        info: `Quinteto para cuerda No.2 en Do menor, K.406/516b`,
+        info: `Quinteto para cuerda No.4 en Sol menor, K.516`,
         artists: [
           `Anna Margrethe Nilsen violín`,
           `Jesús Reina violín`,
@@ -771,8 +779,16 @@ const events = [
     ],
     detailsTwo: [
       {
-        composer: [`Domenico Scarlatti (1685-1757)`],
-        info: `Sonata a quattro No.2 en Do menor, para 2 violines, viola y violonchelo`,
+        composers: [
+          {
+            name: `Domenico Scarlatti (1685-1757)`,
+            info: `Sonata en Re menor K.213 (arr. Michel Rondeau), para 2 violines, viola y violonchelo`,
+          },
+          {
+            name: `Alessandro Scarlatti (1660-1725)`,
+            info: `Sonata a quattro No.2 en Do menor, para 2 violines, viola y violonchelo`,
+          },
+        ],
         artists: [
           `Liana Gourdjia violín`,
           `Robert Kowalski violín`,
@@ -796,8 +812,8 @@ const events = [
             info: `‘Te quiero, morena’ de la zarzuela El trust de los tenorios, para voz y piano`,
           },
           {
-            name: 'Antonio Moya Casado (1930-2009)',
-            info: `Mediterráneo, para voz y piano`,
+            name: 'Ernesto Lecuona (1895-1963)',
+            info: `‘Por eso te quiero’, para voz y piano`,
           },
         ],
         artists: [`Nils Georg Nilsen tenor`, `Josu de Solaun piano`],
