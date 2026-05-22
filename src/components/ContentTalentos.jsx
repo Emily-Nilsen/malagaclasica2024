@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import useTranslation from 'next-translate/useTranslation'
 
 export function ContentTalentos() {
@@ -9,8 +10,25 @@ export function ContentTalentos() {
   const para_4 = t('para_4')
 
   return (
-    <div className="overflow-hidden bg-greyMedium2026 px-4 py-16 sm:px-6 lg:px-8 xl:py-36">
-      <div className="relative px-4 sm:px-6 lg:px-8">
+    <div className="relative overflow-hidden bg-greyMedium2026 px-4 py-16 sm:px-6 lg:px-8 xl:py-36">
+      {/* Statue of Liberty decoration: anchored bottom-right, bleeds off the
+          right edge so only the left portion of the statue is visible — matches
+          the festival poster's bottom-right composition. Always behind text. */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute -right-12 bottom-0 z-0 opacity-25 sm:-right-16 md:-right-20 lg:-right-24 lg:opacity-70"
+      >
+        <Image
+          src="/media/statue_of_liberty.webp"
+          alt=""
+          width={1373}
+          height={2254}
+          sizes="(min-width: 1024px) 36rem, (min-width: 768px) 28rem, (min-width: 640px) 22rem, 16rem"
+          className="block h-96 w-auto sm:h-[22rem] md:h-[28rem] lg:h-[36rem]"
+          unoptimized
+        />
+      </div>
+      <div className="relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-prose text-lg">
           <h4>
             <span className="block text-center text-base font-extrabold uppercase tracking-normal text-fuchsia2026">

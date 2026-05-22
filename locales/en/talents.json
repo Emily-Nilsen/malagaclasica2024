@@ -65,5 +65,75 @@
   "requisito03": "Participant’s information.",
   "requisitoNote": "*Not necessary to send a complete work.",
   "deadline": "Deadline:",
-  "deadlineDate": "May 15th"
+  "deadlineDate": "May 15th",
+  "program": {
+    "kicker": "14th Málaga Clásica Festival",
+    "heading": "Málaga Clásica Talentos Program",
+    "when": "Monday 25 May · 8:00 p.m.",
+    "venue": "Teatro Echegaray",
+    "tickets": "Admission by invitation (2 per person), available at the box office and online from Friday 22 May at",
+    "tickets_link": "teatrocervantes.es",
+    "groups": [
+      {
+        "name": "Larios Tuba Quartet",
+        "image": "/media/talentos/larios_tuba_quartet.webp",
+        "pieces": [
+          { "composer": "Mike Forbes", "title": "Cosmic Voyage" }
+        ],
+        "performers": [
+          { "name": "Julio Gallego Benítez", "instrument": "tuba" },
+          { "name": "Blas Vázquez Romero", "instrument": "tuba" },
+          { "name": "José María García Bernal", "instrument": "euphonium" },
+          { "name": "Fernando Ruíz Fernández", "instrument": "euphonium" }
+        ]
+      },
+      {
+        "name": "Dúo Alborada",
+        "image": "/media/talentos/duo_alborada.webp",
+        "pieces": [
+          { "composer": "Manuel de Falla", "title": "Suite Popular Española" }
+        ],
+        "performers": [
+          { "name": "Irene Sánchez Chabrillón", "instrument": "piano" },
+          { "name": "Antonio Ortiz Trabalón", "instrument": "violin" }
+        ]
+      },
+      {
+        "name": "Trío Cosmo",
+        "image": "/media/talentos/trio_cosmo.webp",
+        "pieces": [
+          { "composer": "Johannes Brahms", "title": "Trio Op. 40 (I. Andante)" }
+        ],
+        "performers": [
+          { "name": "Guillermo Zaragoza", "instrument": "horn" },
+          { "name": "Yeray Jódar", "instrument": "violin" },
+          { "name": "Ángela Luque", "instrument": "piano" }
+        ]
+      },
+      {
+        "name": "Dúo Con Fuoco",
+        "image": "/media/talentos/duo_con_fuoco.webp",
+        "pieces": [
+          { "composer": "Sergei Rachmaninov", "title": "Sonata for Cello and Piano, Op. 19 (III. Andante)" },
+          { "composer": "Aleksandr Scriabin", "title": "Romance for cello and piano, posthumous Op." }
+        ],
+        "performers": [
+          { "name": "Rafael Valenzuela Mgueraman", "instrument": "cello" },
+          { "name": "Rodrigo López Rueda", "instrument": "piano" }
+        ]
+      },
+      {
+        "name": "Trío Yumé",
+        "image": "/media/talentos/trio_yume.webp",
+        "pieces": [
+          { "composer": "Claude Debussy", "title": "Piano Trio No. 1 in G major" }
+        ],
+        "performers": [
+          { "name": "Lucía Delgado Chiba", "instrument": "violin" },
+          { "name": "Karolina Kamińska", "instrument": "cello" },
+          { "name": "Fiona Cao Xiá", "instrument": "piano" }
+        ]
+      }
+    ]
+  }
 }

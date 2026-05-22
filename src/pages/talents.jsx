@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { ContentTalentos } from '@/components/ContentTalentos'
+import { ProgramTalentos } from '@/components/ProgramTalentos'
 import { InfoTalentos } from '@/components/InfoTalentos'
 import { MapTalentos } from '@/components/MapTalentos'
 import useTranslation from 'next-translate/useTranslation'
@@ -66,9 +67,9 @@ export default function Talents() {
             >
               <div className="hidden lg:block">
                 <Image
-                  width={2356}
-                  height={1564}
-                  src="/media/Talents_2026_desktop.webp"
+                  width={2400}
+                  height={1600}
+                  src="/media/urban_skyline_desktop.webp"
                   alt="Talentos"
                   className="h-full w-full object-cover object-center"
                   unoptimized
@@ -78,9 +79,9 @@ export default function Talents() {
 
               <div className="lg:hidden">
                 <Image
-                  width={2356}
-                  height={1564}
-                  src="/media/Talents_2026_mobile.webp"
+                  width={1200}
+                  height={800}
+                  src="/media/urban_skyline_mobile.webp"
                   alt="Talentos"
                   className="h-full w-full object-cover object-center"
                   unoptimized
@@ -88,10 +89,24 @@ export default function Talents() {
                 />
               </div>
 
-              <div className="absolute inset-0 bg-pink2026/40" />
+              <div className="absolute inset-0 bg-pink2026/80" />
             </motion.div>
+            {/* Metropolis wordmark watermark — sits above the pink wash, behind the headlines */}
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center"
+            >
+              <Image
+                src="/media/metropolis_wordmark.webp"
+                alt=""
+                width={853}
+                height={1200}
+                className="h-[88%] w-auto opacity-[0.09] sm:opacity-[0.12] lg:opacity-[0.18]"
+                unoptimized
+              />
+            </div>
             {/* something in here!! */}
-            <div className="absolute inset-0 grid grid-cols-1 sm:grid-cols-3">
+            <div className="absolute z-10 inset-0 grid grid-cols-1 sm:grid-cols-3">
               <div className="bg-t relative flex h-full items-center justify-start">
                 <div className="relative">
                   <div className="mt-0 w-full px-4 pb-1 pt-3 sm:mt-0 sm:px-8 sm:pt-4">
@@ -247,8 +262,8 @@ export default function Talents() {
         </div>
 
         <ContentTalentos />
+        <ProgramTalentos />
         <InfoTalentos />
-        {/* <ProgramTalentos /> */}
         <MapTalentos />
       </main>
 
