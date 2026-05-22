@@ -23,7 +23,65 @@ const events = [
       // `In this interactive event, open to the public and featuring a Q&A session, the artists of Málaga Clásica will share their personal stories and experiences of encountering The New World.`,
       // `Many of the musicians performing at Málaga Clásica emigrated from their home countries, sometimes settling permanently in their new homes, while others returned or sought new lives elsewhere. In all cases, they encountered cultural fusion, novelty, and different ways of seeing the world. The event will be preceded with a performance by Málaga Clásica Talentos.`,
     ],
-    detailsOne: [],
+    detailsOne: [
+      {
+        composer: [`Mike Forbes`],
+        info: `Cosmic Voyage`,
+        artists: [
+          { name: `Larios Tuba Quartet` },
+          { name: `Julio Gallego Benítez`, info: `tuba` },
+          { name: `Blas Vázquez Romero`, info: `tuba` },
+          { name: `José María García Bernal`, info: `euphonium` },
+          { name: `Fernando Ruíz Fernández`, info: `euphonium` },
+        ],
+      },
+      {
+        composer: [`Manuel de Falla`],
+        info: `Suite Popular Española`,
+        artists: [
+          { name: `Dúo Alborada` },
+          { name: `Irene Sánchez Chabrillón`, info: `piano` },
+          { name: `Antonio Ortiz Trabalón`, info: `violin` },
+        ],
+      },
+      {
+        composer: [`Johannes Brahms`],
+        info: `Trio Op. 40 (I. Andante)`,
+        artists: [
+          { name: `Trío Cosmo` },
+          { name: `Guillermo Zaragoza`, info: `horn` },
+          { name: `Yeray Jódar`, info: `violin` },
+          { name: `Ángela Luque`, info: `piano` },
+        ],
+      },
+      {
+        composers: [
+          {
+            name: `Sergei Rachmaninov`,
+            info: `Sonata for Cello and Piano, Op. 19 (III. Andante)`,
+          },
+          {
+            name: `Aleksandr Scriabin`,
+            info: `Romance for cello and piano, posthumous Op.`,
+          },
+        ],
+        artists: [
+          { name: `Dúo Con Fuoco` },
+          { name: `Rafael Valenzuela Mgueraman`, info: `cello` },
+          { name: `Rodrigo López Rueda`, info: `piano` },
+        ],
+      },
+      {
+        composer: [`Claude Debussy`],
+        info: `Piano Trio No. 1 in G major`,
+        artists: [
+          { name: `Trío Yumé` },
+          { name: `Lucía Delgado Chiba`, info: `violin` },
+          { name: `Karolina Kamińska`, info: `cello` },
+          { name: `Fiona Cao Xiá`, info: `piano` },
+        ],
+      },
+    ],
     image: '/media/talentos_mobile_sdlzwr.webp',
     image_position: `object-top`,
     ticket_url: '#',
@@ -445,7 +503,65 @@ const events = [
       // `En este encuentro interactivo, abierto al público y en el que habrá una sesión de preguntas y respuestas, los artistas de Málaga Clásica compartirán sus historias sobre lo vivido y experimentado al encontrarse personalmente con Metrópolis. `,
       // `Muchos de los músicos que actúan en Málaga Clásica emigraron de sus países de origen y a veces permanecieron en el nuevo hogar. Otros regresaron o buscaron una nueva vida en un lugar distinto. En todos los casos, vivieron la mezcla cultural, la novedad y las diferentes maneras de ver el mundo. El encuentro estará precedido por una actuación de Málaga Clásica Talentos.`,
     ],
-    detailsOne: [],
+    detailsOne: [
+      {
+        composer: [`Mike Forbes`],
+        info: `Cosmic Voyage`,
+        artists: [
+          { name: `Larios Tuba Quartet` },
+          { name: `Julio Gallego Benítez`, info: `tuba` },
+          { name: `Blas Vázquez Romero`, info: `tuba` },
+          { name: `José María García Bernal`, info: `bombardino` },
+          { name: `Fernando Ruíz Fernández`, info: `bombardino` },
+        ],
+      },
+      {
+        composer: [`Manuel de Falla`],
+        info: `Suite Popular Española`,
+        artists: [
+          { name: `Dúo Alborada` },
+          { name: `Irene Sánchez Chabrillón`, info: `piano` },
+          { name: `Antonio Ortiz Trabalón`, info: `violín` },
+        ],
+      },
+      {
+        composer: [`Johannes Brahms`],
+        info: `Trío Op. 40 (I. Andante)`,
+        artists: [
+          { name: `Trío Cosmo` },
+          { name: `Guillermo Zaragoza`, info: `trompa` },
+          { name: `Yeray Jódar`, info: `violín` },
+          { name: `Ángela Luque`, info: `piano` },
+        ],
+      },
+      {
+        composers: [
+          {
+            name: `Sergei Rachmaninov`,
+            info: `Sonata para Violoncello y Piano, Op. 19 (III. Andante)`,
+          },
+          {
+            name: `Aleksandr Scriabin`,
+            info: `Romanza para violoncello y piano, Op. póstumo`,
+          },
+        ],
+        artists: [
+          { name: `Dúo Con Fuoco` },
+          { name: `Rafael Valenzuela Mgueraman`, info: `violonchelo` },
+          { name: `Rodrigo López Rueda`, info: `piano` },
+        ],
+      },
+      {
+        composer: [`Claude Debussy`],
+        info: `Trío con piano n.º 1 en Sol mayor`,
+        artists: [
+          { name: `Trío Yumé` },
+          { name: `Lucía Delgado Chiba`, info: `violín` },
+          { name: `Karolina Kamińska`, info: `violonchelo` },
+          { name: `Fiona Cao Xiá`, info: `piano` },
+        ],
+      },
+    ],
     image: '/media/talentos_mobile_sdlzwr.webp',
     image_position: `object-top`,
     ticket_url: '#',
