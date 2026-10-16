@@ -14,13 +14,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: futura-pt, sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-  font-family: futura-pt, sans-serif;
+  font-family: 'Jost', sans-serif;
   font-weight: 400;
 }
 
@@ -37,7 +37,7 @@ h2 {
 } */
 
 h3 {
-  font-family: futura-pt, sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 /* 2024 */
@@ -47,5 +47,5 @@ h3 {
 
 /* 2025 */
 h4 {
-  font-family: acumin-pro, sans-serif;
+  font-family: 'Inter', sans-serif;
 }

@@ -1,3 +1,4 @@
+import '@/styles/fonts.css'
 import '@/styles/tailwind.css'
 import 'focus-visible'
 
